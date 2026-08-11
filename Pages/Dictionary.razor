@@ -1,0 +1,105 @@
+@page "/dictionary"
+@inject ContentService Content
+@inject AudioClipLabelService Labels
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="dictionary-page">
+    <h1>@Loc["Dictionary_Title"]</h1>
+    <input class="search-input" placeholder="@Loc["Dictionary_SearchPlaceholder"]" @bind="_query" @bind:event="oninput" />
+
+    <div class="category-chips">
+        <button class="chip @(_category is null ? "chip-active" : "")" @onclick="() => SetCategory(null)">@Loc["Dictionary_All"]</button>
+        @foreach (var cat in _categories)
+        {
+            <button class="chip @(_category == cat ? "chip-active" : "")" @onclick="() => SetCategory(cat)">@cat</button>
+        }
+    </div>
+
+    @if (_loading)
+    {
+        <p class="loading">@Loc["Common_Loading"]</p>
+    }
+    else
+    {
+        <ul class="word-list">
+            @foreach (var entry in Filtered)
+            {
+                <li class="word-row">
+                    @if (_labeledClipByWord.TryGetValue(entry.Id, out var clipId))
+                    {
+                        <button class="play-btn small" @onclick="() => Play(clipId)">🔊</button>
+                        <audio @ref="_audioRefs[entry.Id]" src="@($"audio/clips/{clipId}.wav")"></audio>
+                    }
+                    else
+                    {
+                        <span class="play-btn-placeholder">·</span>
+                    }
+                    <span class="word-megruli">@entry.Megruli</span>
+                    <span class="word-georgian">@entry.Georgian</span>
+                    <span class="word-category">@entry.Category</span>
+                </li>
+            }
+        </ul>
+        @if (Filtered.Count == 0)
+        {
+            <p class="hint">@Loc["Dictionary_NoMatches"]</p>
+        }
+    }
+</div>
+
+@code {
+    private record Entry(string Id, string Megruli, string Georgian, string Category);
+
+    private List<Entry> _all = new();
+    private List<string> _categories = new();
+    private Dictionary<string, string> _labeledClipByWord = new();
+    private Dictionary<string, ElementReference> _audioRefs = new();
+    private string _query = "";
+    private string? _category;
+    private bool _loading = true;
+
+    private List<Entry> Filtered => _all
+        .Where(e => _category is null || e.Category == _category)
+        .Where(e => string.IsNullOrWhiteSpace(_query) ||
+                    e.Megruli.Contains(_query, StringComparison.OrdinalIgnoreCase) ||
+                    e.Georgian.Contains(_query, StringComparison.OrdinalIgnoreCase))
+        .Take(300)
+        .ToList();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var vocab = await Content.GetAllVocabularyAsync();
+        var phrases = await Content.GetAllPhrasesAsync();
+        var proverbs = await Content.GetAllProverbsAsync();
+
+        _all = vocab.Select(v => new Entry(v.Id, v.Megruli, v.Georgian, v.Category))
+            .Concat(phrases.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, p.Topic)))
+            .Concat(proverbs.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, "proverb")))
+            .ToList();
+        _categories = _all.Select(e => e.Category).Distinct().OrderBy(c => c).ToList();
+
+        var allLabels = await Labels.GetAllAsync();
+        foreach (var label in allLabels.Values)
+        {
+            if (label.LinkedWordId is not null && !label.Skipped)
+            {
+                _labeledClipByWord[label.LinkedWordId] = label.ClipId;
+                _audioRefs[label.LinkedWordId] = default;
+            }
+        }
+
+        _loading = false;
+    }
+
+    private void SetCategory(string? cat) => _category = cat;
+
+    private async Task Play(string clipId)
+    {
+        var wordId = _labeledClipByWord.FirstOrDefault(kv => kv.Value == clipId).Key;
+        if (wordId is not null && _audioRefs.TryGetValue(wordId, out var el))
+        {
+            await JS.InvokeVoidAsync("megruliAudio.play", el);
+        }
+    }
+}

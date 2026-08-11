@@ -1,0 +1,72 @@
+@page "/"
+@inject ContentService Content
+@inject ProgressService Progress
+@inject NavigationManager Nav
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="home-page">
+    @if (_units is null)
+    {
+        <p class="loading">@Loc["Home_LoadingCourse"]</p>
+    }
+    else
+    {
+        @foreach (var unit in _units)
+        {
+            var done = unit.Lessons.Count(l => Progress.IsLessonCompleted(l.Id));
+            <section class="unit-section">
+                <div class="unit-header">
+                    <span class="unit-icon">@unit.Icon</span>
+                    <div>
+                        <h2>@unit.Title</h2>
+                        <span class="unit-subtitle">@unit.TitleGeorgian · @done/@unit.Lessons.Count</span>
+                    </div>
+                </div>
+                <div class="lesson-path">
+                    @foreach (var lesson in unit.Lessons)
+                    {
+                        var completed = Progress.IsLessonCompleted(lesson.Id);
+                        <button class="lesson-node @(completed ? "lesson-done" : "") @LessonKindClass(lesson.Kind)"
+                                title="@lesson.Title" @onclick="() => OpenLesson(lesson.Id)">
+                            <span class="lesson-node-icon">@LessonIcon(lesson.Kind)</span>
+                            @if (completed)
+                            {
+                                <span class="lesson-check">✓</span>
+                            }
+                        </button>
+                    }
+                </div>
+            </section>
+        }
+    }
+</div>
+
+@code {
+    private List<CourseUnit>? _units;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Progress.EnsureLoadedAsync();
+        _units = await Content.GetUnitsAsync();
+    }
+
+    private void OpenLesson(string lessonId) => Nav.NavigateTo($"/lesson/{lessonId}");
+
+    private static string LessonKindClass(LessonKind kind) => kind switch
+    {
+        LessonKind.Grammar => "kind-grammar",
+        LessonKind.Phrases => "kind-phrases",
+        LessonKind.Listening => "kind-listening",
+        LessonKind.Proverbs => "kind-proverbs",
+        _ => "kind-vocab",
+    };
+
+    private static string LessonIcon(LessonKind kind) => kind switch
+    {
+        LessonKind.Grammar => "📐",
+        LessonKind.Phrases => "💬",
+        LessonKind.Listening => "🎧",
+        LessonKind.Proverbs => "📜",
+        _ => "📗",
+    };
+}

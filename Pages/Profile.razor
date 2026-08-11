@@ -1,0 +1,76 @@
+@page "/profile"
+@inject ProgressService Progress
+@inject ContentService Content
+@inject ThemeService Theme
+@inject LocalizationService Localization
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="profile-page">
+    <h1>@Loc["Profile_Title"]</h1>
+
+    <div class="stat-cards">
+        <div class="stat-card"><span class="stat-value">🔥 @Progress.Progress.Streak</span><span class="stat-label">@Loc["Profile_DayStreak"]</span></div>
+        <div class="stat-card"><span class="stat-value">⭐ @Progress.Progress.Xp</span><span class="stat-label">@Loc["Profile_TotalXp"]</span></div>
+        <div class="stat-card"><span class="stat-value">❤️ @(Progress.Progress.UnlimitedHearts ? "∞" : Progress.Progress.Hearts.ToString())</span><span class="stat-label">@Loc["Profile_HeartsLeft"]</span></div>
+        <div class="stat-card"><span class="stat-value">✅ @_completedCount / @_totalLessons</span><span class="stat-label">@Loc["Profile_LessonsComplete"]</span></div>
+    </div>
+
+    <div class="info-card">
+        <h2>@Loc["Profile_SettingsTitle"]</h2>
+        <div class="settings-row">
+            <span>@Loc["Profile_ThemeLabel"]</span>
+            <div class="toggle-group">
+                <button class="@(Theme.Theme == AppTheme.Light ? "toggle-active" : "")" @onclick="SetLight">☀️</button>
+                <button class="@(Theme.Theme == AppTheme.Dark ? "toggle-active" : "")" @onclick="SetDark">🌙</button>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span>@Loc["Profile_LanguageLabel"]</span>
+            <div class="toggle-group">
+                <button class="@(!Localization.IsGeorgian ? "toggle-active" : "")" @onclick='() => SetLanguage("en")'>English</button>
+                <button class="@(Localization.IsGeorgian ? "toggle-active" : "")" @onclick='() => SetLanguage("ka")'>ქართული</button>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span>@Loc["Profile_UnlimitedHearts"]</span>
+            <div class="toggle-group">
+                <button class="@(!Progress.Progress.UnlimitedHearts ? "toggle-active" : "")" @onclick="() => SetUnlimitedHearts(false)">@Loc["Common_Off"]</button>
+                <button class="@(Progress.Progress.UnlimitedHearts ? "toggle-active" : "")" @onclick="() => SetUnlimitedHearts(true)">@Loc["Common_On"]</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <h2>@Loc["Profile_ClipLabelerTitle"]</h2>
+        <p>@Loc["Profile_ClipLabelerBody"]</p>
+        <a class="btn btn-continue" href="/clip-labeler">@Loc["Profile_OpenClipLabeler"]</a>
+    </div>
+</div>
+
+@code {
+    private int _completedCount;
+    private int _totalLessons;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Progress.EnsureLoadedAsync();
+        await Theme.EnsureLoadedAsync();
+        var units = await Content.GetUnitsAsync();
+        _totalLessons = units.Sum(u => u.Lessons.Count);
+        _completedCount = units.SelectMany(u => u.Lessons).Count(l => Progress.IsLessonCompleted(l.Id));
+    }
+
+    private async Task SetLight()
+    {
+        if (Theme.Theme != AppTheme.Light) await Theme.ToggleAsync();
+    }
+
+    private async Task SetDark()
+    {
+        if (Theme.Theme != AppTheme.Dark) await Theme.ToggleAsync();
+    }
+
+    private async Task SetLanguage(string culture) => await Localization.SetCultureAsync(culture);
+
+    private async Task SetUnlimitedHearts(bool enabled) => await Progress.SetUnlimitedHeartsAsync(enabled);
+}

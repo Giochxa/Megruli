@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+
+  <data name="Nav_Learn" xml:space="preserve"><value>სწავლა</value></data>
+  <data name="Nav_Dictionary" xml:space="preserve"><value>ლექსიკონი</value></data>
+  <data name="Nav_Alphabet" xml:space="preserve"><value>ანბანი</value></data>
+  <data name="Nav_Profile" xml:space="preserve"><value>პროფილი</value></data>
+
+  <data name="Theme_SwitchToDark" xml:space="preserve"><value>გადართეთ მუქ რეჟიმზე</value></data>
+  <data name="Theme_SwitchToLight" xml:space="preserve"><value>გადართეთ ნათელ რეჟიმზე</value></data>
+  <data name="Language_Switch" xml:space="preserve"><value>ინტერფეისის ენის შეცვლა</value></data>
+
+  <data name="Common_Continue" xml:space="preserve"><value>გაგრძელება</value></data>
+  <data name="Common_Check" xml:space="preserve"><value>შემოწმება</value></data>
+  <data name="Common_Play" xml:space="preserve"><value>დაკვრა</value></data>
+  <data name="Common_Save" xml:space="preserve"><value>შენახვა</value></data>
+  <data name="Common_Loading" xml:space="preserve"><value>იტვირთება…</value></data>
+
+  <data name="Home_LoadingCourse" xml:space="preserve"><value>კურსი იტვირთება…</value></data>
+
+  <data name="Lesson_OutOfHeartsTitle" xml:space="preserve"><value>გულები ამოიწურა</value></data>
+  <data name="Lesson_OutOfHeartsBody" xml:space="preserve"><value>დღეს გულები ამოგეწურათ. დაბრუნდით ხვალ, ან განაგრძეთ ვარჯიში გულების გარეშე.</value></data>
+  <data name="Lesson_BackToPath" xml:space="preserve"><value>დაბრუნება კურსზე</value></data>
+  <data name="Lesson_CompleteTitle" xml:space="preserve"><value>გაკვეთილი დასრულდა!</value></data>
+  <data name="Lesson_NoExercises" xml:space="preserve"><value>ამ გაკვეთილს სავარჯიშოები ჯერ არ აქვს.</value></data>
+  <data name="Lesson_StatsLine" xml:space="preserve"><value>+{0} XP · {1} / {2} სწორი</value></data>
+
+  <data name="WordIntro_Title" xml:space="preserve"><value>ახალი სიტყვები</value></data>
+  <data name="WordIntro_StartPractice" xml:space="preserve"><value>ვარჯიშის დაწყება</value></data>
+
+  <data name="Exercise_Correct" xml:space="preserve"><value>სწორია!</value></data>
+  <data name="Exercise_NotQuite" xml:space="preserve"><value>არასწორია</value></data>
+  <data name="Exercise_SelectMegruli" xml:space="preserve"><value>აირჩიეთ მეგრული თარგმანი</value></data>
+  <data name="Exercise_SelectGeorgian" xml:space="preserve"><value>აირჩიეთ ქართული თარგმანი</value></data>
+  <data name="Exercise_TypeMegruli" xml:space="preserve"><value>ჩაწერეთ მეგრული თარგმანი</value></data>
+  <data name="Exercise_TypePlural" xml:space="preserve"><value>ჩაწერეთ მრავლობითი ფორმა</value></data>
+  <data name="Exercise_TypeHere" xml:space="preserve"><value>ჩაწერეთ აქ...</value></data>
+  <data name="Exercise_CorrectAnswerIs" xml:space="preserve"><value>სწორი პასუხია:</value></data>
+  <data name="Exercise_MatchPairs" xml:space="preserve"><value>შეადარეთ წყვილები</value></data>
+  <data name="Exercise_AllMatched" xml:space="preserve"><value>ყველა წყვილი დაემთხვა!</value></data>
+  <data name="Exercise_ListenSelect" xml:space="preserve"><value>მოუსმინეთ და აირჩიეთ რასაც გესმით</value></data>
+
+  <data name="Listening_Intro" xml:space="preserve"><value>მოუსმინეთ თქვენი მეგრული კურსის ამ სრული გაკვეთილის ჩანაწერს.</value></data>
+  <data name="Listening_LabeledMoments" xml:space="preserve"><value>ამ გაკვეთილის მონიშნული მონაკვეთები</value></data>
+  <data name="Listening_NoLabels" xml:space="preserve"><value>ამ ჩანაწერიდან არცერთი მონაკვეთი ჯერ არ არის მონიშნული — გამოიყენეთ პროფილში კლიპების მონიშვნის ინსტრუმენტი გამოთქმის მაგალითების დასამატებლად.</value></data>
+  <data name="Listening_MarkListened" xml:space="preserve"><value>მონიშნეთ როგორც მოსმენილი</value></data>
+
+  <data name="Dictionary_Title" xml:space="preserve"><value>ლექსიკონი</value></data>
+  <data name="Dictionary_SearchPlaceholder" xml:space="preserve"><value>მოძებნეთ მეგრულად ან ქართულად...</value></data>
+  <data name="Dictionary_All" xml:space="preserve"><value>ყველა</value></data>
+  <data name="Dictionary_NoMatches" xml:space="preserve"><value>შედეგი ვერ მოიძებნა.</value></data>
+
+  <data name="Alphabet_Title" xml:space="preserve"><value>ანბანი და ბგერები</value></data>
+  <data name="Alphabet_Intro" xml:space="preserve"><value>მეგრული (მარგალური/მეგრული) იწერება ქართული დამწერლობით და თითქმის ყველა ასო-ბგერას იზიარებს ქართულთან. ქართულის მცოდნეს შეუძლია მეგრული ტექსტის დაუყოვნებლივ წაკითხვა — განსხვავებები ძირითადად ლექსიკასა და გრამატიკაშია, პლუს ორი დამატებითი ბგერა, რომლებიც ქვემოთაა აღწერილი.</value></data>
+  <data name="Alphabet_VowelsTitle" xml:space="preserve"><value>ხმოვნები</value></data>
+  <data name="Alphabet_VowelsP1" xml:space="preserve"><value>მეგრულს, ისევე როგორც ქართულს, ხუთი ძირითადი ხმოვანი აქვს: ა, ე, ი, ო, უ.</value></data>
+  <data name="Alphabet_VowelsP2" xml:space="preserve"><value>ასევე გვხვდება ერთი დამატებითი, მეორეული ხმოვანი, რომელიც ძირითადად ზუგდიდურ-სამურზაყანულ დიალექტშია გავრცელებული: ჷ — ი ან უ ხმოვნის დასუსტების შედეგი.</value></data>
+  <data name="Alphabet_VowelsP3" xml:space="preserve"><value>ჷ შეესაბამება საერთაშორისო ტრანსკრიფციის (IPA) ə ნიშანს — დაახლოებით ისეთივე ბგერაა, როგორიც ინგლისურ სიტყვა freedom-ში d-სა და m-ს შორისაა. სენაკურ-მარტვილურ დიალექტში მის მაგივრად ო, ი ან უ გვხვდება.</value></data>
+  <data name="Alphabet_ConsonantsTitle" xml:space="preserve"><value>თანხმოვნები</value></data>
+  <data name="Alphabet_ConsonantsIntro" xml:space="preserve"><value>თანხმოვანთა შემადგენლობა თითქმის იგივეა, რაც ქართულსა და ლაზურში. განსაკუთრებით აღსანიშნავია ორი ბგერა:</value></data>
+  <data name="Alphabet_ConsonantY" xml:space="preserve"><value>ჸ — ბგერა, რომელიც არც სტანდარტულ ქართულში გვხვდება და არც ლაზურში. მაგალითები: თამაში → ლაჸაფი, სახლი → ჸუდე.</value></data>
+  <data name="Alphabet_ConsonantQ" xml:space="preserve"><value>ყ — გვხვდება ძირითადად წ-ს, ჭ-ს, ტ-ს გვერდით. მაგალითები: ჭყონი (მუხა), ტყა (ტყე).</value></data>
+  <data name="Alphabet_TypingTitle" xml:space="preserve"><value>ჷ და ჸ ასოების აკრეფა</value></data>
+  <data name="Alphabet_TypingBody" xml:space="preserve"><value>ეს ორი ასო არ გვხვდება სტანდარტულ ქართულ კლავიატურაზე. Windows-ზე, ქართული განლაგებით, ისინი ხშირად ხელმისაწვდომია მარჯვენა Alt + J (ჷ) და მარცხენა Alt + Y (ჸ) კომბინაციით, ან შეგიძლიათ დააინსტალიროთ ისეთი შრიფტი, როგორიცაა DejaVu Sans, რომელიც სრულად მოიცავს ქართულ უნიკოდს.</value></data>
+
+  <data name="Profile_Title" xml:space="preserve"><value>პროფილი</value></data>
+  <data name="Profile_DayStreak" xml:space="preserve"><value>დღიური სერია</value></data>
+  <data name="Profile_TotalXp" xml:space="preserve"><value>სულ XP</value></data>
+  <data name="Profile_HeartsLeft" xml:space="preserve"><value>დღეს დარჩენილი გულები</value></data>
+  <data name="Profile_LessonsComplete" xml:space="preserve"><value>დასრულებული გაკვეთილები</value></data>
+  <data name="Profile_SettingsTitle" xml:space="preserve"><value>პარამეტრები</value></data>
+  <data name="Profile_ThemeLabel" xml:space="preserve"><value>გარეგნობა</value></data>
+  <data name="Profile_LanguageLabel" xml:space="preserve"><value>ინტერფეისის ენა</value></data>
+  <data name="Profile_UnlimitedHearts" xml:space="preserve"><value>შეუზღუდავი გულები</value></data>
+  <data name="Common_Off" xml:space="preserve"><value>გამორთული</value></data>
+  <data name="Common_On" xml:space="preserve"><value>ჩართული</value></data>
+  <data name="Profile_ClipLabelerTitle" xml:space="preserve"><value>აუდიო კლიპების მონიშვნა</value></data>
+  <data name="Profile_ClipLabelerBody" xml:space="preserve"><value>თქვენი მეგრული გაკვეთილების ჩანაწერები ავტომატურად დაიჭრა მოკლე კანდიდატ კლიპებად. გამოიყენეთ მონიშვნის ინსტრუმენტი თითოეულის დასაკვრელად, იმის ჩასაწერად, რასაც ის ამბობს და (სურვილისამებრ) ლექსიკონის სიტყვასთან დასაკავშირებლად — ეს მას გადააქცევს რეალურ გამოთქმის აუდიოდ, რომელიც გამოიყენება მთელ აპლიკაციაში.</value></data>
+  <data name="Profile_OpenClipLabeler" xml:space="preserve"><value>კლიპების მონიშვნის გახსნა</value></data>
+
+  <data name="ClipLabeler_Title" xml:space="preserve"><value>კლიპების მონიშვნა</value></data>
+  <data name="ClipLabeler_Intro" xml:space="preserve"><value>დაუკარით თითოეული ავტომატურად აღმოჩენილი კლიპი, ჩაწერეთ რასაც ის ამბობს და, სურვილისამებრ, დაუკავშირეთ ლექსიკონის სიტყვას, რათა ის გახდეს რეალური გამოთქმის აუდიო სავარჯიშოებსა და ლექსიკონში. არასაჭირო კლიპები (წამყვანის შენიშვნები, არასწორი აღმოჩენები) შეგიძლიათ გამოტოვოთ, რომ აღარ გამოჩნდეს.</value></data>
+  <data name="ClipLabeler_LessonRecording" xml:space="preserve"><value>გაკვეთილის ჩანაწერი:</value></data>
+  <data name="ClipLabeler_SelectFile" xml:space="preserve"><value>აირჩიეთ ფაილი…</value></data>
+  <data name="ClipLabeler_HideLabeled" xml:space="preserve"><value>დამალეთ უკვე მონიშნული კლიპები</value></data>
+  <data name="ClipLabeler_ClipsShown" xml:space="preserve"><value>ნაჩვენებია {0} კლიპი (სულ {1}-დან)</value></data>
+  <data name="ClipLabeler_Skip" xml:space="preserve"><value>გამოტოვება</value></data>
+  <data name="ClipLabeler_MegruliPlaceholder" xml:space="preserve"><value>მეგრული ტექსტი</value></data>
+  <data name="ClipLabeler_GeorgianPlaceholder" xml:space="preserve"><value>ქართული მნიშვნელობა</value></data>
+  <data name="ClipLabeler_LinkSearchPlaceholder" xml:space="preserve"><value>სიტყვასთან დაკავშირება (ძებნა)</value></data>
+</root>

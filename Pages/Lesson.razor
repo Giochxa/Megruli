@@ -1,0 +1,143 @@
+@page "/lesson/{LessonId}"
+@inject ContentService Content
+@inject ExerciseGenerator Generator
+@inject ProgressService Progress
+@inject NavigationManager Nav
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="lesson-page">
+@if (_lesson is null)
+{
+    <p class="loading">@Loc["Common_Loading"]</p>
+}
+else if (_lesson.Kind == LessonKind.Listening)
+{
+    <ListeningLessonView Lesson="_lesson" OnDone="GoHome" />
+}
+else if (_showIntro)
+{
+    <WordIntroView WordIds="_lesson.WordIds" OnDone="() => _showIntro = false" OnClose="GoHome" />
+}
+else if (_outOfHearts)
+{
+    <div class="lesson-end">
+        <div class="lesson-end-icon">💔</div>
+        <h2>@Loc["Lesson_OutOfHeartsTitle"]</h2>
+        <p>@Loc["Lesson_OutOfHeartsBody"]</p>
+        <button class="btn btn-continue" @onclick="GoHome">@Loc["Lesson_BackToPath"]</button>
+    </div>
+}
+else if (_finished)
+{
+    <div class="lesson-end">
+        <div class="lesson-end-icon">🎉</div>
+        <h2>@Loc["Lesson_CompleteTitle"]</h2>
+        <p class="lesson-stats">@Loc["Lesson_StatsLine", _xpAwarded, _correctCount, _exercises.Count]</p>
+        <button class="btn btn-continue" @onclick="GoHome">@Loc["Common_Continue"]</button>
+    </div>
+}
+else if (_exercises.Count == 0)
+{
+    <div class="lesson-end">
+        <p>@Loc["Lesson_NoExercises"]</p>
+        <button class="btn btn-continue" @onclick="GoHome">@Loc["Lesson_BackToPath"]</button>
+    </div>
+}
+else
+{
+    var current = _exercises[_index];
+    <div class="lesson-header">
+        <button class="close-btn" @onclick="GoHome">✕</button>
+        <div class="progress-bar"><div class="progress-fill" style="width:@(ProgressPercent)%"></div></div>
+        <div class="hearts">
+            @if (Progress.Progress.UnlimitedHearts)
+            {
+                <text>❤️∞</text>
+            }
+            else
+            {
+                @(string.Concat(Enumerable.Repeat("❤️", Math.Max(0, Progress.Progress.Hearts))))@(string.Concat(Enumerable.Repeat("🖤", Math.Max(0, 5 - Progress.Progress.Hearts))))
+            }
+        </div>
+    </div>
+
+    @switch (current)
+    {
+        case MultipleChoiceExercise mc:
+            <MultipleChoiceView Exercise="mc" OnComplete="HandleAnswer" @key="current.Id" />
+            break;
+        case TypeAnswerExercise ta:
+            <TypeAnswerView Exercise="ta" OnComplete="HandleAnswer" @key="current.Id" />
+            break;
+        case MatchPairsExercise mp:
+            <MatchPairsView Exercise="mp" OnComplete="HandleAnswer" @key="current.Id" />
+            break;
+        case ListenChooseExercise lc:
+            <ListenChooseView Exercise="lc" OnComplete="HandleAnswer" @key="current.Id" />
+            break;
+    }
+}
+</div>
+
+@code {
+    [Parameter] public string LessonId { get; set; } = "";
+
+    private Megruli.Shared.Lesson? _lesson;
+    private List<ExerciseBase> _exercises = new();
+    private int _index;
+    private int _correctCount;
+    private bool _finished;
+    private bool _outOfHearts;
+    private bool _showIntro;
+    private int _xpAwarded;
+
+    private double ProgressPercent => _exercises.Count == 0 ? 0 : (double)_index / _exercises.Count * 100;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _lesson = null;
+        _finished = false;
+        _outOfHearts = false;
+        _index = 0;
+        _correctCount = 0;
+
+        await Progress.EnsureLoadedAsync();
+        _lesson = await Content.GetLessonAsync(LessonId);
+        if (_lesson is not null && _lesson.Kind != LessonKind.Listening)
+        {
+            _exercises = await Generator.GenerateAsync(_lesson);
+            _showIntro = _lesson.WordIds.Count > 0
+                && (_lesson.Kind == LessonKind.Vocabulary || _lesson.Kind == LessonKind.Phrases);
+        }
+    }
+
+    private async Task HandleAnswer(bool correct)
+    {
+        if (correct) _correctCount++;
+
+        var wordId = _exercises[_index].WordId;
+        if (wordId is not null) await Progress.RecordAnswerAsync(wordId, correct);
+
+        if (!correct)
+        {
+            await Progress.LoseHeartAsync();
+            if (!Progress.Progress.UnlimitedHearts && Progress.Progress.Hearts <= 0)
+            {
+                _outOfHearts = true;
+                StateHasChanged();
+                return;
+            }
+        }
+
+        _index++;
+        if (_index >= _exercises.Count)
+        {
+            _xpAwarded = 10 + _correctCount;
+            await Progress.CompleteLessonAsync(_lesson!.Id, _xpAwarded);
+            _finished = true;
+        }
+        StateHasChanged();
+    }
+
+    private void GoHome() => Nav.NavigateTo("/");
+}

@@ -1,0 +1,76 @@
+@inherits LayoutComponentBase
+@inject NavigationManager Nav
+@inject ProgressService Progress
+@inject ThemeService Theme
+@inject LocalizationService Localization
+@inject IStringLocalizer<SharedResource> Loc
+@implements IDisposable
+
+<div class="app-shell">
+    @if (!IsLessonRoute)
+    {
+        <nav class="bottom-nav">
+            <NavLink class="bottom-nav-link" href="/" Match="NavLinkMatch.All">
+                <span>🏠</span><small>@Loc["Nav_Learn"]</small>
+            </NavLink>
+            <NavLink class="bottom-nav-link" href="/dictionary">
+                <span>📖</span><small>@Loc["Nav_Dictionary"]</small>
+            </NavLink>
+            <NavLink class="bottom-nav-link" href="/alphabet">
+                <span>🔤</span><small>@Loc["Nav_Alphabet"]</small>
+            </NavLink>
+            <NavLink class="bottom-nav-link" href="/profile">
+                <span>👤</span><small>@Loc["Nav_Profile"]</small>
+            </NavLink>
+        </nav>
+    }
+
+    <div class="main-column">
+        @if (!IsLessonRoute)
+        {
+            <header class="top-bar">
+                <a class="brand" href="/">🇬🇪 <span>Megruli</span></a>
+                <div class="stat-pills">
+                    <span class="pill pill-streak">🔥 @Progress.Progress.Streak</span>
+                    <span class="pill pill-xp">⭐ @Progress.Progress.Xp</span>
+                    <span class="pill pill-hearts">❤️ @(Progress.Progress.UnlimitedHearts ? "∞" : Progress.Progress.Hearts.ToString())</span>
+                    <button class="icon-btn" title="@(Theme.Theme == AppTheme.Dark ? Loc["Theme_SwitchToLight"] : Loc["Theme_SwitchToDark"])" @onclick="ToggleTheme">
+                        @(Theme.Theme == AppTheme.Dark ? "☀️" : "🌙")
+                    </button>
+                    <button class="lang-btn" title="@Loc["Language_Switch"].Value" @onclick="ToggleLanguage">
+                        @(Localization.IsGeorgian ? "EN" : "ქარ")
+                    </button>
+                </div>
+            </header>
+        }
+
+        <main class="app-content">
+            @Body
+        </main>
+    </div>
+</div>
+
+@code {
+    private bool IsLessonRoute => new Uri(Nav.Uri).AbsolutePath.StartsWith("/lesson/", StringComparison.OrdinalIgnoreCase);
+
+    protected override async Task OnInitializedAsync()
+    {
+        Nav.LocationChanged += OnLocationChanged;
+        Progress.OnChange += StateHasChanged;
+        Theme.OnChange += StateHasChanged;
+        await Theme.EnsureLoadedAsync();
+    }
+
+    private void OnLocationChanged(object? sender, Microsoft.AspNetCore.Components.Routing.LocationChangedEventArgs e) => StateHasChanged();
+
+    private async Task ToggleTheme() => await Theme.ToggleAsync();
+
+    private async Task ToggleLanguage() => await Localization.SetCultureAsync(Localization.IsGeorgian ? "en" : "ka");
+
+    public void Dispose()
+    {
+        Nav.LocationChanged -= OnLocationChanged;
+        Progress.OnChange -= StateHasChanged;
+        Theme.OnChange -= StateHasChanged;
+    }
+}

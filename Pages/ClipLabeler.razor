@@ -1,0 +1,197 @@
+@page "/clip-labeler"
+@inject ContentService Content
+@inject AudioClipLabelService Labels
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="clip-labeler-page">
+    <h1>@Loc["ClipLabeler_Title"]</h1>
+    <p class="intro">@Loc["ClipLabeler_Intro"]</p>
+
+    <div class="labeler-controls">
+        <label>
+            @Loc["ClipLabeler_LessonRecording"]
+            <select @bind="_selectedFile" @bind:after="LoadClipsAsync">
+                <option value="">@Loc["ClipLabeler_SelectFile"]</option>
+                @foreach (var file in _sourceFiles)
+                {
+                    <option value="@file">@file (@_progressByFile.GetValueOrDefault(file, "0/0"))</option>
+                }
+            </select>
+        </label>
+        <label class="hide-labeled-toggle">
+            <input type="checkbox" @bind="_hideLabeled" /> @Loc["ClipLabeler_HideLabeled"]
+        </label>
+    </div>
+
+    @if (_loading)
+    {
+        <p class="loading">@Loc["Common_Loading"]</p>
+    }
+    else if (!string.IsNullOrEmpty(_selectedFile))
+    {
+        <p class="clip-count">@Loc["ClipLabeler_ClipsShown", VisibleRows.Count, _rows.Count]</p>
+        <ul class="clip-labeler-list">
+            @foreach (var row in VisibleRows)
+            {
+                <li class="clip-labeler-row @(row.Label.Skipped ? "row-skipped" : "")">
+                    <div class="clip-labeler-row-top">
+                        <button class="play-btn small" @onclick="() => Play(row)">🔊</button>
+                        <audio @ref="row.AudioRef" src="@($"audio/clips/{row.Clip.Id}.wav")"></audio>
+                        <span class="clip-time">@FormatMs(row.Clip.StartMs) – @FormatMs(row.Clip.EndMs)</span>
+                        <label class="skip-toggle">
+                            <input type="checkbox" @bind="row.Label.Skipped" /> @Loc["ClipLabeler_Skip"]
+                        </label>
+                    </div>
+                    <div class="clip-labeler-row-fields">
+                        <input placeholder="@Loc["ClipLabeler_MegruliPlaceholder"]" @bind="row.Label.Megruli" @bind:event="oninput" />
+                        <input placeholder="@Loc["ClipLabeler_GeorgianPlaceholder"]" @bind="row.Label.Georgian" @bind:event="oninput" />
+                        <div class="link-search">
+                            <input placeholder="@Loc["ClipLabeler_LinkSearchPlaceholder"]" @bind="row.LinkSearch" @bind:event="oninput" />
+                            @if (row.LinkedTitle is not null)
+                            {
+                                <span class="link-chip">@row.LinkedTitle <button @onclick="() => ClearLink(row)">✕</button></span>
+                            }
+                            else if (!string.IsNullOrWhiteSpace(row.LinkSearch))
+                            {
+                                <ul class="link-suggestions">
+                                    @foreach (var s in SearchWords(row.LinkSearch))
+                                    {
+                                        <li><button @onclick="() => LinkWord(row, s)">@s.Megruli — @s.Georgian</button></li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                        <button class="btn btn-check save-btn" @onclick="() => Save(row)">@Loc["Common_Save"]</button>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@code {
+    private class RowState
+    {
+        public required AudioClip Clip { get; init; }
+        public required AudioClipLabel Label { get; set; }
+        public ElementReference AudioRef;
+        public string LinkSearch = "";
+        public string? LinkedTitle;
+    }
+
+    private List<string> _sourceFiles = new();
+    private Dictionary<string, string> _progressByFile = new();
+    private string _selectedFile = "";
+    private List<RowState> _rows = new();
+    private bool _loading;
+    private bool _hideLabeled;
+    private List<VocabWord> _vocab = new();
+    private List<Phrase> _phrases = new();
+
+    private List<RowState> VisibleRows => _hideLabeled
+        ? _rows.Where(r => string.IsNullOrWhiteSpace(r.Label.Megruli) && !r.Label.Skipped).ToList()
+        : _rows;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _loading = true;
+        var files = await Content.GetDistinctSourceFilesAsync();
+        _sourceFiles = files.OrderBy(NaturalKey).ToList();
+        _vocab = await Content.GetAllVocabularyAsync();
+        _phrases = await Content.GetAllPhrasesAsync();
+
+        var allLabels = await Labels.GetAllAsync();
+        foreach (var file in _sourceFiles)
+        {
+            var clips = await Content.GetClipsForSourceAsync(file);
+            int labeled = clips.Count(c => allLabels.TryGetValue(c.Id, out var l) && (!string.IsNullOrWhiteSpace(l.Megruli) || l.Skipped));
+            _progressByFile[file] = $"{labeled}/{clips.Count}";
+        }
+        _loading = false;
+    }
+
+    private async Task LoadClipsAsync()
+    {
+        _rows.Clear();
+        if (string.IsNullOrEmpty(_selectedFile)) return;
+        _loading = true;
+        StateHasChanged();
+
+        var clips = await Content.GetClipsForSourceAsync(_selectedFile);
+        var allLabels = await Labels.GetAllAsync();
+        foreach (var clip in clips)
+        {
+            var label = allLabels.TryGetValue(clip.Id, out var existing)
+                ? new AudioClipLabel { ClipId = existing.ClipId, Megruli = existing.Megruli, Georgian = existing.Georgian, LinkedWordId = existing.LinkedWordId, Skipped = existing.Skipped }
+                : new AudioClipLabel { ClipId = clip.Id };
+            var row = new RowState { Clip = clip, Label = label };
+            if (label.LinkedWordId is not null)
+            {
+                var w = _vocab.FirstOrDefault(v => v.Id == label.LinkedWordId);
+                var p = w is null ? _phrases.FirstOrDefault(x => x.Id == label.LinkedWordId) : null;
+                row.LinkedTitle = w is not null ? $"{w.Megruli} — {w.Georgian}"
+                    : p is not null ? $"{p.Megruli} — {p.Georgian}"
+                    : label.LinkedWordId;
+            }
+            _rows.Add(row);
+        }
+        _loading = false;
+    }
+
+    private IEnumerable<(string Id, string Megruli, string Georgian)> SearchWords(string query)
+    {
+        var q = query.Trim();
+        if (q.Length < 2) yield break;
+        int count = 0;
+        foreach (var v in _vocab)
+        {
+            if (count >= 6) yield break;
+            if (v.Megruli.Contains(q, StringComparison.OrdinalIgnoreCase) || v.Georgian.Contains(q, StringComparison.OrdinalIgnoreCase))
+            {
+                count++;
+                yield return (v.Id, v.Megruli, v.Georgian);
+            }
+        }
+        foreach (var p in _phrases)
+        {
+            if (count >= 6) yield break;
+            if (p.Megruli.Contains(q, StringComparison.OrdinalIgnoreCase) || p.Georgian.Contains(q, StringComparison.OrdinalIgnoreCase))
+            {
+                count++;
+                yield return (p.Id, p.Megruli, p.Georgian);
+            }
+        }
+    }
+
+    private void LinkWord(RowState row, (string Id, string Megruli, string Georgian) w)
+    {
+        row.Label.LinkedWordId = w.Id;
+        row.LinkedTitle = $"{w.Megruli} — {w.Georgian}";
+        row.LinkSearch = "";
+    }
+
+    private void ClearLink(RowState row)
+    {
+        row.Label.LinkedWordId = null;
+        row.LinkedTitle = null;
+    }
+
+    private async Task Save(RowState row)
+    {
+        await Labels.SaveLabelAsync(row.Label);
+        int labeled = _rows.Count(r => !string.IsNullOrWhiteSpace(r.Label.Megruli) || r.Label.Skipped);
+        _progressByFile[_selectedFile] = $"{labeled}/{_rows.Count}";
+    }
+
+    private async Task Play(RowState row) => await JS.InvokeVoidAsync("megruliAudio.play", row.AudioRef);
+
+    private static string FormatMs(int ms) => TimeSpan.FromMilliseconds(ms).ToString(@"mm\:ss");
+
+    private static string NaturalKey(string file)
+    {
+        var digits = new string(file.Where(char.IsDigit).ToArray());
+        var num = digits.Length > 0 ? int.Parse(digits) : 0;
+        return num.ToString("D6");
+    }
+}

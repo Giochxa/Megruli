@@ -1,0 +1,77 @@
+@* Shows the lesson's words up front (Megruli + Georgian, playable when labeled) before
+   the learner is quizzed on them — so exercises test recall of something already seen. *@
+@inject ContentService Content
+@inject AudioClipLabelService Labels
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="word-intro">
+    <div class="lesson-header">
+        <button class="close-btn" @onclick="() => OnClose.InvokeAsync()">✕</button>
+        <h2 class="word-intro-title">@Loc["WordIntro_Title"]</h2>
+    </div>
+
+    @if (_loading)
+    {
+        <p class="loading">@Loc["Common_Loading"]</p>
+    }
+    else
+    {
+        <ul class="word-intro-list">
+            @foreach (var item in _items)
+            {
+                <li class="word-intro-card">
+                    @if (item.ClipId is not null)
+                    {
+                        <button class="play-btn small" @onclick="() => Play(item.ClipId!)">🔊</button>
+                        <audio @ref="_audioRefs[item.ClipId]" src="@($"audio/clips/{item.ClipId}.wav")"></audio>
+                    }
+                    <div class="word-intro-text">
+                        <span class="word-intro-megruli">@item.Megruli</span>
+                        <span class="word-intro-georgian">@item.Georgian</span>
+                    </div>
+                </li>
+            }
+        </ul>
+
+        <button class="btn btn-continue word-intro-start" @onclick="() => OnDone.InvokeAsync()">@Loc["WordIntro_StartPractice"]</button>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public List<string> WordIds { get; set; } = new();
+    [Parameter] public EventCallback OnDone { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private record Item(string Megruli, string Georgian, string? ClipId);
+
+    private List<Item> _items = new();
+    private Dictionary<string, ElementReference> _audioRefs = new();
+    private bool _loading = true;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _loading = true;
+        _items.Clear();
+        _audioRefs.Clear();
+
+        foreach (var id in WordIds)
+        {
+            var resolved = await Content.ResolveWordAsync(id);
+            if (resolved is not { } r) continue;
+            var clipId = await Labels.GetClipIdForWordAsync(id);
+            if (clipId is not null) _audioRefs[clipId] = default;
+            _items.Add(new Item(r.Megruli, r.Georgian, clipId));
+        }
+
+        _loading = false;
+    }
+
+    private async Task Play(string clipId)
+    {
+        if (_audioRefs.TryGetValue(clipId, out var el))
+        {
+            await JS.InvokeVoidAsync("megruliAudio.play", el);
+        }
+    }
+}

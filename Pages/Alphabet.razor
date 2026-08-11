@@ -1,0 +1,28 @@
+@page "/alphabet"
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="alphabet-page">
+    <h1>@Loc["Alphabet_Title"]</h1>
+    <p class="intro">@Loc["Alphabet_Intro"]</p>
+
+    <section class="info-card">
+        <h2>@Loc["Alphabet_VowelsTitle"]</h2>
+        <p>@Loc["Alphabet_VowelsP1"]</p>
+        <p>@Loc["Alphabet_VowelsP2"]</p>
+        <p>@Loc["Alphabet_VowelsP3"]</p>
+    </section>
+
+    <section class="info-card">
+        <h2>@Loc["Alphabet_ConsonantsTitle"]</h2>
+        <p>@Loc["Alphabet_ConsonantsIntro"]</p>
+        <ul>
+            <li>@Loc["Alphabet_ConsonantY"]</li>
+            <li>@Loc["Alphabet_ConsonantQ"]</li>
+        </ul>
+    </section>
+
+    <section class="info-card">
+        <h2>@Loc["Alphabet_TypingTitle"]</h2>
+        <p>@Loc["Alphabet_TypingBody"]</p>
+    </section>
+</div>

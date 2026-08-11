@@ -1,0 +1,118 @@
+@* Match-pairs exercise: tap a Megruli word then its Georgian translation. *@
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="exercise">
+    <p class="exercise-instruction">@Loc["Exercise_MatchPairs"]</p>
+
+    <div class="match-columns">
+        <div class="match-column">
+            @foreach (var item in _left)
+            {
+                <button class="match-chip @ChipClass(item, true)" disabled="@(item.Matched)"
+                        @onclick="() => SelectLeft(item)">@item.Text</button>
+            }
+        </div>
+        <div class="match-column">
+            @foreach (var item in _right)
+            {
+                <button class="match-chip @ChipClass(item, false)" disabled="@(item.Matched)"
+                        @onclick="() => SelectRight(item)">@item.Text</button>
+            }
+        </div>
+    </div>
+
+    @if (_allMatched)
+    {
+        <div class="exercise-footer is-correct">
+            <div class="feedback">
+                <span class="feedback-icon">✅</span>
+                <span class="feedback-text">@Loc["Exercise_AllMatched"]</span>
+            </div>
+            <button class="btn btn-continue" @onclick="Continue">@Loc["Common_Continue"]</button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public MatchPairsExercise Exercise { get; set; } = default!;
+    [Parameter] public EventCallback<bool> OnComplete { get; set; }
+
+    private class ChipItem
+    {
+        public int PairIndex;
+        public string Text = "";
+        public bool Matched;
+    }
+
+    private List<ChipItem> _left = new();
+    private List<ChipItem> _right = new();
+    private ChipItem? _selectedLeft;
+    private ChipItem? _selectedRight;
+    private ChipItem? _wrongLeft;
+    private ChipItem? _wrongRight;
+    private int _mistakes;
+    private bool _allMatched;
+
+    protected override void OnInitialized()
+    {
+        var rng = Random.Shared;
+        _left = Exercise.Pairs.Select((p, i) => new ChipItem { PairIndex = i, Text = p.Megruli }).OrderBy(_ => rng.Next()).ToList();
+        _right = Exercise.Pairs.Select((p, i) => new ChipItem { PairIndex = i, Text = p.Georgian }).OrderBy(_ => rng.Next()).ToList();
+    }
+
+    private string ChipClass(ChipItem item, bool isLeft)
+    {
+        if (item.Matched) return "chip-matched";
+        if (isLeft && item == _selectedLeft) return "chip-selected";
+        if (!isLeft && item == _selectedRight) return "chip-selected";
+        if (item == _wrongLeft || item == _wrongRight) return "chip-wrong";
+        return "";
+    }
+
+    private void SelectLeft(ChipItem item)
+    {
+        if (_wrongLeft is not null) return;
+        _selectedLeft = item;
+        TryMatch();
+    }
+
+    private void SelectRight(ChipItem item)
+    {
+        if (_wrongLeft is not null) return;
+        _selectedRight = item;
+        TryMatch();
+    }
+
+    private async void TryMatch()
+    {
+        if (_selectedLeft is null || _selectedRight is null) return;
+
+        if (_selectedLeft.PairIndex == _selectedRight.PairIndex)
+        {
+            _selectedLeft.Matched = true;
+            _selectedRight.Matched = true;
+            _selectedLeft = null;
+            _selectedRight = null;
+            _allMatched = _left.All(i => i.Matched);
+            StateHasChanged();
+        }
+        else
+        {
+            _mistakes++;
+            _wrongLeft = _selectedLeft;
+            _wrongRight = _selectedRight;
+            StateHasChanged();
+            await Task.Delay(500);
+            _wrongLeft = null;
+            _wrongRight = null;
+            _selectedLeft = null;
+            _selectedRight = null;
+            StateHasChanged();
+        }
+    }
+
+    private async Task Continue()
+    {
+        await OnComplete.InvokeAsync(_mistakes == 0);
+    }
+}

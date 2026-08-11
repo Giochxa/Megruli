@@ -1,0 +1,51 @@
+@* Type-the-translation exercise: free-text input, tolerant of alternate accepted spellings. *@
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="exercise">
+    <p class="exercise-instruction">@Loc[Exercise.InstructionKey ?? "Exercise_TypeMegruli"]</p>
+    <p class="exercise-prompt">@Exercise.Prompt</p>
+
+    <input class="type-input @(_answered ? (_correct ? "input-correct" : "input-wrong") : "")"
+           @bind="_input" @bind:event="oninput" disabled="@_answered"
+           placeholder="@Loc["Exercise_TypeHere"]" autocomplete="off" spellcheck="false"
+           @onkeydown="OnKeyDown" />
+
+    @if (_answered && !_correct)
+    {
+        <p class="correct-answer-hint">@Loc["Exercise_CorrectAnswerIs"] <strong>@Exercise.AcceptedAnswers.First()</strong></p>
+    }
+
+    <ExerciseFooter CanCheck="!string.IsNullOrWhiteSpace(_input)" Answered="_answered" Correct="_correct"
+                     OnCheck="Check" OnContinue="Continue" />
+</div>
+
+@code {
+    [Parameter, EditorRequired] public TypeAnswerExercise Exercise { get; set; } = default!;
+    [Parameter] public EventCallback<bool> OnComplete { get; set; }
+
+    private string _input = "";
+    private bool _answered;
+    private bool _correct;
+
+    private void OnKeyDown(Microsoft.AspNetCore.Components.Web.KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            if (!_answered && !string.IsNullOrWhiteSpace(_input)) Check();
+        }
+    }
+
+    private void Check()
+    {
+        var normalized = Normalize(_input);
+        _correct = Exercise.AcceptedAnswers.Any(a => Normalize(a) == normalized);
+        _answered = true;
+    }
+
+    private static string Normalize(string s) => s.Trim().ToLowerInvariant();
+
+    private async Task Continue()
+    {
+        await OnComplete.InvokeAsync(_correct);
+    }
+}

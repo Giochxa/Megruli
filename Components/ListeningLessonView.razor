@@ -1,0 +1,83 @@
+@* Full-length lesson recording player, plus any labeled short clips pulled from it. *@
+@inject ContentService Content
+@inject AudioClipLabelService Labels
+@inject ProgressService Progress
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="listening-lesson">
+    <div class="lesson-header">
+        <button class="close-btn" @onclick="() => OnDone.InvokeAsync()">✕</button>
+        <h2>@Lesson.Title</h2>
+    </div>
+
+    @if (Lesson.LessonAudioFile is not null)
+    {
+        <div class="listening-player">
+            <p>@Loc["Listening_Intro"]</p>
+            <audio controls src="@($"audio/lessons/{Lesson.LessonAudioFile}")" style="width:100%"></audio>
+        </div>
+    }
+
+    @if (_labeledClips.Count > 0)
+    {
+        <h3>@Loc["Listening_LabeledMoments"]</h3>
+        <ul class="clip-list">
+            @foreach (var (clip, label) in _labeledClips)
+            {
+                <li class="clip-row">
+                    <button class="play-btn small" @onclick="() => Play(clip.Id)">🔊</button>
+                    <audio @ref="_audioRefs[clip.Id]" src="@($"audio/clips/{clip.Id}.wav")"></audio>
+                    <span class="clip-megruli">@label.Megruli</span>
+                    <span class="clip-georgian">@label.Georgian</span>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="hint">@Loc["Listening_NoLabels"]</p>
+    }
+
+    <button class="btn btn-continue" @onclick="Complete">@Loc["Listening_MarkListened"]</button>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public Lesson Lesson { get; set; } = default!;
+    [Parameter] public EventCallback OnDone { get; set; }
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    private List<(Megruli.Shared.AudioClip Clip, Megruli.Shared.AudioClipLabel Label)> _labeledClips = new();
+    private Dictionary<string, ElementReference> _audioRefs = new();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _labeledClips.Clear();
+        if (Lesson.LessonAudioFile is null) return;
+
+        var clips = await Content.GetClipsForSourceAsync(Lesson.LessonAudioFile);
+        var allLabels = await Labels.GetAllAsync();
+        foreach (var clip in clips)
+        {
+            if (allLabels.TryGetValue(clip.Id, out var label) && !label.Skipped &&
+                (!string.IsNullOrWhiteSpace(label.Megruli) || !string.IsNullOrWhiteSpace(label.Georgian)))
+            {
+                _labeledClips.Add((clip, label));
+                _audioRefs[clip.Id] = default;
+            }
+        }
+    }
+
+    private async Task Play(string clipId)
+    {
+        if (_audioRefs.TryGetValue(clipId, out var el))
+        {
+            await JS.InvokeVoidAsync("megruliAudio.play", el);
+        }
+    }
+
+    private async Task Complete()
+    {
+        await Progress.CompleteLessonAsync(Lesson.Id, 5);
+        await OnDone.InvokeAsync();
+    }
+}

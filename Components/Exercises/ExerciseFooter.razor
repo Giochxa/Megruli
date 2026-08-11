@@ -1,0 +1,25 @@
+@* Shared Check/Continue action bar used by every exercise type. *@
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="exercise-footer @(Answered ? (Correct ? "is-correct" : "is-wrong") : "")">
+    @if (Answered)
+    {
+        <div class="feedback">
+            <span class="feedback-icon">@(Correct ? "✅" : "❌")</span>
+            <span class="feedback-text">@(Correct ? Loc["Exercise_Correct"] : Loc["Exercise_NotQuite"])</span>
+        </div>
+        <button class="btn btn-continue" @onclick="() => OnContinue.InvokeAsync()">@Loc["Common_Continue"]</button>
+    }
+    else
+    {
+        <button class="btn btn-check" disabled="@(!CanCheck)" @onclick="() => OnCheck.InvokeAsync()">@Loc["Common_Check"]</button>
+    }
+</div>
+
+@code {
+    [Parameter] public bool CanCheck { get; set; }
+    [Parameter] public bool Answered { get; set; }
+    [Parameter] public bool Correct { get; set; }
+    [Parameter] public EventCallback OnCheck { get; set; }
+    [Parameter] public EventCallback OnContinue { get; set; }
+}

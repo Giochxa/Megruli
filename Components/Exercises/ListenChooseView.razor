@@ -1,0 +1,66 @@
+@* Listening exercise: play a labeled pronunciation clip, pick what was said.
+   Tapping an option answers immediately (no separate "Check" step). *@
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="exercise">
+    <p class="exercise-instruction">@Loc["Exercise_ListenSelect"]</p>
+
+    <button class="play-btn" @onclick="Play">🔊 @Loc["Common_Play"]</button>
+    <audio @ref="_audioRef" src="@AudioSrc" preload="auto"></audio>
+
+    <div class="option-grid">
+        @for (int i = 0; i < Exercise.Options.Count; i++)
+        {
+            var idx = i;
+            var cls = "option-btn";
+            if (_answered)
+            {
+                if (idx == Exercise.CorrectIndex) cls += " option-correct";
+                else if (idx == _selected) cls += " option-wrong";
+            }
+            <button class="@cls" disabled="@_answered" @onclick="() => Select(idx)">@Exercise.Options[idx]</button>
+        }
+    </div>
+
+    @if (_answered)
+    {
+        <ExerciseFooter CanCheck="true" Answered="true" Correct="_correct" OnContinue="Continue" />
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public ListenChooseExercise Exercise { get; set; } = default!;
+    [Parameter] public EventCallback<bool> OnComplete { get; set; }
+
+    private Microsoft.AspNetCore.Components.ElementReference _audioRef;
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    private int? _selected;
+    private bool _answered;
+    private bool _correct;
+
+    private string AudioSrc => $"audio/clips/{Exercise.AudioClipId}.wav";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) await Play();
+    }
+
+    private async Task Play()
+    {
+        await JS.InvokeVoidAsync("megruliAudio.play", _audioRef);
+    }
+
+    private void Select(int idx)
+    {
+        if (_answered) return;
+        _selected = idx;
+        _correct = idx == Exercise.CorrectIndex;
+        _answered = true;
+    }
+
+    private async Task Continue()
+    {
+        await OnComplete.InvokeAsync(_correct);
+    }
+}
