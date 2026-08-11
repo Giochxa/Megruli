@@ -1,0 +1,2803 @@
+[
+  {
+    "id": "basics-1",
+    "title": "Pronouns & To Be",
+    "titleGeorgian": "ნაცვალსახელები და ზმნა \"ყოფნა\"",
+    "icon": "👋",
+    "lessons": [
+      {
+        "id": "basics-1-pronouns",
+        "title": "Pronouns & To Be",
+        "kind": "Grammar",
+        "wordIds": [],
+        "fixedExercises": [
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-1",
+            "prompt": "მა",
+            "promptIsGeorgian": false,
+            "options": [
+              "ჩვენ",
+              "მე",
+              "ის (თვითონ)",
+              "შენ"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-2",
+            "prompt": "სი",
+            "promptIsGeorgian": false,
+            "options": [
+              "ის (თვითონ)",
+              "შენ",
+              "ისინი (თვითონ)",
+              "ჩვენ"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-3",
+            "prompt": "მუ",
+            "promptIsGeorgian": false,
+            "options": [
+              "ჩვენ",
+              "თქვენ",
+              "ისინი (თვითონ)",
+              "ის (თვითონ)"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-4",
+            "prompt": "ჩქჷ",
+            "promptIsGeorgian": false,
+            "options": [
+              "ჩვენ",
+              "შენ",
+              "მე",
+              "თქვენ"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-5",
+            "prompt": "თქვა",
+            "promptIsGeorgian": false,
+            "options": [
+              "ისინი (თვითონ)",
+              "ის (თვითონ)",
+              "ჩვენ",
+              "თქვენ"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "multipleChoice",
+            "id": "gram-ex-6",
+            "prompt": "მუნეფი",
+            "promptIsGeorgian": false,
+            "options": [
+              "ისინი (თვითონ)",
+              "ჩვენ",
+              "თქვენ",
+              "ის (თვითონ)"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "matchPairs",
+            "id": "gram-ex-7",
+            "pairs": [
+              {
+                "megruli": "მა",
+                "georgian": "მე"
+              },
+              {
+                "megruli": "სი",
+                "georgian": "შენ"
+              },
+              {
+                "megruli": "მუ",
+                "georgian": "ის (თვითონ)"
+              },
+              {
+                "megruli": "ჩქჷ",
+                "georgian": "ჩვენ"
+              },
+              {
+                "megruli": "თქვა",
+                "georgian": "თქვენ"
+              },
+              {
+                "megruli": "მუნეფი",
+                "georgian": "ისინი (თვითონ)"
+              }
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-8",
+            "prompt": "მე ვარ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მა ვორექ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-9",
+            "prompt": "შენ ხარ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "სი რექ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-10",
+            "prompt": "ის არის",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მუ რე"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-11",
+            "prompt": "ჩვენ ვართ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "ჩქჷ ვორეთ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-12",
+            "prompt": "თქვენ ხართ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "თქვა რეთ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-13",
+            "prompt": "ისინი არიან",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მუნეფი რენა"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-14",
+            "prompt": "მე არ ვარ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მა ვავორექ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-15",
+            "prompt": "შენ არ ხარ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "სი ვარექ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-16",
+            "prompt": "ის არ არის",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მუ ვარე"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-17",
+            "prompt": "ჩვენ არ ვართ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "ჩქჷ ვავორეთ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-18",
+            "prompt": "თქვენ არ ხართ",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "თქვა ვარეთ"
+            ]
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-19",
+            "prompt": "ისინი არ არიან",
+            "promptIsGeorgian": true,
+            "acceptedAnswers": [
+              "მუნეფი ვარენა"
+            ]
+          },
+          {
+            "type": "matchPairs",
+            "id": "gram-ex-20",
+            "pairs": [
+              {
+                "megruli": "ენა/თენა",
+                "georgian": "ეს"
+              },
+              {
+                "megruli": "ინა/თინა",
+                "georgian": "ის"
+              }
+            ]
+          },
+          {
+            "type": "matchPairs",
+            "id": "gram-ex-21",
+            "pairs": [
+              {
+                "megruli": "მი(ნ)?",
+                "georgian": "ვინ?"
+              },
+              {
+                "megruli": "მუ?",
+                "georgian": "რა?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "basics-1-plurals",
+        "title": "Plurals (-ეფ)",
+        "kind": "Grammar",
+        "wordIds": [],
+        "fixedExercises": [
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-22",
+            "prompt": "კოჩი (კაცი)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "კოჩეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-23",
+            "prompt": "ოსური (ქალი)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "ოსურეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-24",
+            "prompt": "და (და)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "დალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-25",
+            "prompt": "ჯა (ხე)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "ჯალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-26",
+            "prompt": "დღა (დღე)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "დღალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-27",
+            "prompt": "ტყა (ტყე)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "ტყალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-28",
+            "prompt": "დიდა (დედა)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "დიდალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "typeAnswer",
+            "id": "gram-ex-29",
+            "prompt": "მუმა (მამა)",
+            "promptIsGeorgian": false,
+            "acceptedAnswers": [
+              "მუმალეფი"
+            ],
+            "instructionKey": "Exercise_TypePlural"
+          },
+          {
+            "type": "matchPairs",
+            "id": "gram-ex-30",
+            "pairs": [
+              {
+                "megruli": "კოჩი",
+                "georgian": "კოჩეფი"
+              },
+              {
+                "megruli": "ოსური",
+                "georgian": "ოსურეფი"
+              },
+              {
+                "megruli": "და",
+                "georgian": "დალეფი"
+              },
+              {
+                "megruli": "ჯა",
+                "georgian": "ჯალეფი"
+              },
+              {
+                "megruli": "დღა",
+                "georgian": "დღალეფი"
+              },
+              {
+                "megruli": "ტყა",
+                "georgian": "ტყალეფი"
+              },
+              {
+                "megruli": "დიდა",
+                "georgian": "დიდალეფი"
+              },
+              {
+                "megruli": "მუმა",
+                "georgian": "მუმალეფი"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "numbers",
+    "title": "Numbers",
+    "titleGeorgian": "რიცხვები",
+    "icon": "🔢",
+    "lessons": [
+      {
+        "id": "cardinal-numbers-1",
+        "title": "Cardinal Numbers 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "numbers-cardinal-1",
+          "numbers-cardinal-2",
+          "numbers-cardinal-3",
+          "numbers-cardinal-4",
+          "numbers-cardinal-5",
+          "numbers-cardinal-6",
+          "numbers-cardinal-7",
+          "numbers-cardinal-8",
+          "numbers-cardinal-9",
+          "numbers-cardinal-10",
+          "numbers-cardinal-11",
+          "numbers-cardinal-12",
+          "numbers-cardinal-13",
+          "numbers-cardinal-14",
+          "numbers-cardinal-15",
+          "numbers-cardinal-16",
+          "numbers-cardinal-17",
+          "numbers-cardinal-18"
+        ]
+      },
+      {
+        "id": "cardinal-numbers-2",
+        "title": "Cardinal Numbers 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "numbers-cardinal-19",
+          "numbers-cardinal-20",
+          "numbers-cardinal-21",
+          "numbers-cardinal-22",
+          "numbers-cardinal-23",
+          "numbers-cardinal-24",
+          "numbers-cardinal-25",
+          "numbers-cardinal-26",
+          "numbers-cardinal-27",
+          "numbers-cardinal-28",
+          "numbers-cardinal-29",
+          "numbers-cardinal-30",
+          "numbers-cardinal-31",
+          "numbers-cardinal-32",
+          "numbers-cardinal-33",
+          "numbers-cardinal-34",
+          "numbers-cardinal-35",
+          "numbers-cardinal-36"
+        ]
+      },
+      {
+        "id": "ordinal-numbers-1",
+        "title": "Ordinal Numbers 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "numbers-ordinal-1",
+          "numbers-ordinal-2",
+          "numbers-ordinal-3",
+          "numbers-ordinal-4",
+          "numbers-ordinal-5",
+          "numbers-ordinal-6",
+          "numbers-ordinal-7",
+          "numbers-ordinal-8",
+          "numbers-ordinal-9",
+          "numbers-ordinal-10",
+          "numbers-ordinal-11",
+          "numbers-ordinal-12",
+          "numbers-ordinal-13",
+          "numbers-ordinal-14",
+          "numbers-ordinal-15",
+          "numbers-ordinal-16",
+          "numbers-ordinal-17",
+          "numbers-ordinal-18",
+          "numbers-ordinal-19",
+          "numbers-ordinal-20",
+          "numbers-ordinal-21",
+          "numbers-ordinal-22"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "title": "Family",
+    "titleGeorgian": "ოჯახი",
+    "icon": "👪",
+    "lessons": [
+      {
+        "id": "family-1",
+        "title": "Family 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "family-1",
+          "family-2",
+          "family-3",
+          "family-4",
+          "family-5",
+          "family-6",
+          "family-7",
+          "family-8",
+          "family-9",
+          "family-10",
+          "family-11",
+          "family-12",
+          "family-13",
+          "family-14",
+          "family-15",
+          "family-16",
+          "family-17",
+          "family-18",
+          "family-19"
+        ]
+      },
+      {
+        "id": "family-2",
+        "title": "Family 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "family-20",
+          "family-21",
+          "family-22",
+          "family-23",
+          "family-24",
+          "family-25",
+          "family-26",
+          "family-27",
+          "family-28",
+          "family-29",
+          "family-30",
+          "family-31",
+          "family-32",
+          "family-33",
+          "family-34",
+          "family-35",
+          "family-36",
+          "family-37",
+          "family-38"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colors",
+    "title": "Colors",
+    "titleGeorgian": "ფერები",
+    "icon": "🎨",
+    "lessons": [
+      {
+        "id": "colors-1",
+        "title": "Colors 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "colors-1",
+          "colors-2",
+          "colors-3",
+          "colors-4",
+          "colors-5",
+          "colors-6",
+          "colors-7",
+          "colors-8",
+          "colors-9",
+          "colors-10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "titleGeorgian": "კალენდარი",
+    "icon": "📅",
+    "lessons": [
+      {
+        "id": "weekdays-1",
+        "title": "Weekdays 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "weekdays-1",
+          "weekdays-2",
+          "weekdays-3",
+          "weekdays-4",
+          "weekdays-5",
+          "weekdays-6",
+          "weekdays-7"
+        ]
+      },
+      {
+        "id": "months-1",
+        "title": "Months 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "months-1",
+          "months-2",
+          "months-3",
+          "months-4",
+          "months-5",
+          "months-6",
+          "months-7",
+          "months-8",
+          "months-9",
+          "months-10",
+          "months-11"
+        ]
+      },
+      {
+        "id": "seasons-1",
+        "title": "Seasons 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "seasons-1",
+          "seasons-2",
+          "seasons-3",
+          "seasons-4"
+        ]
+      },
+      {
+        "id": "more-time-words-1",
+        "title": "More Time Words 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "time-extra-1",
+          "time-extra-2",
+          "time-extra-3",
+          "time-extra-4",
+          "time-extra-5",
+          "time-extra-6",
+          "time-extra-7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "animals",
+    "title": "Animals & Birds",
+    "titleGeorgian": "ცხოველები და ფრინველები",
+    "icon": "🐾",
+    "lessons": [
+      {
+        "id": "animals-1",
+        "title": "Animals 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-1",
+          "animals-2",
+          "animals-3",
+          "animals-4",
+          "animals-5",
+          "animals-6",
+          "animals-7",
+          "animals-8",
+          "animals-9",
+          "animals-10",
+          "animals-11",
+          "animals-12",
+          "animals-13",
+          "animals-14",
+          "animals-15",
+          "animals-16",
+          "animals-17",
+          "animals-18"
+        ]
+      },
+      {
+        "id": "animals-2",
+        "title": "Animals 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-19",
+          "animals-20",
+          "animals-21",
+          "animals-22",
+          "animals-23",
+          "animals-24",
+          "animals-25",
+          "animals-26",
+          "animals-27",
+          "animals-28",
+          "animals-29",
+          "animals-30",
+          "animals-31",
+          "animals-32",
+          "animals-33",
+          "animals-34",
+          "animals-35"
+        ]
+      },
+      {
+        "id": "more-animals-1",
+        "title": "More Animals 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-extra-1",
+          "animals-extra-2",
+          "animals-extra-3",
+          "animals-extra-4",
+          "animals-extra-5",
+          "animals-extra-6",
+          "animals-extra-7",
+          "animals-extra-8",
+          "animals-extra-9",
+          "animals-extra-10",
+          "animals-extra-11",
+          "animals-extra-12",
+          "animals-extra-13",
+          "animals-extra-14",
+          "animals-extra-15",
+          "animals-extra-16",
+          "animals-extra-17",
+          "animals-extra-18"
+        ]
+      },
+      {
+        "id": "more-animals-2",
+        "title": "More Animals 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-extra-19",
+          "animals-extra-20",
+          "animals-extra-21",
+          "animals-extra-22",
+          "animals-extra-23",
+          "animals-extra-24",
+          "animals-extra-25",
+          "animals-extra-26",
+          "animals-extra-27",
+          "animals-extra-28",
+          "animals-extra-29",
+          "animals-extra-30",
+          "animals-extra-31",
+          "animals-extra-32",
+          "animals-extra-33",
+          "animals-extra-34",
+          "animals-extra-35",
+          "animals-extra-36"
+        ]
+      },
+      {
+        "id": "more-animals-3",
+        "title": "More Animals 3",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-extra-37",
+          "animals-extra-38",
+          "animals-extra-39",
+          "animals-extra-40",
+          "animals-extra-41",
+          "animals-extra-42",
+          "animals-extra-43",
+          "animals-extra-44",
+          "animals-extra-45",
+          "animals-extra-46",
+          "animals-extra-47",
+          "animals-extra-48",
+          "animals-extra-49",
+          "animals-extra-50",
+          "animals-extra-51",
+          "animals-extra-52",
+          "animals-extra-53",
+          "animals-extra-54"
+        ]
+      },
+      {
+        "id": "more-animals-4",
+        "title": "More Animals 4",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "animals-extra-55",
+          "animals-extra-56",
+          "animals-extra-57",
+          "animals-extra-58",
+          "animals-extra-59",
+          "animals-extra-60",
+          "animals-extra-61",
+          "animals-extra-62",
+          "animals-extra-63",
+          "animals-extra-64"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fruit",
+    "title": "Fruit",
+    "titleGeorgian": "ხილი",
+    "icon": "🍎",
+    "lessons": [
+      {
+        "id": "fruit-1",
+        "title": "Fruit 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "fruit-1",
+          "fruit-2",
+          "fruit-3",
+          "fruit-4",
+          "fruit-5",
+          "fruit-6",
+          "fruit-7",
+          "fruit-8",
+          "fruit-9",
+          "fruit-10",
+          "fruit-11",
+          "fruit-12",
+          "fruit-13",
+          "fruit-14",
+          "fruit-15",
+          "fruit-16",
+          "fruit-17",
+          "fruit-18"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "body-parts",
+    "title": "Body Parts",
+    "titleGeorgian": "სხეულის ნაწილები",
+    "icon": "🧍",
+    "lessons": [
+      {
+        "id": "body-parts-1",
+        "title": "Body Parts 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "body-parts-1",
+          "body-parts-2",
+          "body-parts-3",
+          "body-parts-4",
+          "body-parts-5",
+          "body-parts-6",
+          "body-parts-7",
+          "body-parts-8",
+          "body-parts-9",
+          "body-parts-10",
+          "body-parts-11",
+          "body-parts-12",
+          "body-parts-13",
+          "body-parts-14",
+          "body-parts-15",
+          "body-parts-16",
+          "body-parts-17",
+          "body-parts-18"
+        ]
+      },
+      {
+        "id": "body-parts-2",
+        "title": "Body Parts 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "body-parts-19",
+          "body-parts-20",
+          "body-parts-21",
+          "body-parts-22",
+          "body-parts-23",
+          "body-parts-24",
+          "body-parts-25",
+          "body-parts-26",
+          "body-parts-27",
+          "body-parts-28",
+          "body-parts-29",
+          "body-parts-30",
+          "body-parts-31",
+          "body-parts-32",
+          "body-parts-33",
+          "body-parts-34",
+          "body-parts-35",
+          "body-parts-36"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plants",
+    "title": "Plants & Trees",
+    "titleGeorgian": "მცენარეები და ხეები",
+    "icon": "🌳",
+    "lessons": [
+      {
+        "id": "plants-1",
+        "title": "Plants 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "plants-extra-1",
+          "plants-extra-2",
+          "plants-extra-3",
+          "plants-extra-4",
+          "plants-extra-5",
+          "plants-extra-6",
+          "plants-extra-7",
+          "plants-extra-8",
+          "plants-extra-9",
+          "plants-extra-10",
+          "plants-extra-11",
+          "plants-extra-12",
+          "plants-extra-13",
+          "plants-extra-14",
+          "plants-extra-15",
+          "plants-extra-16",
+          "plants-extra-17",
+          "plants-extra-18"
+        ]
+      },
+      {
+        "id": "plants-2",
+        "title": "Plants 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "plants-extra-19",
+          "plants-extra-20",
+          "plants-extra-21",
+          "plants-extra-22",
+          "plants-extra-23",
+          "plants-extra-24",
+          "plants-extra-25",
+          "plants-extra-26",
+          "plants-extra-27",
+          "plants-extra-28",
+          "plants-extra-29",
+          "plants-extra-30",
+          "plants-extra-31",
+          "plants-extra-32",
+          "plants-extra-33",
+          "plants-extra-34",
+          "plants-extra-35",
+          "plants-extra-36"
+        ]
+      },
+      {
+        "id": "plants-3",
+        "title": "Plants 3",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "plants-extra-37",
+          "plants-extra-38",
+          "plants-extra-39",
+          "plants-extra-40",
+          "plants-extra-41",
+          "plants-extra-42",
+          "plants-extra-43",
+          "plants-extra-44",
+          "plants-extra-45",
+          "plants-extra-46",
+          "plants-extra-47",
+          "plants-extra-48",
+          "plants-extra-49",
+          "plants-extra-50",
+          "plants-extra-51",
+          "plants-extra-52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "household",
+    "title": "Household",
+    "titleGeorgian": "საოჯახო ნივთები",
+    "icon": "🏠",
+    "lessons": [
+      {
+        "id": "household-1",
+        "title": "Household 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "household-extra-1",
+          "household-extra-2",
+          "household-extra-3",
+          "household-extra-4",
+          "household-extra-5",
+          "household-extra-6",
+          "household-extra-7",
+          "household-extra-8",
+          "household-extra-9",
+          "household-extra-10",
+          "household-extra-11",
+          "household-extra-12",
+          "household-extra-13",
+          "household-extra-14",
+          "household-extra-15",
+          "household-extra-16",
+          "household-extra-17",
+          "household-extra-18"
+        ]
+      },
+      {
+        "id": "household-2",
+        "title": "Household 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "household-extra-19",
+          "household-extra-20",
+          "household-extra-21",
+          "household-extra-22",
+          "household-extra-23",
+          "household-extra-24",
+          "household-extra-25",
+          "household-extra-26",
+          "household-extra-27",
+          "household-extra-28",
+          "household-extra-29",
+          "household-extra-30",
+          "household-extra-31",
+          "household-extra-32",
+          "household-extra-33",
+          "household-extra-34",
+          "household-extra-35",
+          "household-extra-36"
+        ]
+      },
+      {
+        "id": "household-3",
+        "title": "Household 3",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "household-extra-37",
+          "household-extra-38",
+          "household-extra-39"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "title": "Nature & Weather",
+    "titleGeorgian": "ბუნება და ამინდი",
+    "icon": "⛅",
+    "lessons": [
+      {
+        "id": "nature-&-weather-1",
+        "title": "Nature & Weather 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "weather-1",
+          "weather-2",
+          "weather-3",
+          "weather-4",
+          "weather-5",
+          "weather-6",
+          "weather-7",
+          "weather-8",
+          "weather-9",
+          "weather-10",
+          "weather-11",
+          "weather-12",
+          "weather-13",
+          "weather-14",
+          "weather-15",
+          "weather-16",
+          "weather-17",
+          "weather-18"
+        ]
+      },
+      {
+        "id": "nature-&-weather-2",
+        "title": "Nature & Weather 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "weather-19",
+          "weather-20",
+          "weather-21",
+          "weather-22"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adjectives",
+    "title": "Adjectives",
+    "titleGeorgian": "ზედსართავები",
+    "icon": "📏",
+    "lessons": [
+      {
+        "id": "adjectives-1",
+        "title": "Adjectives 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "adjectives-1",
+          "adjectives-2",
+          "adjectives-3",
+          "adjectives-4",
+          "adjectives-5",
+          "adjectives-6",
+          "adjectives-7",
+          "adjectives-8",
+          "adjectives-9",
+          "adjectives-10",
+          "adjectives-11",
+          "adjectives-12",
+          "adjectives-13",
+          "adjectives-14",
+          "adjectives-15",
+          "adjectives-16",
+          "adjectives-17",
+          "adjectives-18"
+        ]
+      },
+      {
+        "id": "adjectives-2",
+        "title": "Adjectives 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "adjectives-19",
+          "adjectives-20",
+          "adjectives-21",
+          "adjectives-22",
+          "adjectives-23",
+          "adjectives-24",
+          "adjectives-25",
+          "adjectives-26",
+          "adjectives-27",
+          "adjectives-28",
+          "adjectives-29",
+          "adjectives-30",
+          "adjectives-31",
+          "adjectives-32",
+          "adjectives-33",
+          "adjectives-34",
+          "adjectives-35",
+          "adjectives-36"
+        ]
+      },
+      {
+        "id": "adjectives-3",
+        "title": "Adjectives 3",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "adjectives-37",
+          "adjectives-38",
+          "adjectives-39",
+          "adjectives-40",
+          "adjectives-41",
+          "adjectives-42"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "question-words",
+    "title": "Question Words",
+    "titleGeorgian": "კითხვითი სიტყვები",
+    "icon": "❓",
+    "lessons": [
+      {
+        "id": "question-words-1",
+        "title": "Question Words 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "question-words-1",
+          "question-words-2",
+          "question-words-3",
+          "question-words-4",
+          "question-words-5",
+          "question-words-6",
+          "question-words-7",
+          "question-words-8",
+          "question-words-9",
+          "question-words-10",
+          "question-words-11",
+          "question-words-12",
+          "question-words-13",
+          "question-words-14",
+          "question-words-15",
+          "question-words-16",
+          "question-words-17",
+          "question-words-18"
+        ]
+      },
+      {
+        "id": "question-words-2",
+        "title": "Question Words 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "question-words-19"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phrases",
+    "title": "Everyday Phrases",
+    "titleGeorgian": "ყოველდღიური ფრაზები",
+    "icon": "💬",
+    "lessons": [
+      {
+        "id": "phrases-1",
+        "title": "Everyday Phrases 1",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-1",
+          "phrase-2",
+          "phrase-3",
+          "phrase-4",
+          "phrase-5",
+          "phrase-6",
+          "phrase-7",
+          "phrase-8",
+          "phrase-9",
+          "phrase-10",
+          "phrase-11",
+          "phrase-12",
+          "phrase-13",
+          "phrase-14"
+        ]
+      },
+      {
+        "id": "phrases-2",
+        "title": "Everyday Phrases 2",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-15",
+          "phrase-16",
+          "phrase-17",
+          "phrase-18",
+          "phrase-19",
+          "phrase-20",
+          "phrase-21",
+          "phrase-22",
+          "phrase-23",
+          "phrase-24",
+          "phrase-25",
+          "phrase-26",
+          "phrase-27",
+          "phrase-28"
+        ]
+      },
+      {
+        "id": "phrases-3",
+        "title": "Everyday Phrases 3",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-29",
+          "phrase-30",
+          "phrase-31",
+          "phrase-32",
+          "phrase-33",
+          "phrase-34",
+          "phrase-35",
+          "phrase-36",
+          "phrase-37",
+          "phrase-38",
+          "phrase-39",
+          "phrase-40",
+          "phrase-41",
+          "phrase-42"
+        ]
+      },
+      {
+        "id": "phrases-4",
+        "title": "Everyday Phrases 4",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-43",
+          "phrase-44",
+          "phrase-45",
+          "phrase-46",
+          "phrase-47",
+          "phrase-48",
+          "phrase-49",
+          "phrase-50",
+          "phrase-51",
+          "phrase-52",
+          "phrase-53",
+          "phrase-54",
+          "phrase-55",
+          "phrase-56"
+        ]
+      },
+      {
+        "id": "phrases-5",
+        "title": "Everyday Phrases 5",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-57",
+          "phrase-58",
+          "phrase-59",
+          "phrase-60",
+          "phrase-61",
+          "phrase-62",
+          "phrase-63",
+          "phrase-64",
+          "phrase-65",
+          "phrase-66",
+          "phrase-67",
+          "phrase-68",
+          "phrase-69",
+          "phrase-70"
+        ]
+      },
+      {
+        "id": "phrases-6",
+        "title": "Everyday Phrases 6",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-71",
+          "phrase-72",
+          "phrase-73",
+          "phrase-74",
+          "phrase-75",
+          "phrase-76",
+          "phrase-77",
+          "phrase-78",
+          "phrase-79",
+          "phrase-80",
+          "phrase-81",
+          "phrase-82",
+          "phrase-83",
+          "phrase-84"
+        ]
+      },
+      {
+        "id": "phrases-7",
+        "title": "Everyday Phrases 7",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-85",
+          "phrase-86",
+          "phrase-87",
+          "phrase-88",
+          "phrase-89",
+          "phrase-90",
+          "phrase-91",
+          "phrase-92",
+          "phrase-93",
+          "phrase-94",
+          "phrase-95",
+          "phrase-96",
+          "phrase-97",
+          "phrase-98"
+        ]
+      },
+      {
+        "id": "phrases-8",
+        "title": "Everyday Phrases 8",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-99",
+          "phrase-100",
+          "phrase-101",
+          "phrase-102",
+          "phrase-103",
+          "phrase-104",
+          "phrase-105",
+          "phrase-106",
+          "phrase-107",
+          "phrase-108",
+          "phrase-109",
+          "phrase-110",
+          "phrase-111",
+          "phrase-112"
+        ]
+      },
+      {
+        "id": "phrases-9",
+        "title": "Everyday Phrases 9",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-113",
+          "phrase-114",
+          "phrase-115",
+          "phrase-116",
+          "phrase-117",
+          "phrase-118",
+          "phrase-119",
+          "phrase-120",
+          "phrase-121",
+          "phrase-122",
+          "phrase-123",
+          "phrase-124",
+          "phrase-125",
+          "phrase-126"
+        ]
+      },
+      {
+        "id": "phrases-10",
+        "title": "Everyday Phrases 10",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-127",
+          "phrase-128",
+          "phrase-129",
+          "phrase-130",
+          "phrase-131",
+          "phrase-132",
+          "phrase-133",
+          "phrase-134",
+          "phrase-135",
+          "phrase-136",
+          "phrase-137",
+          "phrase-138",
+          "phrase-139",
+          "phrase-140"
+        ]
+      },
+      {
+        "id": "phrases-11",
+        "title": "Everyday Phrases 11",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-141",
+          "phrase-142",
+          "phrase-143",
+          "phrase-144",
+          "phrase-145",
+          "phrase-146",
+          "phrase-147",
+          "phrase-148",
+          "phrase-149",
+          "phrase-150",
+          "phrase-151",
+          "phrase-152",
+          "phrase-153",
+          "phrase-154"
+        ]
+      },
+      {
+        "id": "phrases-12",
+        "title": "Everyday Phrases 12",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-155",
+          "phrase-156",
+          "phrase-157",
+          "phrase-158",
+          "phrase-159",
+          "phrase-160",
+          "phrase-161",
+          "phrase-162",
+          "phrase-163",
+          "phrase-164",
+          "phrase-165",
+          "phrase-166",
+          "phrase-167",
+          "phrase-168"
+        ]
+      },
+      {
+        "id": "phrases-13",
+        "title": "Everyday Phrases 13",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-169",
+          "phrase-170",
+          "phrase-171",
+          "phrase-172",
+          "phrase-173",
+          "phrase-174",
+          "phrase-175",
+          "phrase-176",
+          "phrase-177",
+          "phrase-178",
+          "phrase-179",
+          "phrase-180",
+          "phrase-181",
+          "phrase-182"
+        ]
+      },
+      {
+        "id": "phrases-14",
+        "title": "Everyday Phrases 14",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-183",
+          "phrase-184",
+          "phrase-185",
+          "phrase-186",
+          "phrase-187",
+          "phrase-188",
+          "phrase-189",
+          "phrase-190",
+          "phrase-191",
+          "phrase-192",
+          "phrase-193",
+          "phrase-194",
+          "phrase-195",
+          "phrase-196"
+        ]
+      },
+      {
+        "id": "phrases-15",
+        "title": "Everyday Phrases 15",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-197",
+          "phrase-198",
+          "phrase-199",
+          "phrase-200",
+          "phrase-201",
+          "phrase-202",
+          "phrase-203",
+          "phrase-204",
+          "phrase-205",
+          "phrase-206",
+          "phrase-207",
+          "phrase-208",
+          "phrase-209",
+          "phrase-210"
+        ]
+      },
+      {
+        "id": "phrases-16",
+        "title": "Everyday Phrases 16",
+        "kind": "Phrases",
+        "wordIds": [
+          "phrase-211",
+          "phrase-212",
+          "phrase-213",
+          "phrase-214"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "proverbs",
+    "title": "Proverbs",
+    "titleGeorgian": "ანდაზები",
+    "icon": "📜",
+    "lessons": [
+      {
+        "id": "proverbs-1",
+        "title": "Proverbs",
+        "kind": "Proverbs",
+        "wordIds": [
+          "proverb-1",
+          "proverb-2",
+          "proverb-3",
+          "proverb-4",
+          "proverb-5",
+          "proverb-6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lexicon",
+    "title": "Core Vocabulary",
+    "titleGeorgian": "ლექსიკონი",
+    "icon": "📖",
+    "lessons": [
+      {
+        "id": "lexicon-1",
+        "title": "Core Vocabulary 1",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-1",
+          "lexicon-2",
+          "lexicon-3",
+          "lexicon-4",
+          "lexicon-5",
+          "lexicon-6",
+          "lexicon-7",
+          "lexicon-8",
+          "lexicon-9",
+          "lexicon-10",
+          "lexicon-11",
+          "lexicon-12",
+          "lexicon-13",
+          "lexicon-14",
+          "lexicon-15",
+          "lexicon-16",
+          "lexicon-17",
+          "lexicon-18",
+          "lexicon-19",
+          "lexicon-20",
+          "lexicon-21",
+          "lexicon-22",
+          "lexicon-23",
+          "lexicon-24",
+          "lexicon-25"
+        ]
+      },
+      {
+        "id": "lexicon-2",
+        "title": "Core Vocabulary 2",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-26",
+          "lexicon-27",
+          "lexicon-28",
+          "lexicon-29",
+          "lexicon-30",
+          "lexicon-31",
+          "lexicon-32",
+          "lexicon-33",
+          "lexicon-34",
+          "lexicon-35",
+          "lexicon-36",
+          "lexicon-37",
+          "lexicon-38",
+          "lexicon-39",
+          "lexicon-40",
+          "lexicon-41",
+          "lexicon-42",
+          "lexicon-43",
+          "lexicon-44",
+          "lexicon-45",
+          "lexicon-46",
+          "lexicon-47",
+          "lexicon-48",
+          "lexicon-49",
+          "lexicon-50"
+        ]
+      },
+      {
+        "id": "lexicon-3",
+        "title": "Core Vocabulary 3",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-51",
+          "lexicon-52",
+          "lexicon-53",
+          "lexicon-54",
+          "lexicon-55",
+          "lexicon-56",
+          "lexicon-57",
+          "lexicon-58",
+          "lexicon-59",
+          "lexicon-60",
+          "lexicon-61",
+          "lexicon-62",
+          "lexicon-63",
+          "lexicon-64",
+          "lexicon-65",
+          "lexicon-66",
+          "lexicon-67",
+          "lexicon-68",
+          "lexicon-69",
+          "lexicon-70",
+          "lexicon-71",
+          "lexicon-72",
+          "lexicon-73",
+          "lexicon-74",
+          "lexicon-75"
+        ]
+      },
+      {
+        "id": "lexicon-4",
+        "title": "Core Vocabulary 4",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-76",
+          "lexicon-77",
+          "lexicon-78",
+          "lexicon-79",
+          "lexicon-80",
+          "lexicon-81",
+          "lexicon-82",
+          "lexicon-83",
+          "lexicon-84",
+          "lexicon-85",
+          "lexicon-86",
+          "lexicon-87",
+          "lexicon-88",
+          "lexicon-89",
+          "lexicon-90",
+          "lexicon-91",
+          "lexicon-92",
+          "lexicon-93",
+          "lexicon-94",
+          "lexicon-95",
+          "lexicon-96",
+          "lexicon-97",
+          "lexicon-98",
+          "lexicon-99",
+          "lexicon-100"
+        ]
+      },
+      {
+        "id": "lexicon-5",
+        "title": "Core Vocabulary 5",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-101",
+          "lexicon-102",
+          "lexicon-103",
+          "lexicon-104",
+          "lexicon-105",
+          "lexicon-106",
+          "lexicon-107",
+          "lexicon-108",
+          "lexicon-109",
+          "lexicon-110",
+          "lexicon-111",
+          "lexicon-112",
+          "lexicon-113",
+          "lexicon-114",
+          "lexicon-115",
+          "lexicon-116",
+          "lexicon-117",
+          "lexicon-118",
+          "lexicon-119",
+          "lexicon-120",
+          "lexicon-121",
+          "lexicon-122",
+          "lexicon-123",
+          "lexicon-124",
+          "lexicon-125"
+        ]
+      },
+      {
+        "id": "lexicon-6",
+        "title": "Core Vocabulary 6",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-126",
+          "lexicon-127",
+          "lexicon-128",
+          "lexicon-129",
+          "lexicon-130",
+          "lexicon-131",
+          "lexicon-132",
+          "lexicon-133",
+          "lexicon-134",
+          "lexicon-135",
+          "lexicon-136",
+          "lexicon-137",
+          "lexicon-138",
+          "lexicon-139",
+          "lexicon-140",
+          "lexicon-141",
+          "lexicon-142",
+          "lexicon-143",
+          "lexicon-144",
+          "lexicon-145",
+          "lexicon-146",
+          "lexicon-147",
+          "lexicon-148",
+          "lexicon-149",
+          "lexicon-150"
+        ]
+      },
+      {
+        "id": "lexicon-7",
+        "title": "Core Vocabulary 7",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-151",
+          "lexicon-152",
+          "lexicon-153",
+          "lexicon-154",
+          "lexicon-155",
+          "lexicon-156",
+          "lexicon-157",
+          "lexicon-158",
+          "lexicon-159",
+          "lexicon-160",
+          "lexicon-161",
+          "lexicon-162",
+          "lexicon-163",
+          "lexicon-164",
+          "lexicon-165",
+          "lexicon-166",
+          "lexicon-167",
+          "lexicon-168",
+          "lexicon-169",
+          "lexicon-170",
+          "lexicon-171",
+          "lexicon-172",
+          "lexicon-173",
+          "lexicon-174",
+          "lexicon-175"
+        ]
+      },
+      {
+        "id": "lexicon-8",
+        "title": "Core Vocabulary 8",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-176",
+          "lexicon-177",
+          "lexicon-178",
+          "lexicon-179",
+          "lexicon-180",
+          "lexicon-181",
+          "lexicon-182",
+          "lexicon-183",
+          "lexicon-184",
+          "lexicon-185",
+          "lexicon-186",
+          "lexicon-187",
+          "lexicon-188",
+          "lexicon-189",
+          "lexicon-190",
+          "lexicon-191",
+          "lexicon-192",
+          "lexicon-193",
+          "lexicon-194",
+          "lexicon-195",
+          "lexicon-196",
+          "lexicon-197",
+          "lexicon-198",
+          "lexicon-199",
+          "lexicon-200"
+        ]
+      },
+      {
+        "id": "lexicon-9",
+        "title": "Core Vocabulary 9",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-201",
+          "lexicon-202",
+          "lexicon-203",
+          "lexicon-204",
+          "lexicon-205",
+          "lexicon-206",
+          "lexicon-207",
+          "lexicon-208",
+          "lexicon-209",
+          "lexicon-210",
+          "lexicon-211",
+          "lexicon-212",
+          "lexicon-213",
+          "lexicon-214",
+          "lexicon-215",
+          "lexicon-216",
+          "lexicon-217",
+          "lexicon-218",
+          "lexicon-219",
+          "lexicon-220",
+          "lexicon-221",
+          "lexicon-222",
+          "lexicon-223",
+          "lexicon-224",
+          "lexicon-225"
+        ]
+      },
+      {
+        "id": "lexicon-10",
+        "title": "Core Vocabulary 10",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-226",
+          "lexicon-227",
+          "lexicon-228",
+          "lexicon-229",
+          "lexicon-230",
+          "lexicon-231",
+          "lexicon-232",
+          "lexicon-233",
+          "lexicon-234",
+          "lexicon-235",
+          "lexicon-236",
+          "lexicon-237",
+          "lexicon-238",
+          "lexicon-239",
+          "lexicon-240",
+          "lexicon-241",
+          "lexicon-242",
+          "lexicon-243",
+          "lexicon-244",
+          "lexicon-245",
+          "lexicon-246",
+          "lexicon-247",
+          "lexicon-248",
+          "lexicon-249",
+          "lexicon-250"
+        ]
+      },
+      {
+        "id": "lexicon-11",
+        "title": "Core Vocabulary 11",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-251",
+          "lexicon-252",
+          "lexicon-253",
+          "lexicon-254",
+          "lexicon-255",
+          "lexicon-256",
+          "lexicon-257",
+          "lexicon-258",
+          "lexicon-259",
+          "lexicon-260",
+          "lexicon-261",
+          "lexicon-262",
+          "lexicon-263",
+          "lexicon-264",
+          "lexicon-265",
+          "lexicon-266",
+          "lexicon-267",
+          "lexicon-268",
+          "lexicon-269",
+          "lexicon-270",
+          "lexicon-271",
+          "lexicon-272",
+          "lexicon-273",
+          "lexicon-274",
+          "lexicon-275"
+        ]
+      },
+      {
+        "id": "lexicon-12",
+        "title": "Core Vocabulary 12",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-276",
+          "lexicon-277",
+          "lexicon-278",
+          "lexicon-279",
+          "lexicon-280",
+          "lexicon-281",
+          "lexicon-282",
+          "lexicon-283",
+          "lexicon-284",
+          "lexicon-285",
+          "lexicon-286",
+          "lexicon-287",
+          "lexicon-288",
+          "lexicon-289",
+          "lexicon-290",
+          "lexicon-291",
+          "lexicon-292",
+          "lexicon-293",
+          "lexicon-294",
+          "lexicon-295",
+          "lexicon-296",
+          "lexicon-297",
+          "lexicon-298",
+          "lexicon-299",
+          "lexicon-300"
+        ]
+      },
+      {
+        "id": "lexicon-13",
+        "title": "Core Vocabulary 13",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-301",
+          "lexicon-302",
+          "lexicon-303",
+          "lexicon-304",
+          "lexicon-305",
+          "lexicon-306",
+          "lexicon-307",
+          "lexicon-308",
+          "lexicon-309",
+          "lexicon-310",
+          "lexicon-311",
+          "lexicon-312",
+          "lexicon-313",
+          "lexicon-314",
+          "lexicon-315",
+          "lexicon-316",
+          "lexicon-317",
+          "lexicon-318",
+          "lexicon-319",
+          "lexicon-320",
+          "lexicon-321",
+          "lexicon-322",
+          "lexicon-323",
+          "lexicon-324",
+          "lexicon-325"
+        ]
+      },
+      {
+        "id": "lexicon-14",
+        "title": "Core Vocabulary 14",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-326",
+          "lexicon-327",
+          "lexicon-328",
+          "lexicon-329",
+          "lexicon-330",
+          "lexicon-331",
+          "lexicon-332",
+          "lexicon-333",
+          "lexicon-334",
+          "lexicon-335",
+          "lexicon-336",
+          "lexicon-337",
+          "lexicon-338",
+          "lexicon-339",
+          "lexicon-340",
+          "lexicon-341",
+          "lexicon-342",
+          "lexicon-343",
+          "lexicon-344",
+          "lexicon-345",
+          "lexicon-346",
+          "lexicon-347",
+          "lexicon-348",
+          "lexicon-349",
+          "lexicon-350"
+        ]
+      },
+      {
+        "id": "lexicon-15",
+        "title": "Core Vocabulary 15",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-351",
+          "lexicon-352",
+          "lexicon-353",
+          "lexicon-354",
+          "lexicon-355",
+          "lexicon-356",
+          "lexicon-357",
+          "lexicon-358",
+          "lexicon-359",
+          "lexicon-360",
+          "lexicon-361",
+          "lexicon-362",
+          "lexicon-363",
+          "lexicon-364",
+          "lexicon-365",
+          "lexicon-366",
+          "lexicon-367",
+          "lexicon-368",
+          "lexicon-369",
+          "lexicon-370",
+          "lexicon-371",
+          "lexicon-372",
+          "lexicon-373",
+          "lexicon-374",
+          "lexicon-375"
+        ]
+      },
+      {
+        "id": "lexicon-16",
+        "title": "Core Vocabulary 16",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-376",
+          "lexicon-377",
+          "lexicon-378",
+          "lexicon-379",
+          "lexicon-380",
+          "lexicon-381",
+          "lexicon-382",
+          "lexicon-383",
+          "lexicon-384",
+          "lexicon-385",
+          "lexicon-386",
+          "lexicon-387",
+          "lexicon-388",
+          "lexicon-389",
+          "lexicon-390",
+          "lexicon-391",
+          "lexicon-392",
+          "lexicon-393",
+          "lexicon-394",
+          "lexicon-395",
+          "lexicon-396",
+          "lexicon-397",
+          "lexicon-398",
+          "lexicon-399",
+          "lexicon-400"
+        ]
+      },
+      {
+        "id": "lexicon-17",
+        "title": "Core Vocabulary 17",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-401",
+          "lexicon-402",
+          "lexicon-403",
+          "lexicon-404",
+          "lexicon-405",
+          "lexicon-406",
+          "lexicon-407",
+          "lexicon-408",
+          "lexicon-409",
+          "lexicon-410",
+          "lexicon-411",
+          "lexicon-412",
+          "lexicon-413",
+          "lexicon-414",
+          "lexicon-415",
+          "lexicon-416",
+          "lexicon-417",
+          "lexicon-418",
+          "lexicon-419",
+          "lexicon-420",
+          "lexicon-421",
+          "lexicon-422",
+          "lexicon-423",
+          "lexicon-424",
+          "lexicon-425"
+        ]
+      },
+      {
+        "id": "lexicon-18",
+        "title": "Core Vocabulary 18",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-426",
+          "lexicon-427",
+          "lexicon-428",
+          "lexicon-429",
+          "lexicon-430",
+          "lexicon-431",
+          "lexicon-432",
+          "lexicon-433",
+          "lexicon-434",
+          "lexicon-435",
+          "lexicon-436",
+          "lexicon-437",
+          "lexicon-438",
+          "lexicon-439",
+          "lexicon-440",
+          "lexicon-441",
+          "lexicon-442",
+          "lexicon-443",
+          "lexicon-444",
+          "lexicon-445",
+          "lexicon-446",
+          "lexicon-447",
+          "lexicon-448",
+          "lexicon-449",
+          "lexicon-450"
+        ]
+      },
+      {
+        "id": "lexicon-19",
+        "title": "Core Vocabulary 19",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-451",
+          "lexicon-452",
+          "lexicon-453",
+          "lexicon-454",
+          "lexicon-455",
+          "lexicon-456",
+          "lexicon-457",
+          "lexicon-458",
+          "lexicon-459",
+          "lexicon-460",
+          "lexicon-461",
+          "lexicon-462",
+          "lexicon-463",
+          "lexicon-464",
+          "lexicon-465",
+          "lexicon-466",
+          "lexicon-467",
+          "lexicon-468",
+          "lexicon-469",
+          "lexicon-470",
+          "lexicon-471",
+          "lexicon-472",
+          "lexicon-473",
+          "lexicon-474",
+          "lexicon-475"
+        ]
+      },
+      {
+        "id": "lexicon-20",
+        "title": "Core Vocabulary 20",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-476",
+          "lexicon-477",
+          "lexicon-478",
+          "lexicon-479",
+          "lexicon-480",
+          "lexicon-481",
+          "lexicon-482",
+          "lexicon-483",
+          "lexicon-484",
+          "lexicon-485",
+          "lexicon-486",
+          "lexicon-487",
+          "lexicon-488",
+          "lexicon-489",
+          "lexicon-490",
+          "lexicon-491",
+          "lexicon-492",
+          "lexicon-493",
+          "lexicon-494",
+          "lexicon-495",
+          "lexicon-496",
+          "lexicon-497",
+          "lexicon-498",
+          "lexicon-499",
+          "lexicon-500"
+        ]
+      },
+      {
+        "id": "lexicon-21",
+        "title": "Core Vocabulary 21",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-501",
+          "lexicon-502",
+          "lexicon-503",
+          "lexicon-504",
+          "lexicon-505",
+          "lexicon-506",
+          "lexicon-507",
+          "lexicon-508",
+          "lexicon-509",
+          "lexicon-510",
+          "lexicon-511",
+          "lexicon-512",
+          "lexicon-513",
+          "lexicon-514",
+          "lexicon-515",
+          "lexicon-516",
+          "lexicon-517",
+          "lexicon-518",
+          "lexicon-519",
+          "lexicon-520",
+          "lexicon-521",
+          "lexicon-522",
+          "lexicon-523",
+          "lexicon-524",
+          "lexicon-525"
+        ]
+      },
+      {
+        "id": "lexicon-22",
+        "title": "Core Vocabulary 22",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-526",
+          "lexicon-527",
+          "lexicon-528",
+          "lexicon-529",
+          "lexicon-530",
+          "lexicon-531",
+          "lexicon-532",
+          "lexicon-533",
+          "lexicon-534",
+          "lexicon-535",
+          "lexicon-536",
+          "lexicon-537",
+          "lexicon-538",
+          "lexicon-539",
+          "lexicon-540",
+          "lexicon-541",
+          "lexicon-542",
+          "lexicon-543",
+          "lexicon-544",
+          "lexicon-545",
+          "lexicon-546",
+          "lexicon-547",
+          "lexicon-548",
+          "lexicon-549",
+          "lexicon-550"
+        ]
+      },
+      {
+        "id": "lexicon-23",
+        "title": "Core Vocabulary 23",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-551",
+          "lexicon-552",
+          "lexicon-553",
+          "lexicon-554",
+          "lexicon-555",
+          "lexicon-556",
+          "lexicon-557",
+          "lexicon-558",
+          "lexicon-559",
+          "lexicon-560",
+          "lexicon-561",
+          "lexicon-562",
+          "lexicon-563",
+          "lexicon-564",
+          "lexicon-565",
+          "lexicon-566",
+          "lexicon-567",
+          "lexicon-568",
+          "lexicon-569",
+          "lexicon-570",
+          "lexicon-571",
+          "lexicon-572",
+          "lexicon-573",
+          "lexicon-574",
+          "lexicon-575"
+        ]
+      },
+      {
+        "id": "lexicon-24",
+        "title": "Core Vocabulary 24",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-576",
+          "lexicon-577",
+          "lexicon-578",
+          "lexicon-579",
+          "lexicon-580",
+          "lexicon-581",
+          "lexicon-582",
+          "lexicon-583",
+          "lexicon-584",
+          "lexicon-585",
+          "lexicon-586",
+          "lexicon-587",
+          "lexicon-588",
+          "lexicon-589",
+          "lexicon-590",
+          "lexicon-591",
+          "lexicon-592",
+          "lexicon-593",
+          "lexicon-594",
+          "lexicon-595",
+          "lexicon-596",
+          "lexicon-597",
+          "lexicon-598",
+          "lexicon-599",
+          "lexicon-600"
+        ]
+      },
+      {
+        "id": "lexicon-25",
+        "title": "Core Vocabulary 25",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-601",
+          "lexicon-602",
+          "lexicon-603",
+          "lexicon-604",
+          "lexicon-605",
+          "lexicon-606",
+          "lexicon-607",
+          "lexicon-608",
+          "lexicon-609",
+          "lexicon-610",
+          "lexicon-611",
+          "lexicon-612",
+          "lexicon-613",
+          "lexicon-614",
+          "lexicon-615",
+          "lexicon-616",
+          "lexicon-617",
+          "lexicon-618",
+          "lexicon-619",
+          "lexicon-620",
+          "lexicon-621",
+          "lexicon-622",
+          "lexicon-623",
+          "lexicon-624",
+          "lexicon-625"
+        ]
+      },
+      {
+        "id": "lexicon-26",
+        "title": "Core Vocabulary 26",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-626",
+          "lexicon-627",
+          "lexicon-628",
+          "lexicon-629",
+          "lexicon-630",
+          "lexicon-631",
+          "lexicon-632",
+          "lexicon-633",
+          "lexicon-634",
+          "lexicon-635",
+          "lexicon-636",
+          "lexicon-637",
+          "lexicon-638",
+          "lexicon-639",
+          "lexicon-640",
+          "lexicon-641",
+          "lexicon-642",
+          "lexicon-643",
+          "lexicon-644",
+          "lexicon-645",
+          "lexicon-646",
+          "lexicon-647",
+          "lexicon-648",
+          "lexicon-649",
+          "lexicon-650"
+        ]
+      },
+      {
+        "id": "lexicon-27",
+        "title": "Core Vocabulary 27",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-651",
+          "lexicon-652",
+          "lexicon-653",
+          "lexicon-654",
+          "lexicon-655",
+          "lexicon-656",
+          "lexicon-657",
+          "lexicon-658",
+          "lexicon-659",
+          "lexicon-660",
+          "lexicon-661",
+          "lexicon-662",
+          "lexicon-663",
+          "lexicon-664",
+          "lexicon-665",
+          "lexicon-666",
+          "lexicon-667",
+          "lexicon-668",
+          "lexicon-669",
+          "lexicon-670",
+          "lexicon-671",
+          "lexicon-672",
+          "lexicon-673",
+          "lexicon-674",
+          "lexicon-675"
+        ]
+      },
+      {
+        "id": "lexicon-28",
+        "title": "Core Vocabulary 28",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-676",
+          "lexicon-677",
+          "lexicon-678",
+          "lexicon-679",
+          "lexicon-680",
+          "lexicon-681",
+          "lexicon-682",
+          "lexicon-683",
+          "lexicon-684",
+          "lexicon-685",
+          "lexicon-686",
+          "lexicon-687",
+          "lexicon-688",
+          "lexicon-689",
+          "lexicon-690",
+          "lexicon-691",
+          "lexicon-692",
+          "lexicon-693",
+          "lexicon-694",
+          "lexicon-695",
+          "lexicon-696",
+          "lexicon-697",
+          "lexicon-698",
+          "lexicon-699",
+          "lexicon-700"
+        ]
+      },
+      {
+        "id": "lexicon-29",
+        "title": "Core Vocabulary 29",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-701",
+          "lexicon-702",
+          "lexicon-703",
+          "lexicon-704",
+          "lexicon-705",
+          "lexicon-706",
+          "lexicon-707",
+          "lexicon-708",
+          "lexicon-709",
+          "lexicon-710",
+          "lexicon-711",
+          "lexicon-712",
+          "lexicon-713",
+          "lexicon-714",
+          "lexicon-715",
+          "lexicon-716",
+          "lexicon-717",
+          "lexicon-718",
+          "lexicon-719",
+          "lexicon-720",
+          "lexicon-721",
+          "lexicon-722",
+          "lexicon-723",
+          "lexicon-724",
+          "lexicon-725"
+        ]
+      },
+      {
+        "id": "lexicon-30",
+        "title": "Core Vocabulary 30",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-726",
+          "lexicon-727",
+          "lexicon-728",
+          "lexicon-729",
+          "lexicon-730",
+          "lexicon-731",
+          "lexicon-732",
+          "lexicon-733",
+          "lexicon-734",
+          "lexicon-735",
+          "lexicon-736",
+          "lexicon-737",
+          "lexicon-738",
+          "lexicon-739",
+          "lexicon-740",
+          "lexicon-741",
+          "lexicon-742",
+          "lexicon-743",
+          "lexicon-744",
+          "lexicon-745",
+          "lexicon-746",
+          "lexicon-747",
+          "lexicon-748",
+          "lexicon-749",
+          "lexicon-750"
+        ]
+      },
+      {
+        "id": "lexicon-31",
+        "title": "Core Vocabulary 31",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-751",
+          "lexicon-752",
+          "lexicon-753",
+          "lexicon-754",
+          "lexicon-755",
+          "lexicon-756",
+          "lexicon-757",
+          "lexicon-758",
+          "lexicon-759",
+          "lexicon-760",
+          "lexicon-761",
+          "lexicon-762",
+          "lexicon-763",
+          "lexicon-764",
+          "lexicon-765",
+          "lexicon-766",
+          "lexicon-767",
+          "lexicon-768",
+          "lexicon-769",
+          "lexicon-770",
+          "lexicon-771",
+          "lexicon-772",
+          "lexicon-773",
+          "lexicon-774",
+          "lexicon-775"
+        ]
+      },
+      {
+        "id": "lexicon-32",
+        "title": "Core Vocabulary 32",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-776",
+          "lexicon-777",
+          "lexicon-778",
+          "lexicon-779",
+          "lexicon-780",
+          "lexicon-781",
+          "lexicon-782",
+          "lexicon-783",
+          "lexicon-784",
+          "lexicon-785",
+          "lexicon-786",
+          "lexicon-787",
+          "lexicon-788",
+          "lexicon-789",
+          "lexicon-790",
+          "lexicon-791",
+          "lexicon-792",
+          "lexicon-793",
+          "lexicon-794",
+          "lexicon-795",
+          "lexicon-796",
+          "lexicon-797",
+          "lexicon-798",
+          "lexicon-799",
+          "lexicon-800"
+        ]
+      },
+      {
+        "id": "lexicon-33",
+        "title": "Core Vocabulary 33",
+        "kind": "Vocabulary",
+        "wordIds": [
+          "lexicon-801",
+          "lexicon-802",
+          "lexicon-803",
+          "lexicon-804",
+          "lexicon-805",
+          "lexicon-806",
+          "lexicon-807",
+          "lexicon-808",
+          "lexicon-809",
+          "lexicon-810",
+          "lexicon-811",
+          "lexicon-812",
+          "lexicon-813",
+          "lexicon-814",
+          "lexicon-815",
+          "lexicon-816",
+          "lexicon-817",
+          "lexicon-818",
+          "lexicon-819",
+          "lexicon-820",
+          "lexicon-821"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "listening",
+    "title": "Listening Course",
+    "titleGeorgian": "მოსმენის კურსი",
+    "icon": "🎧",
+    "lessons": [
+      {
+        "id": "listen-1",
+        "title": "Listening: Lesson 1",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli1.mp3"
+      },
+      {
+        "id": "listen-2",
+        "title": "Listening: Lesson 2",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli2.mp3"
+      },
+      {
+        "id": "listen-3",
+        "title": "Listening: Lesson 3",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli3.mp3"
+      },
+      {
+        "id": "listen-4",
+        "title": "Listening: Lesson 4",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli4.mp3"
+      },
+      {
+        "id": "listen-5",
+        "title": "Listening: Lesson 5",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli5.mp3"
+      },
+      {
+        "id": "listen-6",
+        "title": "Listening: Lesson 6",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli6.mp3"
+      },
+      {
+        "id": "listen-7",
+        "title": "Listening: Lesson 7",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli7.mp3"
+      },
+      {
+        "id": "listen-8",
+        "title": "Listening: Lesson 8",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli8.mp3"
+      },
+      {
+        "id": "listen-9",
+        "title": "Listening: Lesson 9",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli9.mp3"
+      },
+      {
+        "id": "listen-10",
+        "title": "Listening: Lesson 10",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli10.mp3"
+      },
+      {
+        "id": "listen-11",
+        "title": "Listening: Lesson 11",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli11.mp3"
+      },
+      {
+        "id": "listen-12",
+        "title": "Listening: Lesson 12",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli12.mp3"
+      },
+      {
+        "id": "listen-13",
+        "title": "Listening: Lesson 13",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli13.mp3"
+      },
+      {
+        "id": "listen-14",
+        "title": "Listening: Lesson 14",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli14.mp3"
+      },
+      {
+        "id": "listen-15",
+        "title": "Listening: Lesson 15",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli15.mp3"
+      },
+      {
+        "id": "listen-16",
+        "title": "Listening: Lesson 16",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli16.mp3"
+      },
+      {
+        "id": "listen-17",
+        "title": "Listening: Lesson 17",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli17.mp3"
+      },
+      {
+        "id": "listen-18",
+        "title": "Listening: Lesson 18",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli18.mp3"
+      },
+      {
+        "id": "listen-19",
+        "title": "Listening: Lesson 19",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli19.mp3"
+      },
+      {
+        "id": "listen-20",
+        "title": "Listening: Lesson 20",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli20.mp3"
+      },
+      {
+        "id": "listen-21",
+        "title": "Listening: Lesson 21",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli21.mp3"
+      },
+      {
+        "id": "listen-22",
+        "title": "Listening: Lesson 22",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli22.mp3"
+      },
+      {
+        "id": "listen-23",
+        "title": "Listening: Lesson 23",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli23.mp3"
+      },
+      {
+        "id": "listen-24",
+        "title": "Listening: Lesson 24",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli24.mp3"
+      },
+      {
+        "id": "listen-25",
+        "title": "Listening: Lesson 25",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli25.mp3"
+      },
+      {
+        "id": "listen-26",
+        "title": "Listening: Lesson 26",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli26.mp3"
+      },
+      {
+        "id": "listen-27",
+        "title": "Listening: Lesson 27",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli27.mp3"
+      },
+      {
+        "id": "listen-28",
+        "title": "Listening: Lesson 28",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli28.mp3"
+      },
+      {
+        "id": "listen-29",
+        "title": "Listening: Lesson 29",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli29.mp3"
+      },
+      {
+        "id": "listen-30",
+        "title": "Listening: Lesson 30",
+        "kind": "Listening",
+        "wordIds": [],
+        "lessonAudioFile": "Megruli30.mp3"
+      }
+    ]
+  }
+]
