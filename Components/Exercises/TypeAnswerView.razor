@@ -5,10 +5,19 @@
     <p class="exercise-instruction">@Loc[Exercise.InstructionKey ?? "Exercise_TypeMegruli"]</p>
     <p class="exercise-prompt">@Exercise.Prompt</p>
 
-    <input class="type-input @(_answered ? (_correct ? "input-correct" : "input-wrong") : "")"
-           @bind="_input" @bind:event="oninput" disabled="@_answered"
-           placeholder="@Loc["Exercise_TypeHere"]" autocomplete="off" spellcheck="false"
-           @onkeydown="OnKeyDown" />
+    <div class="type-answer-entry">
+        <input class="type-input @(_answered ? (_correct ? "input-correct" : "input-wrong") : "")"
+               @bind="_input" @bind:event="oninput" disabled="@_answered"
+               placeholder="@Loc["Exercise_TypeHere"]" autocomplete="off" spellcheck="false"
+               enterkeyhint="done" @onkeydown="OnKeyDown" />
+        @if (!_answered)
+        {
+            <button type="button" class="btn btn-check type-enter-btn"
+                    disabled="@string.IsNullOrWhiteSpace(_input)" @onclick="Check">
+                @Loc["Common_Enter"]
+            </button>
+        }
+    </div>
 
     @if (_answered)
     {
@@ -27,8 +36,10 @@
         }
     }
 
-    <ExerciseFooter CanCheck="!string.IsNullOrWhiteSpace(_input)" Answered="_answered" Correct="_correct"
-                     OnCheck="Check" OnContinue="Continue" />
+    @if (_answered)
+    {
+        <ExerciseFooter CanCheck="true" Answered="true" Correct="_correct" OnContinue="Continue" />
+    }
 </div>
 
 @code {

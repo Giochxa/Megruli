@@ -133,4 +133,5 @@
   <data name="Offline_ProtectionUnavailable" xml:space="preserve"><value>Your browser did not grant protected storage. Downloads still work but may be cleared if storage is low.</value></data>
   <data name="Offline_DownloadFailed" xml:space="preserve"><value>Could not complete the download: {0}</value></data>
   <data name="App_Title" xml:space="preserve"><value>Megruli — Learn Megruli</value></data>
+  <data name="Common_Enter" xml:space="preserve"><value>Enter</value></data>
 </root>

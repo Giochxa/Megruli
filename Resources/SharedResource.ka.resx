@@ -133,4 +133,5 @@
   <data name="Offline_ProtectionUnavailable" xml:space="preserve"><value>ბრაუზერმა დაცული მეხსიერება არ დაუშვა. ჩამოტვირთვები იმუშავებს, მაგრამ მეხსიერების ნაკლებობისას შეიძლება წაიშალოს.</value></data>
   <data name="Offline_DownloadFailed" xml:space="preserve"><value>ჩამოტვირთვა ვერ დასრულდა: {0}</value></data>
   <data name="App_Title" xml:space="preserve"><value>მეგრული — ისწავლე მეგრული</value></data>
+  <data name="Common_Enter" xml:space="preserve"><value>შეყვანა</value></data>
 </root>

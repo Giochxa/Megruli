@@ -1,8 +1,6 @@
 @* Shows the lesson's words up front (Megruli + Georgian, playable when labeled) before
    the learner is quizzed on them — so exercises test recall of something already seen. *@
 @inject ContentService Content
-@inject AudioClipLabelService Labels
-@inject IJSRuntime JS
 @inject IStringLocalizer<SharedResource> Loc
 
 <div class="word-intro">
@@ -21,11 +19,7 @@
             @foreach (var item in _items)
             {
                 <li class="word-intro-card">
-                    @if (item.ClipId is not null)
-                    {
-                        <button class="play-btn small" @onclick="() => Play(item.ClipId!)">🔊</button>
-                        <audio id="@AudioElementId(item.ClipId)" src="@AudioSrc(item.ClipId)" preload="metadata"></audio>
-                    }
+                    <PronounceButton WordId="item.WordId" MegruliText="item.Megruli" />
                     <div class="word-intro-text">
                         <span class="word-intro-megruli">@item.Megruli</span>
                         <span class="word-intro-georgian">@item.Georgian</span>
@@ -43,45 +37,24 @@
     [Parameter] public EventCallback OnDone { get; set; }
     [Parameter] public EventCallback OnClose { get; set; }
 
-    private record Item(string Megruli, string Georgian, string? ClipId);
+    private record Item(string WordId, string Megruli, string Georgian);
 
     private List<Item> _items = new();
-    private Dictionary<string, AudioClip> _clips = new();
     private bool _loading = true;
 
     protected override async Task OnParametersSetAsync()
     {
         _loading = true;
         _items.Clear();
-        _clips.Clear();
 
         foreach (var id in WordIds)
         {
             var resolved = await Content.ResolveWordAsync(id);
             if (resolved is not { } r) continue;
-            var clipId = await Labels.GetClipIdForWordAsync(id);
-            if (clipId is not null)
-            {
-                var clip = await Content.GetClipAsync(clipId);
-                if (clip is not null) _clips[clipId] = clip;
-            }
-            _items.Add(new Item(r.Megruli, r.Georgian, clipId));
+            _items.Add(new Item(id, r.Megruli, r.Georgian));
         }
 
         _loading = false;
     }
 
-    private async Task Play(string clipId)
-    {
-        if (_clips.TryGetValue(clipId, out var clip))
-        {
-            await JS.InvokeVoidAsync("megruliAudio.playSegmentById", AudioElementId(clipId), clip.StartMs, clip.EndMs);
-        }
-    }
-
-    private string? AudioSrc(string clipId) => _clips.TryGetValue(clipId, out var clip)
-        ? $"audio/lessons/{clip.SourceFile}"
-        : null;
-
-    private static string AudioElementId(string clipId) => $"word-intro-audio-{clipId}";
 }

@@ -1,7 +1,9 @@
 using System.Text.Json;
+using System.Text;
 using Megruli.Shared;
 using Microsoft.JSInterop;
 using System.Net.Http.Json;
+using System.Text.RegularExpressions;
 
 namespace Megruli.App.Services;
 
@@ -92,7 +94,9 @@ public class AudioClipLabelService
     public async Task<string?> GetClipIdForWordAsync(string wordId)
     {
         await EnsureLoadedAsync();
-        return _labels!.Values.FirstOrDefault(l => l.LinkedWordId == wordId && IsUsableMegruli(l))?.ClipId;
+        return _labels!.Values.FirstOrDefault(l =>
+            string.Equals(l.LinkedWordId?.Trim(), wordId.Trim(), StringComparison.OrdinalIgnoreCase)
+            && IsUsableMegruli(l))?.ClipId;
     }
 
     /// <summary>
@@ -103,10 +107,19 @@ public class AudioClipLabelService
     public async Task<string?> GetClipIdForMegruliTextAsync(string megruli)
     {
         await EnsureLoadedAsync();
-        var target = megruli.Trim();
+        var target = NormalizeMegruli(megruli);
         return _labels!.Values
-            .FirstOrDefault(l => IsUsableMegruli(l) && string.Equals(l.Megruli?.Trim(), target, StringComparison.Ordinal))
+            .FirstOrDefault(l => IsUsableMegruli(l)
+                && !string.IsNullOrWhiteSpace(l.Megruli)
+                && string.Equals(NormalizeMegruli(l.Megruli), target, StringComparison.Ordinal))
             ?.ClipId;
+    }
+
+    private static string NormalizeMegruli(string value)
+    {
+        var normalized = value.Normalize(NormalizationForm.FormC).Trim().ToLowerInvariant();
+        normalized = Regex.Replace(normalized, @"^[\p{P}\p{S}\s]+|[\p{P}\p{S}\s]+$", "");
+        return Regex.Replace(normalized, @"\s+", " ");
     }
 
     public async Task<HashSet<string>> GetLabeledWordIdsAsync()
