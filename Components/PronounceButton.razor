@@ -1,0 +1,43 @@
+@* Small inline 🔊 button that plays a labeled pronunciation clip for a word, if one exists.
+   Renders nothing when no clip has been labeled for that word yet — most words won't have
+   one until the Clip Labeler has been used, so this stays quiet rather than cluttering
+   every exercise with a dead button. *@
+@inject AudioClipLabelService Labels
+@inject IJSRuntime JS
+
+@if (_clipId is not null)
+{
+    <button type="button" class="pronounce-btn" title="@Loc["Common_Play"]" @onclick="Play" @onclick:stopPropagation="true">🔊</button>
+    <audio @ref="_audioRef" src="@($"audio/clips/{_clipId}.wav")"></audio>
+}
+
+@code {
+    [Parameter] public string? WordId { get; set; }
+    [Parameter] public string? MegruliText { get; set; }
+    [Inject] private IStringLocalizer<SharedResource> Loc { get; set; } = default!;
+
+    private string? _clipId;
+    private ElementReference _audioRef;
+    private string? _resolvedFor;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var key = WordId ?? MegruliText;
+        if (key == _resolvedFor) return;
+        _resolvedFor = key;
+
+        _clipId = WordId is not null
+            ? await Labels.GetClipIdForWordAsync(WordId)
+            : null;
+
+        if (_clipId is null && !string.IsNullOrWhiteSpace(MegruliText))
+        {
+            _clipId = await Labels.GetClipIdForMegruliTextAsync(MegruliText);
+        }
+    }
+
+    private async Task Play()
+    {
+        await JS.InvokeVoidAsync("megruliAudio.play", _audioRef);
+    }
+}

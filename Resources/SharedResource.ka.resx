@@ -74,6 +74,7 @@
   <data name="Alphabet_ConsonantQ" xml:space="preserve"><value>ყ — გვხვდება ძირითადად წ-ს, ჭ-ს, ტ-ს გვერდით. მაგალითები: ჭყონი (მუხა), ტყა (ტყე).</value></data>
   <data name="Alphabet_TypingTitle" xml:space="preserve"><value>ჷ და ჸ ასოების აკრეფა</value></data>
   <data name="Alphabet_TypingBody" xml:space="preserve"><value>ეს ორი ასო არ გვხვდება სტანდარტულ ქართულ კლავიატურაზე. Windows-ზე, ქართული განლაგებით, ისინი ხშირად ხელმისაწვდომია მარჯვენა Alt + J (ჷ) და მარცხენა Alt + Y (ჸ) კომბინაციით, ან შეგიძლიათ დააინსტალიროთ ისეთი შრიფტი, როგორიცაა DejaVu Sans, რომელიც სრულად მოიცავს ქართულ უნიკოდს.</value></data>
+  <data name="Alphabet_AcceptedWhenTyping" xml:space="preserve"><value>აკრეფისას მიიღება:</value></data>
 
   <data name="Profile_Title" xml:space="preserve"><value>პროფილი</value></data>
   <data name="Profile_DayStreak" xml:space="preserve"><value>დღიური სერია</value></data>

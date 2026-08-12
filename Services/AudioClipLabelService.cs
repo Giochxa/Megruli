@@ -70,6 +70,20 @@ public class AudioClipLabelService
         return _labels!.Values.FirstOrDefault(l => l.LinkedWordId == wordId && !l.Skipped)?.ClipId;
     }
 
+    /// <summary>
+    /// Falls back to matching a clip by its labeled Megruli text rather than a word id — used
+    /// where the caller only has raw text (e.g. a match-pairs chip or a multiple-choice
+    /// distractor), not the vocabulary entry's id.
+    /// </summary>
+    public async Task<string?> GetClipIdForMegruliTextAsync(string megruli)
+    {
+        await EnsureLoadedAsync();
+        var target = megruli.Trim();
+        return _labels!.Values
+            .FirstOrDefault(l => !l.Skipped && string.Equals(l.Megruli?.Trim(), target, StringComparison.Ordinal))
+            ?.ClipId;
+    }
+
     public async Task<HashSet<string>> GetLabeledWordIdsAsync()
     {
         await EnsureLoadedAsync();

@@ -74,6 +74,7 @@
   <data name="Alphabet_ConsonantQ" xml:space="preserve"><value>ყ — appears mostly next to წ, ჭ, ტ. Examples: ჭყონი (oak), ტყა (forest).</value></data>
   <data name="Alphabet_TypingTitle" xml:space="preserve"><value>Typing ჷ and ჸ</value></data>
   <data name="Alphabet_TypingBody" xml:space="preserve"><value>These two letters aren't on a standard Georgian keyboard layout. On Windows, with a Georgian keyboard layout active, they're commonly available via Right Alt + J (ჷ) and Left Alt + Y (ჸ), or by installing a font such as DejaVu Sans that includes full Georgian Unicode coverage.</value></data>
+  <data name="Alphabet_AcceptedWhenTyping" xml:space="preserve"><value>Accepted when typing:</value></data>
 
   <data name="Profile_Title" xml:space="preserve"><value>Profile</value></data>
   <data name="Profile_DayStreak" xml:space="preserve"><value>Day streak</value></data>

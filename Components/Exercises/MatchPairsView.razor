@@ -8,8 +8,11 @@
         <div class="match-column">
             @foreach (var item in _left)
             {
-                <button class="match-chip @ChipClass(item, true)" disabled="@(item.Matched)"
-                        @onclick="() => SelectLeft(item)">@item.Text</button>
+                <div class="match-chip-cell">
+                    <button class="match-chip @ChipClass(item, true)" disabled="@(item.Matched)"
+                            @onclick="() => SelectLeft(item)">@item.Text</button>
+                    <PronounceButton MegruliText="item.Text" />
+                </div>
             }
         </div>
         <div class="match-column">

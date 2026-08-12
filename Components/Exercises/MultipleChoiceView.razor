@@ -5,7 +5,13 @@
 
 <div class="exercise">
     <p class="exercise-instruction">@(Exercise.PromptIsGeorgian ? Loc["Exercise_SelectMegruli"] : Loc["Exercise_SelectGeorgian"])</p>
-    <p class="exercise-prompt">@Exercise.Prompt</p>
+    <p class="exercise-prompt">
+        @Exercise.Prompt
+        @if (!Exercise.PromptIsGeorgian)
+        {
+            <PronounceButton WordId="Exercise.WordId" MegruliText="Exercise.Prompt" />
+        }
+    </p>
 
     <div class="option-grid">
         @for (int i = 0; i < Exercise.Options.Count; i++)
@@ -17,7 +23,13 @@
                 if (idx == Exercise.CorrectIndex) cls += " option-correct";
                 else if (idx == _selected) cls += " option-wrong";
             }
-            <button class="@cls" disabled="@_answered" @onclick="() => Select(idx)">@Exercise.Options[idx]</button>
+            <div class="option-cell">
+                <button class="@cls" disabled="@_answered" @onclick="() => Select(idx)">@Exercise.Options[idx]</button>
+                @if (Exercise.PromptIsGeorgian)
+                {
+                    <PronounceButton MegruliText="Exercise.Options[idx]" />
+                }
+            </div>
         }
     </div>
 

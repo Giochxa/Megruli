@@ -10,9 +10,21 @@
            placeholder="@Loc["Exercise_TypeHere"]" autocomplete="off" spellcheck="false"
            @onkeydown="OnKeyDown" />
 
-    @if (_answered && !_correct)
+    @if (_answered)
     {
-        <p class="correct-answer-hint">@Loc["Exercise_CorrectAnswerIs"] <strong>@Exercise.AcceptedAnswers.First()</strong></p>
+        @if (!_correct)
+        {
+            <p class="correct-answer-hint">
+                @Loc["Exercise_CorrectAnswerIs"] <strong>@Exercise.AcceptedAnswers.First()</strong>
+                <PronounceButton WordId="Exercise.WordId" MegruliText="Exercise.AcceptedAnswers.First()" />
+            </p>
+        }
+        else
+        {
+            <p class="correct-answer-hint">
+                <PronounceButton WordId="Exercise.WordId" MegruliText="Exercise.AcceptedAnswers.First()" />
+            </p>
+        }
     }
 
     <ExerciseFooter CanCheck="!string.IsNullOrWhiteSpace(_input)" Answered="_answered" Correct="_correct"
@@ -38,7 +50,9 @@
     private void Check()
     {
         var normalized = Normalize(_input);
-        _correct = Exercise.AcceptedAnswers.Any(a => Normalize(a) == normalized);
+        _correct = Exercise.AcceptedAnswers
+            .SelectMany(SpecialLetterVariants.Expand)
+            .Any(a => Normalize(a) == normalized);
         _answered = true;
     }
 
