@@ -1,0 +1,1286 @@
+[
+  {
+    "id": "phrase-1",
+    "megruli": "ჯგირობუა, გომორძგუა (დღეს მეტყველებაში გამარჯობა იხმარება უფრო, ან ჯგირობუა)",
+    "georgian": "გამარჯობა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-2",
+    "megruli": "გო(გ)იმორძგჷ/გო(გ)იმორძგუ ღორონთქ!",
+    "georgian": "გაგიმარჯოს ღმერთმა!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-3",
+    "megruli": "ჯგირო მიძირჷდა/მიძირუდა!",
+    "georgian": "კარგად მენახე!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-4",
+    "megruli": "ჯგირო ზოჯჷნდათ/ზოჯუნდათ!",
+    "georgian": "კარგად ბრძანდებოდეთ!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-5",
+    "megruli": "მადლობერი! (ან მადლობელი ვარ – მადლობერი გაფუთ)",
+    "georgian": "გმადლობთ!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-6",
+    "megruli": "არა უშავს/არაფერი უჭირს",
+    "georgian": "მუთა უჭირს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-7",
+    "megruli": "მუჭო რექ?",
+    "georgian": "როგორ ხარ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-8",
+    "megruli": "ქუორექ, ღორონთიშ ჭყოლოფ(უ)ათ!",
+    "georgian": "ვარ, ღმერთის წყალობით!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-9",
+    "megruli": "ღორონთიშ ჭყოლოფ(უ)ა ვამორრკებუდას!",
+    "georgian": "ღმერთის წყალობა არ მოგკლებოდეს!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-10",
+    "megruli": "მუთა მიჭირს, სი მუჭო რექ?",
+    "georgian": "არა მიშავს, შენ როგორ ხარ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-11",
+    "megruli": "მუჭო რეთ?",
+    "georgian": "როგორ ხართ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-12",
+    "megruli": "ჸუდეს მუჭო რენა?",
+    "georgian": "სახლში როგორ არიან?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-13",
+    "megruli": "გეხარით!",
+    "georgian": "გაიხარეთ!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-14",
+    "megruli": "მაპატიეთ",
+    "georgian": "მაპატიით/ქუმაპატიით/ქჷმაპატიით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-15",
+    "megruli": "ქუგგალეთ/ქჷგგალეთ!",
+    "georgian": "შემოგევლეთ!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-16",
+    "megruli": "მუ რჯოხო?",
+    "georgian": "რა გქვია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-17",
+    "megruli": "მა ბჯოხო დავითი",
+    "georgian": "მე მქვია დავითი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-18",
+    "megruli": "მუ პროფესიაშ რეთ?",
+    "georgian": "რა პროფესიის ხართ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-19",
+    "megruli": "ბიზნესმენი ვორექ",
+    "georgian": "ბიზნესმენი ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-20",
+    "megruli": "მა სტუდენტი ვორექ",
+    "georgian": "მე სტუდენტი ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-21",
+    "megruli": "სო ცხოვრენქ?/სო ოხორანქ?",
+    "georgian": "სად ცხოვრობ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-22",
+    "megruli": "მა ფცხოვრენქ ზუგიდის/ზუგდიდის",
+    "georgian": "მე ვცხოვრობ ზუგდიდში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-23",
+    "megruli": "სო(ჸ)ურეშე რექ?",
+    "georgian": "სადაური ხარ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-24",
+    "megruli": "მა წალენჯიხარი ვორექ",
+    "georgian": "მე წალენჯიხელი ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-25",
+    "megruli": "მიწკჷმა/მიწკუმა ართო ცხოვრენქ?",
+    "georgian": "ვისთან ერთად ცხოვრობ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-26",
+    "megruli": "თენა მიშ ბაღანა რე?",
+    "georgian": "ეს ვისი ბავშვია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-27",
+    "megruli": "თენა ჩქიმი ჯიმასქუა რე.",
+    "georgian": "ეს ჩემი ძმისშვილია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-28",
+    "megruli": "ჩილ დო სქუაწკჷმა/სქუაწკუმა ართო.",
+    "georgian": "ცოლ-შვილთან ერთად",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-29",
+    "megruli": "სო მუშენქ?",
+    "georgian": "სად მუშაობ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-30",
+    "megruli": "მა მუფშენქ ბანკის",
+    "georgian": "მე ვმუშაობ ბანკში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-31",
+    "megruli": "თე მომენტის ვამუფშენქ",
+    "georgian": "ამ მომენტში არ ვმუშაობ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-32",
+    "megruli": "ამდღა მოსვანჯა მიღუ",
+    "georgian": "დღეს დასვენება მაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-33",
+    "megruli": "ბგორჷნქ/ბგორუნქ სამუშას",
+    "georgian": "ვეძებ სამუშაოს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-34",
+    "megruli": "ჩქიმი ბიზნესი მიღუ",
+    "georgian": "ჩემი ბიზნესი მაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-35",
+    "megruli": "სტაჟიორი ვორექ",
+    "georgian": "სტაჟიორი ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-36",
+    "megruli": "პრაქტიკას ვორექ",
+    "georgian": "პრაქტიკაზე ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-37",
+    "megruli": "სო გურაფულენქ?",
+    "georgian": "სად სწავლობ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-38",
+    "megruli": "მა ბგურაფულენქ ქართის, თსუ-ს",
+    "georgian": "მე ვსწავლობ თბილისში, თსუ-ში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-39",
+    "megruli": "ნამ კურსის რექ?",
+    "georgian": "რომელ კურსზე ხარ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-40",
+    "megruli": "მაჟირა კურსის ვორექ",
+    "georgian": "მეორე კურსზე ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-41",
+    "megruli": "ფუთიშა მიშა მეულჷ/მეურქ?",
+    "georgian": "ფოთში ვისთან მიდიხარ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-42",
+    "megruli": "ნათესეეფშა/მოჯგირეეფშა მე(ვ)ულჷ.",
+    "georgian": "ნათესავებთან მივდივარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-43",
+    "megruli": "აშო მუჟამს დორთუქ?",
+    "georgian": "აქეთ როდის დაბრუნდები?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-44",
+    "megruli": "ართ მარაშა/ჟირ დღაშა.",
+    "georgian": "ერთ კვირაში/ორ დღეში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-45",
+    "megruli": "ქიგეგიო?",
+    "georgian": "გაიგე?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-46",
+    "megruli": "ქიგებგი!",
+    "georgian": "გავიგე!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-47",
+    "megruli": "ვეგებგი/ვაგმაგინჷ/ვაგმაგინუ!",
+    "georgian": "ვერ გავიგე!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-48",
+    "megruli": "დოზოჯით/ქჷდოზოჯით/ქუდოზოჯით!",
+    "georgian": "დაბრძანდით!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-49",
+    "megruli": "გამნოზოჯით/მუნოზოჯით!",
+    "georgian": "შემობრძანდით!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-50",
+    "megruli": "გემნოზოჯით/მინოზოჯით!",
+    "georgian": "შებრძანდით!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-51",
+    "megruli": "მეზოჯით",
+    "georgian": "მიბრძანდით/წაბრძანდით!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-52",
+    "megruli": "ზოჯით!",
+    "georgian": "ბრძანეთ!",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-53",
+    "megruli": "ფეხბურთი გიჸორსო?",
+    "georgian": "ფეხბურთი გიყვარს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-54",
+    "megruli": "მის გინარექ?",
+    "georgian": "ვის გულშემატკივრობ (ვის მხარეზე ხარ)?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-55",
+    "megruli": "კლუბეფშე ლივერპულს, ქიანეფშე არგენტინას.",
+    "georgian": "კლუბებიდან ლივერპულს, ქვეყნებიდან არგენტინას.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-56",
+    "megruli": "ფეხბურთიშ ლაჸაფი ხოლო გიჸორსო?",
+    "georgian": "ფეხბურთის თამაშიც გიყვარს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-57",
+    "megruli": "ქო, დახე ირ ჟაშხა დღას ბლაჸაფენქ.",
+    "georgian": "კი, თითქმის ყოველ კვირა საღამოს ვთამაშობ.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-58",
+    "megruli": "გილეშიო დღას ფეხბურთშა?",
+    "georgian": "დადიოდი ოდესმე ფეხბურთზე?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-59",
+    "megruli": "ქო, ხუთ წანას გილეფში, მარა აბიტურიენტობაშ დროს დუანები დუდი.",
+    "georgian": "კი, ხუთი წელი დავდიოდი, მაგრამ აბიტურიენტობის დროს დავანებე თავი.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-60",
+    "megruli": "შხვა მუ სპორტი გიჸორს?",
+    "georgian": "სხვა რა სპორტი გიყვარს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-61",
+    "megruli": "რაგბი, ჩოგბურთი დო რკინება.",
+    "georgian": "რაგბი, ჩოგბურთი და ჭიდაობა.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-62",
+    "megruli": "რკინება მა ხოლო მიჸორს, გილეფში ჭიჭენობას.",
+    "georgian": "ჭიადობა მეც მიყვარს, დავდიოდი პატარაობისას.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-63",
+    "megruli": "ჯგირო რკინენდიო?",
+    "georgian": "კარგად ჭიდაობდი?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-64",
+    "megruli": "ქო, საქორთუოშ პრიზიორი ვორექ.",
+    "georgian": "კი, საქართველოს პრიზიორი ვარ.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-65",
+    "megruli": "მუ რე თენა?",
+    "georgian": "რა არის ეს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-66",
+    "megruli": "თენა რე გაზეთი.",
+    "georgian": "ეს არის გაზეთი.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-67",
+    "megruli": "თენა გაზეთი რენო?",
+    "georgian": "ეს გაზეთია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-68",
+    "megruli": "ვარ, თენა ვარე გაზეთი.",
+    "georgian": "არა, ეს არაა გაზეთი.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-69",
+    "megruli": "მუ რე თენეფი?",
+    "georgian": "რა არის ესენი?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-70",
+    "megruli": "თენეფი გაზეთეფი რე.",
+    "georgian": "ეს გაზეთებია.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-71",
+    "megruli": "მა ჯგირო ვორექ.",
+    "georgian": "მე კარგად ვარ.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-72",
+    "megruli": "სი ჯგირო რექ.",
+    "georgian": "შენ კარგად ხარ.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-73",
+    "megruli": "მუ/თინა ჯგირო რე.",
+    "georgian": "ის კარგად არის.",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-74",
+    "megruli": "შეილებუნანო ქომიწუათ, სო რე სურსათიშ მაღაზია?",
+    "georgian": "შეგიძლიათ მითხრათ, სად არის სურსათის მაღაზია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-75",
+    "megruli": "სო მეურთჷ?",
+    "georgian": "სად მიდიხართ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-76",
+    "megruli": "რენო თაქ ხოლოს ბიბლიოთეკა?",
+    "georgian": "არის აქ ახლოს ბიბლიოთეკა?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-77",
+    "megruli": "შეილებუნანო ქომიწუათ მუჭო მეფრთა ბანკშა?",
+    "georgian": "შეგიძლიათ მითხრათ როგორ მივიდე ბანკთან?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-78",
+    "megruli": "შემილებუნო თეიშა კუჩხით მეულა?",
+    "georgian": "შემიძლია იქამდე ფეხით მისვლა?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-79",
+    "megruli": "შორს რენო?",
+    "georgian": "შორს არის?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-80",
+    "megruli": "ხოლოს რენო?",
+    "georgian": "ახლოს არის?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-81",
+    "megruli": "მა ბგორჷნქ/ბგორუნქ მოჯგირეშ ჸუდეს",
+    "georgian": "მე ვეძებ ნათესავის სახლს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-82",
+    "megruli": "სასტუმროა დღეს გავრცელებული, სწორი ფორმა იქნება სასუმარო",
+    "georgian": "სასტუმრო",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-83",
+    "megruli": "ავტობუსიშ გაჩერება",
+    "georgian": "ავტობუსის გაჩერება",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-84",
+    "megruli": "ქუჩა (შოშე;ძვ. ფორმა)",
+    "georgian": "ქუჩა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-85",
+    "megruli": "მოედანი",
+    "georgian": "მოედანი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-86",
+    "megruli": "მუ რე თე ქუჩაშ/მოედანიშ სახელი?",
+    "georgian": "რა არის ამ ქუჩის/მოედნის სახელი?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-87",
+    "megruli": "სოლე რე გუმალი?",
+    "georgian": "საით არის გასასვლელი?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-88",
+    "megruli": "სო რე მუზეუმშა მინალი",
+    "georgian": "სად არის მუზეუმში შესასვლელი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-89",
+    "megruli": "სო რე უხოლაში რკინაშშარშ სადგური?",
+    "georgian": "სად არის უახლოესი რკინიგზის სადგური?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-90",
+    "megruli": "თი შარათ მეუთ/იდით",
+    "georgian": "იმ გზით წადით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-91",
+    "megruli": "თე შარათ მეუთ/იდით",
+    "georgian": "ამ გზით წადით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-92",
+    "megruli": "მიშურთეთ/მიკურთეთ მარძგვანშე/მარძგვან ჸურე",
+    "georgian": "შეუხვიეთ მარჯვნივ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-93",
+    "megruli": "მიშურთეთ/მიკურთეთ კვარჩხანშე/კვარჩხან ჸურე",
+    "georgian": "შეუხვიეთ მარცხნივ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-94",
+    "megruli": "მაჟირა ოთხშარააკართუს მუკურთეთ დო ხოლო ქიკითხით",
+    "georgian": "მეორე გზაჯვარედინზე მარცხნივ მოუხვიეთ და კიდევ იკითხეთ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-95",
+    "megruli": "თენა ქუჩაშ თე განშე რე",
+    "georgian": "ეს ქუჩის ამ მხარესაა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-96",
+    "megruli": "თენა ქუჩაშ მაჟირა განშე რე",
+    "georgian": "ეს ქუჩის მეორე მხარესაა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-97",
+    "megruli": "თენა მუზეუმიშ უკული რე",
+    "georgian": "ეს მუზეუმის შემდეგაა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-98",
+    "megruli": "თე ქუჩას ქაჸუნით მაღაზიაშახ, უკული მარძგვან ჸურე მიკურთეთ",
+    "georgian": "ამ ქუჩას გაუყევით მაღაზიამდე, შემდეგ მარჯვნივ შეუხვიეთ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-99",
+    "megruli": "ვითი წუთიშ შარა რე კუჩხით",
+    "georgian": "10 წუთის გზაა ფეხით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-100",
+    "megruli": "ანარკიაშა ნამ ავტობუსის ოკო ვაჸუნე?",
+    "georgian": "ანაკლიამდე რომელ ავტობუსს უნდა გავყვე?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-101",
+    "megruli": "ფუთიშა მუზმა კილომეტრიე?",
+    "georgian": "ფოთამდე რამდენი კილომეტრია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-102",
+    "megruli": "ფუთიშა 57 კილომეტრი მეძჷ.",
+    "georgian": "ფოთამდე 57 კილომეტრია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-103",
+    "megruli": "მუ გაწუხენა?",
+    "georgian": "რა გაწუხებთ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-104",
+    "megruli": "მადლობერი. ამდღა უჯგუშო ვორექ.",
+    "georgian": "გმადლობთ. დღეს უკეთ ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-105",
+    "megruli": "მოხვალაფუანს",
+    "georgian": "მახველებს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-106",
+    "megruli": "მაღალი ტემპერატურა მიღუ",
+    "georgian": "მაღალი ტემპერატურა მაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-107",
+    "megruli": "გობრგიდი",
+    "georgian": "გავცივდი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-108",
+    "megruli": "გლახათ ვორექ",
+    "georgian": "ცუდად ვარ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-109",
+    "megruli": "დუდის (დუს, ან დუც)/ კიბირს/ქვარას მაჭუ",
+    "georgian": "თავი/კბილი/მუცელი მტკივა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-110",
+    "megruli": "თქვან ექიმს ოკო მემართათ",
+    "georgian": "თქვენს ექიმს უნდა მიმართოთ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-111",
+    "megruli": "ფიფქრენქ, სერიოზული მუთუნ ვარე",
+    "georgian": "ვფიქრობ, სერიოზული არაფერია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-112",
+    "megruli": "გრიპი მიღუ",
+    "georgian": "გრიპი მაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-113",
+    "megruli": "ოჭიშის მაჭუ",
+    "georgian": "ზურგი მტკივა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-114",
+    "megruli": "ჭიჭე უჯგუშობას ვაგინაფულენთო?",
+    "georgian": "ცოტა უკეთესობას არ გრძნობთ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-115",
+    "megruli": "გლახათ ბლურს",
+    "georgian": "ცუდად მძინავს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-116",
+    "megruli": "შურიშ ღალა მიჭრს",
+    "georgian": "სუნთქვა მიჭირს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-117",
+    "megruli": "სინჩხე მიღუ",
+    "georgian": "სიცხე მაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-118",
+    "megruli": "მუთუნი გაწუხენანო? მუთუნს გაჭუნანო?",
+    "georgian": "რამე გაწუხებთ? რამე გტკივათ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-119",
+    "megruli": "წამალს გაგშაიჭარჷნთ/გაგშაიჭარუნთ",
+    "georgian": "წამალს გამოგიწერთ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-120",
+    "megruli": "წამალი გაგშაიჭარესო?",
+    "georgian": "წამალი გამოგიწერეს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-121",
+    "megruli": "წამალი გაგშამჭარეს/გაგშუჭარეს",
+    "georgian": "წამალი გამომიწერეს/გამოუწერეს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-122",
+    "megruli": "ნამუ/ნაჷ/ნამ საათი რე?",
+    "georgian": "რომელი საათია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-123",
+    "megruli": "ჩხორო საათი რე, ან ჩხორო საათიე",
+    "georgian": "ცხრა საათია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-124",
+    "megruli": "ოთხიშ გვერდი რე",
+    "georgian": "ოთხის ნახევარია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-125",
+    "megruli": "ხუთშა (ხუთამდე; პირდ. თარგმანი) ორკჷ ვითოხუთი წუთი",
+    "georgian": "ხუთს აკლია თხუთმეტი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-126",
+    "megruli": "გოღაწო",
+    "georgian": "გუშინწინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-127",
+    "megruli": "გოღა",
+    "georgian": "გუშინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-128",
+    "megruli": "ამდღა",
+    "georgian": "დღეს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-129",
+    "megruli": "ჭუმე, ჭუმანი",
+    "georgian": "ხვალ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-130",
+    "megruli": "გეღანი, ასევე იხმარება ჭუმეშ გეღანი",
+    "georgian": "ზეგ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-131",
+    "megruli": "ამსერი",
+    "georgian": "ამ საღამოს; ამ ღამით/დღევანდელი საღამო",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-132",
+    "megruli": "ჭუმან სერით",
+    "georgian": "ხვალ ღამით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-133",
+    "megruli": "ოჭმარეს",
+    "georgian": "დილით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-134",
+    "megruli": "ნაონდღერს",
+    "georgian": "ნაშუადღევს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-135",
+    "megruli": "ონჯუას",
+    "georgian": "საღამოს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-136",
+    "megruli": "გოღა ოჭმარეს",
+    "georgian": "გუშინ დილით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-137",
+    "megruli": "გოღა ნაონდღერს/ონჯუას",
+    "georgian": "გუშინ ნაშუადღევს/საღამოს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-138",
+    "megruli": "ამჭუანი",
+    "georgian": "ამ დილით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-139",
+    "megruli": "ჭუმე/ჭუმან ოჭმარეს",
+    "georgian": "ხვალ დილით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-140",
+    "megruli": "ულირ მარას/თუთას/წანას",
+    "georgian": "გასულ კვირას/თვეს/წელს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-141",
+    "megruli": "თე მარას/თუთას/წანას",
+    "georgian": "ამ კვირას/თვეს/წელს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-142",
+    "megruli": "იქილენი მარა",
+    "georgian": "იქითა კვირა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-143",
+    "megruli": "ასე -",
+    "georgian": "ახლა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-144",
+    "megruli": "თიწკჷმა",
+    "georgian": "მაშინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-145",
+    "megruli": "-შე",
+    "georgian": "- დან",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-146",
+    "megruli": "თე/ათე წუთის, ხელათ",
+    "georgian": "ამ წუთას, ახლავე, დაუყონებლივ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-147",
+    "megruli": "მალას/ჭიჭე ხანშა",
+    "georgian": "მალე/ცოტა ხანში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-148",
+    "megruli": "ადრე (ორდო; ძვ. ფორმა)",
+    "georgian": "ადრე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-149",
+    "megruli": "მოგვიანებით, მოგვიანეთ",
+    "georgian": "მოგვიანებით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-150",
+    "megruli": "ჭიჭე ხანიშ წოხოლე",
+    "georgian": "ცოტა ხნის წინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-151",
+    "megruli": "ხუთი წუთიშ წოხოლე",
+    "georgian": "ხუთი წუთის წინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-152",
+    "megruli": "ართ საათშა",
+    "georgian": "ერთ საათში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-153",
+    "megruli": "წოხოლენ/ულირ მარას/თუთას/წანას",
+    "georgian": "წინა კვირა/თვე/წელი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-154",
+    "megruli": "დღას ვარ",
+    "georgian": "არასდროს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-155",
+    "megruli": "იშვიათო",
+    "georgian": "იშვიათად",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-156",
+    "megruli": "კანკალეშა, მინშა",
+    "georgian": "ზოგჯერ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-157",
+    "megruli": "კანკალეშა, მინშა",
+    "georgian": "ხანდახან",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-158",
+    "megruli": "ხშირას, შხირას",
+    "georgian": "ხშირად",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-159",
+    "megruli": "ირო",
+    "georgian": "ყოველთვის",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-160",
+    "megruli": "ირ დღას",
+    "georgian": "ყოველღე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-161",
+    "megruli": "ირ მარას",
+    "georgian": "ყოველ კვირას",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-162",
+    "megruli": "ვითი წუთი რე, ავტობუსის უჯინექჷნ",
+    "georgian": "ათი წუთია ავტობუსს ველოდები",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-163",
+    "megruli": "მუზმა ხანი რე",
+    "georgian": "რამდენი ხანია?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-164",
+    "megruli": "-შახ",
+    "georgian": "- მდე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-165",
+    "megruli": "უკული",
+    "georgian": "შემდეგ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-166",
+    "megruli": "მუ რიცხვი რე/რიცხვიე ამდღა",
+    "georgian": "რა რიცხვია დღეს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-167",
+    "megruli": "ამდღა სუმი მესი რე",
+    "georgian": "დღეს სამი მაისია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-168",
+    "megruli": "მუ დღა რე ამდღა",
+    "georgian": "რა დღეა დღეს?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-169",
+    "megruli": "ამდღა თუთაშხა რე",
+    "georgian": "დღეს ორშაბათია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-170",
+    "megruli": "ჩქიმი საათი ვითი წუთით კჷნასქიდუ (ან კუნმქასქიდუ)/წოხოლე რე",
+    "georgian": "ჩემი საათი 10 წუთით ჩამორჩება/წინაა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-171",
+    "megruli": "ჩქიმ საათიქ გაჩერდჷ/გაჩენდჷ",
+    "georgian": "ჩემი საათია გაჩერდა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-172",
+    "megruli": "დასაბაღო ბრელი დრო მიღუნა",
+    "georgian": "საკმარისად ბევრი დრო გვაქვს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-173",
+    "megruli": "თინა ამდღა იგვიანუნას",
+    "georgian": "ის დღეს იგვიანებს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-174",
+    "megruli": "დუჩქარი (ან ქუდუჩქარი)/ჩქარას",
+    "georgian": "დაუქჩარე/ჩქარა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-175",
+    "megruli": "ჟირ მარაშა",
+    "georgian": "ორ კვირაში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-176",
+    "megruli": "2005 წანას",
+    "georgian": "2005 წელს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-177",
+    "megruli": "პირველ იანარს",
+    "georgian": "პირველ იანვარს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-178",
+    "megruli": "ნამუ/ნამჷ/ნამ წანას დებადით?",
+    "georgian": "რომელ წელს დაიბადეთ?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-179",
+    "megruli": "მა დებაბდი 1965 წანაშ 25 გერგობათუთას/ნოემბერს",
+    "georgian": "მე დავიბადე 1965 წლის 25 ნოემბერს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-180",
+    "megruli": "ნამუ/ნამჷ/ნამ საათის?",
+    "georgian": "რომელ საათზე?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-181",
+    "megruli": "დაჭყაფუს",
+    "georgian": "დასაწყისში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-182",
+    "megruli": "ბოლოს",
+    "georgian": "დასასრულს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-183",
+    "megruli": "დიო ხოლო",
+    "georgian": "ჯერ კიდევ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-184",
+    "megruli": "ამნინჯშა/ამნინჯშახ",
+    "georgian": "საღამომდე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-185",
+    "megruli": "მესიშე მოჸუნაფილი",
+    "georgian": "მაისიდან მოყოლებული",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-186",
+    "megruli": "ზუსტას ამშვი საათი რე",
+    "georgian": "ზუსტად ექვსი საათია",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-187",
+    "megruli": "ამშვიშა ორკჷ ვითოხუთი წუთი",
+    "georgian": "ექვსს აკლია თხუთმეტი წუთი (საღამოს)",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-188",
+    "megruli": "ჟირი საათით",
+    "georgian": "ორი საათით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-189",
+    "megruli": "ოჭმარეშ ჩხორო საათშე",
+    "georgian": "დილის 9 საათიდან",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-190",
+    "megruli": "ნამუ/ნამჷ/ნამ საათის იჭყაფუ?",
+    "georgian": "რომელ საათზე იწყება?",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-191",
+    "megruli": "ონდღეშ უკული",
+    "georgian": "შუადღის შემდეგ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-192",
+    "megruli": "ონდღეშახ",
+    "georgian": "შუადღემდე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-193",
+    "megruli": "ჭიჭე ხანიშ უკული",
+    "georgian": "ცოტა ხნის შემდეგ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-194",
+    "megruli": "ბოლო ხანეფს",
+    "georgian": "ბოლო ხანებში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-195",
+    "megruli": "ულირ წანეფს",
+    "georgian": "გასული წლების განმავლობაში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-196",
+    "megruli": "ასე, თეხანო",
+    "georgian": "ამჟამად",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-197",
+    "megruli": "თე დროს, ან თე დროშ დინახალე",
+    "georgian": "ამ დროის განმავლობაში",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-198",
+    "megruli": "თელ თე დროს",
+    "georgian": "მთელი ეს დრო",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-199",
+    "megruli": "თელ თე წანეფს",
+    "georgian": "მთელი ეს წლები",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-200",
+    "megruli": "გვალო დიდ ხანს",
+    "georgian": "ძალიან დიდ ხანს",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-201",
+    "megruli": "დიდი ხანიშ წოხოლე",
+    "georgian": "დიდი ხნის წინ",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-202",
+    "megruli": "თელ ცხოვრებას",
+    "georgian": "მთელი ცხოვრება",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-203",
+    "megruli": "თელ დღას",
+    "georgian": "მთელი დღე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-204",
+    "megruli": "თელ წანას",
+    "georgian": "მთელი წელი",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-205",
+    "megruli": "თელ ოჭმარეს",
+    "georgian": "მთელი დილა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-206",
+    "megruli": "თელ ონჯუას",
+    "georgian": "მთელი საღამო",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-207",
+    "megruli": "თელი სერი",
+    "georgian": "მთელი ღამე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-208",
+    "megruli": "ოჭმარეშე ონჯუაშახ",
+    "georgian": "დილიდან საღამომდე",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-209",
+    "megruli": "მუჭოთ ირონ",
+    "georgian": "როგორც ყოველთვის",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-210",
+    "megruli": "დახე ირო",
+    "georgian": "თითქმის ყოველთვის",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-211",
+    "megruli": "მუჟამს გოკონ",
+    "georgian": "როცა გინდა",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-212",
+    "megruli": "ართ წუთით",
+    "georgian": "ერთი წუთით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-213",
+    "megruli": "ართ წამით (წამი - მერქა; ძვ. ფორმა)",
+    "georgian": "ერთი წამით",
+    "topic": "everyday"
+  },
+  {
+    "id": "phrase-214",
+    "megruli": "დროშ დინაფა",
+    "georgian": "დროის კარგვა",
+    "topic": "everyday"
+  }
+]

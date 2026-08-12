@@ -1,0 +1,7748 @@
+[
+  {
+    "id": "numbers-ordinal-1",
+    "megruli": "პირველი",
+    "georgian": "პირველი",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-2",
+    "megruli": "მაჟირა",
+    "georgian": "მეორე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-3",
+    "megruli": "მასუმა",
+    "georgian": "მესამე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-4",
+    "megruli": "მაოთხა/მანთხა",
+    "georgian": "მეოთხე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-5",
+    "megruli": "მახუთა",
+    "georgian": "მეხუთე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-6",
+    "megruli": "მაამშვა",
+    "georgian": "მეექვსე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-7",
+    "megruli": "მაშქვითა",
+    "georgian": "მეშვიდე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-8",
+    "megruli": "მაბრუო",
+    "georgian": "მერვე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-9",
+    "megruli": "მაჩხორა",
+    "georgian": "მეცხრე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-10",
+    "megruli": "მავითა",
+    "georgian": "მეათე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-11",
+    "megruli": "მავითაართა",
+    "georgian": "მეთერთმეტე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-12",
+    "megruli": "მავითოჟირა",
+    "georgian": "მეთორმეტე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-13",
+    "megruli": "მაეჩა",
+    "georgian": "მეოცე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-14",
+    "megruli": "ეჩდომაართა",
+    "georgian": "ოცდამეერთე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-15",
+    "megruli": "ეჩდომავითა",
+    "georgian": "ოცდამეათე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-16",
+    "megruli": "მაოშა",
+    "georgian": "მეასე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-17",
+    "megruli": "ოშმაართა",
+    "georgian": "ასმეერთე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-18",
+    "megruli": "ოშმაჟირა",
+    "georgian": "ასმეორე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-19",
+    "megruli": "ოშმავითა",
+    "georgian": "ასმეათე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-20",
+    "megruli": "მაჟიროშა",
+    "georgian": "მეორასე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-21",
+    "megruli": "მახუთოშა",
+    "georgian": "მეხუთასე",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-ordinal-22",
+    "megruli": "მაანთასა",
+    "georgian": "მეათასე (საკუთრივ მეგრული ფორმა მავითოშა)",
+    "category": "numbers-ordinal"
+  },
+  {
+    "id": "numbers-cardinal-1",
+    "megruli": "1",
+    "georgian": "ართი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-2",
+    "megruli": "2",
+    "georgian": "ჟჷრი/ჟირი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-3",
+    "megruli": "3",
+    "georgian": "სუმი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-4",
+    "megruli": "4",
+    "georgian": "ოთხი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-5",
+    "megruli": "5",
+    "georgian": "ხუთი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-6",
+    "megruli": "6",
+    "georgian": "ამშვი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-7",
+    "megruli": "7",
+    "georgian": "შქვითი/შკვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-8",
+    "megruli": "8",
+    "georgian": "ბრუო/რუო",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-9",
+    "megruli": "9",
+    "georgian": "ჩხორო",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-10",
+    "megruli": "10",
+    "georgian": "ვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-11",
+    "megruli": "11",
+    "georgian": "ვითაართი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-12",
+    "megruli": "12",
+    "georgian": "ვითოჟირი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-13",
+    "megruli": "13",
+    "georgian": "ვითოსუმი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-14",
+    "megruli": "14",
+    "georgian": "ვითაანთხი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-15",
+    "megruli": "15",
+    "georgian": "ვითოხუთი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-16",
+    "megruli": "16",
+    "georgian": "ვითაამშვი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-17",
+    "megruli": "17",
+    "georgian": "ვითოშქვითი/ვითოშკვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-18",
+    "megruli": "18",
+    "georgian": "ვითობრუო/ვითორუო",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-19",
+    "megruli": "19",
+    "georgian": "ვითოჩხორო",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-20",
+    "megruli": "20",
+    "georgian": "ეჩი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-21",
+    "megruli": "21",
+    "georgian": "ეჩდოართი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-22",
+    "megruli": "30",
+    "georgian": "ეჩდოვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-23",
+    "megruli": "40",
+    "georgian": "ჟარნეჩი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-24",
+    "megruli": "50",
+    "georgian": "ჟარნეჩდოვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-25",
+    "megruli": "60",
+    "georgian": "სუმონეჩი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-26",
+    "megruli": "70",
+    "georgian": "სუმონეჩდოვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-27",
+    "megruli": "80",
+    "georgian": "ოთხონეჩი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-28",
+    "megruli": "90",
+    "georgian": "ოთხონეჩდოვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-29",
+    "megruli": "100",
+    "georgian": "ოში",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-30",
+    "megruli": "101",
+    "georgian": "ოშართი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-31",
+    "megruli": "110",
+    "georgian": "ოშვითი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-32",
+    "megruli": "200",
+    "georgian": "ჟიროში",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-33",
+    "megruli": "1000",
+    "georgian": "ანთასი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-34",
+    "megruli": "1999",
+    "georgian": "ანთას ჩხოროშ ოთხონეჩდოვითოჩხორო",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-35",
+    "megruli": "2000",
+    "georgian": "ჟირი ანთასი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "numbers-cardinal-36",
+    "megruli": "10 000",
+    "georgian": "ვითი ანთასი",
+    "category": "numbers-cardinal"
+  },
+  {
+    "id": "family-1",
+    "megruli": "დიდა",
+    "georgian": "დედა",
+    "category": "family"
+  },
+  {
+    "id": "family-2",
+    "megruli": "მუმა",
+    "georgian": "მამა",
+    "category": "family"
+  },
+  {
+    "id": "family-3",
+    "megruli": "სქუა",
+    "georgian": "შვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-4",
+    "megruli": "ბოში",
+    "georgian": "ბიჭი, ვაჟი",
+    "category": "family"
+  },
+  {
+    "id": "family-5",
+    "megruli": "ქომოლსქუა",
+    "georgian": "ვაჟი, ვაჟიშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-6",
+    "megruli": "ძღაბი",
+    "georgian": "გოგო, ქალიშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-7",
+    "megruli": "ოსურსქუა",
+    "georgian": "ქალიშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-8",
+    "megruli": "ჯიმა",
+    "georgian": "ძმა",
+    "category": "family"
+  },
+  {
+    "id": "family-9",
+    "megruli": "და",
+    "georgian": "და",
+    "category": "family"
+  },
+  {
+    "id": "family-10",
+    "megruli": "მშობელი",
+    "georgian": "მშობელი (ქართულიდან; ძველი ფორმაა მასქერი)",
+    "category": "family"
+  },
+  {
+    "id": "family-11",
+    "megruli": "ბაბუ",
+    "georgian": "ბაბუა, პაპა",
+    "category": "family"
+  },
+  {
+    "id": "family-12",
+    "megruli": "პაპუ",
+    "georgian": "დიდი ბაბუა",
+    "category": "family"
+  },
+  {
+    "id": "family-13",
+    "megruli": "ბები (დადი; ძვ. ფორმა)",
+    "georgian": "ბებია",
+    "category": "family"
+  },
+  {
+    "id": "family-14",
+    "megruli": "მოთა",
+    "georgian": "შვილიშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-15",
+    "megruli": "ჩილი",
+    "georgian": "ცოლი",
+    "category": "family"
+  },
+  {
+    "id": "family-16",
+    "megruli": "ოსური",
+    "georgian": "ქალი, იხმარება ცოლის მნიშვნელობითაც",
+    "category": "family"
+  },
+  {
+    "id": "family-17",
+    "megruli": "ქომონჯი",
+    "georgian": "ქმარი",
+    "category": "family"
+  },
+  {
+    "id": "family-18",
+    "megruli": "მეუღლე",
+    "georgian": "მეუღლე (ქართულიდან)",
+    "category": "family"
+  },
+  {
+    "id": "family-19",
+    "megruli": "რძალი",
+    "georgian": "ნოსა",
+    "category": "family"
+  },
+  {
+    "id": "family-20",
+    "megruli": "სინჯა",
+    "georgian": "სიძე",
+    "category": "family"
+  },
+  {
+    "id": "family-21",
+    "megruli": "ქვიშილი (აღმ. დიალექტი), სინჯა ჸა (დას. დიალექტი)",
+    "georgian": "ქვისლი",
+    "category": "family"
+  },
+  {
+    "id": "family-22",
+    "megruli": "ოხორასქილი",
+    "georgian": "მაზლი",
+    "category": "family"
+  },
+  {
+    "id": "family-23",
+    "megruli": "დიანთირი, ან დიანთილი",
+    "georgian": "სიდედრი, დედამთილი",
+    "category": "family"
+  },
+  {
+    "id": "family-24",
+    "megruli": "მუანთირი, ან მუანთილი",
+    "georgian": "სიმამრი, მამამთილი",
+    "category": "family"
+  },
+  {
+    "id": "family-25",
+    "megruli": "ზახალი",
+    "georgian": "მძახალი",
+    "category": "family"
+  },
+  {
+    "id": "family-26",
+    "megruli": "ბიცო (ნოსადი; ძვ. ფორმა)",
+    "georgian": "ბიცოლა",
+    "category": "family"
+  },
+  {
+    "id": "family-27",
+    "megruli": "ბიძია (ჯიმადი, ჯიჯი; ძვ. ფორმები)",
+    "georgian": "ბიძა",
+    "category": "family"
+  },
+  {
+    "id": "family-28",
+    "megruli": "დეი",
+    "georgian": "დეიდა",
+    "category": "family"
+  },
+  {
+    "id": "family-29",
+    "megruli": "მამი",
+    "georgian": "მამიდა",
+    "category": "family"
+  },
+  {
+    "id": "family-30",
+    "megruli": "ბიძისქუა",
+    "georgian": "ბიძაშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-31",
+    "megruli": "დეიდასქუა",
+    "georgian": "დეიდაშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-32",
+    "megruli": "მამიდასქუა",
+    "georgian": "მამიდაშვილი",
+    "category": "family"
+  },
+  {
+    "id": "family-33",
+    "megruli": "ნაჟირა",
+    "georgian": "ტყუპეფი (თუმცა, დღეს იშვიათად იხმარება ეს სიტყვა, გავრცელებულია ტუპეფი)",
+    "category": "family"
+  },
+  {
+    "id": "family-34",
+    "megruli": "მოჯგირე, ნათესე",
+    "georgian": "ნათესავი",
+    "category": "family"
+  },
+  {
+    "id": "family-35",
+    "megruli": "სქუაჸონერი",
+    "georgian": "შვილობილი",
+    "category": "family"
+  },
+  {
+    "id": "family-36",
+    "megruli": "მუმაჸონერი",
+    "georgian": "მამინაცვალი",
+    "category": "family"
+  },
+  {
+    "id": "family-37",
+    "megruli": "დიდაჸონერი",
+    "georgian": "დედინაცვალი",
+    "category": "family"
+  },
+  {
+    "id": "family-38",
+    "megruli": "ომბოლი",
+    "georgian": "ობოლი",
+    "category": "family"
+  },
+  {
+    "id": "fruit-1",
+    "megruli": "უშქური",
+    "georgian": "ვაშლი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-2",
+    "megruli": "სხული",
+    "georgian": "მსხალი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-3",
+    "megruli": "ბული",
+    "georgian": "ბალი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-4",
+    "megruli": "ქვიშნა ბული",
+    "georgian": "ალუბალი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-5",
+    "megruli": "ატამა",
+    "georgian": "ატამი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-6",
+    "megruli": "ალიჩა",
+    "georgian": "ალუჩა",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-7",
+    "megruli": "ციმუა",
+    "georgian": "მარწყვი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-8",
+    "megruli": "ჸომური/ჸუმური",
+    "georgian": "ტყემალი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-9",
+    "megruli": "ბია",
+    "georgian": "კომში",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-10",
+    "megruli": "ხვიმა/ ხომა",
+    "georgian": "ხურმა",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-11",
+    "megruli": "ნეძი",
+    "georgian": "ნიგოზი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-12",
+    "megruli": "თხირი",
+    "georgian": "თხილი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-13",
+    "megruli": "ლუღი",
+    "georgian": "ლეღვი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-14",
+    "megruli": "ჯამკაკალი",
+    "georgian": "თუთა",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-15",
+    "megruli": "ხაბურზაკი/ხაბურძაკი",
+    "georgian": "საზამთრო",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-16",
+    "megruli": "შინკა",
+    "georgian": "ნესვი",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-17",
+    "megruli": "ბერწული",
+    "georgian": "ბროწეული",
+    "category": "fruit"
+  },
+  {
+    "id": "fruit-18",
+    "megruli": "ჭუბური",
+    "georgian": "წაბლი",
+    "category": "fruit"
+  },
+  {
+    "id": "animals-1",
+    "megruli": "ჩხოუ",
+    "georgian": "ძროხა",
+    "category": "animals"
+  },
+  {
+    "id": "animals-2",
+    "megruli": "გინი",
+    "georgian": "ხბო",
+    "category": "animals"
+  },
+  {
+    "id": "animals-3",
+    "megruli": "კამბეში",
+    "georgian": "კამეჩი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-4",
+    "megruli": "ცხენი",
+    "georgian": "ცხენი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-5",
+    "megruli": "კვიცი",
+    "georgian": "კვიცი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-6",
+    "megruli": "ჯოღორი",
+    "georgian": "ძაღლი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-7",
+    "megruli": "კატუ",
+    "georgian": "კატა",
+    "category": "animals"
+  },
+  {
+    "id": "animals-8",
+    "megruli": "ცინდალი",
+    "georgian": "კნუტი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-9",
+    "megruli": "ლაკვი",
+    "georgian": "ლეკვი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-10",
+    "megruli": "ღეჯი",
+    "georgian": "ღორი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-11",
+    "megruli": "თუ",
+    "georgian": "გოჭი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-12",
+    "megruli": "გჷრჷნი, გირინი",
+    "georgian": "ვირი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-13",
+    "megruli": "თხა",
+    "georgian": "თხა",
+    "category": "animals"
+  },
+  {
+    "id": "animals-14",
+    "megruli": "ქაცარი",
+    "georgian": "ციკანი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-15",
+    "megruli": "შხური",
+    "georgian": "ცხვარი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-16",
+    "megruli": "ქოთომი",
+    "georgian": "ქათამი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-17",
+    "megruli": "წიწილა",
+    "georgian": "წიწილა",
+    "category": "animals"
+  },
+  {
+    "id": "animals-18",
+    "megruli": "კვატია, კვატა",
+    "georgian": "იხვი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-19",
+    "megruli": "ინდური, კოკუში",
+    "georgian": "ინდაური",
+    "category": "animals"
+  },
+  {
+    "id": "animals-20",
+    "megruli": "ღორღონჯი",
+    "georgian": "ბატი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-21",
+    "megruli": "მაფშალია",
+    "georgian": "ბულბული",
+    "category": "animals"
+  },
+  {
+    "id": "animals-22",
+    "megruli": "ზესქვი",
+    "georgian": "შაშვი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-23",
+    "megruli": "კვათარი",
+    "georgian": "ტყის ქათამი, როჭო",
+    "category": "animals"
+  },
+  {
+    "id": "animals-24",
+    "megruli": "ჯღჷრჯღჷ",
+    "georgian": "ჩხართვი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-25",
+    "megruli": "ზღარბქურსამი",
+    "georgian": "ზღარბი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-26",
+    "megruli": "მელა",
+    "georgian": "მელია",
+    "category": "animals"
+  },
+  {
+    "id": "animals-27",
+    "megruli": "ტურა",
+    "georgian": "ტურა",
+    "category": "animals"
+  },
+  {
+    "id": "animals-28",
+    "megruli": "ფორცხოლი",
+    "georgian": "ფოცხვერი (დღეს აღარ იხმარება)",
+    "category": "animals"
+  },
+  {
+    "id": "animals-29",
+    "megruli": "ნჯილო",
+    "georgian": "ლომი (დღეს იშვიათად იხმარება)",
+    "category": "animals"
+  },
+  {
+    "id": "animals-30",
+    "megruli": "ჸილო, ყილო",
+    "georgian": "ვეფხვი (დღეს იშვიათად იხმარება)",
+    "category": "animals"
+  },
+  {
+    "id": "animals-31",
+    "megruli": "გვერი",
+    "georgian": "გველი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-32",
+    "megruli": "სპილო",
+    "georgian": "მუნჭყვი (დღეს არ იხმარება)",
+    "category": "animals"
+  },
+  {
+    "id": "animals-33",
+    "megruli": "თუნთი",
+    "georgian": "დათვი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-34",
+    "megruli": "გერი",
+    "georgian": "მგელი",
+    "category": "animals"
+  },
+  {
+    "id": "animals-35",
+    "megruli": "ტორონჯი",
+    "georgian": "მტრედი",
+    "category": "animals"
+  },
+  {
+    "id": "colors-1",
+    "megruli": "ჩე",
+    "georgian": "თეთრი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-2",
+    "megruli": "უჩა",
+    "georgian": "შავი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-3",
+    "megruli": "წვანე",
+    "georgian": "მწვანე",
+    "category": "colors"
+  },
+  {
+    "id": "colors-4",
+    "megruli": "ჭითა",
+    "georgian": "წითელი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-5",
+    "megruli": "ყვინთელი/ჸვინთელი",
+    "georgian": "ყვითელი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-6",
+    "megruli": "ცაშფერი",
+    "georgian": "ცისფერი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-7",
+    "megruli": "ლენიშფერი",
+    "georgian": "ლურჯი (დღეს ლურჯი იხმარება)",
+    "category": "colors"
+  },
+  {
+    "id": "colors-8",
+    "megruli": "ჭუბურიშფერი",
+    "georgian": "წაბლისფერი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-9",
+    "megruli": "ფორთოხალიშფერი",
+    "georgian": "ფორთოხლისფერი",
+    "category": "colors"
+  },
+  {
+    "id": "colors-10",
+    "megruli": "ტუტაშფერი",
+    "georgian": "ნაცრისფერი",
+    "category": "colors"
+  },
+  {
+    "id": "weekdays-1",
+    "megruli": "თუთაშხა",
+    "georgian": "ორშაბათი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-2",
+    "megruli": "თახაშხა",
+    "georgian": "სამშაბათი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-3",
+    "megruli": "ჯუმაშხა",
+    "georgian": "ოთხშაბათი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-4",
+    "megruli": "ცაშხა",
+    "georgian": "ხუთშაბათი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-5",
+    "megruli": "ობიშხა",
+    "georgian": "პარასკევი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-6",
+    "megruli": "საბატონი/საბატჷნი (შურიშხა; ძვ. ფორმა)",
+    "georgian": "შაბათი",
+    "category": "weekdays"
+  },
+  {
+    "id": "weekdays-7",
+    "megruli": "ჟაშხა",
+    "georgian": "კვირა",
+    "category": "weekdays"
+  },
+  {
+    "id": "seasons-1",
+    "megruli": "გაზარხული, გაზაფხული, გიშულირი (აფუნი; ძვ. ფორმა)",
+    "georgian": "გაზაფხული",
+    "category": "seasons"
+  },
+  {
+    "id": "seasons-2",
+    "megruli": "ზარხული, ზაფხული",
+    "georgian": "ზაფხული",
+    "category": "seasons"
+  },
+  {
+    "id": "seasons-3",
+    "megruli": "დამორჩილი",
+    "georgian": "შემოდგომა",
+    "category": "seasons"
+  },
+  {
+    "id": "seasons-4",
+    "megruli": "ზოთონჯი (ბზოთონჯი)",
+    "georgian": "ზამთარი",
+    "category": "seasons"
+  },
+  {
+    "id": "months-1",
+    "megruli": "იანარი (ღურთუთა)",
+    "georgian": "იანვარი",
+    "category": "months"
+  },
+  {
+    "id": "months-2",
+    "megruli": "ფრევალი (ფურთუთა)",
+    "georgian": "თებერვალი",
+    "category": "months"
+  },
+  {
+    "id": "months-3",
+    "megruli": "მარტი (მელახი)",
+    "georgian": "მელახი",
+    "category": "months"
+  },
+  {
+    "id": "months-4",
+    "megruli": "აპრილი (პირელი)",
+    "georgian": "აპრილი",
+    "category": "months"
+  },
+  {
+    "id": "months-5",
+    "megruli": "მესი",
+    "georgian": "მაისი",
+    "category": "months"
+  },
+  {
+    "id": "months-6",
+    "megruli": "ივანობა (მანგი)",
+    "georgian": "კვირკვე",
+    "category": "months"
+  },
+  {
+    "id": "months-7",
+    "megruli": "არგუსო (მარაშინათუთა)",
+    "georgian": "აგვისტო",
+    "category": "months"
+  },
+  {
+    "id": "months-8",
+    "megruli": "ეკენია",
+    "georgian": "სექტემბერი",
+    "category": "months"
+  },
+  {
+    "id": "months-9",
+    "megruli": "გჷმათუთა",
+    "georgian": "ოქტომბერი",
+    "category": "months"
+  },
+  {
+    "id": "months-10",
+    "megruli": "გერგობათუთა",
+    "georgian": "ნოემბერი",
+    "category": "months"
+  },
+  {
+    "id": "months-11",
+    "megruli": "ქირსეთუთა",
+    "georgian": "დეკემბერი",
+    "category": "months"
+  },
+  {
+    "id": "lexicon-1",
+    "megruli": "აბარწა",
+    "georgian": "აივანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-2",
+    "megruli": "აბორჯება",
+    "georgian": "დაბნევა, არევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-3",
+    "megruli": "ათენა",
+    "georgian": "ეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-4",
+    "megruli": "აკოსერუა",
+    "georgian": "დაღამება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-5",
+    "megruli": "აკისერუ",
+    "georgian": "დაღამდება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-6",
+    "megruli": "აკისერჷ",
+    "georgian": "დაღამდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-7",
+    "megruli": "აკოშაყარუა",
+    "georgian": "შეგროვება, თავმოყრა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-8",
+    "megruli": "ალიჩა",
+    "georgian": "ალუჩა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-9",
+    "megruli": "ამარი",
+    "georgian": "აგერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-10",
+    "megruli": "ამარ-ემერი",
+    "georgian": "აქა-იქ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-11",
+    "megruli": "ამდღა",
+    "georgian": "დღეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-12",
+    "megruli": "ამდღარი, ამდღანერი",
+    "georgian": "დღევანდელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-13",
+    "megruli": "ამშოში",
+    "georgian": "ექვსასი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-14",
+    "megruli": "ანწი",
+    "georgian": "აწი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-15",
+    "megruli": "ართი",
+    "georgian": "ერთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-16",
+    "megruli": "ართო",
+    "georgian": "ერთად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-17",
+    "megruli": "ასე",
+    "georgian": "ახლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-18",
+    "megruli": "ასერდე",
+    "georgian": "ახლახან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-19",
+    "megruli": "ატამა",
+    "georgian": "ატამი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-20",
+    "megruli": "აუცილებერო",
+    "georgian": "აუცილებლად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-21",
+    "megruli": "აქილე",
+    "georgian": "აქეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-22",
+    "megruli": "აშალაფა",
+    "georgian": "შუაში ჩავარდნა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-23",
+    "megruli": "აშო",
+    "georgian": "აქეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-24",
+    "megruli": "ახალი",
+    "georgian": "ახალი, ახალგაზრდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-25",
+    "megruli": "ახალი წანა",
+    "georgian": "ახალი წელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-26",
+    "megruli": "ბაბუ",
+    "georgian": "ბაბუა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-27",
+    "megruli": "ბაღანა",
+    "georgian": "ბავშვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-28",
+    "megruli": "ბები",
+    "georgian": "ბებია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-29",
+    "megruli": "ბია",
+    "georgian": "კომში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-30",
+    "megruli": "ბირა",
+    "georgian": "(სი)მღერა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-31",
+    "megruli": "ბკითხულენდი",
+    "georgian": "ვკითხულობდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-32",
+    "megruli": "ბკითხულენქ",
+    "georgian": "ვკითხულობ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-33",
+    "megruli": "ბლაჸაფენდით",
+    "georgian": "ვთამაშობდით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-34",
+    "megruli": "ბონუა",
+    "georgian": "დაბანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-35",
+    "megruli": "ბორია",
+    "georgian": "ქარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-36",
+    "megruli": "ბორო",
+    "georgian": "სულელი, შტერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-37",
+    "megruli": "ბორჯი",
+    "georgian": "დრო (დღეს იშვიათად იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-38",
+    "megruli": "ბოში",
+    "georgian": "ბიჭი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-39",
+    "megruli": "ბული",
+    "georgian": "ბალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-40",
+    "megruli": "ბჟა",
+    "georgian": "1. მზე; 2. რძე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-41",
+    "megruli": "ბჟადაალი/ბჟადაალჷ/ბჟადაალუ",
+    "georgian": "დასავლეთი (მეტყველებაში არ იხმარება დღეს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-42",
+    "megruli": "ბჟაეიოლი/ბჟაეიოლჷ/ბჟაიოლუ",
+    "georgian": "აღმოსავლეთი (მეტყველებაში არ იხმარება დღეს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-43",
+    "megruli": "ბრელი",
+    "georgian": "ბევრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-44",
+    "megruli": "ბრუო",
+    "georgian": "რვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-45",
+    "megruli": "ბრუოში",
+    "georgian": "რვაასი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-46",
+    "megruli": "ბშუ/ბშჷ (ან ფშჷ/ფშუ)",
+    "georgian": "მახსოვს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-47",
+    "megruli": "ბშქირენს (ან ფშქირენს)",
+    "georgian": "მშია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-48",
+    "megruli": "ბრაგადანქ",
+    "georgian": "ვლაპარაკობ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-49",
+    "megruli": "ბძირი",
+    "georgian": "ვნახე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-50",
+    "megruli": "ბძირუნქ",
+    "georgian": "ვნახავ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-51",
+    "megruli": "ბძირუნთ",
+    "georgian": "ვნახავთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-52",
+    "megruli": "ბძირათ",
+    "georgian": "ვნახოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-53",
+    "megruli": "ბცხოვრენქ (ან ფცხოვრენქ)",
+    "georgian": "ვცხოვრობ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-54",
+    "megruli": "ბცხოვრენთ (ან ფცხოვრენთ)",
+    "georgian": "ვცხოვრობთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-55",
+    "megruli": "ბჭარუნქ",
+    "georgian": "ვწერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-56",
+    "megruli": "ბჭარუნთ",
+    "georgian": "ვწერთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-57",
+    "megruli": "ბჭოფუნქ",
+    "georgian": "ვიჭერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-58",
+    "megruli": "ბჭოფუნთ",
+    "georgian": "ვიჭერთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-59",
+    "megruli": "გათხილი",
+    "georgian": "გათხოვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-60",
+    "megruli": "გათხუალა",
+    "georgian": "გათხოვება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-61",
+    "megruli": "გალე",
+    "georgian": "გარეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-62",
+    "megruli": "გამორსება",
+    "georgian": "გასინჯვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-63",
+    "megruli": "გამორსი",
+    "georgian": "გასინჯე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-64",
+    "megruli": "გუამორსენქ",
+    "georgian": "გავსინჯავ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-65",
+    "megruli": "გამორსით",
+    "georgian": "გასინჯეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-66",
+    "megruli": "გამორსენა",
+    "georgian": "გასინჯავენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-67",
+    "megruli": "გაჭირება",
+    "georgian": "გაჭირვება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-68",
+    "megruli": "გებუნაფა",
+    "georgian": "დაბნევა (საათის)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-69",
+    "megruli": "გიმულა",
+    "georgian": "ჩამოსვლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-70",
+    "megruli": "გაგმოფრთი",
+    "georgian": "გამოვედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-71",
+    "megruli": "გაგმორთი",
+    "georgian": "გამოხვედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-72",
+    "megruli": "გიმილი",
+    "georgian": "გამოდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-73",
+    "megruli": "გიმიბლი",
+    "georgian": "გამოვედი (შენობიდან, ეზოდან)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-74",
+    "megruli": "გიშებლი",
+    "georgian": "გამოვედი (დასახლებიდან, ორგანიზაციიდან)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-75",
+    "megruli": "გითიბლი",
+    "georgian": "გამოვედი (გამოქვაბულიდან, ან რაიმეს ქვეშიდან)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-76",
+    "megruli": "გედირთი",
+    "georgian": "ადექი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-77",
+    "megruli": "გეთუ",
+    "georgian": "დამთავრდა, დასრულდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-78",
+    "megruli": "გამნოფრთი",
+    "georgian": "შემოვედი (შენობაში, ეზოში)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-79",
+    "megruli": "გამშაფრთი",
+    "georgian": "შემოვედი (დასახლებაში, ორგანიზაციაში)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-80",
+    "megruli": "გემთოფრთი",
+    "georgian": "შევედი (გამოქვაბულში, ან რაიმეს ქვეშ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-81",
+    "megruli": "გემო",
+    "georgian": "გემო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-82",
+    "megruli": "გემუანი",
+    "georgian": "გემრიელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-83",
+    "megruli": "გერთუმალა",
+    "georgian": "დახურვა (თავზე)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-84",
+    "megruli": "გერინა",
+    "georgian": "დგომა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-85",
+    "megruli": "გეღანი",
+    "georgian": "ზეგ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-86",
+    "megruli": "გეღანშო",
+    "georgian": "ზეგისთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-87",
+    "megruli": "გეშვი(თ)",
+    "georgian": "დალიე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-88",
+    "megruli": "გეფშვათ",
+    "georgian": "დავლიოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-89",
+    "megruli": "გეფშუნქ",
+    "georgian": "დავლევ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-90",
+    "megruli": "გეშუნა",
+    "georgian": "დალევენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-91",
+    "megruli": "გეშურქ",
+    "georgian": "ავალ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-92",
+    "megruli": "გეძჷ/გეძუ",
+    "georgian": "დევს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-93",
+    "megruli": "გეხარი(თ)",
+    "georgian": "გაიხარე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-94",
+    "megruli": "გეხუნა",
+    "georgian": "(და)ჯდომა, რაღაცაზე, ზედ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-95",
+    "megruli": "გებდოხოდუქ",
+    "georgian": "დავჯდები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-96",
+    "megruli": "გებდოხოდუთ",
+    "georgian": "დავჯდებით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-97",
+    "megruli": "გედოხოდი(თ)",
+    "georgian": "დაჯექი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-98",
+    "megruli": "გვალო",
+    "georgian": "ძალიან, მთლიანად, სულ.",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-99",
+    "megruli": "გვერდი",
+    "georgian": "ნახევარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-100",
+    "megruli": "გვერდო",
+    "georgian": "ნახევრად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-101",
+    "megruli": "გვიანს",
+    "georgian": "გვიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-102",
+    "megruli": "გივაჸუნი(თ)",
+    "georgian": "მივყევი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-103",
+    "megruli": "გიაჸუნი(თ)",
+    "georgian": "მიყევი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-104",
+    "megruli": "გილულუ/გილურქ",
+    "georgian": "დავდივარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-105",
+    "megruli": "გილურქ (სი)",
+    "georgian": "დადიხარ (შენ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-106",
+    "megruli": "გიმე",
+    "georgian": "ქვევით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-107",
+    "megruli": "გიმებლენქ",
+    "georgian": "ჩამოვა;",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-108",
+    "megruli": "გიმელენქ",
+    "georgian": "ჩამოხვალ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-109",
+    "megruli": "გიმელენთ",
+    "georgian": "ჩამოხვალთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-110",
+    "megruli": "გიმელი",
+    "georgian": "ჩადი, ჩამოდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-111",
+    "megruli": "გიმალაფა",
+    "georgian": "ჩამოვარდნა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-112",
+    "megruli": "გორუა",
+    "georgian": "ძებნა, ძიება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-113",
+    "megruli": "გოფალუა",
+    "georgian": "გაფურჩქვნა, გაფოთვლა, გახარება ნერგისა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-114",
+    "megruli": "გიშაგორუა",
+    "georgian": "ამორჩევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-115",
+    "megruli": "გორდი",
+    "georgian": "ბაყაყი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-116",
+    "megruli": "გოფურაფა",
+    "georgian": "გახურება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-117",
+    "megruli": "გვერი",
+    "georgian": "გველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-118",
+    "megruli": "გერი",
+    "georgian": "მგელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-119",
+    "megruli": "გჷ",
+    "georgian": "გავს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-120",
+    "megruli": "დაბადება",
+    "georgian": "დაბადება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-121",
+    "megruli": "დაბადებაშ დღა",
+    "georgian": "დაბადების დღე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-122",
+    "megruli": "დაბალი",
+    "georgian": "დაბალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-123",
+    "megruli": "დამორჩილი",
+    "georgian": "შემოდგომა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-124",
+    "megruli": "დაპეჯება",
+    "georgian": "დაპატიჟება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-125",
+    "megruli": "დასურო",
+    "georgian": "მართლაც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-126",
+    "megruli": "დასქუა/დასკუა",
+    "georgian": "დისშვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-127",
+    "megruli": "დახუნალი",
+    "georgian": "დასაჯდომი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-128",
+    "megruli": "დგჷ/დგუ",
+    "georgian": "დგას",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-129",
+    "megruli": "დეი",
+    "georgian": "დეიდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-130",
+    "megruli": "დეიდასქუა",
+    "georgian": "დეიდაშვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-131",
+    "megruli": "დიანთილი",
+    "georgian": "დედამთილი, სიდედრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-132",
+    "megruli": "დიარა",
+    "georgian": "ქორწილი, სუფრა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-133",
+    "megruli": "დიაჩქიმი",
+    "georgian": "დედაჩემი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-134",
+    "megruli": "დიდა",
+    "georgian": "დედა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-135",
+    "megruli": "დიკე",
+    "georgian": "თავქვე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-136",
+    "megruli": "დინახალე",
+    "georgian": "შიგნით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-137",
+    "megruli": "დიო",
+    "georgian": "ჯერ, ჯერ კიდევ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-138",
+    "megruli": "დირთეს",
+    "georgian": "დაბრუნდნენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-139",
+    "megruli": "დიშქა",
+    "georgian": "შეშა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-140",
+    "megruli": "დო",
+    "georgian": "და (კავშ.)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-141",
+    "megruli": "დოგორეს",
+    "georgian": "მოძებნეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-142",
+    "megruli": "დოგურაფა",
+    "georgian": "სწავლა, სწავლება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-143",
+    "megruli": "დოლაფა",
+    "georgian": "დავარდნა (დოლჷ - დავარდა, დოლუ - დავარდება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-144",
+    "megruli": "დოლო",
+    "georgian": "მდელო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-145",
+    "megruli": "დონჯირა",
+    "georgian": "დაწოლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-146",
+    "megruli": "დოკინა",
+    "georgian": "დაწევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-147",
+    "megruli": "დორთა, დორთინა",
+    "georgian": "დაბრუნება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-148",
+    "megruli": "დორთელი, დორთინელი",
+    "georgian": "დაბრუნებული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-149",
+    "megruli": "დოსქილადა",
+    "georgian": "დარჩენა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-150",
+    "megruli": "დოსქილადირი",
+    "georgian": "დარჩენილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-151",
+    "megruli": "დოღურუ",
+    "georgian": "მოკვდა, გარდაიცვალა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-152",
+    "megruli": "დოჭარი(თ)! ჭარი(თ)!",
+    "georgian": "დაწერე(თ)! წერე(თ)!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-153",
+    "megruli": "დოხანტი(თ)! ხანტი(თ)!",
+    "georgian": "დახატე(თ)! ხატე(თ)!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-154",
+    "megruli": "დოხუნა",
+    "georgian": "დაჯდომა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-155",
+    "megruli": "დუდი",
+    "georgian": "თავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-156",
+    "megruli": "დუჸი",
+    "georgian": "იდაყვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-157",
+    "megruli": "დღა",
+    "georgian": "დღე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-158",
+    "megruli": "ედგინა",
+    "georgian": "ადგომა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-159",
+    "megruli": "ეთინა",
+    "georgian": "ეგ, ის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-160",
+    "megruli": "ეიოდგინალი",
+    "georgian": "ასადგომი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-161",
+    "megruli": "ეკენია",
+    "georgian": "სექტემბერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-162",
+    "megruli": "ეკოჸუნა",
+    "georgian": "უკან გაყოლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-163",
+    "megruli": "ეკოპუნქ",
+    "georgian": "უკან მივყვები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-164",
+    "megruli": "ეკოჸუნქ",
+    "georgian": "უკან მიყვები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-165",
+    "megruli": "ეკაჸუნი(თ)",
+    "georgian": "უკან მიყევი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-166",
+    "megruli": "ეკოჸუნს",
+    "georgian": "უკან მიყვება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-167",
+    "megruli": "ეკოჸუნა",
+    "georgian": "უკან მიყვებიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-168",
+    "megruli": "ეკინა",
+    "georgian": "აწევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-169",
+    "megruli": "ელახი",
+    "georgian": "აღმოსავლეთი (დღეს არ იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-170",
+    "megruli": "ელჷ-მოლჷ",
+    "georgian": "არემარე, შემოგარენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-171",
+    "megruli": "ემერი",
+    "georgian": "ეგერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-172",
+    "megruli": "ენა",
+    "georgian": "ეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-173",
+    "megruli": "ეფი",
+    "georgian": "იაფი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-174",
+    "megruli": "ექი-აქ",
+    "georgian": "აქა-იქ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-175",
+    "megruli": "ექიმი",
+    "georgian": "ექიმი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-176",
+    "megruli": "ეშაფრთი(თ)",
+    "georgian": "ავედი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-177",
+    "megruli": "ეშართი(თ)",
+    "georgian": "ახვედი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-178",
+    "megruli": "ეშართჷ/ეშართუ",
+    "georgian": "ავიდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-179",
+    "megruli": "ეშართეს",
+    "georgian": "ავიდნენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-180",
+    "megruli": "ეშებლი",
+    "georgian": "ავედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-181",
+    "megruli": "ეშებლენქ",
+    "georgian": "ავალ, ამოვალ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-182",
+    "megruli": "ეშელი!",
+    "georgian": "ადი!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-183",
+    "megruli": "ეშმულუ/ეშმურქ",
+    "georgian": "ავდივარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-184",
+    "megruli": "ეფალუა",
+    "georgian": "აღმოცენება, ახლად აღყვავება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-185",
+    "megruli": "ვარ",
+    "georgian": "არა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-186",
+    "megruli": "ვაბშჷ/ვაფშუ",
+    "georgian": "არ მახსოვს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-187",
+    "megruli": "ვაბჩოდჷ/ვაფჩოდჷ",
+    "georgian": "არ მცალია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-188",
+    "megruli": "ვაგორწყექ",
+    "georgian": "ვერ გხედავ, არ გხედავ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-189",
+    "megruli": "ვაკეთენქ",
+    "georgian": "ვაკეთებ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-190",
+    "megruli": "ვაკეთენდი(თ)",
+    "georgian": "ვაკეთებდი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-191",
+    "megruli": "ვაკეთათ",
+    "georgian": "ვაკეთოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-192",
+    "megruli": "ვამაჭიშე",
+    "georgian": "ვერ მოვასწრებ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-193",
+    "megruli": "ვამნორთა(თ)",
+    "georgian": "არ შემოხვიდე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-194",
+    "megruli": "ვარა",
+    "georgian": "ან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-195",
+    "megruli": "ვარდი",
+    "georgian": "ვარდი (ყვავილი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-196",
+    "megruli": "ვარდიშფერი",
+    "georgian": "ვარდისფერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-197",
+    "megruli": "ვარჩხილი",
+    "georgian": "ვერცხლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-198",
+    "megruli": "ვართ",
+    "georgian": "არც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-199",
+    "megruli": "ვართ ფერი",
+    "georgian": "არც ისეთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-200",
+    "megruli": "ვაუჯგუ",
+    "georgian": "არ ჯობია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-201",
+    "megruli": "ვაუჯგუდუ",
+    "georgian": "არ ჯობდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-202",
+    "megruli": "ვე/აგმორთა(თ)",
+    "georgian": "არ გამოხვიდე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-203",
+    "megruli": "ვედა(თ)",
+    "georgian": "არ წახვიდე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-204",
+    "megruli": "ველოსპეტი",
+    "georgian": "ველოსიპედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-205",
+    "megruli": "ველჷქ/ველუქ",
+    "georgian": "ველოდები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-206",
+    "megruli": "ველჷთ/ველუთ",
+    "georgian": "ველოდებით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-207",
+    "megruli": "ველჷ/ველუ",
+    "georgian": "არ ელოდება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-208",
+    "megruli": "ველჷნა/ველუნა",
+    "georgian": "არ ელოდებიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-209",
+    "megruli": "ვეშემლებუ",
+    "georgian": "არ შემიძლია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-210",
+    "megruli": "ვეშეილებუ(ნა)",
+    "georgian": "არ შეგიძლია(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-211",
+    "megruli": "ვეშულებუ(ნა)",
+    "georgian": "არ შეუძლია(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-212",
+    "megruli": "ვორექ",
+    "georgian": "ვარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-213",
+    "megruli": "ვორდი(თ)",
+    "georgian": "ვიყავი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-214",
+    "megruli": "ვორთუქ",
+    "georgian": "ვშვრები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-215",
+    "megruli": "ვორთუდი(თ)",
+    "georgian": "ვშვრებოდი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-216",
+    "megruli": "ზარხული",
+    "georgian": "ზაფხული (დღეს უფრო ზაფხული იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-217",
+    "megruli": "ზესქვი",
+    "georgian": "შაშვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-218",
+    "megruli": "ზისხირი",
+    "georgian": "სისხლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-219",
+    "megruli": "ზოთონჯი",
+    "georgian": "ზამთარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-220",
+    "megruli": "ზოჯუა",
+    "georgian": "ბრძანება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-221",
+    "megruli": "ზოჯუნდათ",
+    "georgian": "ბრძანდებოდეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-222",
+    "megruli": "ზოჯუნთ",
+    "georgian": "ბრძანდებით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-223",
+    "megruli": "ზოჯი",
+    "georgian": "ბრძანე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-224",
+    "megruli": "ზალა",
+    "georgian": "ზელვა, მოზელვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-225",
+    "megruli": "თავსფალი",
+    "georgian": "თავისუფალი (ძვ. ფორმაა დუდიშული)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-226",
+    "megruli": "თა(ჸ)ურეშე",
+    "georgian": "აქედან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-227",
+    "megruli": "თა(ჸ)ურე",
+    "georgian": "აქეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-228",
+    "megruli": "თაში",
+    "georgian": "ასე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-229",
+    "megruli": "თეში",
+    "georgian": "ისე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-230",
+    "megruli": "თახაშხა",
+    "georgian": "სამშაბათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-231",
+    "megruli": "თახაშხას",
+    "georgian": "სამშაბათს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-232",
+    "megruli": "თელი",
+    "georgian": "მთელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-233",
+    "megruli": "თელ დღას",
+    "georgian": "მთელი დღე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-234",
+    "megruli": "თენა",
+    "georgian": "ეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-235",
+    "megruli": "თინა",
+    "georgian": "ის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-236",
+    "megruli": "თხჷთხჷ/თხითხუ",
+    "georgian": "თხელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-237",
+    "megruli": "თინი/თინუ",
+    "georgian": "სწორი, გამართული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-238",
+    "megruli": "თირი",
+    "georgian": "თოვლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-239",
+    "megruli": "თჷნს/თუნს",
+    "georgian": "თოვს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-240",
+    "megruli": "თჷნდჷ/თუნდუ",
+    "georgian": "თოვდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-241",
+    "megruli": "თუალა",
+    "georgian": "თოვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-242",
+    "megruli": "თიწკჷმა/თიწკუმა",
+    "georgian": "1. მაშინ 2. მასთან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-243",
+    "megruli": "თოლი",
+    "georgian": "თვალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-244",
+    "megruli": "თუ",
+    "georgian": "გოჭი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-245",
+    "megruli": "თუდო",
+    "georgian": "ქვეშ, ქვემოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-246",
+    "megruli": "თუდოლე",
+    "georgian": "ქვემოთკენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-247",
+    "megruli": "თუდოშე",
+    "georgian": "ქვემოდან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-248",
+    "megruli": "თუთა",
+    "georgian": "თვე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-249",
+    "megruli": "თუთაშხა",
+    "georgian": "ორშაბათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-250",
+    "megruli": "თუთაშხას",
+    "georgian": "ორშაბათს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-251",
+    "megruli": "თუმა",
+    "georgian": "თმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-252",
+    "megruli": "თქვა",
+    "georgian": "თქვენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-253",
+    "megruli": "თქვანი",
+    "georgian": "თქვენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-254",
+    "megruli": "თქვანო",
+    "georgian": "თქვენთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-255",
+    "megruli": "თხირი",
+    "georgian": "თხილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-256",
+    "megruli": "იაია",
+    "georgian": "ია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-257",
+    "megruli": "იანარი",
+    "georgian": "იანვარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-258",
+    "megruli": "იბდათ",
+    "georgian": "წავიდეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-259",
+    "megruli": "იბდი",
+    "georgian": "წავედი (იდი - 1. წახვედი, 2. წადი; იდჷ/იდუ - წავიდა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-260",
+    "megruli": "იბჩათ",
+    "georgian": "ვილაპარაკოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-261",
+    "megruli": "იბჩიებუქ",
+    "georgian": "ვლაპარაკობ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-262",
+    "megruli": "იბჩიებუთ",
+    "georgian": "ვლაპარაკობღ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-263",
+    "megruli": "იჩიებუ",
+    "georgian": "ლაპარაკობს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-264",
+    "megruli": "იჩიებუნა",
+    "georgian": "ლაპარაკობენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-265",
+    "megruli": "ივანობა",
+    "georgian": "ივნისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-266",
+    "megruli": "ინმურქ/ინმულ",
+    "georgian": "ჩავდივარ (სიღრმეში)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-267",
+    "megruli": "ინჭა",
+    "georgian": "ჭა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-268",
+    "megruli": "ინჭირია",
+    "georgian": "ანწლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-269",
+    "megruli": "იოლას",
+    "georgian": "იოლად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-270",
+    "megruli": "იოლი",
+    "georgian": "იოლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-271",
+    "megruli": "ირდღას",
+    "georgian": "ყოველდღე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-272",
+    "megruli": "ირიათო/ირო",
+    "georgian": "ყოველთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-273",
+    "megruli": "ირნერო",
+    "georgian": "ყველანაირად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-274",
+    "megruli": "ირნერი",
+    "georgian": "ყველანაირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-275",
+    "megruli": "ირფელი/იფრელი",
+    "georgian": "ყველაფერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-276",
+    "megruli": "იფრთუქ",
+    "georgian": "ვბრუნდები",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-277",
+    "megruli": "იშო",
+    "georgian": "იქით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-278",
+    "megruli": "კათა",
+    "georgian": "ხალხი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-279",
+    "megruli": "კარი",
+    "georgian": "კარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-280",
+    "megruli": "კამბეში",
+    "georgian": "კამეჩი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-281",
+    "megruli": "კანკალეშა",
+    "georgian": "ზოგჯერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-282",
+    "megruli": "კაპუსტა",
+    "georgian": "კომბოსტო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-283",
+    "megruli": "კატუ",
+    "georgian": "კატა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-284",
+    "megruli": "კეთება",
+    "georgian": "(გა)კეთება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-285",
+    "megruli": "კვათარა",
+    "georgian": "ტყის ქათამი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-286",
+    "megruli": "კვარია/ყვარია",
+    "georgian": "ყვავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-287",
+    "megruli": "კვარჩხანი",
+    "georgian": "მარცხენა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-288",
+    "megruli": "კვარჩხანშე",
+    "georgian": "მარცხნივ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-289",
+    "megruli": "კვარჩხან ჸურე",
+    "georgian": "მარცხნისკენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-290",
+    "megruli": "კვარჩხი",
+    "georgian": "უკუღმართი, ცელქი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-291",
+    "megruli": "კვატა, კვატია",
+    "georgian": "იხვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-292",
+    "megruli": "კვირკვე",
+    "georgian": "ივლისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-293",
+    "megruli": "კიბირი",
+    "georgian": "კბილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-294",
+    "megruli": "კჷდჷრი/კიდირი",
+    "georgian": "მკერდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-295",
+    "megruli": "კიდალა",
+    "georgian": "კედელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-296",
+    "megruli": "კიზი",
+    "georgian": "კოვზი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-297",
+    "megruli": "კითი",
+    "georgian": "თითი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-298",
+    "megruli": "კითხირი",
+    "georgian": "კითხვა (ბკითხულენქ/პკითხულენქ - ვკითხულობ, კითხულენქ - კითხულობ, კითხულენს - კითხულობს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-299",
+    "megruli": "კირიბი",
+    "georgian": "ბატკანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-300",
+    "megruli": "კჷსერი/კისერი",
+    "georgian": "კისერი, ყელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-301",
+    "megruli": "კოპეშია",
+    "georgian": "გოგრა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-302",
+    "megruli": "კობუ",
+    "georgian": "უწიფარი, მკვახე, მაგარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-303",
+    "megruli": "კოტო",
+    "georgian": "ქოთანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-304",
+    "megruli": "კოჩი",
+    "georgian": "კაცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-305",
+    "megruli": "კრაოტი",
+    "georgian": "საწოლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-306",
+    "megruli": "კუსაფი",
+    "georgian": "კვნესა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-307",
+    "megruli": "კუნთხუ",
+    "georgian": "კუთხე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-308",
+    "megruli": "კუნტა",
+    "georgian": "მოკლე (კუნტას, მოკლედ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-309",
+    "megruli": "კუჩხი",
+    "georgian": "ფეხი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-310",
+    "megruli": "კჷნე/კინე/კინი",
+    "georgian": "ისევ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-311",
+    "megruli": "კჷნტჷრი/კინტირი",
+    "georgian": "კიტრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-312",
+    "megruli": "ლაკადა",
+    "georgian": "ფერდობი, მთიანეთი, კლდოვანი; მთიანი სამეგრელო; ემიჯნება ტყის მთიან, სამოსახლოდ უვარგის ზონას; მთაგორიანია, მაგრამ ალპურ ზონაზე დაბლა მდებარეობს (ალიო ქობალია, მეგრულ-ქართული ლექსიკონი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-313",
+    "megruli": "ლაკვი",
+    "georgian": "ლეკვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-314",
+    "megruli": "ლარჭემი",
+    "georgian": "ლერწამი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-315",
+    "megruli": "ლაჸაფი",
+    "georgian": "თამაში (ზმნა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-316",
+    "megruli": "ლახარა/ლახალა",
+    "georgian": "ავადმყოფობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-317",
+    "megruli": "ლებია",
+    "georgian": "ლობიო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-318",
+    "megruli": "ლეხი",
+    "georgian": "ავადმყოფი (ლეხი ვორექ, ავადმყოფი ვარ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-319",
+    "megruli": "ლეტა",
+    "georgian": "ტალახი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-320",
+    "megruli": "ლეტამი",
+    "georgian": "ტალახიანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-321",
+    "megruli": "ლიკვი",
+    "georgian": "მუშტი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-322",
+    "megruli": "ლუღი",
+    "georgian": "ლეღვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-323",
+    "megruli": "ლჷმა/ლიმა",
+    "georgian": "ომი, ბრძოლა (დღეს აღარ იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-324",
+    "megruli": "ლჷ",
+    "georgian": "ვარდება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-325",
+    "megruli": "მა",
+    "georgian": "მე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-326",
+    "megruli": "მაკინდოლი",
+    "georgian": "ოხრახუში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-327",
+    "megruli": "მალას",
+    "georgian": "მალე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-328",
+    "megruli": "მანგარი",
+    "georgian": "მაგარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-329",
+    "megruli": "მანგარო",
+    "georgian": "მაგრად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-330",
+    "megruli": "მანგას",
+    "georgian": "სწორად, ტოლად, პირდაპირ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-331",
+    "megruli": "მანგო",
+    "georgian": "გასწვრივ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-332",
+    "megruli": "მარა",
+    "georgian": "1. კვირა (მსგეფსი); 2. მაგრამ (კავშირი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-333",
+    "megruli": "მარდუ",
+    "georgian": "მოზარდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-334",
+    "megruli": "მართალი",
+    "georgian": "სიმართლე, მართალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-335",
+    "megruli": "მარკატელი",
+    "georgian": "მაკრატელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-336",
+    "megruli": "მარტი",
+    "georgian": "მარტი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-337",
+    "megruli": "მარძგვანი",
+    "georgian": "მარჯვენა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-338",
+    "megruli": "მარძგვანშე",
+    "georgian": "მარჯვნივ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-339",
+    "megruli": "მარძგვან ჸურე",
+    "georgian": "მარჯვნისაკენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-340",
+    "megruli": "მარწვენი",
+    "georgian": "მაწონი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-341",
+    "megruli": "მაფშალია",
+    "georgian": "ბულბული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-342",
+    "megruli": "მაჭირხოლი",
+    "georgian": "მერცხალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-343",
+    "megruli": "მახინჯი",
+    "georgian": "ქურდი, მპარავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-344",
+    "megruli": "მანჯა",
+    "georgian": "მაჯა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-345",
+    "megruli": "მაღალი",
+    "georgian": "მაღალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-346",
+    "megruli": "მეგვიანებჷ/უ",
+    "georgian": "მაგვიანდება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-347",
+    "megruli": "მელახი",
+    "georgian": "1. დასავლეთი, 2. მარტი (ძვ.)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-348",
+    "megruli": "მელე",
+    "georgian": "გაღმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-349",
+    "megruli": "მემხვამუ",
+    "georgian": "მომილოცავს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-350",
+    "megruli": "მიგახვამანქ",
+    "georgian": "გილოცავ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-351",
+    "megruli": "მენძელი",
+    "georgian": "მასპინძელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-352",
+    "megruli": "მერთი!",
+    "georgian": "მიდი!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-353",
+    "megruli": "მეუ!",
+    "georgian": "წადი!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-354",
+    "megruli": "მეულა",
+    "georgian": "1. მისვლა, 2. მიდიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-355",
+    "megruli": "მეულირი",
+    "georgian": "მისული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-356",
+    "megruli": "მა მე(ვ)ულჷ/მე(ვ)ურქჷ",
+    "georgian": "მე მივდივარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-357",
+    "megruli": "სი მეულჷ/მეურქჷ",
+    "georgian": "შენ მიდიხარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-358",
+    "megruli": "მე(ვ)ურთ",
+    "georgian": "მივდივართ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-359",
+    "megruli": "მიბშით/მიფშით",
+    "georgian": "მივიოდით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-360",
+    "megruli": "მესი",
+    "georgian": "მაისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-361",
+    "megruli": "მეჩამა",
+    "georgian": "მიცემა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-362",
+    "megruli": "მეძობელი/მეზობელი",
+    "georgian": "მეზობელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-363",
+    "megruli": "მი?",
+    "georgian": "ვინ?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-364",
+    "megruli": "მიბსვანჯით",
+    "georgian": "დავისვენეთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-365",
+    "megruli": "მიბსვანჯათ",
+    "georgian": "დავისვენოთ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-366",
+    "megruli": "მიდაფრთი(თ)",
+    "georgian": "წავედი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-367",
+    "megruli": "მიდაღალა",
+    "georgian": "წართმევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-368",
+    "megruli": "მიდგა(რენი)",
+    "georgian": "ვიღაცა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-369",
+    "megruli": "მიდულჷ/მიდურქჷ",
+    "georgian": "წავალ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-370",
+    "megruli": "მითილი!",
+    "georgian": "შედი! (ქვეშ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-371",
+    "megruli": "მითმულჷ/მითმულუ/მითმურქჷ",
+    "georgian": "შევდივარ (რაღაცის ქვეშ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-372",
+    "megruli": "მითნოხვედეს",
+    "georgian": "შიგნით/ქვეშ იჯდნენ, თურმე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-373",
+    "megruli": "მიკაჯინი(თ)",
+    "georgian": "შეხედე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-374",
+    "megruli": "მუკი-მუკი",
+    "georgian": "ირგვლივ, გარშემო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-375",
+    "megruli": "მილამუ",
+    "georgian": "ვაპირებ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-376",
+    "megruli": "მინმულჷ/მინმულუ/მინმურქ",
+    "georgian": "შევდივარ (შენობაში, ოთხაში)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-377",
+    "megruli": "მინშა",
+    "georgian": "ზოგჯერ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-378",
+    "megruli": "მინი",
+    "georgian": "ზოგი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-379",
+    "megruli": "მიღჷ/მიღუ",
+    "georgian": "მაქვს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-380",
+    "megruli": "მიჸორქ",
+    "georgian": "მიყვარხარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-381",
+    "megruli": "მიჸორს",
+    "georgian": "მიყვარს (ვამიჸორს - არ მიყვარს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-382",
+    "megruli": "მიში",
+    "georgian": "ვისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-383",
+    "megruli": "მიჩქჷ/მიჩქუ",
+    "georgian": "ვიცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-384",
+    "megruli": "მიჩქჷდჷ/მიჩქუდუ",
+    "georgian": "ვიცოდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-385",
+    "megruli": "მიწის/მიწუეს",
+    "georgian": "მითხრეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-386",
+    "megruli": "მოზოჯით!",
+    "georgian": "მობრძანდით!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-387",
+    "megruli": "მოთა",
+    "georgian": "შვილიშვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-388",
+    "megruli": "მოინტერესჷ/მოინტერეს",
+    "georgian": "მაინტერესებს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-389",
+    "megruli": "მოკო",
+    "georgian": "მინდა (მოკონა - გვინდა, გოკო(ნა) - გინდა(თ), ოკო(ნა) - უნდა(თ))",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-390",
+    "megruli": "მოლაფრთი(თ)",
+    "georgian": "წამოვედი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-391",
+    "megruli": "მოლე",
+    "georgian": "გამოღმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-392",
+    "megruli": "მონკა",
+    "georgian": "მძიმე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-393",
+    "megruli": "მონჭა",
+    "georgian": "მწიფე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-394",
+    "megruli": "მორთი(თ)!",
+    "georgian": "მოდი(თ)!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-395",
+    "megruli": "მოსაჭირჷ",
+    "georgian": "მჭირდება (ან ვოხვილჷქ/ვოხვილუქ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-396",
+    "megruli": "მოულა",
+    "georgian": "1. მოსვლა, 2. მოდიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-397",
+    "megruli": "მოწონება",
+    "georgian": "მოწონება (მა მობწონს - მე მომწონს, სი მორწონს - შენ მოგწონს, თის მოწონს - მას მოსწონს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-398",
+    "megruli": "მოჭყორდუ",
+    "georgian": "მავიწყდება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-399",
+    "megruli": "მოხვარა",
+    "georgian": "დახმარება, მიხმარება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-400",
+    "megruli": "მუ?",
+    "georgian": "რა?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-401",
+    "megruli": "მუ",
+    "georgian": "ის (III პირის ნაცვალსახელი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-402",
+    "megruli": "მუ ამბე რე",
+    "georgian": "რა ამბავია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-403",
+    "megruli": "მუანთილი",
+    "georgian": "მამათილი, სიმამრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-404",
+    "megruli": "მუასქანი",
+    "georgian": "მამაშენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-405",
+    "megruli": "მუდა",
+    "georgian": "რამდენი (კითხ. ნაცვ.)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-406",
+    "megruli": "მუზმა",
+    "georgian": "რამდენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-407",
+    "megruli": "მუთა უჭირს",
+    "georgian": "არაფერი უჭირს (მუთა მიჭირს - არაფერი მიჭირს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-408",
+    "megruli": "მუთუნი ვაუჭირს",
+    "georgian": "არაფერი არ უჭირს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-409",
+    "megruli": "მუთუნი",
+    "georgian": "არაფერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-410",
+    "megruli": "მუკმოქუნს",
+    "georgian": "მაცვია (ტანსაცმელი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-411",
+    "megruli": "მუკოქუნა",
+    "georgian": "ჩაცმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-412",
+    "megruli": "მუკმიფქუნა",
+    "georgian": "ვიცვამ (ტანსაცმელს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-413",
+    "megruli": "მუმოძჷ",
+    "georgian": "მაცვია (შარვალი, ფეხაცმელი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-414",
+    "megruli": "მიბდვანქ",
+    "georgian": "ვიცვამ (შარვალს, ფეხასცმელს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-415",
+    "megruli": "მოდვალა",
+    "georgian": "ჩაცმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-416",
+    "megruli": "მუმა",
+    "georgian": "მამა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-417",
+    "megruli": "მუმალი",
+    "georgian": "მომავალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-418",
+    "megruli": "მუმული",
+    "georgian": "მამალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-419",
+    "megruli": "მუნაულა",
+    "georgian": "მოსული, ,,მონასვლელი\"",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-420",
+    "megruli": "მუნერი",
+    "georgian": "რანაირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-421",
+    "megruli": "მუნეფი",
+    "georgian": "ისინი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-422",
+    "megruli": "მუნეფიშ",
+    "georgian": "მათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-423",
+    "megruli": "მუნეფო(თ)",
+    "georgian": "მათთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-424",
+    "megruli": "მუჟამ/მუჟამს",
+    "georgian": "როდის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-425",
+    "megruli": "მურიცხი",
+    "georgian": "ვარსკვლავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-426",
+    "megruli": "მურს",
+    "georgian": "მოდის, მოვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-427",
+    "megruli": "მუშა",
+    "georgian": "1. მუშა; 2. რამდენად (მუშა იჸიდი მანქანა? - რამდენად იყიდე მანქანა?)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-428",
+    "megruli": "მუშალს",
+    "georgian": "შემოსასვლელში (ქალაქის, სოფლის)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-429",
+    "megruli": "მუშება/მუშობა",
+    "georgian": "მუშაობა (მუბშენქ - ვმუშაობ, მუშენქ - მუშაობ, მუბშენთ - ვმუშაობთ, მუშენთ - მუშაობთ, მუშენა - მუშაობენ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-430",
+    "megruli": "მუშენდეს",
+    "georgian": "მუშაობდნენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-431",
+    "megruli": "მუშენი",
+    "georgian": "რატომ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-432",
+    "megruli": "მუშენი იშქიდანქ",
+    "georgian": "რატომ კადრულობ! როგორ გეკადრება!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-433",
+    "megruli": "მუში/მუშ",
+    "georgian": "რისი (კითხვ. ნაცვ.)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-434",
+    "megruli": "მუშო",
+    "georgian": "მისთვის, რისთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-435",
+    "megruli": "მუჭო?",
+    "georgian": "როგორ?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-436",
+    "megruli": "მუჭომი?",
+    "georgian": "როგორი?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-437",
+    "megruli": "წვანე, რწვანე, მწვანე",
+    "georgian": "მწვანე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-438",
+    "megruli": "ნაბეტანი, ნაბტანი",
+    "georgian": "ნამეტანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-439",
+    "megruli": "ნანა",
+    "georgian": "დედა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-440",
+    "megruli": "ნამთინე",
+    "georgian": "ზოგიერთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-441",
+    "megruli": "ნამთინი",
+    "georgian": "არცერთი, არავინ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-442",
+    "megruli": "ნამჷ/ნამუ/ნამ",
+    "georgian": "რომელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-443",
+    "megruli": "ნამუთ",
+    "georgian": "რომელიც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-444",
+    "megruli": "ნამუსჷთ/ნამუსუთ",
+    "georgian": "რომელსაც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-445",
+    "megruli": "ნაონდღერი",
+    "georgian": "ნაშუადღევი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-446",
+    "megruli": "ნაონდღერშა(ხ)",
+    "georgian": "ნაშუადღევამდე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-447",
+    "megruli": "ნაონდღერშე",
+    "georgian": "ნაშუადღევიდან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-448",
+    "megruli": "ნაქური/ნოქური",
+    "georgian": "ნაკვალევი, ნაფეხური, ნაქუსლევი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-449",
+    "megruli": "ნახანტა",
+    "georgian": "ნახატი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-450",
+    "megruli": "ნება",
+    "georgian": "1. ნება, უფლება; 2. ვნება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-451",
+    "megruli": "ნელი",
+    "georgian": "ნელი,",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-452",
+    "megruli": "ნელას",
+    "georgian": "ნელა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-453",
+    "megruli": "ნეძ",
+    "georgian": "ნიგოზი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-454",
+    "megruli": "ნთხორუა",
+    "georgian": "1. თხრა; 2. დამარხვა, მიწაში ჩაფლვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-455",
+    "megruli": "ნინა",
+    "georgian": "ენა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-456",
+    "megruli": "ნოჸოროფუე",
+    "georgian": "ყვარებია თურმე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-457",
+    "megruli": "ნოჭარუე",
+    "georgian": "1. წერდა თურმე, 2. წერია თურმე, 3. ეწერა თურმე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-458",
+    "megruli": "ნწარე/წარე",
+    "georgian": "მწარე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-459",
+    "megruli": "ობინეხე/ბინეხი",
+    "georgian": "ვენახი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-460",
+    "megruli": "ობირეში",
+    "georgian": "სიმღერა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-461",
+    "megruli": "ობიშხა",
+    "georgian": "პარასკევი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-462",
+    "megruli": "ობიშხას",
+    "georgian": "პარასკევს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-463",
+    "megruli": "ოდინაფუ",
+    "georgian": "დასაკარგავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-464",
+    "megruli": "ოზე",
+    "georgian": "ეზო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-465",
+    "megruli": "ოკო",
+    "georgian": "უნდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-466",
+    "megruli": "ოლაჸაფინია",
+    "georgian": "სათამაშო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-467",
+    "megruli": "ონდეთ",
+    "georgian": "ძლივს, სუსტად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-468",
+    "megruli": "ონდღე",
+    "georgian": "შუადღე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-469",
+    "megruli": "ონჯუა",
+    "georgian": "საღამო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-470",
+    "megruli": "ორინჯი",
+    "georgian": "საქონელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-471",
+    "megruli": "ორკოლი",
+    "georgian": "დოქი, სურა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-472",
+    "megruli": "ორო",
+    "georgian": "ჩრდილი, ჩერო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-473",
+    "megruli": "ორტვინი",
+    "georgian": "ბოსტანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-474",
+    "megruli": "ოსერშე",
+    "georgian": "ვახშამი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-475",
+    "megruli": "ოსური",
+    "georgian": "ქალი, ცოლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-476",
+    "megruli": "ოსურამი",
+    "georgian": "ცოლიანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-477",
+    "megruli": "ოშქარი",
+    "georgian": "შუათანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-478",
+    "megruli": "ოშინერი",
+    "georgian": "ასგვარი, ასნაირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-479",
+    "megruli": "ოშქაშეთ",
+    "georgian": "შუაში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-480",
+    "megruli": "ოშუმალი",
+    "georgian": "სასმელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-481",
+    "megruli": "ოჩაიე",
+    "georgian": "ჩაის პლანტაცია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-482",
+    "megruli": "ოცადჷ/ოცადუ",
+    "georgian": "ცდილობს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-483",
+    "megruli": "ოცადჷნა/ოცადუნა",
+    "georgian": "ცდილობენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-484",
+    "megruli": "ოძირაფუშა",
+    "georgian": "სანახავად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-485",
+    "megruli": "ორქო",
+    "georgian": "ოქრო (დღეს ოქრო იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-486",
+    "megruli": "ოჭკომალი",
+    "georgian": "საჭმელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-487",
+    "megruli": "ოჭკომი(თ)/ჭკომი(თ)",
+    "georgian": "შეჭამე(თ)/ჭამე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-488",
+    "megruli": "ოჭკომშა",
+    "georgian": "საჭმელად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-489",
+    "megruli": "ოჭმარე",
+    "georgian": "დილა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-490",
+    "megruli": "ოხვამე",
+    "georgian": "სამლოცველო, ეკლესია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-491",
+    "megruli": "ოხოლასქირი",
+    "georgian": "მული, მაზლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-492",
+    "megruli": "პატჷნი/პატონი",
+    "georgian": "ბატონი, ბატონო!",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-493",
+    "megruli": "პაპა",
+    "georgian": "მღვდელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-494",
+    "megruli": "პიჯი",
+    "georgian": "პირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-495",
+    "megruli": "პეული",
+    "georgian": "ყვავილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-496",
+    "megruli": "პირი",
+    "georgian": "კოკორი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-497",
+    "megruli": "პროლი",
+    "georgian": "იატაკი (გესვარონი; ძვ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-498",
+    "megruli": "პ(ჸ)უმენს",
+    "georgian": "მწყურია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-499",
+    "megruli": "პ(ჸ)უნს/მიჸუნს",
+    "georgian": "მყავს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-500",
+    "megruli": "პურასკია",
+    "georgian": "პრასი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-501",
+    "megruli": "ჟაშხა/ჟეშხა",
+    "georgian": "კვირა (დღე)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-502",
+    "megruli": "ჟი",
+    "georgian": "ზევით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-503",
+    "megruli": "ჟიმოლე",
+    "georgian": "ზევითკენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-504",
+    "megruli": "ჟიშე",
+    "georgian": "ზევიდან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-505",
+    "megruli": "ჟვაბუ",
+    "georgian": "გომბეშო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-506",
+    "megruli": "რაგადი",
+    "georgian": "ლაპარაკი, საუბარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-507",
+    "megruli": "რგილი",
+    "georgian": "ცივი, რგილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-508",
+    "megruli": "რე",
+    "georgian": "არის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-509",
+    "megruli": "რეთ",
+    "georgian": "ხართ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-510",
+    "megruli": "რეკუა",
+    "georgian": "დარეკვა, რეკვა (დობრეკკჷნქ - დავრეკავ, დორეკი - დარეკე)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-511",
+    "megruli": "რენა",
+    "georgian": "არიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-512",
+    "megruli": "რდეს",
+    "georgian": "იყვნენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-513",
+    "megruli": "რექ",
+    "georgian": "ხარ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-514",
+    "megruli": "რხუალა",
+    "georgian": "გახვრეტა, დახვრეტა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-515",
+    "megruli": "რჩინჷ/რჩინუ",
+    "georgian": "მოხუცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-516",
+    "megruli": "რჩქილა",
+    "georgian": "სმენა (მირჩქილი - მისმინე, გირჩქილექ - გისმენ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-517",
+    "megruli": "რჩქინა",
+    "georgian": "ცოდნა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-518",
+    "megruli": "საბატონი",
+    "georgian": "შაბათი (შურიშხა; ძვ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-519",
+    "megruli": "საბზადი",
+    "georgian": "სამზარეულო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-520",
+    "megruli": "სადილი",
+    "georgian": "სადილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-521",
+    "megruli": "სათი/ საათი",
+    "georgian": "საათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-522",
+    "megruli": "საკაკალო",
+    "georgian": "საუზმე (იბკაკალათ - ვისაუზმოთ, იბკაკალი - ვისაუზმე)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-523",
+    "megruli": "სამუშა",
+    "georgian": "სამსახური, სამუშაო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-524",
+    "megruli": "საუკუნო",
+    "georgian": "საუკუნე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-525",
+    "megruli": "სასაფულა",
+    "georgian": "სასაფლაო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-526",
+    "megruli": "საქორთუო",
+    "georgian": "საქართველო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-527",
+    "megruli": "სერი",
+    "georgian": "ღამე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-528",
+    "megruli": "სერუა",
+    "georgian": "დაღამება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-529",
+    "megruli": "სი",
+    "georgian": "შენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-530",
+    "megruli": "სინჩხე",
+    "georgian": "სიცხე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-531",
+    "megruli": "სირგილე",
+    "georgian": "სიგრილე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-532",
+    "megruli": "სიტიბა",
+    "georgian": "სითბო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-533",
+    "megruli": "სკამი",
+    "georgian": "სკამი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-534",
+    "megruli": "სქვამი/სკვამი",
+    "georgian": "ლამაზი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-535",
+    "megruli": "სქუა",
+    "georgian": "შვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-536",
+    "megruli": "სო/სოდე?",
+    "georgian": "სად?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-537",
+    "megruli": "სოდგარენი",
+    "georgian": "სადღაც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-538",
+    "megruli": "სო(ჸ)ურეშ/სო(ჸ)ურე?",
+    "georgian": "საიდან?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-539",
+    "megruli": "სოიშა",
+    "georgian": "საით, საითკენ, სადამდე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-540",
+    "megruli": "სონა",
+    "georgian": "ნიახური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-541",
+    "megruli": "სონი",
+    "georgian": "სადაური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-542",
+    "megruli": "სტოლი",
+    "georgian": "მაგიდა (სწორი ფორმაა ტაბაკი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-543",
+    "megruli": "ს(ტ)უმარი",
+    "georgian": "სტუმარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-544",
+    "megruli": "სუმხოლო",
+    "georgian": "სამივე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-545",
+    "megruli": "სქანი/სკანი",
+    "georgian": "შენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-546",
+    "megruli": "სქანო/სკანო",
+    "georgian": "შენთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-547",
+    "megruli": "სხული",
+    "georgian": "მსხალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-548",
+    "megruli": "სხაპუა",
+    "georgian": "1. ცეკვა; 2. ხტომა (გითოსხაპუა - გადმოხტომა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-549",
+    "megruli": "ტაროზი/ტაროსი",
+    "georgian": "ამინდი, დარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-550",
+    "megruli": "ტიბუ",
+    "georgian": "თბილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-551",
+    "megruli": "ტორონჯი",
+    "georgian": "მტრედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-552",
+    "megruli": "ტუტა",
+    "georgian": "ნაცარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-553",
+    "megruli": "ტუტაშფერი",
+    "georgian": "ნაცრისფერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-554",
+    "megruli": "ტყა",
+    "georgian": "1. ტყე, 2. ბალახი, ბალახ-ბულახი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-555",
+    "megruli": "ტყობინი, ტყობინაფა",
+    "georgian": "დამალვა, მალვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-556",
+    "megruli": "ტყურა",
+    "georgian": "ტყუილი (მეტყურანჯე - მატყუარა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-557",
+    "megruli": "ტურა",
+    "georgian": "ტურა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-558",
+    "megruli": "ტყები",
+    "georgian": "ტყავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-559",
+    "megruli": "ტყარი",
+    "georgian": "ტყიური, გარეული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-560",
+    "megruli": "უკახალე",
+    "georgian": "უკან (უკოხოლე; ძვ.)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-561",
+    "megruli": "უკლაში/უკულაში",
+    "georgian": "უმცროსი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-562",
+    "megruli": "უკული",
+    "georgian": "მერე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-563",
+    "megruli": "ულა",
+    "georgian": "წასვლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-564",
+    "megruli": "ულამუ",
+    "georgian": "აპირებს, ლაომბს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-565",
+    "megruli": "ულამუდჷ/უ",
+    "georgian": "აპირებდა, ლამობდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-566",
+    "megruli": "ულირი",
+    "georgian": "1. გასული (ულირ წანას - გასულ წელს), 2. წასული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-567",
+    "megruli": "უმოსი",
+    "georgian": "მეტი, უფრო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-568",
+    "megruli": "უმოსო",
+    "georgian": "უფრო, უფრო მეტად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-569",
+    "megruli": "უნჩაში",
+    "georgian": "უფროსი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-570",
+    "megruli": "ორკჷ/ურკჷ",
+    "georgian": "აკლია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-571",
+    "megruli": "უსქვამური",
+    "georgian": "უშნო, ულამაზო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-572",
+    "megruli": "უფჷრაში",
+    "georgian": "უარესი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-573",
+    "megruli": "უშქური",
+    "georgian": "ვაშლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-574",
+    "megruli": "უჩა",
+    "georgian": "შავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-575",
+    "megruli": "უჯგუში",
+    "georgian": "უკეთესი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-576",
+    "megruli": "ფანია",
+    "georgian": "ოჯახი, ცოლ-შვილი, ჯალაბი (დღეს იშვიათად იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-577",
+    "megruli": "ფალუა",
+    "georgian": "აღმოცენება, შეფოთვლა, გაფურჩქვნა, გახარება მცენარისა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-578",
+    "megruli": "ფაჩუა",
+    "georgian": "დაშლა, გაშლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-579",
+    "megruli": "ფერდი, ფერდია",
+    "georgian": "ფერდობი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-580",
+    "megruli": "ფრევალი",
+    "georgian": "თებერვალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-581",
+    "megruli": "ფსქელი/სქელი",
+    "georgian": "სქელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-582",
+    "megruli": "ფური",
+    "georgian": "ცუდი (ჯგირი დო ფური - კარგი და ცუდი; თუმცა, დღეს უფრო გლახა იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-583",
+    "megruli": "ფუცქინუა",
+    "georgian": "ჩურჩული (ფუბცქინუნქ - ვჩურჩულებ; ფუცქინუნქ - ჩურჩულებ; ფუცქინუნს - ჩურჩულებს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-584",
+    "megruli": "ცქვაფა",
+    "georgian": "ქება, ტრაბახი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-585",
+    "megruli": "ქართი",
+    "georgian": "თბილისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-586",
+    "megruli": "ქასქიდჷ",
+    "georgian": "შერჩა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-587",
+    "megruli": "ქასქიდუ",
+    "georgian": "შერჩება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-588",
+    "megruli": "ქაცარი",
+    "georgian": "თიკანი, ციკანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-589",
+    "megruli": "ქექე",
+    "georgian": "მჩატე, მსუბუქი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-590",
+    "megruli": "ქვარა",
+    "georgian": "მუცელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-591",
+    "megruli": "ქი(ჸ)ანა",
+    "georgian": "ქვეყანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-592",
+    "megruli": "ქიანაში",
+    "georgian": "ქვეყნის, ბევრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-593",
+    "megruli": "ქიდიგურე(თ)",
+    "georgian": "ისწავლე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-594",
+    "megruli": "ქიმეფრთი",
+    "georgian": "მივედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-595",
+    "megruli": "ქიმერთი",
+    "georgian": "მიდი, მიხვედი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-596",
+    "megruli": "ქიმერთჷ",
+    "georgian": "მივიდა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-597",
+    "megruli": "ქიმერთას",
+    "georgian": "მივიდეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-598",
+    "megruli": "ქიმინუა",
+    "georgian": "კეთება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-599",
+    "megruli": "ქირი",
+    "georgian": "ქორი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-600",
+    "megruli": "ქირსეთუთა",
+    "georgian": "დეკემბერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-601",
+    "megruli": "ქირსე",
+    "georgian": "1. ქრისტე; 2. ქრისტეშობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-602",
+    "megruli": "ქიშილებენდა",
+    "georgian": "თუ შეიძლება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-603",
+    "megruli": "ქვიშნა ბული",
+    "georgian": "ალუბალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-604",
+    "megruli": "ქუთეში",
+    "georgian": "ქუთაისი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-605",
+    "megruli": "ქობალი",
+    "georgian": "პური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-606",
+    "megruli": "ქო",
+    "georgian": "კი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-607",
+    "megruli": "ქოთ",
+    "georgian": "კიდევაც",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-608",
+    "megruli": "ქომირჩქილი(თ), მირჩქილი(თ)",
+    "georgian": "მომისმინე(თ), მისმინე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-609",
+    "megruli": "ქომოლი",
+    "georgian": "მამრი, მამაკაცი, ვაჟკაცი, მამაცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-610",
+    "megruli": "ქომოლკოჩი",
+    "georgian": "მამაკაცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-611",
+    "megruli": "ქომოლსქუა",
+    "georgian": "ვაჟიშვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-612",
+    "megruli": "ქომონჯი",
+    "georgian": "ქმარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-613",
+    "megruli": "ქორთუ",
+    "georgian": "ქართველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-614",
+    "megruli": "ქორთული",
+    "georgian": "ქართული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-615",
+    "megruli": "ქორთულო",
+    "georgian": "ქართულად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-616",
+    "megruli": "ქორთხინქ, რთხინქ",
+    "georgian": "გთხოვ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-617",
+    "megruli": "ქოძირი(თ), ძირი(თ)",
+    "georgian": "ნახე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-618",
+    "megruli": "ქუბირეს",
+    "georgian": "უმღერეს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-619",
+    "megruli": "ქუბირი(თ)",
+    "georgian": "უმღერე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-620",
+    "megruli": "ქური",
+    "georgian": "ქუსლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-621",
+    "megruli": "ქჷ/უდაგურე(თ)",
+    "georgian": "ასწავლე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-622",
+    "megruli": "ქჷ/უდინჯირი(თ)",
+    "georgian": "დაწექი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-623",
+    "megruli": "ქჷ/უდოდოხოდი(თ)",
+    "georgian": "დაჯექი(თ), დასხედით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-624",
+    "megruli": "ქჷ/უდოზოჯი(თ)",
+    "georgian": "დაბრძანდი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-625",
+    "megruli": "ქჷ/იმერთი(თ)",
+    "georgian": "მიდი(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-626",
+    "megruli": "ქჷ/უმოძირი(თ)",
+    "georgian": "მაჩვენე(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-627",
+    "megruli": "ღალა",
+    "georgian": "წაღება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-628",
+    "megruli": "ღაჭაჭია",
+    "georgian": "ასთაკვი, კიბორჩხალა (გან-განმოძრავი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-629",
+    "megruli": "ღეჯი",
+    "georgian": "ღორი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-630",
+    "megruli": "ღორება, მოღორება",
+    "georgian": "მოტყუება (მუმაღორეს - მომატყუეს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-631",
+    "megruli": "ღვანწკი",
+    "georgian": "ღაწვი, ლოყა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-632",
+    "megruli": "ღვინი",
+    "georgian": "ღვინო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-633",
+    "megruli": "ღირჷ",
+    "georgian": "ღირს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-634",
+    "megruli": "ღორონთი",
+    "georgian": "ღმერთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-635",
+    "megruli": "ღორღონჯი",
+    "georgian": "ბატი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-636",
+    "megruli": "ღურელი",
+    "georgian": "მკვდარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-637",
+    "megruli": "ღურა",
+    "georgian": "სიკვდილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-638",
+    "megruli": "ღულა",
+    "georgian": "გაღუნული, მრუდე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-639",
+    "megruli": "ღირაკილი",
+    "georgian": "გაღუნილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-640",
+    "megruli": "ღუმუ",
+    "georgian": "ღომი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-641",
+    "megruli": "ღალი",
+    "georgian": "ღელე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-642",
+    "megruli": "ყამა",
+    "georgian": "სატევარი, ხანჯალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-643",
+    "megruli": "ყვინთელი/ჸვინთელი",
+    "georgian": "ყვითელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-644",
+    "megruli": "ჸა",
+    "georgian": "ტოტი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-645",
+    "megruli": "ჸვანა",
+    "georgian": "ყანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-646",
+    "megruli": "ჸვალი",
+    "georgian": "ყველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-647",
+    "megruli": "ჸვილუა",
+    "georgian": "კვლა, მოკვლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-648",
+    "megruli": "ჸვილირი",
+    "georgian": "მოკლული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-649",
+    "megruli": "ჸიდირი",
+    "georgian": "ყიდვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-650",
+    "megruli": "ჸინი",
+    "georgian": "ცივი, გაყინული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-651",
+    "megruli": "ჸოროფა",
+    "georgian": "სიყვარული (მა მიჸორს, სი გიჸორს, თის უჸორს)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-652",
+    "megruli": "ჸუდე",
+    "georgian": "სახლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-653",
+    "megruli": "ჸუმური/ჸომური",
+    "georgian": "ტყემალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-654",
+    "megruli": "ჸონაფა/ჸუნაფა",
+    "georgian": "წაყვანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-655",
+    "megruli": "ჸუჯი",
+    "georgian": "ყური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-656",
+    "megruli": "ჸუჯიშჯინს",
+    "georgian": "ყურისძირში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-657",
+    "megruli": "ჸვა",
+    "georgian": "შუბლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-658",
+    "megruli": "ჸვერე",
+    "georgian": "ბრმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-659",
+    "megruli": "ჸურზენი/ჸურძენი",
+    "georgian": "ყურძენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-660",
+    "megruli": "ჸუმენი",
+    "georgian": "წყურვილი (ბჸუმენს - მწყურია)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-661",
+    "megruli": "შანქარი",
+    "georgian": "შაქარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-662",
+    "megruli": "შარა",
+    "georgian": "გზა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-663",
+    "megruli": "შეილებუ(ნა)",
+    "georgian": "შეგიძლია(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-664",
+    "megruli": "შემილებუ",
+    "georgian": "შემიძლია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-665",
+    "megruli": "შემილებუნა",
+    "georgian": "შეგვიძლია",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-666",
+    "megruli": "შეულებუ(ნა)",
+    "georgian": "შეუძლია(თ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-667",
+    "megruli": "შილებე",
+    "georgian": "შეიძლება (ვეშილებე - არ შეიძლება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-668",
+    "megruli": "შილებენო?",
+    "georgian": "შეიძლება?",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-669",
+    "megruli": "შინკა",
+    "georgian": "ნესვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-670",
+    "megruli": "შონე",
+    "georgian": "სვანეთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-671",
+    "megruli": "შონი",
+    "georgian": "სვანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-672",
+    "megruli": "შულადა",
+    "georgian": "დაღლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-673",
+    "megruli": "შულადირი",
+    "georgian": "დაღლილი (დობ/შშურდი - დავიღალე, შორუდი - დაიღალე, დოშურდჷ - დაიღალა, შორურდუ - დაიღლება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-674",
+    "megruli": "შუმა",
+    "georgian": "სმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-675",
+    "megruli": "შუმილი",
+    "georgian": "მთვრალი (ნაშუმა - ნასვამი)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-676",
+    "megruli": "შურო",
+    "georgian": "საერთოდ, სულ, სრულიად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-677",
+    "megruli": "შურდგუმილი",
+    "georgian": "სულდგმული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-678",
+    "megruli": "შქა",
+    "georgian": "შუა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-679",
+    "megruli": "შქას",
+    "georgian": "შუაში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-680",
+    "megruli": "შქასერი",
+    "georgian": "შუაღამე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-681",
+    "megruli": "შქირენა",
+    "georgian": "1. შიმშილი, 2.შიათ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-682",
+    "megruli": "შხვა",
+    "georgian": "სხვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-683",
+    "megruli": "შხვადოშხვა",
+    "georgian": "სხვადასხვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-684",
+    "megruli": "შხუ",
+    "georgian": "მსხვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-685",
+    "megruli": "შხური",
+    "georgian": "ცხვარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-686",
+    "megruli": "შჷ",
+    "georgian": "1. ახსოვს; 2. სველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-687",
+    "megruli": "შოლირი",
+    "georgian": "სველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-688",
+    "megruli": "შური",
+    "georgian": "1. სუნი; 2. სული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-689",
+    "megruli": "ჩანკითი",
+    "georgian": "ცერა თითი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-690",
+    "megruli": "ჩანს",
+    "georgian": "დარგულია, ხარობს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-691",
+    "megruli": "ჩე",
+    "georgian": "თეთრი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-692",
+    "megruli": "ჩიება",
+    "georgian": "ლაპარაკი, საუბარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-693",
+    "megruli": "ჩილათა",
+    "georgian": "შეცდომა (აშაჩილათა - შეცდომა (სხვაში))",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-694",
+    "megruli": "ჩილი",
+    "georgian": "ცოლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-695",
+    "megruli": "ჩილი დო სქუა",
+    "georgian": "ცოლ-შვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-696",
+    "megruli": "ჩილი დო ქომონჯი",
+    "georgian": "ცოლ-ქმარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-697",
+    "megruli": "ჩინება",
+    "georgian": "ცნობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-698",
+    "megruli": "ჩუპა",
+    "georgian": "ჭიპი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-699",
+    "megruli": "ჩქარას",
+    "georgian": "ჩქარა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-700",
+    "megruli": "ჩქარი",
+    "georgian": "ჩქარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-701",
+    "megruli": "ჩქჷ/ჩქი",
+    "georgian": "ჩვენ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-702",
+    "megruli": "ჩქიმი",
+    "georgian": "ჩემი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-703",
+    "megruli": "ჩქჷნი/ჩქინი",
+    "georgian": "ჩვენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-704",
+    "megruli": "ჩქიმო",
+    "georgian": "ჩემთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-705",
+    "megruli": "ჩქინო",
+    "georgian": "ჩენთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-706",
+    "megruli": "ჩქინობურა",
+    "georgian": "ჩვენებური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-707",
+    "megruli": "ჩხანა",
+    "georgian": "მზე, მზიანი დარი, ცხუნება",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-708",
+    "megruli": "ჩხე",
+    "georgian": "ცხელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-709",
+    "megruli": "ჩხვინდი",
+    "georgian": "ცხვირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-710",
+    "megruli": "ჩხომი",
+    "georgian": "თევზი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-711",
+    "megruli": "ჩხონჩხი",
+    "georgian": "ღვიძლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-712",
+    "megruli": "ჩხორია",
+    "georgian": "მზის სხივი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-713",
+    "megruli": "ჩხოუ",
+    "georgian": "ძროხა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-714",
+    "megruli": "ჩხურუ",
+    "georgian": "სიცივე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-715",
+    "megruli": "ცა",
+    "georgian": "ცა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-716",
+    "megruli": "ცაშფერი",
+    "georgian": "ცისფერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-717",
+    "megruli": "ცაშხა",
+    "georgian": "ხუთშაბათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-718",
+    "megruli": "ციმუა",
+    "georgian": "მარწყვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-719",
+    "megruli": "ცინდალი",
+    "georgian": "კნუტი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-720",
+    "megruli": "ცირა",
+    "georgian": "გოგო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-721",
+    "megruli": "ცომი",
+    "georgian": "ცომი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-722",
+    "megruli": "ცხიმური",
+    "georgian": "რცხილა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-723",
+    "megruli": "ცხენი",
+    "georgian": "ცხენი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-724",
+    "megruli": "ცხვანტალი",
+    "georgian": "მოუსვენრობა, წრიალი, ფორიაქი; თავგადაკლული შრომა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-725",
+    "megruli": "ცუნდი/ცუნჯი/სუნჯი",
+    "georgian": "ცვარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-726",
+    "megruli": "ძაამი",
+    "georgian": "ძალიან",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-727",
+    "megruli": "ძალიერი",
+    "georgian": "ძლიერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-728",
+    "megruli": "ძგა",
+    "georgian": "კიდე, გვერდით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-729",
+    "megruli": "ძგას",
+    "georgian": "გვერდით, კიდეში",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-730",
+    "megruli": "ძგვიტაფა",
+    "georgian": "ჩხვლეტა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-731",
+    "megruli": "ძვირი",
+    "georgian": "ძვირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-732",
+    "megruli": "ძირაფა",
+    "georgian": "ნახვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-733",
+    "megruli": "ძნელი",
+    "georgian": "ძნელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-734",
+    "megruli": "ძჷ",
+    "georgian": "დევს, ძევს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-735",
+    "megruli": "ძღაბი",
+    "georgian": "გოგო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-736",
+    "megruli": "წანა",
+    "georgian": "წელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-737",
+    "megruli": "წარე/ნწარე",
+    "georgian": "მწარე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-738",
+    "megruli": "წარი",
+    "georgian": "წარბი (დღეს წარბი იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-739",
+    "megruli": "წარმოწანა, წანმოწანა",
+    "georgian": "წელიწადი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-740",
+    "megruli": "წჷ",
+    "georgian": "წელს, ამ წელს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-741",
+    "megruli": "წინგი",
+    "georgian": "წიგნი (დღეს წიგნი იხმარება)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-742",
+    "megruli": "წჷრი/წირი",
+    "georgian": "წლევანდელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-743",
+    "megruli": "წირწანას",
+    "georgian": "წლევანდელ წელს, წელს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-744",
+    "megruli": "წიფური",
+    "georgian": "წიფელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-745",
+    "megruli": "წიწილა",
+    "georgian": "წიწილა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-746",
+    "megruli": "წკა",
+    "georgian": "კურკა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-747",
+    "megruli": "წოხოლე",
+    "georgian": "წინ, წინათ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-748",
+    "megruli": "წუთი/წუნი",
+    "georgian": "წუთი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-749",
+    "megruli": "წყარი",
+    "georgian": "წყალი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-750",
+    "megruli": "წყურგილი",
+    "georgian": "წყარო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-751",
+    "megruli": "წყარპიჯი",
+    "georgian": "წყლისპირი, ნაპირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-752",
+    "megruli": "ჭანაფა",
+    "georgian": "დაბარება, მოწვევა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-753",
+    "megruli": "ჭანაფილი",
+    "georgian": "დაბარებული, მოწვეული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-754",
+    "megruli": "ჭანდარი",
+    "georgian": "ჭადარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-755",
+    "megruli": "ჭარუა",
+    "georgian": "წერა (მა ბჭარუნქ, სი ჭარუნქ, თინა ჭარუნს, ჩქი ბჭარუნთ, თქვა ჭარუნთ, თინეფი ჭარჷ/უნა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-756",
+    "megruli": "ჭარგა",
+    "georgian": "ჭრელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-757",
+    "megruli": "ჭვემა",
+    "georgian": "წვიმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-758",
+    "megruli": "ჭვენს",
+    "georgian": "წვიმს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-759",
+    "megruli": "ჭითა",
+    "georgian": "წითელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-760",
+    "megruli": "ჭირქა",
+    "georgian": "ჭიქა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-761",
+    "megruli": "ჭიფე",
+    "georgian": "ვიწრო, წვრილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-762",
+    "megruli": "ჭიჭე",
+    "georgian": "პატარა, ცოტა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-763",
+    "megruli": "ჭიჭე-ჭიჭეთ/ჭიე-ჭიეთ",
+    "georgian": "ნელ-ნელა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-764",
+    "megruli": "ჭკვერი",
+    "georgian": "ჭკვიანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-765",
+    "megruli": "ჭკუა",
+    "georgian": "ჭკუა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-766",
+    "megruli": "ჭკომუა/ჭკუმუა",
+    "georgian": "ჭამა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-767",
+    "megruli": "ჭოფუა",
+    "georgian": "დაჭერა (ბჭოფუნქ - ვიჭერ, ჭოფუნქ - იჭერ, ჭოფუნს - იჭერს, ოჭოფი(თ) - დაიჭირე(თ))",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-768",
+    "megruli": "ჭუა",
+    "georgian": "ტკივილი (მაჭუ -მტკივა, გაჭუ - გტკივა, აჭუ - ტკივა)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-769",
+    "megruli": "ჭუალა",
+    "georgian": "დაწვა, შეწვა, გამოცხობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-770",
+    "megruli": "ჭუმანი/ჭუმე",
+    "georgian": "ხვალ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-771",
+    "megruli": "ჭუმანერი",
+    "georgian": "ხვალინდელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-772",
+    "megruli": "ჭუმეშგეღანი",
+    "georgian": "მასზეგ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-773",
+    "megruli": "ჭუმეშო",
+    "georgian": "ხვალისთვის",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-774",
+    "megruli": "ჭუჭელი",
+    "georgian": "ჭინჭარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-775",
+    "megruli": "ჭყიში",
+    "georgian": "მწყემსი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-776",
+    "megruli": "ჭყოლოფუა",
+    "georgian": "წყალობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-777",
+    "megruli": "ჭყონი",
+    "georgian": "მუხა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-778",
+    "megruli": "ჭყორი",
+    "georgian": "მწყერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-779",
+    "megruli": "ხაბურძაკი/ხაბურზაკი",
+    "georgian": "საზამთრო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-780",
+    "megruli": "ხამუ",
+    "georgian": "დანა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-781",
+    "megruli": "ხანტუა",
+    "georgian": "ხატვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-782",
+    "megruli": "ხანტილი",
+    "georgian": "დახატული",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-783",
+    "megruli": "ხას(ჷ)ლა",
+    "georgian": "გვერდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-784",
+    "megruli": "ხას(ჷ)ლას",
+    "georgian": "გვერდით",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-785",
+    "megruli": "ხე",
+    "georgian": "ხელი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-786",
+    "megruli": "ხელობა",
+    "georgian": "ხელობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-787",
+    "megruli": "ხირუა",
+    "georgian": "პარვა, მოპარვა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-788",
+    "megruli": "ხვამა",
+    "georgian": "ლოცვა (დორხვამანთ - დაგლოცავთ)",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-789",
+    "megruli": "ხვალე",
+    "georgian": "მარტო, მხოლოდ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-790",
+    "megruli": "ხვარხვი",
+    "georgian": "ხახვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-791",
+    "megruli": "ხვიმა/ხომა",
+    "georgian": "ხურმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-792",
+    "megruli": "ხვე",
+    "georgian": "ხვავი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-793",
+    "megruli": "ხოლო",
+    "georgian": "კიდევ",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-794",
+    "megruli": "ხოლოს",
+    "georgian": "ახლოს",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-795",
+    "megruli": "ხუმა, ხმა, ხონარი",
+    "georgian": "ხმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-796",
+    "megruli": "ხოჯი",
+    "georgian": "ხარი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-797",
+    "megruli": "ხიდე, ხინჯი",
+    "georgian": "ხიდი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-798",
+    "megruli": "ხშირას, შხირას, ფშხირას",
+    "georgian": "ხშირად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-799",
+    "megruli": "ხუ",
+    "georgian": "პეშვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-800",
+    "megruli": "ხუალა",
+    "georgian": "დაშლა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-801",
+    "megruli": "ჯა",
+    "georgian": "ხე",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-802",
+    "megruli": "ჯამკაკალი",
+    "georgian": "თუთა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-803",
+    "megruli": "ჯერღვი",
+    "georgian": "ძარღვი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-804",
+    "megruli": "ჯგირი",
+    "georgian": "კარგი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-805",
+    "megruli": "ჯგირო",
+    "georgian": "კარგად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-806",
+    "megruli": "ჯვეში",
+    "georgian": "ძველი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-807",
+    "megruli": "ჯვეშო",
+    "georgian": "ძველად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-808",
+    "megruli": "ჯიმა",
+    "georgian": "ძმა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-809",
+    "megruli": "ჯიმალური",
+    "georgian": "ძმური",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-810",
+    "megruli": "ჯიმალურო",
+    "georgian": "ძმურად",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-811",
+    "megruli": "ჯიმასქუა",
+    "georgian": "ძმისშვილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-812",
+    "megruli": "ჯიმაკოჩი",
+    "georgian": "ძმაკაცი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-813",
+    "megruli": "ჯიმალობა",
+    "georgian": "ძმობა",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-814",
+    "megruli": "ჯიმუ",
+    "georgian": "მარილი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-815",
+    "megruli": "ჯიმუამი",
+    "georgian": "მარილიანი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-816",
+    "megruli": "ჯინა",
+    "georgian": "ყურება, ლოდინი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-817",
+    "megruli": "ჯინჯი",
+    "georgian": "ძირი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-818",
+    "megruli": "ჯოღორი",
+    "georgian": "ძაღლი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-819",
+    "megruli": "ჯუმაშხა",
+    "georgian": "ოთხშაბათი",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-820",
+    "megruli": "ჰამო",
+    "georgian": "ტკბილი, სასიამოვნო",
+    "category": "lexicon"
+  },
+  {
+    "id": "lexicon-821",
+    "megruli": "ჰაერი",
+    "georgian": "ჰაერი",
+    "category": "lexicon"
+  },
+  {
+    "id": "body-parts-1",
+    "megruli": "აჶხა",
+    "georgian": "ბეჭი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-2",
+    "megruli": "კიდირი",
+    "georgian": "მკერდი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-3",
+    "megruli": "ბირგული",
+    "georgian": "მუხლი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-4",
+    "megruli": "ბირცხა",
+    "georgian": "ფრჩხილი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-5",
+    "megruli": "მუქუ",
+    "georgian": "მუცელი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-6",
+    "megruli": "გური",
+    "georgian": "გული",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-7",
+    "megruli": "დუყუ",
+    "georgian": "ნიდაყვი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-8",
+    "megruli": "თომა",
+    "georgian": "თმა",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-9",
+    "megruli": "თხომური",
+    "georgian": "ჩირქი, თხრამლი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-10",
+    "megruli": "ოჭიში",
+    "georgian": "ზურგი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-11",
+    "megruli": "ნაკუ",
+    "georgian": "ნეკი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-12",
+    "megruli": "კონჯი",
+    "georgian": "კოჭი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-13",
+    "megruli": "კუჭხი",
+    "georgian": "ფეხი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-14",
+    "megruli": "კუჭი",
+    "georgian": "კუჭი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-15",
+    "megruli": "ლერწყვა",
+    "georgian": "ნერწყვი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-16",
+    "megruli": "ლეჩქვი/ლეშქვი",
+    "georgian": "ტუჩი, ლაშა",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-17",
+    "megruli": "ორცხუა",
+    "georgian": "საჩხარი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-18",
+    "megruli": "ტკო/ტკოუ",
+    "georgian": "მტკავეილი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-19",
+    "megruli": "ჩქვა",
+    "georgian": "ეშვი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-20",
+    "megruli": "ჩანჯი",
+    "georgian": "ცერი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-21",
+    "megruli": "ცინდა",
+    "georgian": "ცივდა",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-22",
+    "megruli": "ბირგულიშ-კვარი",
+    "georgian": "კვირისტავი, მუხლის-კვერი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-23",
+    "megruli": "ხუჯი",
+    "georgian": "მხარი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-24",
+    "megruli": "მჯილი/მჯიბი",
+    "georgian": "მჯილი, მუშტი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-25",
+    "megruli": "ნიკუ",
+    "georgian": "ნიკაპი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-26",
+    "megruli": "ოსური",
+    "georgian": "ქალი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-27",
+    "megruli": "ჭარბი",
+    "georgian": "ჭარბი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-28",
+    "megruli": "ხეშქაგური",
+    "georgian": "ხელისგული",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-29",
+    "megruli": "ხე-კუჭხი",
+    "georgian": "ხელ-ფეხი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-30",
+    "megruli": "ხუმა/ხონარი",
+    "georgian": "ხმა",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-31",
+    "megruli": "ხორცი",
+    "georgian": "ხორცი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-32",
+    "megruli": "ხურხი",
+    "georgian": "ხორხი, ყელი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-33",
+    "megruli": "ჩხონჩხი",
+    "georgian": "ძვალი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-34",
+    "megruli": "ყვინგი/კისერი/კინჩხი",
+    "georgian": "კისერი, კინჭხი",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-35",
+    "megruli": "ნმალი",
+    "georgian": "მალი, მალა",
+    "category": "body-parts"
+  },
+  {
+    "id": "body-parts-36",
+    "megruli": "შური",
+    "georgian": "სული",
+    "category": "body-parts"
+  },
+  {
+    "id": "animals-extra-1",
+    "megruli": "ბობონჭვა",
+    "georgian": "ბაბაჭუა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-2",
+    "megruli": "ბორბოლია",
+    "georgian": "ობობა, ბორბალა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-3",
+    "megruli": "ბორკი",
+    "georgian": "ბარკალი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-4",
+    "megruli": "ბუმბული",
+    "georgian": "ბუმბული",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-5",
+    "megruli": "ბურდგა",
+    "georgian": "ბუნჯგა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-6",
+    "megruli": "ბურბუ",
+    "georgian": "ლამურა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-7",
+    "megruli": "სქა",
+    "georgian": "ფუტკარი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-8",
+    "megruli": "გენი",
+    "georgian": "ხბო",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-9",
+    "megruli": "გირინი",
+    "georgian": "ვირი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-10",
+    "megruli": "გუზგული",
+    "georgian": "გუზგული",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-11",
+    "megruli": "გუდა",
+    "georgian": "გუდა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-12",
+    "megruli": "დადული",
+    "georgian": "დედალი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-13",
+    "megruli": "ზდაბქურცამი/ზდაბიფურცამი/ზდარფურცხამი/კატუძლაბი",
+    "georgian": "ზდარბი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-14",
+    "megruli": "დედალობუ",
+    "georgian": "სინდიოფალა, დედოფალა, დედალობია, დედალობა, თრითინა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-15",
+    "megruli": "ჭკიჭკიტია",
+    "georgian": "ჭიანჭველა, ჯინჭველი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-16",
+    "megruli": "გომიჩი/კამბეჩი",
+    "georgian": "კამეჩი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-17",
+    "megruli": "ირემი",
+    "georgian": "ირემი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-18",
+    "megruli": "ვარია",
+    "georgian": "ვარია",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-19",
+    "megruli": "ქაცარი",
+    "georgian": "თიკანი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-20",
+    "megruli": "თოფური",
+    "georgian": "თაფლი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-21",
+    "megruli": "ერცქემი",
+    "georgian": "არჩვი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-22",
+    "megruli": "კვინორი",
+    "georgian": "კვერნა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-23",
+    "megruli": "ჩიტი",
+    "georgian": "ჩიტი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-24",
+    "megruli": "ნინძგი/ნიჭითი",
+    "georgian": "ნისკარტი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-25",
+    "megruli": "კიდუ",
+    "georgian": "კოდალა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-26",
+    "megruli": "კოლი",
+    "georgian": "კალია",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-27",
+    "megruli": "კოდონა",
+    "georgian": "კოდო",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-28",
+    "megruli": "კუდელი",
+    "georgian": "კუდი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-29",
+    "megruli": "მალადური",
+    "georgian": "მოლადური",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-30",
+    "megruli": "მარჯვალი/კვერცხი",
+    "georgian": "კვერცხი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-31",
+    "megruli": "ნგერი",
+    "georgian": "მგელი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-32",
+    "megruli": "მელა",
+    "georgian": "მელა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-33",
+    "megruli": "ჭუკი",
+    "georgian": "ტაგვი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-34",
+    "megruli": "მონტყორი",
+    "georgian": "მატყლი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-35",
+    "megruli": "ჭვაბუ",
+    "georgian": "გომბეშო",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-36",
+    "megruli": "ოსქალე/ბუკი",
+    "georgian": "სქა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-37",
+    "megruli": "სქვერი",
+    "georgian": "შვილი (ცხოველისა)",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-38",
+    "megruli": "ტი",
+    "georgian": "ტილი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-39",
+    "megruli": "მუნტური",
+    "georgian": "მატლი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-40",
+    "megruli": "მუნჭქვი",
+    "georgian": "მაჭვი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-41",
+    "megruli": "კურდღელი/ყურდგელი",
+    "georgian": "კურდღელი, ყურდგელი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-42",
+    "megruli": "წყირი",
+    "georgian": "რწყილი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-43",
+    "megruli": "ჭანჯი",
+    "georgian": "ბუზი (მწერი)",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-44",
+    "megruli": "ჭკირი",
+    "georgian": "წილი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-45",
+    "megruli": "ხვილარი",
+    "georgian": "მხვლივი, ხვლიკი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-46",
+    "megruli": "ბჯა",
+    "georgian": "რძე",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-47",
+    "megruli": "ნეშტარი/ნჭდი",
+    "georgian": "ნესტარი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-48",
+    "megruli": "ოფოფი",
+    "georgian": "ოფოფი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-49",
+    "megruli": "ოდიარე",
+    "georgian": "სამოვარი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-50",
+    "megruli": "სუა",
+    "georgian": "ფრთა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-51",
+    "megruli": "თოთი/თათი",
+    "georgian": "თათი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-52",
+    "megruli": "ტორონჭი",
+    "georgian": "მტრედი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-53",
+    "megruli": "ფაფარი",
+    "georgian": "ფაფარი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-54",
+    "megruli": "ფერწო",
+    "georgian": "ლოქოქინა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-55",
+    "megruli": "ფუჭი",
+    "georgian": "ფური",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-56",
+    "megruli": "ხა",
+    "georgian": "ფხა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-57",
+    "megruli": "ქაჭაჭი",
+    "georgian": "ქაჭაჭი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-58",
+    "megruli": "ქა",
+    "georgian": "რქა",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-59",
+    "megruli": "ჯირი",
+    "georgian": "ქორი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-60",
+    "megruli": "დაჯო",
+    "georgian": "დაჯო",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-61",
+    "megruli": "დეჯი",
+    "georgian": "დორი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-62",
+    "megruli": "დორდონჭი/ბატო",
+    "georgian": "დერდეტი, ბატი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-63",
+    "megruli": "ყვალი",
+    "georgian": "ყველი",
+    "category": "animals-extra"
+  },
+  {
+    "id": "animals-extra-64",
+    "megruli": "კვარია",
+    "georgian": "ყვავი (შავი)",
+    "category": "animals-extra"
+  },
+  {
+    "id": "plants-extra-1",
+    "megruli": "თხომუ",
+    "georgian": "თხმელა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-2",
+    "megruli": "ინჭირი(ა)",
+    "georgian": "ატწლი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-3",
+    "megruli": "კაკალი",
+    "georgian": "კაკალი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-4",
+    "megruli": "წვანჯი",
+    "georgian": "წვერი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-5",
+    "megruli": "კეტი",
+    "georgian": "კეტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-6",
+    "megruli": "ბერტი",
+    "georgian": "ბელტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-7",
+    "megruli": "ლაითი/სიმინდი",
+    "georgian": "სიმინდი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-8",
+    "megruli": "ლეკუბა",
+    "georgian": "ლუყუფხა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-9",
+    "megruli": "ლული",
+    "georgian": "ლედვი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-10",
+    "megruli": "ლახანა",
+    "georgian": "ლახანა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-11",
+    "megruli": "მასარი",
+    "georgian": "მესერი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-12",
+    "megruli": "ნოყველა",
+    "georgian": "ყლორტი, მორჩი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-13",
+    "megruli": "ოდიარე",
+    "georgian": "ბალახი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-14",
+    "megruli": "შქერი",
+    "georgian": "შქერი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-15",
+    "megruli": "ნაყოფი",
+    "georgian": "ნაყოფი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-16",
+    "megruli": "მცენარე",
+    "georgian": "მცენარე",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-17",
+    "megruli": "ჯგუნჯგი",
+    "georgian": "სარი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-18",
+    "megruli": "წყოლი",
+    "georgian": "წყავი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-19",
+    "megruli": "ნერგი/ნორგო",
+    "georgian": "ნერგი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-20",
+    "megruli": "ნეგი",
+    "georgian": "ნიგოზი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-21",
+    "megruli": "ჩხვერი",
+    "georgian": "დომის მარცვალი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-22",
+    "megruli": "ორტვინია",
+    "georgian": "ბოსტანი, მტილი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-23",
+    "megruli": "სურო",
+    "georgian": "სურო",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-24",
+    "megruli": "ფიცარი",
+    "georgian": "ფიცარი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-25",
+    "megruli": "ფოსვი",
+    "georgian": "ფესვი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-26",
+    "megruli": "პირი",
+    "georgian": "ყვავილი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-27",
+    "megruli": "ქერი",
+    "georgian": "ქერი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-28",
+    "megruli": "ქერჯი",
+    "georgian": "ქერჯი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-29",
+    "megruli": "ქურუმი",
+    "georgian": "ქვრიმა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-30",
+    "megruli": "დარა",
+    "georgian": "ნადარი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-31",
+    "megruli": "დერო/დერი",
+    "georgian": "დერო, დერი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-32",
+    "megruli": "დობერი",
+    "georgian": "დობე",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-33",
+    "megruli": "ყა",
+    "georgian": "ტოტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-34",
+    "megruli": "ყომური",
+    "georgian": "ტყემალი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-35",
+    "megruli": "ყონა",
+    "georgian": "ყანა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-36",
+    "megruli": "კობეშია/ყოყორო",
+    "georgian": "ყვახი, გოგრა, ყოყორო",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-37",
+    "megruli": "ყურძენი",
+    "georgian": "ყურძენი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-38",
+    "megruli": "წურწი/ყუნწი",
+    "georgian": "ყუნწი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-39",
+    "megruli": "კინტირი",
+    "georgian": "კიტრი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-40",
+    "megruli": "ჭა",
+    "georgian": "ჭალა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-41",
+    "megruli": "ჭერტი",
+    "georgian": "ჭერტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-42",
+    "megruli": "ცქიმუნტური",
+    "georgian": "სხმართლი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-43",
+    "megruli": "ცხემური",
+    "georgian": "ცხემლა/რცხილა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-44",
+    "megruli": "ჭაჭა",
+    "georgian": "ჭაჭა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-45",
+    "megruli": "შორტი",
+    "georgian": "წოფხი, შოლტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-46",
+    "megruli": "ჭვე",
+    "georgian": "ჭავი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-47",
+    "megruli": "ჭინუ",
+    "georgian": "წნელი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-48",
+    "megruli": "ჭყინტი",
+    "georgian": "ჭყინტი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-49",
+    "megruli": "ხე/ჯა",
+    "georgian": "ხე, ძელი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-50",
+    "megruli": "ხიჯი",
+    "georgian": "ჭირკი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-51",
+    "megruli": "ხინჯი",
+    "georgian": "ხიდი",
+    "category": "plants-extra"
+  },
+  {
+    "id": "plants-extra-52",
+    "megruli": "ხუმენი/ხუმენია/ხიხალე",
+    "georgian": "ხოხილაყა",
+    "category": "plants-extra"
+  },
+  {
+    "id": "household-extra-1",
+    "megruli": "კიდა",
+    "georgian": "კედელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-2",
+    "megruli": "კოდი",
+    "georgian": "კოდი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-3",
+    "megruli": "კუმა",
+    "georgian": "კვამლი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-4",
+    "megruli": "კორზა/კირზა",
+    "georgian": "ციცხვი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-5",
+    "megruli": "კუზი/კიზი",
+    "georgian": "კოვზი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-6",
+    "megruli": "ერქვანი",
+    "georgian": "ერქვანი, გუთანი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-7",
+    "megruli": "კურთა",
+    "georgian": "ნიფხავი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-8",
+    "megruli": "ლემში",
+    "georgian": "ნემსი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-9",
+    "megruli": "მეზობელი",
+    "georgian": "მეზობელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-10",
+    "megruli": "მარწკინდი",
+    "georgian": "ბეჭედი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-11",
+    "megruli": "მახორუ",
+    "georgian": "მოსახლი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-12",
+    "megruli": "წისქვილი",
+    "georgian": "წისქვილი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-13",
+    "megruli": "სქიბუ",
+    "georgian": "წისქვილის ქვა, დილაბი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-14",
+    "megruli": "წყურიში",
+    "georgian": "კვირისტავი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-15",
+    "megruli": "ჭკადუ",
+    "georgian": "მჭედელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-16",
+    "megruli": "ჭყეში",
+    "georgian": "მწყემსი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-17",
+    "megruli": "ჭკიდი",
+    "georgian": "მჭადი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-18",
+    "megruli": "ნაკვაჭხირი",
+    "georgian": "ნაკვერცხალი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-19",
+    "megruli": "ტაფი",
+    "georgian": "დაფი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-20",
+    "megruli": "ნაცივხალი/ნაპერწკალი",
+    "georgian": "ნაპერწკალი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-21",
+    "megruli": "ნოშქერი",
+    "georgian": "ნახშირი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-22",
+    "megruli": "ნახაფული",
+    "georgian": "ნაფოტი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-23",
+    "megruli": "ყებური",
+    "georgian": "ბუხარი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-24",
+    "megruli": "ონჭამური",
+    "georgian": "საცხოვრებელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-25",
+    "megruli": "საცირი/ტკიბირი",
+    "georgian": "საცერი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-26",
+    "megruli": "სხვინი",
+    "georgian": "სხვენი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-27",
+    "megruli": "ონწე/არკვანი",
+    "georgian": "აკვანი, სარეცელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-28",
+    "megruli": "კველა",
+    "georgian": "სკამი, შდრ. სავარძელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-29",
+    "megruli": "ორცყაფუ",
+    "georgian": "სარტყელი, ქამარი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-30",
+    "megruli": "სოფელი",
+    "georgian": "სოფელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-31",
+    "megruli": "ორცხონჭი",
+    "georgian": "სავარცხელი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-32",
+    "megruli": "ოხვამე",
+    "georgian": "სალოცავი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-33",
+    "megruli": "ყუდე/ოხორი",
+    "georgian": "სახლი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-34",
+    "megruli": "ნისორი",
+    "georgian": "გობი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-35",
+    "megruli": "ფაცხა",
+    "georgian": "ფაცხა",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-36",
+    "megruli": "ფარცხი",
+    "georgian": "ფარცხი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-37",
+    "megruli": "ფორჭა",
+    "georgian": "პერანგი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-38",
+    "megruli": "ქვირი",
+    "georgian": "ფქვილი",
+    "category": "household-extra"
+  },
+  {
+    "id": "household-extra-39",
+    "megruli": "ქობალი",
+    "georgian": "პური, ხორბალი",
+    "category": "household-extra"
+  },
+  {
+    "id": "weather-1",
+    "megruli": "შარა, ბზა",
+    "georgian": "გზა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-2",
+    "megruli": "გოლა",
+    "georgian": "მთა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-3",
+    "megruli": "დობა",
+    "georgian": "მიწა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-4",
+    "megruli": "დობერა",
+    "georgian": "დობირა, დობილო",
+    "category": "weather"
+  },
+  {
+    "id": "weather-5",
+    "megruli": "რკინა",
+    "georgian": "რკინა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-6",
+    "megruli": "ლინჯი",
+    "georgian": "სპილენძი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-7",
+    "megruli": "ოქრო",
+    "georgian": "ოქრო",
+    "category": "weather"
+  },
+  {
+    "id": "weather-8",
+    "megruli": "ზენი",
+    "georgian": "დაბლობი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-9",
+    "megruli": "ზღვა",
+    "georgian": "ზღვა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-10",
+    "megruli": "მუნაფა",
+    "georgian": "ღრუბელი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-11",
+    "megruli": "ნირსი",
+    "georgian": "ნისლი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-12",
+    "megruli": "სინჭხე, ჭხანა",
+    "georgian": "სიცხე",
+    "category": "weather"
+  },
+  {
+    "id": "weather-13",
+    "megruli": "ჭვიმა",
+    "georgian": "წვიმა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-14",
+    "megruli": "ზუგა",
+    "georgian": "ბორცვი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-15",
+    "megruli": "ტობა",
+    "georgian": "ტბა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-16",
+    "megruli": "ლეტა",
+    "georgian": "ტლაპო, ტალახი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-17",
+    "megruli": "ქვა",
+    "georgian": "ქვა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-18",
+    "megruli": "დალი",
+    "georgian": "დელი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-19",
+    "megruli": "ყინუა",
+    "georgian": "ყინვა",
+    "category": "weather"
+  },
+  {
+    "id": "weather-20",
+    "megruli": "ჭყათი/ჭყეთი",
+    "georgian": "წყეთი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-21",
+    "megruli": "ხინჭი",
+    "georgian": "ხიდი",
+    "category": "weather"
+  },
+  {
+    "id": "weather-22",
+    "megruli": "კირცხი",
+    "georgian": "სეტყვა, ხოშკაკალი",
+    "category": "weather"
+  },
+  {
+    "id": "time-extra-1",
+    "megruli": "ხცალა/კვირკვე",
+    "georgian": "ივნისი",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-2",
+    "megruli": "არგუსო/მარაშინა",
+    "georgian": "აგვისტო",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-3",
+    "megruli": "გიმათუთა",
+    "georgian": "ოქტომბერი",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-4",
+    "megruli": "გერგებათუთა",
+    "georgian": "ნოემბერი",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-5",
+    "megruli": "გაზარხული/გაზაფხული",
+    "georgian": "გაზაფხული",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-6",
+    "megruli": "ბჟაშხა",
+    "georgian": "კვირა",
+    "category": "time-extra"
+  },
+  {
+    "id": "time-extra-7",
+    "megruli": "მარა",
+    "georgian": "კვირა (დროის ერთეული)",
+    "category": "time-extra"
+  },
+  {
+    "id": "question-words-1",
+    "megruli": "მუზმა? მუდა? მუსხვი?",
+    "georgian": "რამდენი?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-2",
+    "megruli": "მუსხიშახ?",
+    "georgian": "რა ზომამდე?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-3",
+    "megruli": "მუსხი?",
+    "georgian": "რამხელა?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-4",
+    "megruli": "მუნერი? მუჭომი?",
+    "georgian": "რანაირი? როგორი?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-5",
+    "megruli": "მუდანერი? მუზმანერი?",
+    "georgian": "რამდენნაირი?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-6",
+    "megruli": "მუდაშახ?",
+    "georgian": "რამდენჯერ?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-7",
+    "megruli": "მუდონერი?",
+    "georgian": "როდინდელი?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-8",
+    "megruli": "მუჭამშახ? მუდა დღაშა?",
+    "georgian": "სანამდე? როდემდე?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-9",
+    "megruli": "მუდოს? მუჭამს?",
+    "georgian": "როდის? რაჟამს?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-10",
+    "megruli": "მუდოშო?",
+    "georgian": "როდისთვის?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-11",
+    "megruli": "მუდაშური?",
+    "georgian": "როდინდელი?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-12",
+    "megruli": "სონური? სონი?",
+    "georgian": "სადაური?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-13",
+    "megruli": "სო?",
+    "georgian": "სად?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-14",
+    "megruli": "სოშა?",
+    "georgian": "საით?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-15",
+    "megruli": "სოურე(შე)/სოლე?",
+    "georgian": "საიდან?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-16",
+    "megruli": "მუშენ?",
+    "georgian": "რატომ?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-17",
+    "megruli": "მუოთ? მოთ?",
+    "georgian": "რად?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-18",
+    "megruli": "მუშა? მუშოთ?",
+    "georgian": "რად? რისთვის?",
+    "category": "question-words"
+  },
+  {
+    "id": "question-words-19",
+    "megruli": "მუთ?",
+    "georgian": "როგორ? რით?",
+    "category": "question-words"
+  },
+  {
+    "id": "adjectives-1",
+    "megruli": "ახალი",
+    "georgian": "ახალი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-2",
+    "megruli": "გალენი",
+    "georgian": "გარეული",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-3",
+    "megruli": "გინჯი",
+    "georgian": "გრძელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-4",
+    "megruli": "დიდი",
+    "georgian": "დიდი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-5",
+    "megruli": "თხითხუ",
+    "georgian": "თხელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-6",
+    "megruli": "ჯგირი",
+    "georgian": "კარგი, კაი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-7",
+    "megruli": "კობუ/კვახე",
+    "georgian": "მკვახე, მკუხე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-8",
+    "megruli": "ლადირი",
+    "georgian": "ნედლი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-9",
+    "megruli": "მარდგვანი",
+    "georgian": "მარჯვენა",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-10",
+    "megruli": "მადალი",
+    "georgian": "მაღალი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-11",
+    "megruli": "თინი",
+    "georgian": "სწორი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-12",
+    "megruli": "კუნტა",
+    "georgian": "მოკლე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-13",
+    "megruli": "მონკა",
+    "georgian": "მშიმე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-14",
+    "megruli": "მჭავე, ბჭე",
+    "georgian": "მჭავე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-15",
+    "megruli": "სქვამი",
+    "georgian": "ლამაზი, მშვენიერი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-16",
+    "megruli": "ტყარი",
+    "georgian": "ტყუილი, გარეული",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-17",
+    "megruli": "რგვალი, კვარკვალია",
+    "georgian": "მრგვალი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-18",
+    "megruli": "რგილი",
+    "georgian": "გრილი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-19",
+    "megruli": "ტყურა",
+    "georgian": "ტყუილი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-20",
+    "megruli": "წუთხი",
+    "georgian": "მწუთხი, მლაშე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-21",
+    "megruli": "ჭიტა",
+    "georgian": "ცოტა, პატარა, მცირე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-22",
+    "megruli": "ხომულა/ხომილა/ხომლა",
+    "georgian": "ხმელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-23",
+    "megruli": "ჭე",
+    "georgian": "თეთრი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-24",
+    "megruli": "ჭირფე",
+    "georgian": "წვრილი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-25",
+    "megruli": "ჭვახე",
+    "georgian": "მჭახე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-26",
+    "megruli": "ჭველი",
+    "georgian": "მძელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-27",
+    "megruli": "ნწარე",
+    "georgian": "მწარე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-28",
+    "megruli": "ეფშა",
+    "georgian": "საქსე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-29",
+    "megruli": "ოშქარი",
+    "georgian": "სამუალო",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-30",
+    "megruli": "ფური, გლახა",
+    "georgian": "ცუდი, გლახა",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-31",
+    "megruli": "უკულაში",
+    "georgian": "უმცროსი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-32",
+    "megruli": "უჯაში",
+    "georgian": "უფროსი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-33",
+    "megruli": "უჯა",
+    "georgian": "შავი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-34",
+    "megruli": "უცხო",
+    "georgian": "უცხო",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-35",
+    "megruli": "დულა",
+    "georgian": "მრუდე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-36",
+    "megruli": "ყინი/ჩხურუ",
+    "georgian": "ცივი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-37",
+    "megruli": "ჩჯიჩქუ",
+    "georgian": "ჩვილი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-38",
+    "megruli": "სწორი",
+    "georgian": "სწორი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-39",
+    "megruli": "ჯარგა",
+    "georgian": "ჭრელი, ჭორდა",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-40",
+    "megruli": "ჭრელი, რჭელი, ჭარელია",
+    "georgian": "ჭრელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-41",
+    "megruli": "ჭიჭე",
+    "georgian": "ცოტა, პატარა, მცირე",
+    "category": "adjectives"
+  },
+  {
+    "id": "adjectives-42",
+    "megruli": "ხომულა",
+    "georgian": "ხმელი",
+    "category": "adjectives"
+  },
+  {
+    "id": "grammar-plural-1",
+    "megruli": "კოჩეფი",
+    "georgian": "კაცები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-2",
+    "megruli": "ოსურეფი",
+    "georgian": "ქალები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-3",
+    "megruli": "დალეფი",
+    "georgian": "დები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-4",
+    "megruli": "ჯალეფი",
+    "georgian": "ხეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-5",
+    "megruli": "დღალეფი",
+    "georgian": "დღეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-6",
+    "megruli": "ტყალეფი",
+    "georgian": "ტყეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-7",
+    "megruli": "დიდალეფი",
+    "georgian": "დედები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-8",
+    "megruli": "მუმალეფი",
+    "georgian": "მამები",
+    "category": "grammar-plurals"
+  }
+]
