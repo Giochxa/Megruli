@@ -4,15 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-    <!-- No culture-aware date/number formatting is needed (ka isn't in the small ICU
-         subset anyway); resx satellite-assembly lookup works fine in invariant mode.
-         PredefinedCulturesOnly=false is required so `new CultureInfo("en"/"ka")` doesn't
-         throw under invariant mode — we only use the name for resource lookup, never for
-         actual culture-specific formatting. -->
-    <InvariantGlobalization>true</InvariantGlobalization>
-    <PredefinedCulturesOnly>false</PredefinedCulturesOnly>
+    <!-- InvariantGlobalization + PredefinedCulturesOnly=false was the smaller-payload option,
+         but relying on PredefinedCulturesOnly actually working turned out to depend on the
+         wasm-tools workload being installed at build time (it embeds that setting into the
+         WASM output) — without it, `new CultureInfo("en"/"ka")` throws at startup and the app
+         never boots. Full (non-invariant) globalization avoids that fragility entirely; the
+         ICU data it adds is a small, worthwhile trade for the app reliably starting.
+         Georgian ("ka") isn't in the default small ICU shard (EFIGS only), so full
+         globalization data needs to be loaded explicitly for CultureInfo("ka") to work. -->
+    <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
     <SatelliteResourceLanguages>en;ka</SatelliteResourceLanguages>
     <DefaultLanguage>en</DefaultLanguage>
   </PropertyGroup>
