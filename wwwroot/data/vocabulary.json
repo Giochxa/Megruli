@@ -7696,5 +7696,53 @@
     "megruli": "ხომულა",
     "georgian": "ხმელი",
     "category": "adjectives"
+  },
+  {
+    "id": "grammar-plural-1",
+    "megruli": "კოჩეფი",
+    "georgian": "კაცები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-2",
+    "megruli": "ოსურეფი",
+    "georgian": "ქალები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-3",
+    "megruli": "დალეფი",
+    "georgian": "დები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-4",
+    "megruli": "ჯალეფი",
+    "georgian": "ხეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-5",
+    "megruli": "დღალეფი",
+    "georgian": "დღეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-6",
+    "megruli": "ტყალეფი",
+    "georgian": "ტყეები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-7",
+    "megruli": "დიდალეფი",
+    "georgian": "დედები",
+    "category": "grammar-plurals"
+  },
+  {
+    "id": "grammar-plural-8",
+    "megruli": "მუმალეფი",
+    "georgian": "მამები",
+    "category": "grammar-plurals"
   }
 ]

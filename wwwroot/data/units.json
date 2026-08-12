@@ -9,7 +9,20 @@
         "id": "basics-1-pronouns",
         "title": "Pronouns & To Be",
         "kind": "Grammar",
-        "wordIds": [],
+        "introduceWordsBeforeExercises": true,
+        "wordIds": [
+          "lexicon-325",
+          "lexicon-529",
+          "lexicon-401",
+          "lexicon-701",
+          "lexicon-252",
+          "lexicon-421",
+          "lexicon-212",
+          "lexicon-513",
+          "lexicon-508",
+          "lexicon-509",
+          "lexicon-511"
+        ],
         "fixedExercises": [
           {
             "type": "multipleChoice",
@@ -261,7 +274,17 @@
         "id": "basics-1-plurals",
         "title": "Plurals (-ეფ)",
         "kind": "Grammar",
-        "wordIds": [],
+        "introduceWordsBeforeExercises": true,
+        "wordIds": [
+          "grammar-plural-1",
+          "grammar-plural-2",
+          "grammar-plural-3",
+          "grammar-plural-4",
+          "grammar-plural-5",
+          "grammar-plural-6",
+          "grammar-plural-7",
+          "grammar-plural-8"
+        ],
         "fixedExercises": [
           {
             "type": "typeAnswer",

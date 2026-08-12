@@ -324,18 +324,69 @@ input, select, textarea {
         top: 0;
         left: auto; right: auto; bottom: auto;
         flex-direction: column;
-        width: 220px;
+        width: 164px;
         flex-shrink: 0;
         height: 100vh;
         border-top: none;
         border-right: 2px solid var(--gray-200);
         align-items: stretch;
+        padding-top: 0.45rem;
     }
-    .bottom-nav-link { flex-direction: row; justify-content: flex-start; gap: 0.75rem; padding: 0.85rem 1.5rem; font-size: 1.1rem; }
+    .bottom-nav-link {
+        flex: 0 0 auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0.5rem;
+        padding: 0.58rem 0.8rem;
+        font-size: 1rem;
+    }
+    .bottom-nav-link small { font-size: 0.72rem; }
     .app-content { max-width: 640px; margin-left: auto; margin-right: auto; }
 }
 
 /* ---- Home / learning path ---- */
+.offline-page { max-width: 620px; margin: 0 auto; }
+
+.page-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.page-title-row h1 { margin: 0 0 0.35rem; font-size: 1.55rem; }
+.page-title-row p { margin: 0; color: var(--gray-700); line-height: 1.45; }
+.offline-cloud { font-size: 2.5rem; }
+.offline-card { background: var(--surface); border: 2px solid var(--gray-200); border-radius: var(--radius); padding: 1rem; }
+.offline-loading { text-align: center; color: var(--gray-500); }
+.offline-summary-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+.offline-summary-top div { display: flex; flex-direction: column; gap: 0.15rem; }
+.offline-summary-top span, .offline-storage { color: var(--gray-500); font-size: 0.82rem; }
+.offline-progress { height: 12px; overflow: hidden; margin: 0.8rem 0; border-radius: 999px; background: var(--gray-200); }
+.offline-progress span { display: block; height: 100%; border-radius: inherit; background: var(--green); transition: width 0.2s ease; }
+.offline-storage, .offline-note, .offline-message { margin: 0.7rem 0 0; }
+.offline-message { padding: 0.65rem 0.8rem; border-radius: 10px; color: var(--green-dark); background: var(--option-correct-bg); }
+.offline-message.offline-error { color: var(--red); background: var(--option-wrong-bg); }
+.offline-note { color: var(--gray-700); font-size: 0.85rem; }
+.offline-actions { display: flex; gap: 0.65rem; margin-top: 1rem; }
+.offline-actions button { flex: 1; border-radius: 12px; padding: 0.75rem; font-weight: 800; }
+.offline-actions button:disabled, .offline-item-button:disabled { opacity: 0.55; cursor: default; }
+.primary-action { border: 2px solid var(--green-dark); background: var(--green); color: #fff; }
+.secondary-action { border: 2px solid var(--gray-300); background: var(--surface); color: var(--text); }
+.danger-action { color: var(--red); }
+.storage-link { border: 0; background: transparent; color: var(--blue); font-weight: 700; padding: 0.75rem 0 0; }
+.offline-list-heading { display: flex; justify-content: space-between; align-items: center; margin: 1.3rem 0 0.65rem; }
+.offline-list-heading h2 { margin: 0; font-size: 1.05rem; }
+.offline-list-heading span { color: var(--gray-500); font-size: 0.85rem; }
+.offline-list { display: grid; gap: 0.55rem; }
+.offline-lesson-card { display: flex; align-items: center; gap: 0.8rem; padding: 0.7rem 0.8rem; border: 2px solid var(--gray-200); border-radius: 12px; background: var(--surface); }
+.offline-lesson-card.is-downloaded { border-color: var(--green); }
+.offline-lesson-icon { display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--gray-100); font-weight: 900; }
+.is-downloaded .offline-lesson-icon { background: var(--option-correct-bg); color: var(--green-dark); }
+.offline-lesson-info { display: flex; flex: 1; min-width: 0; flex-direction: column; }
+.offline-lesson-info span { color: var(--gray-500); font-size: 0.78rem; }
+.offline-item-button { width: 2.4rem; height: 2.4rem; border: 0; border-radius: 50%; background: var(--gray-100); color: var(--text); }
+.offline-item-button.remove { font-size: 0.9rem; }
+
+@media (max-width: 480px) {
+    .offline-actions { flex-direction: column; }
+    .offline-cloud { display: none; }
+}
+
 .unit-section { margin-bottom: 2rem; }
 
 .unit-header {
@@ -668,6 +719,45 @@ input, select, textarea {
 .stat-label { color: var(--gray-500); font-size: 0.8rem; }
 
 /* ---- Clip labeler ---- */
+.sentence-translation { color: var(--gray-500); margin: 0 0 1rem; }
+
+.gap-sentence {
+    font-size: 1.45rem;
+    font-weight: 750;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.sentence-gap {
+    display: inline-block;
+    min-width: 6rem;
+    margin: 0 0.3rem;
+    padding: 0 0.35rem;
+    text-align: center;
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+}
+
+.sentence-gap.gap-correct { color: var(--green-dark); border-color: var(--green); }
+.sentence-gap.gap-wrong { color: var(--red); border-color: var(--red); }
+.completed-sentence { color: var(--green-dark); font-size: 1.05rem; }
+
+.word-bank { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.word-bank-option {
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--gray-300);
+    border-bottom-width: 4px;
+    border-radius: 12px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.word-bank-option:disabled { cursor: default; }
+
 .labeler-controls { display: flex; align-items: center; gap: 1.5rem; margin: 1rem 0; flex-wrap: wrap; }
 .clip-labeler-list { list-style: none; padding: 0; }
 
@@ -697,6 +787,21 @@ input, select, textarea {
     border-radius: 8px;
     border: 2px solid var(--gray-300);
 }
+
+.language-buttons { grid-column: 1 / -1; display: flex; gap: 0.5rem; }
+
+.language-btn {
+    border: 2px solid var(--gray-300);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--gray-700);
+    padding: 0.4rem 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.language-btn.selected-megruli { border-color: var(--green); background: #e8f8e8; color: var(--green-dark); }
+.language-btn.selected-georgian { border-color: var(--gray-500); background: var(--gray-100); }
 
 .link-search { position: relative; }
 
