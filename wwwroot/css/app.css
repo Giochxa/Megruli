@@ -435,14 +435,20 @@ input, select, textarea {
     gap: 0.75rem;
 }
 
+.option-cell { position: relative; }
+
 .option-btn {
+    width: 100%;
     padding: 1rem;
+    padding-right: 2.25rem;
     border-radius: var(--radius);
     border: 2px solid var(--gray-300);
     background: var(--surface);
     font-size: 1.05rem;
     text-align: left;
 }
+
+.option-cell .pronounce-btn { position: absolute; top: 0.5rem; right: 0.35rem; margin: 0; }
 
 .option-btn.option-selected { border-color: var(--blue); background: var(--option-selected-bg); }
 .option-btn.option-correct { border-color: var(--green); background: var(--option-correct-bg); }
@@ -464,7 +470,10 @@ input, select, textarea {
 .match-columns { display: flex; gap: 1rem; }
 .match-column { flex: 1; display: flex; flex-direction: column; gap: 0.6rem; }
 
+.match-chip-cell { display: flex; align-items: center; gap: 0.2rem; }
+
 .match-chip {
+    flex: 1;
     padding: 0.75rem;
     border-radius: 10px;
     border: 2px solid var(--gray-300);
@@ -488,6 +497,18 @@ input, select, textarea {
 }
 
 .play-btn.small { padding: 0.4rem 0.6rem; margin: 0; font-size: 0.9rem; }
+
+.pronounce-btn {
+    background: none;
+    border: none;
+    font-size: 0.95rem;
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+.pronounce-btn:hover { background: var(--gray-200); }
 .play-btn-placeholder { display: inline-block; width: 2rem; text-align: center; color: var(--gray-300); }
 
 .exercise-footer {
@@ -596,6 +617,34 @@ input, select, textarea {
 }
 
 .intro { color: var(--gray-700); }
+
+.letter-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--gray-100);
+    border-radius: var(--radius);
+    padding: 0.85rem 1.1rem;
+    margin-top: 0.75rem;
+}
+
+.letter-big { font-size: 2.5rem; font-weight: 700; line-height: 1; color: var(--blue); }
+
+.letter-substitutes { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
+
+.letter-sub-label { color: var(--gray-500); font-size: 0.8rem; margin-right: 0.25rem; }
+
+.letter-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 8px;
+    background: var(--surface);
+    border: 2px solid var(--gray-300);
+    font-weight: 700;
+}
 
 /* ---- Profile ---- */
 .stat-cards {
