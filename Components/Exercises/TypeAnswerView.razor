@@ -12,7 +12,7 @@
                enterkeyhint="done" @onkeydown="OnKeyDown" />
         @if (!_answered)
         {
-            <button type="button" class="btn btn-check type-enter-btn"
+            <button type="button" class="btn btn-submit type-enter-btn"
                     disabled="@string.IsNullOrWhiteSpace(_input)" @onclick="Check">
                 @Loc["Common_Enter"]
             </button>
