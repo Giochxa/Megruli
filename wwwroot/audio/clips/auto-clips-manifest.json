@@ -1,0 +1,401 @@
+[
+  {
+    "Id": "auto-Megruli1-001",
+    "SourceFile": "Megruli1.mp3",
+    "StartMs": 232940,
+    "EndMs": 233640,
+    "ClipFile": "auto-Megruli1-001.wav"
+  },
+  {
+    "Id": "auto-Megruli1-003",
+    "SourceFile": "Megruli1.mp3",
+    "StartMs": 239340,
+    "EndMs": 240260,
+    "ClipFile": "auto-Megruli1-003.wav"
+  },
+  {
+    "Id": "auto-Megruli5-001",
+    "SourceFile": "Megruli5.mp3",
+    "StartMs": 336640,
+    "EndMs": 337400,
+    "ClipFile": "auto-Megruli5-001.wav"
+  },
+  {
+    "Id": "auto-Megruli9-001",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 557760,
+    "EndMs": 558120,
+    "ClipFile": "auto-Megruli9-001.wav"
+  },
+  {
+    "Id": "auto-Megruli9-002",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 559100,
+    "EndMs": 559680,
+    "ClipFile": "auto-Megruli9-002.wav"
+  },
+  {
+    "Id": "auto-Megruli9-003",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 560960,
+    "EndMs": 561320,
+    "ClipFile": "auto-Megruli9-003.wav"
+  },
+  {
+    "Id": "auto-Megruli9-004",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 563900,
+    "EndMs": 564340,
+    "ClipFile": "auto-Megruli9-004.wav"
+  },
+  {
+    "Id": "auto-Megruli9-005",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 564780,
+    "EndMs": 565080,
+    "ClipFile": "auto-Megruli9-005.wav"
+  },
+  {
+    "Id": "auto-Megruli9-006",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 573500,
+    "EndMs": 573960,
+    "ClipFile": "auto-Megruli9-006.wav"
+  },
+  {
+    "Id": "auto-Megruli9-007",
+    "SourceFile": "Megruli9.mp3",
+    "StartMs": 575000,
+    "EndMs": 575620,
+    "ClipFile": "auto-Megruli9-007.wav"
+  },
+  {
+    "Id": "auto-Megruli13-001",
+    "SourceFile": "Megruli13.mp3",
+    "StartMs": 473640,
+    "EndMs": 474140,
+    "ClipFile": "auto-Megruli13-001.wav"
+  },
+  {
+    "Id": "auto-Megruli13-002",
+    "SourceFile": "Megruli13.mp3",
+    "StartMs": 475280,
+    "EndMs": 475960,
+    "ClipFile": "auto-Megruli13-002.wav"
+  },
+  {
+    "Id": "auto-Megruli17-001",
+    "SourceFile": "Megruli17.mp3",
+    "StartMs": 429660,
+    "EndMs": 430100,
+    "ClipFile": "auto-Megruli17-001.wav"
+  },
+  {
+    "Id": "auto-Megruli17-002",
+    "SourceFile": "Megruli17.mp3",
+    "StartMs": 430380,
+    "EndMs": 430800,
+    "ClipFile": "auto-Megruli17-002.wav"
+  },
+  {
+    "Id": "auto-Megruli21-001",
+    "SourceFile": "Megruli21.mp3",
+    "StartMs": 98740,
+    "EndMs": 99060,
+    "ClipFile": "auto-Megruli21-001.wav"
+  },
+  {
+    "Id": "auto-Megruli29-001",
+    "SourceFile": "Megruli29.mp3",
+    "StartMs": 222620,
+    "EndMs": 223580,
+    "ClipFile": "auto-Megruli29-001.wav"
+  },
+  {
+    "Id": "auto-Megruli2-001",
+    "SourceFile": "Megruli2.mp3",
+    "StartMs": 4600,
+    "EndMs": 5100,
+    "ClipFile": "auto-Megruli2-001.wav"
+  },
+  {
+    "Id": "auto-Megruli2-002",
+    "SourceFile": "Megruli2.mp3",
+    "StartMs": 17240,
+    "EndMs": 17780,
+    "ClipFile": "auto-Megruli2-002.wav"
+  },
+  {
+    "Id": "auto-Megruli2-004",
+    "SourceFile": "Megruli2.mp3",
+    "StartMs": 183940,
+    "EndMs": 184340,
+    "ClipFile": "auto-Megruli2-004.wav"
+  },
+  {
+    "Id": "auto-Megruli2-006",
+    "SourceFile": "Megruli2.mp3",
+    "StartMs": 188140,
+    "EndMs": 188520,
+    "ClipFile": "auto-Megruli2-006.wav"
+  },
+  {
+    "Id": "auto-Megruli2-007",
+    "SourceFile": "Megruli2.mp3",
+    "StartMs": 251840,
+    "EndMs": 253000,
+    "ClipFile": "auto-Megruli2-007.wav"
+  },
+  {
+    "Id": "auto-Megruli6-001",
+    "SourceFile": "Megruli6.mp3",
+    "StartMs": 353700,
+    "EndMs": 354800,
+    "ClipFile": "auto-Megruli6-001.wav"
+  },
+  {
+    "Id": "auto-Megruli6-002",
+    "SourceFile": "Megruli6.mp3",
+    "StartMs": 359740,
+    "EndMs": 360580,
+    "ClipFile": "auto-Megruli6-002.wav"
+  },
+  {
+    "Id": "auto-Megruli6-003",
+    "SourceFile": "Megruli6.mp3",
+    "StartMs": 361600,
+    "EndMs": 362480,
+    "ClipFile": "auto-Megruli6-003.wav"
+  },
+  {
+    "Id": "auto-Megruli6-004",
+    "SourceFile": "Megruli6.mp3",
+    "StartMs": 373940,
+    "EndMs": 376500,
+    "ClipFile": "auto-Megruli6-004.wav"
+  },
+  {
+    "Id": "auto-Megruli6-006",
+    "SourceFile": "Megruli6.mp3",
+    "StartMs": 515360,
+    "EndMs": 515980,
+    "ClipFile": "auto-Megruli6-006.wav"
+  },
+  {
+    "Id": "auto-Megruli10-001",
+    "SourceFile": "Megruli10.mp3",
+    "StartMs": 344280,
+    "EndMs": 344860,
+    "ClipFile": "auto-Megruli10-001.wav"
+  },
+  {
+    "Id": "auto-Megruli18-001",
+    "SourceFile": "Megruli18.mp3",
+    "StartMs": 149560,
+    "EndMs": 150040,
+    "ClipFile": "auto-Megruli18-001.wav"
+  },
+  {
+    "Id": "auto-Megruli22-002",
+    "SourceFile": "Megruli22.mp3",
+    "StartMs": 57060,
+    "EndMs": 57860,
+    "ClipFile": "auto-Megruli22-002.wav"
+  },
+  {
+    "Id": "auto-Megruli26-001",
+    "SourceFile": "Megruli26.mp3",
+    "StartMs": 48420,
+    "EndMs": 48720,
+    "ClipFile": "auto-Megruli26-001.wav"
+  },
+  {
+    "Id": "auto-Megruli30-001",
+    "SourceFile": "Megruli30.mp3",
+    "StartMs": 483140,
+    "EndMs": 483900,
+    "ClipFile": "auto-Megruli30-001.wav"
+  },
+  {
+    "Id": "auto-Megruli3-004",
+    "SourceFile": "Megruli3.mp3",
+    "StartMs": 463360,
+    "EndMs": 464500,
+    "ClipFile": "auto-Megruli3-004.wav"
+  },
+  {
+    "Id": "auto-Megruli3-005",
+    "SourceFile": "Megruli3.mp3",
+    "StartMs": 471560,
+    "EndMs": 472280,
+    "ClipFile": "auto-Megruli3-005.wav"
+  },
+  {
+    "Id": "auto-Megruli3-006",
+    "SourceFile": "Megruli3.mp3",
+    "StartMs": 497780,
+    "EndMs": 498580,
+    "ClipFile": "auto-Megruli3-006.wav"
+  },
+  {
+    "Id": "auto-Megruli15-001",
+    "SourceFile": "Megruli15.mp3",
+    "StartMs": 264400,
+    "EndMs": 264980,
+    "ClipFile": "auto-Megruli15-001.wav"
+  },
+  {
+    "Id": "auto-Megruli19-001",
+    "SourceFile": "Megruli19.mp3",
+    "StartMs": 81480,
+    "EndMs": 82260,
+    "ClipFile": "auto-Megruli19-001.wav"
+  },
+  {
+    "Id": "auto-Megruli19-003",
+    "SourceFile": "Megruli19.mp3",
+    "StartMs": 108400,
+    "EndMs": 108920,
+    "ClipFile": "auto-Megruli19-003.wav"
+  },
+  {
+    "Id": "auto-Megruli23-001",
+    "SourceFile": "Megruli23.mp3",
+    "StartMs": 67900,
+    "EndMs": 68380,
+    "ClipFile": "auto-Megruli23-001.wav"
+  },
+  {
+    "Id": "auto-Megruli27-001",
+    "SourceFile": "Megruli27.mp3",
+    "StartMs": 359380,
+    "EndMs": 359880,
+    "ClipFile": "auto-Megruli27-001.wav"
+  },
+  {
+    "Id": "auto-Megruli27-002",
+    "SourceFile": "Megruli27.mp3",
+    "StartMs": 366680,
+    "EndMs": 367320,
+    "ClipFile": "auto-Megruli27-002.wav"
+  },
+  {
+    "Id": "auto-Megruli4-001",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 415380,
+    "EndMs": 415880,
+    "ClipFile": "auto-Megruli4-001.wav"
+  },
+  {
+    "Id": "auto-Megruli4-002",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 617460,
+    "EndMs": 618100,
+    "ClipFile": "auto-Megruli4-002.wav"
+  },
+  {
+    "Id": "auto-Megruli4-004",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 623940,
+    "EndMs": 624760,
+    "ClipFile": "auto-Megruli4-004.wav"
+  },
+  {
+    "Id": "auto-Megruli4-005",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 663700,
+    "EndMs": 664380,
+    "ClipFile": "auto-Megruli4-005.wav"
+  },
+  {
+    "Id": "auto-Megruli4-006",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 670240,
+    "EndMs": 670860,
+    "ClipFile": "auto-Megruli4-006.wav"
+  },
+  {
+    "Id": "auto-Megruli4-007",
+    "SourceFile": "Megruli4.mp3",
+    "StartMs": 676400,
+    "EndMs": 677100,
+    "ClipFile": "auto-Megruli4-007.wav"
+  },
+  {
+    "Id": "auto-Megruli8-001",
+    "SourceFile": "Megruli8.mp3",
+    "StartMs": 298700,
+    "EndMs": 299740,
+    "ClipFile": "auto-Megruli8-001.wav"
+  },
+  {
+    "Id": "auto-Megruli8-002",
+    "SourceFile": "Megruli8.mp3",
+    "StartMs": 299740,
+    "EndMs": 300540,
+    "ClipFile": "auto-Megruli8-002.wav"
+  },
+  {
+    "Id": "auto-Megruli8-004",
+    "SourceFile": "Megruli8.mp3",
+    "StartMs": 302400,
+    "EndMs": 303360,
+    "ClipFile": "auto-Megruli8-004.wav"
+  },
+  {
+    "Id": "auto-Megruli8-006",
+    "SourceFile": "Megruli8.mp3",
+    "StartMs": 420420,
+    "EndMs": 420980,
+    "ClipFile": "auto-Megruli8-006.wav"
+  },
+  {
+    "Id": "auto-Megruli16-001",
+    "SourceFile": "Megruli16.mp3",
+    "StartMs": 413800,
+    "EndMs": 414780,
+    "ClipFile": "auto-Megruli16-001.wav"
+  },
+  {
+    "Id": "auto-Megruli16-002",
+    "SourceFile": "Megruli16.mp3",
+    "StartMs": 422860,
+    "EndMs": 423940,
+    "ClipFile": "auto-Megruli16-002.wav"
+  },
+  {
+    "Id": "auto-Megruli16-003",
+    "SourceFile": "Megruli16.mp3",
+    "StartMs": 565620,
+    "EndMs": 566060,
+    "ClipFile": "auto-Megruli16-003.wav"
+  },
+  {
+    "Id": "auto-Megruli28-001",
+    "SourceFile": "Megruli28.mp3",
+    "StartMs": 86700,
+    "EndMs": 87220,
+    "ClipFile": "auto-Megruli28-001.wav"
+  },
+  {
+    "Id": "auto-Megruli28-002",
+    "SourceFile": "Megruli28.mp3",
+    "StartMs": 88060,
+    "EndMs": 89000,
+    "ClipFile": "auto-Megruli28-002.wav"
+  },
+  {
+    "Id": "auto-Megruli28-004",
+    "SourceFile": "Megruli28.mp3",
+    "StartMs": 110060,
+    "EndMs": 111240,
+    "ClipFile": "auto-Megruli28-004.wav"
+  },
+  {
+    "Id": "auto-Megruli28-005",
+    "SourceFile": "Megruli28.mp3",
+    "StartMs": 494020,
+    "EndMs": 494500,
+    "ClipFile": "auto-Megruli28-005.wav"
+  }
+]
