@@ -29,7 +29,7 @@
                     @if (_labeledClipByWord.TryGetValue(entry.Id, out var clipId))
                     {
                         <button class="play-btn small" @onclick="() => Play(clipId)">🔊</button>
-                        <audio @ref="_audioRefs[entry.Id]" src="@($"audio/clips/{clipId}.wav")"></audio>
+                        <audio id="@AudioElementId(entry.Id)" src="@AudioSrc(clipId)" preload="metadata"></audio>
                     }
                     else
                     {
@@ -54,7 +54,7 @@
     private List<Entry> _all = new();
     private List<string> _categories = new();
     private Dictionary<string, string> _labeledClipByWord = new();
-    private Dictionary<string, ElementReference> _audioRefs = new();
+    private Dictionary<string, AudioClip> _clipsById = new();
     private string _query = "";
     private string? _category;
     private bool _loading = true;
@@ -85,7 +85,8 @@
             if (label.LinkedWordId is not null && !label.Skipped)
             {
                 _labeledClipByWord[label.LinkedWordId] = label.ClipId;
-                _audioRefs[label.LinkedWordId] = default;
+                var clip = await Content.GetClipAsync(label.ClipId);
+                if (clip is not null) _clipsById[label.ClipId] = clip;
             }
         }
 
@@ -97,9 +98,15 @@
     private async Task Play(string clipId)
     {
         var wordId = _labeledClipByWord.FirstOrDefault(kv => kv.Value == clipId).Key;
-        if (wordId is not null && _audioRefs.TryGetValue(wordId, out var el))
+        if (wordId is not null && _clipsById.TryGetValue(clipId, out var clip))
         {
-            await JS.InvokeVoidAsync("megruliAudio.play", el);
+            await JS.InvokeVoidAsync("megruliAudio.playSegmentById", AudioElementId(wordId), clip.StartMs, clip.EndMs);
         }
     }
+
+    private string? AudioSrc(string clipId) => _clipsById.TryGetValue(clipId, out var clip)
+        ? $"audio/lessons/{clip.SourceFile}"
+        : null;
+
+    private static string AudioElementId(string wordId) => $"dictionary-audio-{wordId}";
 }

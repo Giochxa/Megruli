@@ -3,12 +3,13 @@
    one until the Clip Labeler has been used, so this stays quiet rather than cluttering
    every exercise with a dead button. *@
 @inject AudioClipLabelService Labels
+@inject ContentService Content
 @inject IJSRuntime JS
 
 @if (_clipId is not null)
 {
     <button type="button" class="pronounce-btn" title="@Loc["Common_Play"]" @onclick="Play" @onclick:stopPropagation="true">🔊</button>
-    <audio @ref="_audioRef" src="@($"audio/clips/{_clipId}.wav")"></audio>
+    <audio @ref="_audioRef" src="@AudioSrc" preload="metadata"></audio>
 }
 
 @code {
@@ -17,6 +18,7 @@
     [Inject] private IStringLocalizer<SharedResource> Loc { get; set; } = default!;
 
     private string? _clipId;
+    private AudioClip? _clip;
     private ElementReference _audioRef;
     private string? _resolvedFor;
 
@@ -34,10 +36,14 @@
         {
             _clipId = await Labels.GetClipIdForMegruliTextAsync(MegruliText);
         }
+        _clip = _clipId is null ? null : await Content.GetClipAsync(_clipId);
     }
+
+    private string? AudioSrc => _clip is null ? null : $"audio/lessons/{_clip.SourceFile}";
 
     private async Task Play()
     {
-        await JS.InvokeVoidAsync("megruliAudio.play", _audioRef);
+        if (_clip is not null)
+            await JS.InvokeVoidAsync("megruliAudio.playSegment", _audioRef, _clip.StartMs, _clip.EndMs);
     }
 }

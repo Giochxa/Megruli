@@ -51,6 +51,7 @@
   <data name="Exercise_MatchPairs" xml:space="preserve"><value>Match the pairs</value></data>
   <data name="Exercise_AllMatched" xml:space="preserve"><value>All matched!</value></data>
   <data name="Exercise_ListenSelect" xml:space="preserve"><value>Listen and select what you hear</value></data>
+  <data name="Exercise_FillMissingWord" xml:space="preserve"><value>Choose the missing Megruli word</value></data>
 
   <data name="Listening_Intro" xml:space="preserve"><value>Listen along to this full lesson recording from your Megruli course.</value></data>
   <data name="Listening_LabeledMoments" xml:space="preserve"><value>Labeled moments from this lesson</value></data>
@@ -92,7 +93,7 @@
   <data name="Profile_OpenClipLabeler" xml:space="preserve"><value>Open Clip Labeler</value></data>
 
   <data name="ClipLabeler_Title" xml:space="preserve"><value>Clip Labeler</value></data>
-  <data name="ClipLabeler_Intro" xml:space="preserve"><value>Play each auto-detected clip, type what it says, and optionally link it to a vocabulary word so it becomes real pronunciation audio in exercises and the dictionary. Junk clips (narrator asides, false detections) can be skipped so they stop showing up.</value></data>
+  <data name="ClipLabeler_Intro" xml:space="preserve"><value>Review each candidate and mark the spoken language. Only clips marked Megruli can be linked to words and used for pronunciation in lessons; Georgian clips remain hidden from learners.</value></data>
   <data name="ClipLabeler_LessonRecording" xml:space="preserve"><value>Lesson recording:</value></data>
   <data name="ClipLabeler_SelectFile" xml:space="preserve"><value>Select a file…</value></data>
   <data name="ClipLabeler_HideLabeled" xml:space="preserve"><value>Hide already-labeled clips</value></data>
@@ -101,4 +102,35 @@
   <data name="ClipLabeler_MegruliPlaceholder" xml:space="preserve"><value>Megruli text</value></data>
   <data name="ClipLabeler_GeorgianPlaceholder" xml:space="preserve"><value>Georgian meaning</value></data>
   <data name="ClipLabeler_LinkSearchPlaceholder" xml:space="preserve"><value>Link to word (search)</value></data>
+  <data name="ClipLabeler_Show" xml:space="preserve"><value>Show:</value></data>
+  <data name="ClipLabeler_Unreviewed" xml:space="preserve"><value>Unreviewed clips</value></data>
+  <data name="ClipLabeler_MegruliOnly" xml:space="preserve"><value>Megruli only</value></data>
+  <data name="ClipLabeler_AllClips" xml:space="preserve"><value>All clips</value></data>
+  <data name="ClipLabeler_SpokenLanguage" xml:space="preserve"><value>Spoken language</value></data>
+  <data name="ClipLabeler_MegruliVoice" xml:space="preserve"><value>Megruli voice</value></data>
+  <data name="ClipLabeler_GeorgianVoice" xml:space="preserve"><value>Georgian voice — hide</value></data>
+  <data name="Nav_Offline" xml:space="preserve"><value>Offline</value></data>
+  <data name="Offline_Title" xml:space="preserve"><value>Offline Downloads</value></data>
+  <data name="Offline_Intro" xml:space="preserve"><value>Download lesson recordings once, then use every linked word and audio lesson without internet.</value></data>
+  <data name="Offline_DownloadedCount" xml:space="preserve"><value>{0} of {1} lessons downloaded</value></data>
+  <data name="Offline_DeviceStorage" xml:space="preserve"><value>This app uses {0} of {1} available browser storage.</value></data>
+  <data name="Offline_DownloadAll" xml:space="preserve"><value>Download all lessons</value></data>
+  <data name="Offline_RemoveAll" xml:space="preserve"><value>Remove all</value></data>
+  <data name="Offline_Downloading" xml:space="preserve"><value>Downloading lesson {0}...</value></data>
+  <data name="Offline_ConnectToDownload" xml:space="preserve"><value>Connect to the internet to download more lessons.</value></data>
+  <data name="Offline_ProtectDownloads" xml:space="preserve"><value>Protect downloads from automatic cleanup</value></data>
+  <data name="Offline_LessonAudio" xml:space="preserve"><value>Lesson audio</value></data>
+  <data name="Offline_LessonNumber" xml:space="preserve"><value>Lesson {0}</value></data>
+  <data name="Offline_Available" xml:space="preserve"><value>Available offline</value></data>
+  <data name="Offline_NotDownloaded" xml:space="preserve"><value>Not downloaded</value></data>
+  <data name="Offline_Remove" xml:space="preserve"><value>Remove download</value></data>
+  <data name="Offline_Download" xml:space="preserve"><value>Download lesson</value></data>
+  <data name="Offline_DownloadComplete" xml:space="preserve"><value>Lesson {0} is available offline.</value></data>
+  <data name="Offline_AllReady" xml:space="preserve"><value>All lesson audio is ready offline.</value></data>
+  <data name="Offline_Removed" xml:space="preserve"><value>Lesson {0} download removed.</value></data>
+  <data name="Offline_AllRemoved" xml:space="preserve"><value>All downloaded lesson audio was removed.</value></data>
+  <data name="Offline_Protected" xml:space="preserve"><value>The browser will keep these downloads when possible.</value></data>
+  <data name="Offline_ProtectionUnavailable" xml:space="preserve"><value>Your browser did not grant protected storage. Downloads still work but may be cleared if storage is low.</value></data>
+  <data name="Offline_DownloadFailed" xml:space="preserve"><value>Could not complete the download: {0}</value></data>
+  <data name="App_Title" xml:space="preserve"><value>Megruli — Learn Megruli</value></data>
 </root>

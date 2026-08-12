@@ -1,4 +1,5 @@
 using Megruli.Shared;
+using System.Text.RegularExpressions;
 
 namespace Megruli.App.Services;
 
@@ -24,7 +25,7 @@ public class ExerciseGenerator
     {
         if (lesson.Kind == LessonKind.Grammar)
         {
-            return lesson.FixedExercises?.ToList() ?? new();
+            return GenerateGrammarExercises(lesson);
         }
 
         var words = new List<(string Id, string Megruli, string Georgian, string Category)>();
@@ -114,6 +115,11 @@ public class ExerciseGenerator
                     });
                 }
             }
+
+            // Multi-word vocabulary entries are also real course sentences/expressions,
+            // so they can support the same gap exercise as phrases and proverbs.
+            var gap = CreateMissingWordExercise(w, words, NextId(), rng);
+            if (gap is not null) pool.Add(gap);
         }
 
         foreach (var group in words.Chunk(5))
@@ -127,6 +133,107 @@ public class ExerciseGenerator
         }
 
         var shuffled = pool.OrderBy(_ => rng.Next()).ToList();
-        return shuffled.Take(MaxExercisesPerLesson).ToList();
+
+        // Sentence lessons should reliably contain gap exercises even when their overall
+        // generated pool is much larger than the 20-exercise session cap.
+        var requiredGaps = shuffled.OfType<FillMissingWordExercise>().Take(5).Cast<ExerciseBase>().ToList();
+        var remaining = shuffled.Where(e => !requiredGaps.Contains(e))
+            .Take(MaxExercisesPerLesson - requiredGaps.Count);
+        return requiredGaps.Concat(remaining).OrderBy(_ => rng.Next()).ToList();
+    }
+
+    private static List<ExerciseBase> GenerateGrammarExercises(Lesson lesson)
+    {
+        var rng = Random.Shared;
+        var fixedExercises = lesson.FixedExercises?.ToList() ?? new();
+        var typeAnswers = fixedExercises.OfType<TypeAnswerExercise>()
+            .Where(exercise => exercise.AcceptedAnswers.Count > 0)
+            .ToList();
+        var tokenPool = typeAnswers
+            .SelectMany(exercise => Regex.Matches(CleanSentence(exercise.AcceptedAnswers[0]), @"[\p{L}\p{M}]+")
+                .Select(match => match.Value))
+            .Where(token => token.Length >= 2)
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        var gaps = new List<ExerciseBase>();
+        int gapIndex = 0;
+        foreach (var exercise in typeAnswers.OrderBy(_ => rng.Next()))
+        {
+            var sentence = CleanSentence(exercise.AcceptedAnswers[0]);
+            var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}]+")
+                .Where(match => match.Length >= 2)
+                .ToList();
+            if (tokens.Count < 2) continue;
+
+            var missing = tokens[rng.Next(tokens.Count)];
+            var distractors = tokenPool
+                .Where(token => !string.Equals(token, missing.Value, StringComparison.OrdinalIgnoreCase))
+                .OrderBy(_ => rng.Next())
+                .Take(3)
+                .ToList();
+            if (distractors.Count < 2) continue;
+
+            var options = distractors.Append(missing.Value).OrderBy(_ => rng.Next()).ToList();
+            gaps.Add(new FillMissingWordExercise
+            {
+                Id = $"{lesson.Id}-gap-{++gapIndex}",
+                WordId = exercise.WordId,
+                SentenceBefore = sentence[..missing.Index],
+                SentenceAfter = sentence[(missing.Index + missing.Length)..],
+                GeorgianTranslation = exercise.Prompt,
+                Options = options,
+                CorrectIndex = options.IndexOf(missing.Value)
+            });
+            if (gaps.Count == 5) break;
+        }
+
+        return gaps.Concat(fixedExercises.OrderBy(_ => rng.Next()))
+            .Take(MaxExercisesPerLesson)
+            .OrderBy(_ => rng.Next())
+            .ToList();
+    }
+
+    private static FillMissingWordExercise? CreateMissingWordExercise(
+        (string Id, string Megruli, string Georgian, string Category) word,
+        List<(string Id, string Megruli, string Georgian, string Category)> lessonWords,
+        string id,
+        Random rng)
+    {
+        var sentence = CleanSentence(word.Megruli);
+        var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}]+")
+            .Where(m => m.Length >= 2)
+            .ToList();
+        if (tokens.Count < 2) return null;
+
+        var missing = tokens[rng.Next(tokens.Count)];
+        var correct = missing.Value;
+        var distractors = lessonWords
+            .Where(w => w.Id != word.Id)
+            .SelectMany(w => Regex.Matches(CleanSentence(w.Megruli), @"[\p{L}\p{M}]+").Select(m => m.Value))
+            .Where(value => value.Length >= 2 && !string.Equals(value, correct, StringComparison.OrdinalIgnoreCase))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .OrderBy(_ => rng.Next())
+            .Take(3)
+            .ToList();
+        if (distractors.Count < 2) return null;
+
+        var options = distractors.Append(correct).OrderBy(_ => rng.Next()).ToList();
+        return new FillMissingWordExercise
+        {
+            Id = id,
+            WordId = word.Id,
+            SentenceBefore = sentence[..missing.Index],
+            SentenceAfter = sentence[(missing.Index + missing.Length)..],
+            GeorgianTranslation = word.Georgian,
+            Options = options,
+            CorrectIndex = options.IndexOf(correct)
+        };
+    }
+
+    private static string CleanSentence(string value)
+    {
+        var sentence = value.Split('(')[0].Trim();
+        return sentence.Split('/')[0].Trim();
     }
 }

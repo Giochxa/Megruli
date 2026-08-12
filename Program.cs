@@ -26,7 +26,12 @@ var host = builder.Build();
 // later on (LocalizationService.SetCultureAsync) works by saving + reloading the page.
 var js = host.Services.GetRequiredService<IJSRuntime>();
 var storedCulture = await js.InvokeAsync<string?>("localStorage.getItem", "megruli.culture");
-var culture = new CultureInfo(storedCulture ?? "en");
+var cultureName = storedCulture is "en" or "ka" ? storedCulture : "en";
+if (storedCulture is not null && storedCulture != cultureName)
+{
+    await js.InvokeVoidAsync("localStorage.setItem", "megruli.culture", cultureName);
+}
+var culture = new CultureInfo(cultureName);
 CultureInfo.DefaultThreadCurrentCulture = culture;
 CultureInfo.DefaultThreadCurrentUICulture = culture;
 

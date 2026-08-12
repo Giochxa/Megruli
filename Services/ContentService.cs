@@ -30,6 +30,15 @@ public class ContentService
         _phrases = await _http.GetFromJsonAsync<List<Phrase>>("data/phrases.json", JsonDefaults.Options) ?? new();
         _proverbs = await _http.GetFromJsonAsync<List<Phrase>>("data/proverbs.json", JsonDefaults.Options) ?? new();
         _clips = await _http.GetFromJsonAsync<List<AudioClip>>("audio/clips/clips-manifest.json", JsonDefaults.Options) ?? new();
+        try
+        {
+            var autoClips = await _http.GetFromJsonAsync<List<AudioClip>>("audio/clips/auto-clips-manifest.json", JsonDefaults.Options) ?? new();
+            _clips.AddRange(autoClips);
+        }
+        catch
+        {
+            // Auto-generated pronunciations are optional during initial development.
+        }
 
         _vocabById = _vocabulary.ToDictionary(w => w.Id);
         _phraseById = _phrases.Concat(_proverbs).ToDictionary(p => p.Id);

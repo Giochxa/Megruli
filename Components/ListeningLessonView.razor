@@ -26,7 +26,7 @@
             {
                 <li class="clip-row">
                     <button class="play-btn small" @onclick="() => Play(clip.Id)">🔊</button>
-                    <audio @ref="_audioRefs[clip.Id]" src="@($"audio/clips/{clip.Id}.wav")"></audio>
+                    <audio id="@AudioElementId(clip.Id)" src="@($"audio/lessons/{clip.SourceFile}")" preload="metadata"></audio>
                     <span class="clip-megruli">@label.Megruli</span>
                     <span class="clip-georgian">@label.Georgian</span>
                 </li>
@@ -47,7 +47,6 @@
     [Inject] private IJSRuntime JS { get; set; } = default!;
 
     private List<(Megruli.Shared.AudioClip Clip, Megruli.Shared.AudioClipLabel Label)> _labeledClips = new();
-    private Dictionary<string, ElementReference> _audioRefs = new();
 
     protected override async Task OnParametersSetAsync()
     {
@@ -58,22 +57,25 @@
         var allLabels = await Labels.GetAllAsync();
         foreach (var clip in clips)
         {
-            if (allLabels.TryGetValue(clip.Id, out var label) && !label.Skipped &&
-                (!string.IsNullOrWhiteSpace(label.Megruli) || !string.IsNullOrWhiteSpace(label.Georgian)))
+            if (allLabels.TryGetValue(clip.Id, out var label) &&
+                AudioClipLabelService.IsUsableMegruli(label) &&
+                !string.IsNullOrWhiteSpace(label.Megruli))
             {
                 _labeledClips.Add((clip, label));
-                _audioRefs[clip.Id] = default;
             }
         }
     }
 
     private async Task Play(string clipId)
     {
-        if (_audioRefs.TryGetValue(clipId, out var el))
+        var clip = _labeledClips.FirstOrDefault(item => item.Clip.Id == clipId).Clip;
+        if (clip is not null)
         {
-            await JS.InvokeVoidAsync("megruliAudio.play", el);
+            await JS.InvokeVoidAsync("megruliAudio.playSegmentById", AudioElementId(clipId), clip.StartMs, clip.EndMs);
         }
     }
+
+    private static string AudioElementId(string clipId) => $"listening-audio-{clipId}";
 
     private async Task Complete()
     {

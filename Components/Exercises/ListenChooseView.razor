@@ -1,6 +1,7 @@
 @* Listening exercise: play a labeled pronunciation clip, pick what was said.
    Tapping an option answers immediately (no separate "Check" step). *@
 @inject IStringLocalizer<SharedResource> Loc
+@inject ContentService Content
 
 <div class="exercise">
     <p class="exercise-instruction">@Loc["Exercise_ListenSelect"]</p>
@@ -39,7 +40,13 @@
     private bool _answered;
     private bool _correct;
 
-    private string AudioSrc => $"audio/clips/{Exercise.AudioClipId}.wav";
+    private AudioClip? _clip;
+    private string? AudioSrc => _clip is null ? null : $"audio/lessons/{_clip.SourceFile}";
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _clip = await Content.GetClipAsync(Exercise.AudioClipId);
+    }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -48,7 +55,8 @@
 
     private async Task Play()
     {
-        await JS.InvokeVoidAsync("megruliAudio.play", _audioRef);
+        if (_clip is not null)
+            await JS.InvokeVoidAsync("megruliAudio.playSegment", _audioRef, _clip.StartMs, _clip.EndMs);
     }
 
     private void Select(int idx)

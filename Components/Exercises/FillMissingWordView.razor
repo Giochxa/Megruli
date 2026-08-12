@@ -1,0 +1,59 @@
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="exercise fill-missing-exercise">
+    <p class="exercise-instruction">@Loc["Exercise_FillMissingWord"]</p>
+    <p class="sentence-translation">@Exercise.GeorgianTranslation</p>
+
+    <div class="gap-sentence" aria-label="@Loc["Exercise_FillMissingWord"]">
+        <span>@Exercise.SentenceBefore</span><span class="sentence-gap @GapClass">@GapText</span><span>@Exercise.SentenceAfter</span>
+        <PronounceButton WordId="Exercise.WordId" />
+    </div>
+
+    <div class="word-bank">
+        @for (int i = 0; i < Exercise.Options.Count; i++)
+        {
+            var index = i;
+            var optionClass = "word-bank-option";
+            if (_answered && index == Exercise.CorrectIndex) optionClass += " option-correct";
+            else if (_answered && index == _selected) optionClass += " option-wrong";
+            <button class="@optionClass" disabled="@_answered" @onclick="() => Select(index)">@Exercise.Options[index]</button>
+        }
+    </div>
+
+    @if (_answered && !_correct)
+    {
+        <p class="correct-answer-hint">
+            @Loc["Exercise_CorrectAnswerIs"]
+            <strong>@Exercise.Options[Exercise.CorrectIndex]</strong>
+        </p>
+        <p class="completed-sentence">
+            @Exercise.SentenceBefore<strong>@Exercise.Options[Exercise.CorrectIndex]</strong>@Exercise.SentenceAfter
+        </p>
+    }
+
+    @if (_answered)
+    {
+        <ExerciseFooter CanCheck="true" Answered="true" Correct="_correct" OnContinue="Continue" />
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public FillMissingWordExercise Exercise { get; set; } = default!;
+    [Parameter] public EventCallback<bool> OnComplete { get; set; }
+
+    private int? _selected;
+    private bool _answered;
+    private bool _correct;
+    private string GapText => _selected is int index ? Exercise.Options[index] : "______";
+    private string GapClass => !_answered ? "" : _correct ? "gap-correct" : "gap-wrong";
+
+    private void Select(int index)
+    {
+        if (_answered) return;
+        _selected = index;
+        _correct = index == Exercise.CorrectIndex;
+        _answered = true;
+    }
+
+    private async Task Continue() => await OnComplete.InvokeAsync(_correct);
+}

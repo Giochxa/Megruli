@@ -18,4 +18,16 @@ public class AudioClipLabel
     public string? Georgian { get; set; }
     public string? LinkedWordId { get; set; }
     public bool Skipped { get; set; }
+    /// <summary>The language actually spoken in this clip.</summary>
+    public AudioClipLanguage Language { get; set; }
+    public string? Transcript { get; set; }
+    public double Confidence { get; set; }
+    public bool AutoAssigned { get; set; }
+}
+
+public enum AudioClipLanguage
+{
+    Unknown,
+    Megruli,
+    Georgian
 }

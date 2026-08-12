@@ -6,6 +6,8 @@
 @inject IStringLocalizer<SharedResource> Loc
 @implements IDisposable
 
+<PageTitle>@Loc["App_Title"]</PageTitle>
+
 <div class="app-shell">
     @if (!IsLessonRoute)
     {
@@ -18,6 +20,9 @@
             </NavLink>
             <NavLink class="bottom-nav-link" href="/alphabet">
                 <span>🔤</span><small>@Loc["Nav_Alphabet"]</small>
+            </NavLink>
+            <NavLink class="bottom-nav-link" href="/offline-downloads">
+                <span>⬇️</span><small>@Loc["Nav_Offline"]</small>
             </NavLink>
             <NavLink class="bottom-nav-link" href="/profile">
                 <span>👤</span><small>@Loc["Nav_Profile"]</small>

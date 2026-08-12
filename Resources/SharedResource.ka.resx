@@ -51,6 +51,7 @@
   <data name="Exercise_MatchPairs" xml:space="preserve"><value>შეადარეთ წყვილები</value></data>
   <data name="Exercise_AllMatched" xml:space="preserve"><value>ყველა წყვილი დაემთხვა!</value></data>
   <data name="Exercise_ListenSelect" xml:space="preserve"><value>მოუსმინეთ და აირჩიეთ რასაც გესმით</value></data>
+  <data name="Exercise_FillMissingWord" xml:space="preserve"><value>აირჩიეთ გამოტოვებული მეგრული სიტყვა</value></data>
 
   <data name="Listening_Intro" xml:space="preserve"><value>მოუსმინეთ თქვენი მეგრული კურსის ამ სრული გაკვეთილის ჩანაწერს.</value></data>
   <data name="Listening_LabeledMoments" xml:space="preserve"><value>ამ გაკვეთილის მონიშნული მონაკვეთები</value></data>
@@ -101,4 +102,35 @@
   <data name="ClipLabeler_MegruliPlaceholder" xml:space="preserve"><value>მეგრული ტექსტი</value></data>
   <data name="ClipLabeler_GeorgianPlaceholder" xml:space="preserve"><value>ქართული მნიშვნელობა</value></data>
   <data name="ClipLabeler_LinkSearchPlaceholder" xml:space="preserve"><value>სიტყვასთან დაკავშირება (ძებნა)</value></data>
+  <data name="ClipLabeler_Show" xml:space="preserve"><value>აჩვენეთ:</value></data>
+  <data name="ClipLabeler_Unreviewed" xml:space="preserve"><value>შეუმოწმებელი კლიპები</value></data>
+  <data name="ClipLabeler_MegruliOnly" xml:space="preserve"><value>მხოლოდ მეგრული</value></data>
+  <data name="ClipLabeler_AllClips" xml:space="preserve"><value>ყველა კლიპი</value></data>
+  <data name="ClipLabeler_SpokenLanguage" xml:space="preserve"><value>საუბრის ენა</value></data>
+  <data name="ClipLabeler_MegruliVoice" xml:space="preserve"><value>მეგრული ხმა</value></data>
+  <data name="ClipLabeler_GeorgianVoice" xml:space="preserve"><value>ქართული ხმა — დამალვა</value></data>
+  <data name="Nav_Offline" xml:space="preserve"><value>ოფლაინი</value></data>
+  <data name="Offline_Title" xml:space="preserve"><value>ოფლაინ ჩამოტვირთვები</value></data>
+  <data name="Offline_Intro" xml:space="preserve"><value>ერთხელ ჩამოტვირთეთ გაკვეთილების ჩანაწერები და შემდეგ ინტერნეტის გარეშე გამოიყენეთ აუდიო გაკვეთილები და სიტყვები.</value></data>
+  <data name="Offline_DownloadedCount" xml:space="preserve"><value>ჩამოტვირთულია {0} / {1} გაკვეთილი</value></data>
+  <data name="Offline_DeviceStorage" xml:space="preserve"><value>აპი იყენებს {0}-ს ბრაუზერის ხელმისაწვდომი {1} მეხსიერებიდან.</value></data>
+  <data name="Offline_DownloadAll" xml:space="preserve"><value>ყველა გაკვეთილის ჩამოტვირთვა</value></data>
+  <data name="Offline_RemoveAll" xml:space="preserve"><value>ყველას წაშლა</value></data>
+  <data name="Offline_Downloading" xml:space="preserve"><value>იტვირთება გაკვეთილი {0}...</value></data>
+  <data name="Offline_ConnectToDownload" xml:space="preserve"><value>მეტი გაკვეთილის ჩამოსატვირთად დაუკავშირდით ინტერნეტს.</value></data>
+  <data name="Offline_ProtectDownloads" xml:space="preserve"><value>ჩამოტვირთვების დაცვა ავტომატური წაშლისგან</value></data>
+  <data name="Offline_LessonAudio" xml:space="preserve"><value>გაკვეთილების აუდიო</value></data>
+  <data name="Offline_LessonNumber" xml:space="preserve"><value>გაკვეთილი {0}</value></data>
+  <data name="Offline_Available" xml:space="preserve"><value>ხელმისაწვდომია ოფლაინ</value></data>
+  <data name="Offline_NotDownloaded" xml:space="preserve"><value>არ არის ჩამოტვირთული</value></data>
+  <data name="Offline_Remove" xml:space="preserve"><value>ჩამოტვირთვის წაშლა</value></data>
+  <data name="Offline_Download" xml:space="preserve"><value>გაკვეთილის ჩამოტვირთვა</value></data>
+  <data name="Offline_DownloadComplete" xml:space="preserve"><value>გაკვეთილი {0} ხელმისაწვდომია ოფლაინ.</value></data>
+  <data name="Offline_AllReady" xml:space="preserve"><value>ყველა გაკვეთილის აუდიო მზადაა ოფლაინ გამოსაყენებლად.</value></data>
+  <data name="Offline_Removed" xml:space="preserve"><value>გაკვეთილი {0}-ის ჩამოტვირთვა წაიშალა.</value></data>
+  <data name="Offline_AllRemoved" xml:space="preserve"><value>ყველა ჩამოტვირთული აუდიო წაიშალა.</value></data>
+  <data name="Offline_Protected" xml:space="preserve"><value>ბრაუზერი შეინარჩუნებს ჩამოტვირთვებს, როდესაც ეს შესაძლებელი იქნება.</value></data>
+  <data name="Offline_ProtectionUnavailable" xml:space="preserve"><value>ბრაუზერმა დაცული მეხსიერება არ დაუშვა. ჩამოტვირთვები იმუშავებს, მაგრამ მეხსიერების ნაკლებობისას შეიძლება წაიშალოს.</value></data>
+  <data name="Offline_DownloadFailed" xml:space="preserve"><value>ჩამოტვირთვა ვერ დასრულდა: {0}</value></data>
+  <data name="App_Title" xml:space="preserve"><value>მეგრული — ისწავლე მეგრული</value></data>
 </root>

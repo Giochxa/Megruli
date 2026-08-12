@@ -7,6 +7,7 @@ namespace Megruli.Shared;
 [JsonDerivedType(typeof(TypeAnswerExercise), "typeAnswer")]
 [JsonDerivedType(typeof(MatchPairsExercise), "matchPairs")]
 [JsonDerivedType(typeof(ListenChooseExercise), "listenChoose")]
+[JsonDerivedType(typeof(FillMissingWordExercise), "fillMissingWord")]
 public abstract class ExerciseBase
 {
     public string Id { get; set; } = "";
@@ -45,6 +46,16 @@ public class MatchPair
 public class ListenChooseExercise : ExerciseBase
 {
     public string AudioClipId { get; set; } = "";
+    public List<string> Options { get; set; } = new();
+    public int CorrectIndex { get; set; }
+}
+
+/// <summary>A Megruli sentence with one word replaced by a blank and a small word bank.</summary>
+public class FillMissingWordExercise : ExerciseBase
+{
+    public string SentenceBefore { get; set; } = "";
+    public string SentenceAfter { get; set; } = "";
+    public string GeorgianTranslation { get; set; } = "";
     public List<string> Options { get; set; } = new();
     public int CorrectIndex { get; set; }
 }

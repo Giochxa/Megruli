@@ -24,7 +24,7 @@
                     @if (item.ClipId is not null)
                     {
                         <button class="play-btn small" @onclick="() => Play(item.ClipId!)">🔊</button>
-                        <audio @ref="_audioRefs[item.ClipId]" src="@($"audio/clips/{item.ClipId}.wav")"></audio>
+                        <audio id="@AudioElementId(item.ClipId)" src="@AudioSrc(item.ClipId)" preload="metadata"></audio>
                     }
                     <div class="word-intro-text">
                         <span class="word-intro-megruli">@item.Megruli</span>
@@ -46,21 +46,25 @@
     private record Item(string Megruli, string Georgian, string? ClipId);
 
     private List<Item> _items = new();
-    private Dictionary<string, ElementReference> _audioRefs = new();
+    private Dictionary<string, AudioClip> _clips = new();
     private bool _loading = true;
 
     protected override async Task OnParametersSetAsync()
     {
         _loading = true;
         _items.Clear();
-        _audioRefs.Clear();
+        _clips.Clear();
 
         foreach (var id in WordIds)
         {
             var resolved = await Content.ResolveWordAsync(id);
             if (resolved is not { } r) continue;
             var clipId = await Labels.GetClipIdForWordAsync(id);
-            if (clipId is not null) _audioRefs[clipId] = default;
+            if (clipId is not null)
+            {
+                var clip = await Content.GetClipAsync(clipId);
+                if (clip is not null) _clips[clipId] = clip;
+            }
             _items.Add(new Item(r.Megruli, r.Georgian, clipId));
         }
 
@@ -69,9 +73,15 @@
 
     private async Task Play(string clipId)
     {
-        if (_audioRefs.TryGetValue(clipId, out var el))
+        if (_clips.TryGetValue(clipId, out var clip))
         {
-            await JS.InvokeVoidAsync("megruliAudio.play", el);
+            await JS.InvokeVoidAsync("megruliAudio.playSegmentById", AudioElementId(clipId), clip.StartMs, clip.EndMs);
         }
     }
+
+    private string? AudioSrc(string clipId) => _clips.TryGetValue(clipId, out var clip)
+        ? $"audio/lessons/{clip.SourceFile}"
+        : null;
+
+    private static string AudioElementId(string clipId) => $"word-intro-audio-{clipId}";
 }

@@ -22,6 +22,14 @@
         <label class="hide-labeled-toggle">
             <input type="checkbox" @bind="_hideLabeled" /> @Loc["ClipLabeler_HideLabeled"]
         </label>
+        <label>
+            @Loc["ClipLabeler_Show"]
+            <select @bind="_languageFilter">
+                <option value="Unknown">@Loc["ClipLabeler_Unreviewed"]</option>
+                <option value="Megruli">@Loc["ClipLabeler_MegruliOnly"]</option>
+                <option value="All">@Loc["ClipLabeler_AllClips"]</option>
+            </select>
+        </label>
     </div>
 
     @if (_loading)
@@ -37,13 +45,19 @@
                 <li class="clip-labeler-row @(row.Label.Skipped ? "row-skipped" : "")">
                     <div class="clip-labeler-row-top">
                         <button class="play-btn small" @onclick="() => Play(row)">🔊</button>
-                        <audio @ref="row.AudioRef" src="@($"audio/clips/{row.Clip.Id}.wav")"></audio>
+                        <audio id="@AudioElementId(row.Clip.Id)" src="@($"audio/lessons/{row.Clip.SourceFile}")" preload="metadata"></audio>
                         <span class="clip-time">@FormatMs(row.Clip.StartMs) – @FormatMs(row.Clip.EndMs)</span>
                         <label class="skip-toggle">
-                            <input type="checkbox" @bind="row.Label.Skipped" /> @Loc["ClipLabeler_Skip"]
+                            <input type="checkbox" @bind="row.Label.Skipped" @bind:after="() => Save(row)" /> @Loc["ClipLabeler_Skip"]
                         </label>
                     </div>
                     <div class="clip-labeler-row-fields">
+                        <div class="language-buttons" role="group" aria-label="@Loc["ClipLabeler_SpokenLanguage"]">
+                            <button type="button" class="language-btn @(row.Label.Language == AudioClipLanguage.Megruli ? "selected-megruli" : "")"
+                                    @onclick="() => SetLanguage(row, AudioClipLanguage.Megruli)">@Loc["ClipLabeler_MegruliVoice"]</button>
+                            <button type="button" class="language-btn @(row.Label.Language == AudioClipLanguage.Georgian ? "selected-georgian" : "")"
+                                    @onclick="() => SetLanguage(row, AudioClipLanguage.Georgian)">@Loc["ClipLabeler_GeorgianVoice"]</button>
+                        </div>
                         <input placeholder="@Loc["ClipLabeler_MegruliPlaceholder"]" @bind="row.Label.Megruli" @bind:event="oninput" />
                         <input placeholder="@Loc["ClipLabeler_GeorgianPlaceholder"]" @bind="row.Label.Georgian" @bind:event="oninput" />
                         <div class="link-search">
@@ -75,7 +89,6 @@
     {
         public required AudioClip Clip { get; init; }
         public required AudioClipLabel Label { get; set; }
-        public ElementReference AudioRef;
         public string LinkSearch = "";
         public string? LinkedTitle;
     }
@@ -86,12 +99,19 @@
     private List<RowState> _rows = new();
     private bool _loading;
     private bool _hideLabeled;
+    private string _languageFilter = "Unknown";
     private List<VocabWord> _vocab = new();
     private List<Phrase> _phrases = new();
 
-    private List<RowState> VisibleRows => _hideLabeled
-        ? _rows.Where(r => string.IsNullOrWhiteSpace(r.Label.Megruli) && !r.Label.Skipped).ToList()
-        : _rows;
+    private List<RowState> VisibleRows => _rows
+        .Where(r => _languageFilter switch
+        {
+            "Unknown" => r.Label.Language == AudioClipLanguage.Unknown && !r.Label.Skipped,
+            "Megruli" => AudioClipLabelService.IsUsableMegruli(r.Label),
+            _ => true
+        })
+        .Where(r => !_hideLabeled || (string.IsNullOrWhiteSpace(r.Label.Megruli) && !r.Label.Skipped))
+        .ToList();
 
     protected override async Task OnInitializedAsync()
     {
@@ -105,7 +125,8 @@
         foreach (var file in _sourceFiles)
         {
             var clips = await Content.GetClipsForSourceAsync(file);
-            int labeled = clips.Count(c => allLabels.TryGetValue(c.Id, out var l) && (!string.IsNullOrWhiteSpace(l.Megruli) || l.Skipped));
+            int labeled = clips.Count(c => allLabels.TryGetValue(c.Id, out var l) &&
+                (l.Language != AudioClipLanguage.Unknown || l.Skipped));
             _progressByFile[file] = $"{labeled}/{clips.Count}";
         }
         _loading = false;
@@ -123,7 +144,7 @@
         foreach (var clip in clips)
         {
             var label = allLabels.TryGetValue(clip.Id, out var existing)
-                ? new AudioClipLabel { ClipId = existing.ClipId, Megruli = existing.Megruli, Georgian = existing.Georgian, LinkedWordId = existing.LinkedWordId, Skipped = existing.Skipped }
+                ? new AudioClipLabel { ClipId = existing.ClipId, Megruli = existing.Megruli, Georgian = existing.Georgian, LinkedWordId = existing.LinkedWordId, Skipped = existing.Skipped, Language = existing.Language, Transcript = existing.Transcript, Confidence = existing.Confidence, AutoAssigned = existing.AutoAssigned }
                 : new AudioClipLabel { ClipId = clip.Id };
             var row = new RowState { Clip = clip, Label = label };
             if (label.LinkedWordId is not null)
@@ -177,14 +198,28 @@
         row.LinkedTitle = null;
     }
 
+    private async Task SetLanguage(RowState row, AudioClipLanguage language)
+    {
+        row.Label.Language = language;
+        if (language == AudioClipLanguage.Georgian)
+        {
+            row.Label.LinkedWordId = null;
+            row.LinkedTitle = null;
+        }
+        await Save(row);
+    }
+
     private async Task Save(RowState row)
     {
         await Labels.SaveLabelAsync(row.Label);
-        int labeled = _rows.Count(r => !string.IsNullOrWhiteSpace(r.Label.Megruli) || r.Label.Skipped);
+        int labeled = _rows.Count(r => r.Label.Language != AudioClipLanguage.Unknown || r.Label.Skipped);
         _progressByFile[_selectedFile] = $"{labeled}/{_rows.Count}";
     }
 
-    private async Task Play(RowState row) => await JS.InvokeVoidAsync("megruliAudio.play", row.AudioRef);
+    private async Task Play(RowState row) => await JS.InvokeVoidAsync(
+        "megruliAudio.playSegmentById", AudioElementId(row.Clip.Id), row.Clip.StartMs, row.Clip.EndMs);
+
+    private static string AudioElementId(string clipId) => $"clip-labeler-audio-{clipId}";
 
     private static string FormatMs(int ms) => TimeSpan.FromMilliseconds(ms).ToString(@"mm\:ss");
 

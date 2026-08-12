@@ -1,0 +1,231 @@
+@page "/offline-downloads"
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResource> Loc
+
+<PageTitle>@Loc["Offline_Title"]</PageTitle>
+
+<div class="offline-page">
+    <div class="page-title-row">
+        <div>
+            <h1>@Loc["Offline_Title"]</h1>
+            <p>@Loc["Offline_Intro"]</p>
+        </div>
+        <span class="offline-cloud" aria-hidden="true">☁️</span>
+    </div>
+
+    @if (_loading)
+    {
+        <div class="offline-card offline-loading">@Loc["Common_Loading"]</div>
+    }
+    else
+    {
+        <section class="offline-card offline-summary">
+            <div class="offline-summary-top">
+                <div>
+                    <strong>@Loc["Offline_DownloadedCount", DownloadedCount, Lessons.Count]</strong>
+                    <span>@FormatBytes(DownloadedBytes) / @FormatBytes(TotalBytes)</span>
+                </div>
+                <strong>@OverallPercent%</strong>
+            </div>
+            <div class="offline-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="@OverallPercent">
+                <span style="width: @(OverallPercent)%"></span>
+            </div>
+
+            @if (_status?.Quota is > 0)
+            {
+                <p class="offline-storage">@Loc["Offline_DeviceStorage", FormatBytes(_status.Usage ?? 0), FormatBytes(_status.Quota.Value)]</p>
+            }
+
+            @if (!string.IsNullOrWhiteSpace(_message))
+            {
+                <p class="offline-message @(_hasError ? "offline-error" : "")" role="status">@_message</p>
+            }
+
+            <div class="offline-actions">
+                <button class="primary-action" disabled="@(_busy || DownloadedCount == Lessons.Count || _status?.Online == false)" @onclick="DownloadAllAsync">
+                    @(_busy ? Loc["Offline_Downloading", _currentLesson] : Loc["Offline_DownloadAll"])
+                </button>
+                <button class="secondary-action danger-action" disabled="@(_busy || DownloadedCount == 0)" @onclick="RemoveAllAsync">
+                    @Loc["Offline_RemoveAll"]
+                </button>
+            </div>
+
+            @if (_status?.Online == false)
+            {
+                <p class="offline-note">@Loc["Offline_ConnectToDownload"]</p>
+            }
+            else if (_status?.Persisted == false)
+            {
+                <button class="storage-link" disabled="@_busy" @onclick="ProtectDownloadsAsync">🛡️ @Loc["Offline_ProtectDownloads"]</button>
+            }
+        </section>
+
+        <div class="offline-list-heading">
+            <h2>@Loc["Offline_LessonAudio"]</h2>
+            <span>@FormatBytes(TotalBytes)</span>
+        </div>
+
+        <div class="offline-list">
+            @foreach (var lesson in Lessons)
+            {
+                var downloaded = IsDownloaded(lesson);
+                var isCurrent = _busy && _currentLesson == lesson.Number;
+                <article class="offline-lesson-card @(downloaded ? "is-downloaded" : "")">
+                    <span class="offline-lesson-icon">@(downloaded ? "✓" : "🎧")</span>
+                    <div class="offline-lesson-info">
+                        <strong>@Loc["Offline_LessonNumber", lesson.Number]</strong>
+                        <span>@FormatBytes(lesson.Bytes) · @(downloaded ? Loc["Offline_Available"] : Loc["Offline_NotDownloaded"])</span>
+                    </div>
+                    @if (downloaded)
+                    {
+                        <button class="offline-item-button remove" title="@Loc["Offline_Remove"]" disabled="@_busy" @onclick="() => RemoveAsync(lesson)">🗑️</button>
+                    }
+                    else
+                    {
+                        <button class="offline-item-button" title="@Loc["Offline_Download"]" disabled="@(_busy || _status?.Online == false)" @onclick="() => DownloadAsync(lesson)">
+                            @(isCurrent ? "…" : "⬇️")
+                        </button>
+                    }
+                </article>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private sealed record AudioLesson(int Number, long Bytes)
+    {
+        public string Path => $"audio/lessons/Megruli{Number}.mp3";
+    }
+
+    private sealed class OfflineStatus
+    {
+        public string[] Downloaded { get; set; } = [];
+        public long? Usage { get; set; }
+        public long? Quota { get; set; }
+        public bool Persisted { get; set; }
+        public bool Online { get; set; }
+    }
+
+    private static readonly IReadOnlyList<AudioLesson> Lessons =
+    [
+        new(1, 4_881_862), new(2, 4_645_144), new(3, 9_266_584), new(4, 11_806_774),
+        new(5, 8_409_399), new(6, 10_862_760), new(7, 4_997_770), new(8, 8_473_995),
+        new(9, 11_978_684), new(10, 9_974_002), new(11, 8_427_607), new(12, 8_648_636),
+        new(13, 10_477_244), new(14, 9_855_164), new(15, 7_038_706), new(16, 10_905_556),
+        new(17, 9_066_044), new(18, 4_693_049), new(19, 4_834_357), new(20, 4_938_808),
+        new(21, 4_764_088), new(22, 6_035_129), new(23, 8_945_083), new(24, 3_463_481),
+        new(25, 5_676_089), new(26, 2_719_672), new(27, 7_260_091), new(28, 8_990_012),
+        new(29, 5_382_714), new(30, 9_918_705)
+    ];
+
+    private OfflineStatus? _status;
+    private bool _loading = true;
+    private bool _busy;
+    private bool _hasError;
+    private int _currentLesson;
+    private string? _message;
+
+    private HashSet<string> DownloadedPaths => _status?.Downloaded.ToHashSet(StringComparer.OrdinalIgnoreCase) ?? [];
+    private int DownloadedCount => Lessons.Count(IsDownloaded);
+    private long DownloadedBytes => Lessons.Where(IsDownloaded).Sum(x => x.Bytes);
+    private long TotalBytes => Lessons.Sum(x => x.Bytes);
+    private int OverallPercent => TotalBytes == 0 ? 0 : (int)Math.Round(DownloadedBytes * 100d / TotalBytes);
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        await RefreshAsync();
+        _loading = false;
+        StateHasChanged();
+    }
+
+    private bool IsDownloaded(AudioLesson lesson) => DownloadedPaths.Contains(lesson.Path);
+
+    private async Task RefreshAsync() =>
+        _status = await JS.InvokeAsync<OfflineStatus>("megruliOfflineAudio.getStatus", Lessons.Select(x => x.Path));
+
+    private async Task DownloadAsync(AudioLesson lesson)
+    {
+        await RunAsync(async () =>
+        {
+            _currentLesson = lesson.Number;
+            await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path);
+            await RefreshAsync();
+            _message = Loc["Offline_DownloadComplete", lesson.Number];
+        });
+    }
+
+    private async Task DownloadAllAsync()
+    {
+        await RunAsync(async () =>
+        {
+            foreach (var lesson in Lessons.Where(x => !IsDownloaded(x)).ToList())
+            {
+                _currentLesson = lesson.Number;
+                _message = Loc["Offline_Downloading", lesson.Number];
+                StateHasChanged();
+                await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path);
+                await RefreshAsync();
+                StateHasChanged();
+            }
+            _message = Loc["Offline_AllReady"];
+        });
+    }
+
+    private async Task RemoveAsync(AudioLesson lesson)
+    {
+        await RunAsync(async () =>
+        {
+            await JS.InvokeVoidAsync("megruliOfflineAudio.remove", lesson.Path);
+            await RefreshAsync();
+            _message = Loc["Offline_Removed", lesson.Number];
+        });
+    }
+
+    private async Task RemoveAllAsync()
+    {
+        await RunAsync(async () =>
+        {
+            await JS.InvokeVoidAsync("megruliOfflineAudio.clear");
+            await RefreshAsync();
+            _message = Loc["Offline_AllRemoved"];
+        });
+    }
+
+    private async Task ProtectDownloadsAsync()
+    {
+        await RunAsync(async () =>
+        {
+            var granted = await JS.InvokeAsync<bool>("megruliOfflineAudio.requestPersistence");
+            await RefreshAsync();
+            _message = granted ? Loc["Offline_Protected"] : Loc["Offline_ProtectionUnavailable"];
+        });
+    }
+
+    private async Task RunAsync(Func<Task> action)
+    {
+        if (_busy) return;
+        _busy = true;
+        _hasError = false;
+        _message = null;
+        StateHasChanged();
+        try
+        {
+            await action();
+        }
+        catch (JSException ex)
+        {
+            _hasError = true;
+            _message = Loc["Offline_DownloadFailed", ex.Message];
+        }
+        finally
+        {
+            _busy = false;
+            _currentLesson = 0;
+            StateHasChanged();
+        }
+    }
+
+    private static string FormatBytes(long bytes) => $"{bytes / 1024d / 1024d:0.#} MB";
+}

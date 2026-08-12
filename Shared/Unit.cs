@@ -32,4 +32,7 @@ public class Lesson
 
     /// <summary>For Listening lessons: the source lesson audio file, e.g. "Megruli1.mp3".</summary>
     public string? LessonAudioFile { get; set; }
+
+    /// <summary>Whether this lesson must present its WordIds before any exercises.</summary>
+    public bool IntroduceWordsBeforeExercises { get; set; }
 }

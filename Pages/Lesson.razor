@@ -75,6 +75,9 @@ else
         case ListenChooseExercise lc:
             <ListenChooseView Exercise="lc" OnComplete="HandleAnswer" @key="current.Id" />
             break;
+        case FillMissingWordExercise fm:
+            <FillMissingWordView Exercise="fm" OnComplete="HandleAnswer" @key="current.Id" />
+            break;
     }
 }
 </div>
@@ -107,7 +110,9 @@ else
         {
             _exercises = await Generator.GenerateAsync(_lesson);
             _showIntro = _lesson.WordIds.Count > 0
-                && (_lesson.Kind == LessonKind.Vocabulary || _lesson.Kind == LessonKind.Phrases);
+                && (_lesson.IntroduceWordsBeforeExercises ||
+                    _lesson.Kind == LessonKind.Vocabulary ||
+                    _lesson.Kind == LessonKind.Phrases);
         }
     }
 
