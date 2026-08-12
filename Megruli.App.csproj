@@ -27,8 +27,8 @@
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Megruli.Shared\Megruli.Shared.csproj" />
-  </ItemGroup>
+  <!-- Shared/ holds the model classes (namespace Megruli.Shared) as plain source files rather
+       than a separate project — this project is meant to be self-contained and uploadable as-is
+       to a repo that only holds the app (see Shared/README.md for why, and the tradeoff). -->
 
 </Project>
