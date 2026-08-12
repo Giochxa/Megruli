@@ -43,7 +43,19 @@
         <span class="dismiss">🗙</span>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script>navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });</script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });
+            navigator.serviceWorker.addEventListener('controllerchange', function () {
+                if (sessionStorage.getItem('megruli.sw-reloading') === '1') return;
+                sessionStorage.setItem('megruli.sw-reloading', '1');
+                location.reload();
+            });
+            window.addEventListener('load', function () {
+                sessionStorage.removeItem('megruli.sw-reloading');
+            });
+        }
+    </script>
 </body>
 
 </html>

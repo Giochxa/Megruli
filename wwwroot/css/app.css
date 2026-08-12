@@ -514,6 +514,28 @@ input, select, textarea {
     margin-bottom: 0.5rem;
 }
 
+.type-answer-entry {
+    display: flex;
+    align-items: stretch;
+    gap: 0.65rem;
+}
+
+.type-answer-entry .type-input {
+    flex: 1;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.type-enter-btn {
+    min-width: 7rem;
+    padding-inline: 1.2rem;
+}
+
+@media (max-width: 480px) {
+    .type-answer-entry { flex-direction: column; }
+    .type-enter-btn { width: 100%; }
+}
+
 .type-input.input-correct { border-color: var(--green); background: var(--input-correct-bg); }
 .type-input.input-wrong { border-color: var(--red); background: var(--input-wrong-bg); }
 .correct-answer-hint { color: var(--gray-700); }
