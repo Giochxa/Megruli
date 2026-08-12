@@ -608,8 +608,8 @@ input, select, textarea {
     display: inline-block;
 }
 
-.btn-check { background: var(--green); color: #fff; }
-.btn-check:disabled { background: var(--gray-300); color: var(--gray-500); }
+.btn-submit { background: var(--green); color: #fff; }
+.btn-submit:disabled { background: var(--gray-300); color: var(--gray-500); }
 .btn-continue { background: var(--green); color: #fff; }
 
 .lesson-end { text-align: center; padding-top: 3rem; }
