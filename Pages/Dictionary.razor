@@ -13,7 +13,7 @@
         <button class="chip @(_category is null ? "chip-active" : "")" @onclick="() => SetCategory(null)">@Loc["Dictionary_All"]</button>
         @foreach (var cat in _categories)
         {
-            <button class="chip @(_category == cat ? "chip-active" : "")" @onclick="() => SetCategory(cat)">@cat</button>
+            <button class="chip @(_category == cat ? "chip-active" : "")" @onclick="() => SetCategory(cat)">@CategoryLabel(cat)</button>
         }
     </div>
 
@@ -38,7 +38,7 @@
                     }
                     <span class="word-megruli">@entry.Megruli</span>
                     <span class="word-georgian">@entry.Georgian</span>
-                    <span class="word-category">@entry.Category</span>
+                    <span class="word-category">@CategoryLabel(entry.Category)</span>
                 </li>
             }
         </ul>
@@ -103,6 +103,36 @@
     }
 
     private void SetCategory(string? cat) => _category = cat;
+
+    private string CategoryLabel(string category)
+    {
+        if (!Localization.IsGeorgian) return category;
+        return category switch
+        {
+            "adjectives" => "ზედსართავები",
+            "animals" => "ცხოველები და ფრინველები",
+            "animals-extra" => "დამატებითი ცხოველები",
+            "body-parts" => "სხეულის ნაწილები",
+            "colors" => "ფერები",
+            "everyday" => "ყოველდღიური ფრაზები",
+            "family" => "ოჯახი",
+            "fruit" => "ხილი",
+            "grammar-plurals" => "მრავლობითი ფორმები",
+            "household-extra" => "საოჯახო ნივთები",
+            "lexicon" => "ძირითადი ლექსიკონი",
+            "months" => "თვეები",
+            "numbers-cardinal" => "რაოდენობითი რიცხვები",
+            "numbers-ordinal" => "რიგობითი რიცხვები",
+            "plants-extra" => "მცენარეები და ხეები",
+            "proverb" => "ანდაზები",
+            "question-words" => "კითხვითი სიტყვები",
+            "seasons" => "სეზონები",
+            "time-extra" => "დროის სიტყვები",
+            "weather" => "ბუნება და ამინდი",
+            "weekdays" => "კვირის დღეები",
+            _ => category
+        };
+    }
 
     private async Task Play(string clipId)
     {
