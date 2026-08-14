@@ -4,7 +4,9 @@
 @inject IStringLocalizer<SharedResource> Loc
 
 <div class="exercise">
-    <p class="exercise-instruction">@(Exercise.PromptIsGeorgian ? Loc["Exercise_SelectMegruli"] : Loc["Exercise_SelectGeorgian"])</p>
+    <p class="exercise-instruction">@(Exercise.PromptIsGeorgian
+        ? Loc["Exercise_SelectMegruli"]
+        : Loc[Exercise.TranslationLanguage == "en" ? "Exercise_SelectEnglish" : "Exercise_SelectGeorgian"])</p>
     <p class="exercise-prompt">
         @Exercise.Prompt
         @if (!Exercise.PromptIsGeorgian)

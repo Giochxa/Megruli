@@ -34,6 +34,7 @@
 
 @code {
     [Parameter, EditorRequired] public List<string> WordIds { get; set; } = new();
+    [Parameter] public string TranslationLanguage { get; set; } = "ka";
     [Parameter] public EventCallback OnDone { get; set; }
     [Parameter] public EventCallback OnClose { get; set; }
 
@@ -49,7 +50,7 @@
 
         foreach (var id in WordIds)
         {
-            var resolved = await Content.ResolveWordAsync(id);
+            var resolved = await Content.ResolveWordAsync(id, TranslationLanguage);
             if (resolved is not { } r) continue;
             _items.Add(new Item(id, r.Megruli, r.Georgian));
         }

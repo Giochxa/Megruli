@@ -111,7 +111,9 @@ public class AudioClipLabelService
         return _labels!.Values
             .FirstOrDefault(l => IsUsableMegruli(l)
                 && !string.IsNullOrWhiteSpace(l.Megruli)
-                && string.Equals(NormalizeMegruli(l.Megruli), target, StringComparison.Ordinal))
+                && (string.Equals(NormalizeMegruli(l.Megruli), target, StringComparison.Ordinal)
+                    || string.Equals(NormalizeMegruli(MegrelianTransliterator.ToLatin(l.Megruli)), target,
+                        StringComparison.Ordinal)))
             ?.ClipId;
     }
 

@@ -17,7 +17,8 @@ else if (_lesson.Kind == LessonKind.Listening)
 }
 else if (_showIntro)
 {
-    <WordIntroView WordIds="_lesson.WordIds" OnDone="StartPractice" OnClose="GoHome" />
+    <WordIntroView WordIds="_lesson.WordIds" TranslationLanguage="@_lesson.TranslationLanguage"
+                   OnDone="StartPractice" OnClose="GoHome" />
 }
 else if (_outOfHearts)
 {

@@ -3,6 +3,7 @@
 @inject AudioClipLabelService Labels
 @inject IJSRuntime JS
 @inject IStringLocalizer<SharedResource> Loc
+@inject LocalizationService Localization
 
 <div class="dictionary-page">
     <h1>@Loc["Dictionary_Title"]</h1>
@@ -69,14 +70,22 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var vocab = await Content.GetAllVocabularyAsync();
-        var phrases = await Content.GetAllPhrasesAsync();
-        var proverbs = await Content.GetAllProverbsAsync();
-
-        _all = vocab.Select(v => new Entry(v.Id, v.Megruli, v.Georgian, v.Category))
-            .Concat(phrases.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, p.Topic)))
-            .Concat(proverbs.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, "proverb")))
-            .ToList();
+        if (Localization.IsGeorgian)
+        {
+            var vocab = await Content.GetAllVocabularyAsync();
+            var phrases = await Content.GetAllPhrasesAsync();
+            var proverbs = await Content.GetAllProverbsAsync();
+            _all = vocab.Select(v => new Entry(v.Id, v.Megruli, v.Georgian, v.Category))
+                .Concat(phrases.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, p.Topic)))
+                .Concat(proverbs.Select(p => new Entry(p.Id, p.Megruli, p.Georgian, "proverb")))
+                .ToList();
+        }
+        else
+        {
+            _all = (await Content.GetEnglishDictionaryAsync())
+                .Select(entry => new Entry(entry.Id, entry.Megruli, entry.Translation, entry.Category))
+                .ToList();
+        }
         _categories = _all.Select(e => e.Category).Distinct().OrderBy(c => c).ToList();
 
         var allLabels = await Labels.GetAllAsync();

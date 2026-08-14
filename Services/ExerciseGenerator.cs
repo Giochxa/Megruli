@@ -28,10 +28,11 @@ public class ExerciseGenerator
             return GenerateGrammarExercises(lesson);
         }
 
+        var translationLanguage = lesson.TranslationLanguage;
         var words = new List<(string Id, string Megruli, string Georgian, string Category)>();
         foreach (var id in lesson.WordIds)
         {
-            var resolved = await _content.ResolveWordAsync(id);
+            var resolved = await _content.ResolveWordAsync(id, translationLanguage);
             if (resolved is { } r) words.Add((id, r.Megruli, r.Georgian, r.Category));
         }
         if (words.Count == 0) return new();
@@ -47,8 +48,8 @@ public class ExerciseGenerator
         if (distractorPool.Count < 6)
         {
             var category = words[0].Category;
-            var extra = (await _content.GetAllVocabularyAsync())
-                .Where(v => v.Category == category && !words.Any(w => w.Id == v.Id))
+            var extra = (await _content.GetVocabularyForLanguageAsync(translationLanguage))
+                .Where(v => v.Category == category)
                 .Select(v => (v.Megruli, v.Georgian));
             distractorPool.AddRange(extra);
         }
@@ -78,6 +79,7 @@ public class ExerciseGenerator
                     PromptIsGeorgian = promptIsGeorgian,
                     Options = options,
                     CorrectIndex = options.IndexOf(correctAnswer),
+                    TranslationLanguage = translationLanguage,
                 });
             }
 
@@ -90,6 +92,7 @@ public class ExerciseGenerator
                     Prompt = w.Georgian,
                     PromptIsGeorgian = true,
                     AcceptedAnswers = w.Megruli.Split('/').Select(s => s.Trim()).ToList(),
+                    TranslationLanguage = translationLanguage,
                 });
             }
 
@@ -112,13 +115,14 @@ public class ExerciseGenerator
                         AudioClipId = clipId,
                         Options = options,
                         CorrectIndex = options.IndexOf(w.Megruli),
+                        TranslationLanguage = translationLanguage,
                     });
                 }
             }
 
             // Multi-word vocabulary entries are also real course sentences/expressions,
             // so they can support the same gap exercise as phrases and proverbs.
-            var gap = CreateMissingWordExercise(w, words, NextId(), rng);
+            var gap = CreateMissingWordExercise(w, words, NextId(), rng, translationLanguage);
             if (gap is not null) pool.Add(gap);
         }
 
@@ -129,6 +133,7 @@ public class ExerciseGenerator
             {
                 Id = NextId(),
                 Pairs = group.Select(g => new MatchPair { Megruli = g.Megruli, Georgian = g.Georgian }).ToList(),
+                TranslationLanguage = translationLanguage,
             });
         }
 
@@ -150,7 +155,7 @@ public class ExerciseGenerator
             .Where(exercise => exercise.AcceptedAnswers.Count > 0)
             .ToList();
         var tokenPool = typeAnswers
-            .SelectMany(exercise => Regex.Matches(CleanSentence(exercise.AcceptedAnswers[0]), @"[\p{L}\p{M}]+")
+            .SelectMany(exercise => Regex.Matches(CleanSentence(exercise.AcceptedAnswers[0]), @"[\p{L}\p{M}’']+")
                 .Select(match => match.Value))
             .Where(token => token.Length >= 2)
             .Distinct(StringComparer.OrdinalIgnoreCase)
@@ -161,7 +166,7 @@ public class ExerciseGenerator
         foreach (var exercise in typeAnswers.OrderBy(_ => rng.Next()))
         {
             var sentence = CleanSentence(exercise.AcceptedAnswers[0]);
-            var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}]+")
+            var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}’']+")
                 .Where(match => match.Length >= 2)
                 .ToList();
             if (tokens.Count < 2) continue;
@@ -183,7 +188,8 @@ public class ExerciseGenerator
                 SentenceAfter = sentence[(missing.Index + missing.Length)..],
                 GeorgianTranslation = exercise.Prompt,
                 Options = options,
-                CorrectIndex = options.IndexOf(missing.Value)
+                CorrectIndex = options.IndexOf(missing.Value),
+                TranslationLanguage = lesson.TranslationLanguage
             });
             if (gaps.Count == 5) break;
         }
@@ -198,10 +204,11 @@ public class ExerciseGenerator
         (string Id, string Megruli, string Georgian, string Category) word,
         List<(string Id, string Megruli, string Georgian, string Category)> lessonWords,
         string id,
-        Random rng)
+        Random rng,
+        string translationLanguage)
     {
         var sentence = CleanSentence(word.Megruli);
-        var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}]+")
+        var tokens = Regex.Matches(sentence, @"[\p{L}\p{M}’']+")
             .Where(m => m.Length >= 2)
             .ToList();
         if (tokens.Count < 2) return null;
@@ -210,7 +217,7 @@ public class ExerciseGenerator
         var correct = missing.Value;
         var distractors = lessonWords
             .Where(w => w.Id != word.Id)
-            .SelectMany(w => Regex.Matches(CleanSentence(w.Megruli), @"[\p{L}\p{M}]+").Select(m => m.Value))
+            .SelectMany(w => Regex.Matches(CleanSentence(w.Megruli), @"[\p{L}\p{M}’']+").Select(m => m.Value))
             .Where(value => value.Length >= 2 && !string.Equals(value, correct, StringComparison.OrdinalIgnoreCase))
             .Distinct(StringComparer.OrdinalIgnoreCase)
             .OrderBy(_ => rng.Next())
@@ -227,7 +234,8 @@ public class ExerciseGenerator
             SentenceAfter = sentence[(missing.Index + missing.Length)..],
             GeorgianTranslation = word.Georgian,
             Options = options,
-            CorrectIndex = options.IndexOf(correct)
+            CorrectIndex = options.IndexOf(correct),
+            TranslationLanguage = translationLanguage
         };
     }
 

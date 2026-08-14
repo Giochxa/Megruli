@@ -13,6 +13,7 @@ public abstract class ExerciseBase
     public string Id { get; set; } = "";
     /// <summary>Optional related vocabulary/phrase id, used to record mastery progress.</summary>
     public string? WordId { get; set; }
+    public string TranslationLanguage { get; set; } = "ka";
 }
 
 public class MultipleChoiceExercise : ExerciseBase

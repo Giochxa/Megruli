@@ -35,4 +35,7 @@ public class Lesson
 
     /// <summary>Whether this lesson must present its WordIds before any exercises.</summary>
     public bool IntroduceWordsBeforeExercises { get; set; }
+
+    /// <summary>Language used for meanings and prompts: Georgian (ka) or English (en).</summary>
+    public string TranslationLanguage { get; set; } = "ka";
 }

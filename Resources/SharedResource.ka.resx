@@ -44,6 +44,7 @@
   <data name="Exercise_NotQuite" xml:space="preserve"><value>არასწორია</value></data>
   <data name="Exercise_SelectMegruli" xml:space="preserve"><value>აირჩიეთ მეგრული თარგმანი</value></data>
   <data name="Exercise_SelectGeorgian" xml:space="preserve"><value>აირჩიეთ ქართული თარგმანი</value></data>
+  <data name="Exercise_SelectEnglish" xml:space="preserve"><value>აირჩიეთ ინგლისური თარგმანი</value></data>
   <data name="Exercise_TypeMegruli" xml:space="preserve"><value>ჩაწერეთ მეგრული თარგმანი</value></data>
   <data name="Exercise_TypePlural" xml:space="preserve"><value>ჩაწერეთ მრავლობითი ფორმა</value></data>
   <data name="Exercise_TypeHere" xml:space="preserve"><value>ჩაწერეთ აქ...</value></data>

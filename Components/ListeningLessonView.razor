@@ -3,6 +3,7 @@
 @inject AudioClipLabelService Labels
 @inject ProgressService Progress
 @inject IStringLocalizer<SharedResource> Loc
+@inject LocalizationService Localization
 
 <div class="listening-lesson">
     <div class="lesson-header">
@@ -27,7 +28,7 @@
                 <li class="clip-row">
                     <button class="play-btn small" @onclick="() => Play(clip.Id)">🔊</button>
                     <audio id="@AudioElementId(clip.Id)" src="@($"audio/lessons/{clip.SourceFile}")" preload="metadata"></audio>
-                    <span class="clip-megruli">@label.Megruli</span>
+                    <span class="clip-megruli">@DisplayMegruli(label.Megruli)</span>
                     <span class="clip-georgian">@label.Georgian</span>
                 </li>
             }
@@ -76,6 +77,10 @@
     }
 
     private static string AudioElementId(string clipId) => $"listening-audio-{clipId}";
+
+    private string? DisplayMegruli(string? text) => Localization.IsGeorgian || text is null
+        ? text
+        : MegrelianTransliterator.ToLatin(text);
 
     private async Task Complete()
     {
