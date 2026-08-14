@@ -31,8 +31,17 @@ public class ContentService
         _vocabulary = await _http.GetFromJsonAsync<List<VocabWord>>("data/vocabulary.json", JsonDefaults.Options) ?? new();
         _phrases = await _http.GetFromJsonAsync<List<Phrase>>("data/phrases.json", JsonDefaults.Options) ?? new();
         _proverbs = await _http.GetFromJsonAsync<List<Phrase>>("data/proverbs.json", JsonDefaults.Options) ?? new();
-        _englishTranslations = await _http.GetFromJsonAsync<Dictionary<string, string>>(
-            "data/english-translations.json", JsonDefaults.Options) ?? new();
+        try
+        {
+            _englishTranslations = await _http.GetFromJsonAsync<Dictionary<string, string>>(
+                "data/english-translations.json", JsonDefaults.Options) ?? new();
+        }
+        catch
+        {
+            // An installed PWA can briefly run a newer app shell with an older asset cache.
+            // English content is optional in that state; keep the Georgian course usable.
+            _englishTranslations = new();
+        }
         _clips = await _http.GetFromJsonAsync<List<AudioClip>>("audio/clips/clips-manifest.json", JsonDefaults.Options) ?? new();
         try
         {

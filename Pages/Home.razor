@@ -4,18 +4,9 @@
 @inject NavigationManager Nav
 @inject IStringLocalizer<SharedResource> Loc
 @inject LocalizationService Localization
+@inject CourseLanguageService CourseLanguage
 
 <div class="home-page">
-    <div class="course-track-selector" role="group" aria-label="Course language">
-        <button class="course-track-btn @(_courseLanguage == "ka" ? "active" : "")"
-                @onclick='() => SelectCourseLanguage("ka")'>
-            🇬🇪 @(Localization.IsGeorgian ? "მეგრული — ქართული" : "Megrelian — Georgian")
-        </button>
-        <button class="course-track-btn @(_courseLanguage == "en" ? "active" : "")"
-                @onclick='() => SelectCourseLanguage("en")'>
-            🇬🇧 @(Localization.IsGeorgian ? "მეგრული — ინგლისური" : "Megrelian — English")
-        </button>
-    </div>
     @if (_units is null)
     {
         <p class="loading">@Loc["Home_LoadingCourse"]</p>
@@ -56,25 +47,23 @@
 
 @code {
     private List<CourseUnit>? _units;
-    private string _courseLanguage = "ka";
-
     protected override async Task OnInitializedAsync()
     {
         await Progress.EnsureLoadedAsync();
-        _courseLanguage = Localization.IsGeorgian ? "ka" : "en";
+        await CourseLanguage.EnsureLoadedAsync();
         await LoadUnitsAsync();
     }
 
-    private async Task SelectCourseLanguage(string language)
+    private async Task LoadUnitsAsync()
     {
-        if (_courseLanguage == language) return;
-        _courseLanguage = language;
-        await LoadUnitsAsync();
+        if (CourseLanguage.Current == "en")
+        {
+            var englishUnits = await Content.GetEnglishUnitsAsync();
+            _units = englishUnits.Count > 0 ? englishUnits : await Content.GetUnitsAsync();
+            return;
+        }
+        _units = await Content.GetUnitsAsync();
     }
-
-    private async Task LoadUnitsAsync() => _units = _courseLanguage == "en"
-        ? await Content.GetEnglishUnitsAsync()
-        : await Content.GetUnitsAsync();
 
     private void OpenLesson(string lessonId) => Nav.NavigateTo($"/lesson/{lessonId}");
 

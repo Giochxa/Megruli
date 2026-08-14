@@ -18,6 +18,7 @@ builder.Services.AddScoped<AudioClipLabelService>();
 builder.Services.AddScoped<ExerciseGenerator>();
 builder.Services.AddScoped<ThemeService>();
 builder.Services.AddScoped<LocalizationService>();
+builder.Services.AddScoped<CourseLanguageService>();
 
 var host = builder.Build();
 

@@ -3,6 +3,7 @@
 @inject ContentService Content
 @inject ThemeService Theme
 @inject LocalizationService Localization
+@inject CourseLanguageService CourseLanguage
 @inject IStringLocalizer<SharedResource> Loc
 
 <div class="profile-page">
@@ -31,6 +32,19 @@
                 <button class="@(Localization.IsGeorgian ? "toggle-active" : "")" @onclick='() => SetLanguage("ka")'>ქართული</button>
             </div>
         </div>
+        <div class="settings-row lesson-language-row">
+            <span>@(Localization.IsGeorgian ? "გაკვეთილების ენა" : "Lesson language")</span>
+            <div class="toggle-group lesson-language-toggle">
+                <button class="@(CourseLanguage.Current == "ka" ? "toggle-active" : "")"
+                        @onclick='() => SetCourseLanguage("ka")'>
+                    🇬🇪 @(Localization.IsGeorgian ? "მეგრული — ქართული" : "Megrelian — Georgian")
+                </button>
+                <button class="@(CourseLanguage.Current == "en" ? "toggle-active" : "")"
+                        @onclick='() => SetCourseLanguage("en")'>
+                    🇬🇧 @(Localization.IsGeorgian ? "მეგრული — ინგლისური" : "Megrelian — English")
+                </button>
+            </div>
+        </div>
         <div class="settings-row">
             <span>@Loc["Profile_UnlimitedHearts"]</span>
             <div class="toggle-group">
@@ -55,7 +69,8 @@
     {
         await Progress.EnsureLoadedAsync();
         await Theme.EnsureLoadedAsync();
-        var units = await Content.GetUnitsAsync();
+        await CourseLanguage.EnsureLoadedAsync();
+        var units = (await Content.GetUnitsAsync()).Concat(await Content.GetEnglishUnitsAsync()).ToList();
         _totalLessons = units.Sum(u => u.Lessons.Count);
         _completedCount = units.SelectMany(u => u.Lessons).Count(l => Progress.IsLessonCompleted(l.Id));
     }
@@ -71,6 +86,12 @@
     }
 
     private async Task SetLanguage(string culture) => await Localization.SetCultureAsync(culture);
+
+    private async Task SetCourseLanguage(string language)
+    {
+        await CourseLanguage.SetAsync(language);
+        StateHasChanged();
+    }
 
     private async Task SetUnlimitedHearts(bool enabled) => await Progress.SetUnlimitedHeartsAsync(enabled);
 }
