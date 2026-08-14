@@ -279,6 +279,44 @@ input, select, textarea {
     white-space: nowrap;
 }
 
+@media (max-width: 600px) {
+    .top-bar {
+        padding: 0.55rem 0.6rem;
+        gap: 0.35rem;
+    }
+
+    .brand {
+        flex-shrink: 0;
+        font-size: 1rem;
+    }
+
+    .brand span { display: none; }
+
+    .stat-pills {
+        min-width: 0;
+        flex-wrap: nowrap;
+        gap: 0.2rem;
+    }
+
+    .pill {
+        padding: 0.2rem 0.35rem;
+        font-size: 0.76rem;
+    }
+
+    .icon-btn {
+        width: 1.9rem;
+        height: 1.9rem;
+        flex-shrink: 0;
+        font-size: 0.9rem;
+    }
+
+    .lang-btn {
+        padding: 0.25rem 0.42rem;
+        flex-shrink: 0;
+        font-size: 0.72rem;
+    }
+}
+
 /* ---- Content area ---- */
 .app-content {
     flex: 1;
