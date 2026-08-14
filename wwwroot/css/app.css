@@ -290,7 +290,7 @@ input, select, textarea {
         font-size: 1rem;
     }
 
-    .brand span { display: none; }
+    .brand span { display: inline; }
 
     .stat-pills {
         min-width: 0;
@@ -427,32 +427,9 @@ input, select, textarea {
 
 .unit-section { margin-bottom: 2rem; }
 
-.course-track-selector {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.65rem;
-    margin-bottom: 1.5rem;
-}
-
-.course-track-btn {
-    min-height: 3rem;
-    padding: 0.65rem 0.8rem;
-    border: 2px solid var(--gray-200);
-    border-radius: 14px;
-    background: var(--surface);
-    color: var(--text);
-    font-weight: 800;
-}
-
-.course-track-btn.active {
-    border-color: var(--green);
-    background: var(--option-correct-bg);
-    color: var(--green-dark);
-}
-
-@media (max-width: 480px) {
-    .course-track-selector { grid-template-columns: 1fr; }
-}
+.lesson-language-row { align-items: flex-start; }
+.lesson-language-toggle { flex-wrap: wrap; justify-content: flex-end; }
+.lesson-language-toggle button { white-space: normal; }
 
 .unit-header {
     display: flex;
