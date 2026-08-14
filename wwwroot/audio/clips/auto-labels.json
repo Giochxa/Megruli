@@ -1,143 +1,173 @@
 [
   {
-    "ClipId": "auto-Megruli1-001",
+    "ClipId": "auto-Megruli27-001",
     "Language": "Megruli",
-    "Transcript": "moro",
+    "Transcript": "nanaa",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ორო",
-    "Georgian": "ჩრდილი, ჩერო",
-    "LinkedWordId": "lexicon-472"
+    "Megruli": "ნანა",
+    "Georgian": "დედა",
+    "LinkedWordId": "lexicon-439"
   },
   {
-    "ClipId": "auto-Megruli1-003",
+    "ClipId": "auto-Megruli27-002",
     "Language": "Megruli",
-    "Transcript": "jgiri",
+    "Transcript": "orko",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ჯგირი",
-    "Georgian": "კარგი",
-    "LinkedWordId": "lexicon-804"
+    "Megruli": "ორქო",
+    "Georgian": "ოქრო (დღეს ოქრო იხმარება)",
+    "LinkedWordId": "lexicon-485"
   },
   {
-    "ClipId": "auto-Megruli5-001",
+    "ClipId": "auto-Megruli30-001",
     "Language": "Megruli",
-    "Transcript": "chita",
+    "Transcript": "sinja",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ჭითა",
-    "Georgian": "წითელი",
-    "LinkedWordId": "colors-4"
+    "Megruli": "სინჯა",
+    "Georgian": "სიძე",
+    "LinkedWordId": "family-20"
   },
   {
-    "ClipId": "auto-Megruli9-001",
+    "ClipId": "auto-Megruli30-002",
     "Language": "Megruli",
-    "Transcript": "guri",
+    "Transcript": "iriatoni",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "გური",
-    "Georgian": "გული",
-    "LinkedWordId": "body-parts-6"
+    "Megruli": "ირიათო/ირო",
+    "Georgian": "ყოველთვის",
+    "LinkedWordId": "lexicon-272"
   },
   {
-    "ClipId": "auto-Megruli9-002",
+    "ClipId": "auto-Megruli10-001",
     "Language": "Megruli",
-    "Transcript": "dudi",
+    "Transcript": "tiri",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "დუდი",
-    "Georgian": "თავი",
-    "LinkedWordId": "lexicon-155"
+    "Megruli": "თირი",
+    "Georgian": "თოვლი",
+    "LinkedWordId": "lexicon-238"
   },
   {
-    "ClipId": "auto-Megruli9-003",
+    "ClipId": "auto-Megruli10-002",
     "Language": "Megruli",
-    "Transcript": "shuri",
+    "Transcript": "nirs",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "შური",
-    "Georgian": "1. სუნი; 2. სული",
-    "LinkedWordId": "lexicon-688"
+    "Megruli": "ნირსი",
+    "Georgian": "ნისლი",
+    "LinkedWordId": "weather-11"
   },
   {
-    "ClipId": "auto-Megruli9-004",
+    "ClipId": "auto-Megruli11-001",
     "Language": "Megruli",
-    "Transcript": "uji",
+    "Transcript": "nam kursisre",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ჸუჯი",
-    "Georgian": "ყური",
-    "LinkedWordId": "lexicon-655"
+    "Megruli": "ნამ კურსის რექ?",
+    "Georgian": "რომელ კურსზე ხარ?",
+    "LinkedWordId": "phrase-39"
   },
   {
-    "ClipId": "auto-Megruli9-005",
+    "ClipId": "auto-Megruli12-002",
     "Language": "Megruli",
-    "Transcript": "kuri",
+    "Transcript": "sintele",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ქური",
-    "Georgian": "ქუსლი",
-    "LinkedWordId": "lexicon-620"
+    "Megruli": "სინთე",
+    "Georgian": "სინათლე",
+    "LinkedWordId": "source-time-extra-003"
   },
   {
-    "ClipId": "auto-Megruli9-006",
+    "ClipId": "auto-Megruli12-003",
     "Language": "Megruli",
-    "Transcript": "kiti",
+    "Transcript": "esa zojua",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "კითი",
-    "Georgian": "თითი",
-    "LinkedWordId": "lexicon-297"
+    "Megruli": "ზოჯუა",
+    "Georgian": "ბრძანება",
+    "LinkedWordId": "lexicon-220"
   },
   {
-    "ClipId": "auto-Megruli9-007",
+    "ClipId": "auto-Megruli12-004",
     "Language": "Megruli",
-    "Transcript": "tuma",
+    "Transcript": "osur patoni",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "თუმა",
-    "Georgian": "თმა",
-    "LinkedWordId": "lexicon-251"
+    "Megruli": "პატჷნი/პატონი",
+    "Georgian": "ბატონი, ბატონო!",
+    "LinkedWordId": "lexicon-492"
   },
   {
-    "ClipId": "auto-Megruli13-001",
+    "ClipId": "auto-Megruli14-001",
     "Language": "Megruli",
-    "Transcript": "kotomi",
+    "Transcript": "kiri",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ქოთომი",
-    "Georgian": "ქათამი",
-    "LinkedWordId": "animals-16"
+    "Megruli": "ქირი",
+    "Georgian": "ქორი",
+    "LinkedWordId": "lexicon-599"
   },
   {
-    "ClipId": "auto-Megruli13-002",
+    "ClipId": "auto-Megruli14-002",
     "Language": "Megruli",
-    "Transcript": "mumuli",
+    "Transcript": "kidu",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "მუმული",
-    "Georgian": "მამალი",
-    "LinkedWordId": "lexicon-418"
+    "Megruli": "კიდუ",
+    "Georgian": "კოდალა",
+    "LinkedWordId": "animals-extra-25"
+  },
+  {
+    "ClipId": "auto-Megruli15-001",
+    "Language": "Megruli",
+    "Transcript": "koli",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "კოლი",
+    "Georgian": "კალია",
+    "LinkedWordId": "animals-extra-26"
+  },
+  {
+    "ClipId": "auto-Megruli15-002",
+    "Language": "Megruli",
+    "Transcript": "gordi",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "გორდი",
+    "Georgian": "ბაყაყი",
+    "LinkedWordId": "lexicon-115"
   },
   {
     "ClipId": "auto-Megruli17-001",
     "Language": "Megruli",
-    "Transcript": "gola",
+    "Transcript": "kurdgeli",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "გოლა",
-    "Georgian": "მთა",
-    "LinkedWordId": "weather-2"
+    "Megruli": "კურდღელი/ყურდგელი",
+    "Georgian": "კურდღელი, ყურდგელი",
+    "LinkedWordId": "animals-extra-41"
   },
   {
-    "ClipId": "auto-Megruli17-002",
+    "ClipId": "auto-Megruli17-003",
     "Language": "Megruli",
-    "Transcript": "ta",
+    "Transcript": "kvinori qerna",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "თა(ჸ)ურეშე",
-    "Georgian": "აქედან",
-    "LinkedWordId": "lexicon-226"
+    "Megruli": "კვინორი",
+    "Georgian": "კვერნა",
+    "LinkedWordId": "animals-extra-22"
+  },
+  {
+    "ClipId": "auto-Megruli20-001",
+    "Language": "Megruli",
+    "Transcript": "sakortu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "საქორთუო",
+    "Georgian": "საქართველო",
+    "LinkedWordId": "lexicon-526"
   },
   {
     "ClipId": "auto-Megruli21-001",
@@ -150,14 +180,154 @@
     "LinkedWordId": "lexicon-106"
   },
   {
-    "ClipId": "auto-Megruli29-001",
+    "ClipId": "auto-Megruli22-001",
     "Language": "Megruli",
-    "Transcript": "rekua",
+    "Transcript": "mele",
     "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "რეკუა",
-    "Georgian": "დარეკვა, რეკვა (დობრეკკჷნქ - დავრეკავ, დორეკი - დარეკე)",
-    "LinkedWordId": "lexicon-510"
+    "Megruli": "მელე",
+    "Georgian": "გაღმა",
+    "LinkedWordId": "lexicon-348"
+  },
+  {
+    "ClipId": "auto-Megruli22-002",
+    "Language": "Megruli",
+    "Transcript": "chans",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ჩანს",
+    "Georgian": "დარგულია, ხარობს",
+    "LinkedWordId": "lexicon-690"
+  },
+  {
+    "ClipId": "auto-Megruli23-001",
+    "Language": "Megruli",
+    "Transcript": "vara",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ვარა",
+    "Georgian": "ან",
+    "LinkedWordId": "lexicon-194"
+  },
+  {
+    "ClipId": "auto-Megruli23-002",
+    "Language": "Megruli",
+    "Transcript": "muda tida",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუდა",
+    "Georgian": "რამდენი (კითხ. ნაცვ.)",
+    "LinkedWordId": "lexicon-405"
+  },
+  {
+    "ClipId": "auto-Megruli23-003",
+    "Language": "Megruli",
+    "Transcript": "tu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "თუ",
+    "Georgian": "გოჭი",
+    "LinkedWordId": "animals-11"
+  },
+  {
+    "ClipId": "auto-Megruli24-001",
+    "Language": "Megruli",
+    "Transcript": "bira",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ბირა",
+    "Georgian": "(სი)მღერა",
+    "LinkedWordId": "lexicon-30"
+  },
+  {
+    "ClipId": "auto-Megruli1-001",
+    "Language": "Megruli",
+    "Transcript": "ma",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მა",
+    "Georgian": "მე",
+    "LinkedWordId": "lexicon-325"
+  },
+  {
+    "ClipId": "auto-Megruli1-002",
+    "Language": "Megruli",
+    "Transcript": "si",
+    "Confidence": 0.88,
+    "AutoAssigned": true,
+    "Megruli": "სი",
+    "Georgian": "შენ",
+    "LinkedWordId": "lexicon-529"
+  },
+  {
+    "ClipId": "auto-Megruli1-003",
+    "Language": "Megruli",
+    "Transcript": "tina",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "თინა",
+    "Georgian": "ის",
+    "LinkedWordId": "lexicon-235"
+  },
+  {
+    "ClipId": "auto-Megruli1-005",
+    "Language": "Megruli",
+    "Transcript": "mu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუ?",
+    "Georgian": "რა?",
+    "LinkedWordId": "lexicon-400"
+  },
+  {
+    "ClipId": "auto-Megruli1-006",
+    "Language": "Megruli",
+    "Transcript": "chki",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ჩქჷ/ჩქი",
+    "Georgian": "ჩვენ",
+    "LinkedWordId": "lexicon-701"
+  },
+  {
+    "ClipId": "auto-Megruli1-008",
+    "Language": "Megruli",
+    "Transcript": "moro",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ორო",
+    "Georgian": "ჩრდილი, ჩერო",
+    "LinkedWordId": "lexicon-472"
+  },
+  {
+    "ClipId": "auto-Megruli1-010",
+    "Language": "Megruli",
+    "Transcript": "re",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "რე",
+    "Georgian": "არის",
+    "LinkedWordId": "lexicon-508"
+  },
+  {
+    "ClipId": "auto-Megruli1-011",
+    "Language": "Megruli",
+    "Transcript": "holo",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ხოლო",
+    "Georgian": "კიდევ",
+    "LinkedWordId": "lexicon-793"
+  },
+  {
+    "ClipId": "auto-Megruli1-012",
+    "Language": "Megruli",
+    "Transcript": "zirapa",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ძირაფა",
+    "Georgian": "ნახვა",
+    "LinkedWordId": "lexicon-732"
   },
   {
     "ClipId": "auto-Megruli2-001",
@@ -182,6 +352,56 @@
   {
     "ClipId": "auto-Megruli2-004",
     "Language": "Megruli",
+    "Transcript": "inepis",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ინეფიშ",
+    "Georgian": "მათი",
+    "LinkedWordId": "source-pronouns-002"
+  },
+  {
+    "ClipId": "auto-Megruli2-005",
+    "Language": "Megruli",
+    "Transcript": "namu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ნამჷ/ნამუ/ნამ",
+    "Georgian": "რომელი",
+    "LinkedWordId": "lexicon-442"
+  },
+  {
+    "ClipId": "auto-Megruli2-006",
+    "Language": "Megruli",
+    "Transcript": "muneri",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუნერი",
+    "Georgian": "რანაირი",
+    "LinkedWordId": "lexicon-420"
+  },
+  {
+    "ClipId": "auto-Megruli2-007",
+    "Language": "Megruli",
+    "Transcript": "mucho",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუჭო?",
+    "Georgian": "როგორ?",
+    "LinkedWordId": "lexicon-435"
+  },
+  {
+    "ClipId": "auto-Megruli2-009",
+    "Language": "Megruli",
+    "Transcript": "so sode sat",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "სო/სოდე?",
+    "Georgian": "სად?",
+    "LinkedWordId": "lexicon-536"
+  },
+  {
+    "ClipId": "auto-Megruli2-010",
+    "Language": "Megruli",
     "Transcript": "mangaro",
     "Confidence": 0.99,
     "AutoAssigned": true,
@@ -190,17 +410,17 @@
     "LinkedWordId": "lexicon-329"
   },
   {
-    "ClipId": "auto-Megruli2-006",
+    "ClipId": "auto-Megruli2-011",
     "Language": "Megruli",
-    "Transcript": "muta",
-    "Confidence": 0.99,
+    "Transcript": "merti",
+    "Confidence": 0.798,
     "AutoAssigned": true,
-    "Megruli": "მუთ?",
-    "Georgian": "როგორ? რით?",
-    "LinkedWordId": "question-words-19"
+    "Megruli": "მერთი!",
+    "Georgian": "მიდი!",
+    "LinkedWordId": "lexicon-352"
   },
   {
-    "ClipId": "auto-Megruli2-007",
+    "ClipId": "auto-Megruli2-012",
     "Language": "Megruli",
     "Transcript": "mangari",
     "Confidence": 0.99,
@@ -210,14 +430,164 @@
     "LinkedWordId": "lexicon-328"
   },
   {
-    "ClipId": "auto-Megruli6-001",
+    "ClipId": "auto-Megruli3-001",
     "Language": "Megruli",
-    "Transcript": "bebi",
-    "Confidence": 0.813,
+    "Transcript": "goko",
+    "Confidence": 0.99,
     "AutoAssigned": true,
-    "Megruli": "ბები (დადი; ძვ. ფორმა)",
-    "Georgian": "ბებია",
-    "LinkedWordId": "family-13"
+    "Megruli": "ოკო",
+    "Georgian": "უნდა",
+    "LinkedWordId": "lexicon-465"
+  },
+  {
+    "ClipId": "auto-Megruli3-002",
+    "Language": "Megruli",
+    "Transcript": "go",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "გო(გ)იმორძგჷ/გო(გ)იმორძგუ ღორონთქ!",
+    "Georgian": "გაგიმარჯოს ღმერთმა!",
+    "LinkedWordId": "phrase-2"
+  },
+  {
+    "ClipId": "auto-Megruli3-003",
+    "Language": "Megruli",
+    "Transcript": "undu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "თჷნდჷ/თუნდუ",
+    "Georgian": "თოვდა",
+    "LinkedWordId": "lexicon-240"
+  },
+  {
+    "ClipId": "auto-Megruli3-004",
+    "Language": "Megruli",
+    "Transcript": "itz kuma",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "კუმა",
+    "Georgian": "კვამლი",
+    "LinkedWordId": "household-extra-3"
+  },
+  {
+    "ClipId": "auto-Megruli3-005",
+    "Language": "Megruli",
+    "Transcript": "edgina",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ედგინა",
+    "Georgian": "ადგომა",
+    "LinkedWordId": "lexicon-158"
+  },
+  {
+    "ClipId": "auto-Megruli4-001",
+    "Language": "Megruli",
+    "Transcript": "zotonji",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ზოთონჯი (ბზოთონჯი)",
+    "Georgian": "ზამთარი",
+    "LinkedWordId": "seasons-4"
+  },
+  {
+    "ClipId": "auto-Megruli4-002",
+    "Language": "Megruli",
+    "Transcript": "malas",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მალას",
+    "Georgian": "მალე",
+    "LinkedWordId": "lexicon-327"
+  },
+  {
+    "ClipId": "auto-Megruli4-003",
+    "Language": "Megruli",
+    "Transcript": "gura pa",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ღურა",
+    "Georgian": "სიკვდილი",
+    "LinkedWordId": "lexicon-637"
+  },
+  {
+    "ClipId": "auto-Megruli4-004",
+    "Language": "Megruli",
+    "Transcript": "cchopua",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ჭოფუა",
+    "Georgian": "დაჭერა (ბჭოფუნქ - ვიჭერ, ჭოფუნქ - იჭერ, ჭოფუნს - იჭერს, ოჭოფი(თ) - დაიჭირე(თ))",
+    "LinkedWordId": "lexicon-767"
+  },
+  {
+    "ClipId": "auto-Megruli4-005",
+    "Language": "Megruli",
+    "Transcript": "chomi",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუჭომი?",
+    "Georgian": "როგორი?",
+    "LinkedWordId": "lexicon-436"
+  },
+  {
+    "ClipId": "auto-Megruli4-006",
+    "Language": "Megruli",
+    "Transcript": "oropa",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ჸოროფა",
+    "Georgian": "სიყვარული (მა მიჸორს, სი გიჸორს, თის უჸორს)",
+    "LinkedWordId": "lexicon-651"
+  },
+  {
+    "ClipId": "auto-Megruli5-001",
+    "Language": "Megruli",
+    "Transcript": "midurk",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მიდულჷ/მიდურქჷ",
+    "Georgian": "წავალ",
+    "LinkedWordId": "lexicon-369"
+  },
+  {
+    "ClipId": "auto-Megruli5-003",
+    "Language": "Megruli",
+    "Transcript": "gemuan",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "გემუანი",
+    "Georgian": "გემრიელი",
+    "LinkedWordId": "lexicon-82"
+  },
+  {
+    "ClipId": "auto-Megruli5-004",
+    "Language": "Megruli",
+    "Transcript": "hamo",
+    "Confidence": 0.935,
+    "AutoAssigned": true,
+    "Megruli": "ჰამო",
+    "Georgian": "ტკბილი, სასიამოვნო",
+    "LinkedWordId": "lexicon-820"
+  },
+  {
+    "ClipId": "auto-Megruli5-005",
+    "Language": "Megruli",
+    "Transcript": "khvama",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ხვამა",
+    "Georgian": "ლოცვა (დორხვამანთ - დაგლოცავთ)",
+    "LinkedWordId": "lexicon-788"
+  },
+  {
+    "ClipId": "auto-Megruli5-006",
+    "Language": "Megruli",
+    "Transcript": "bagana se zinaz",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ბაღანა",
+    "Georgian": "ბავშვი",
+    "LinkedWordId": "lexicon-27"
   },
   {
     "ClipId": "auto-Megruli6-002",
@@ -228,6 +598,146 @@
     "Megruli": "ბაბუ",
     "Georgian": "ბაბუა, პაპა",
     "LinkedWordId": "family-11"
+  },
+  {
+    "ClipId": "auto-Megruli7-001",
+    "Language": "Megruli",
+    "Transcript": "mara",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მარა",
+    "Georgian": "1. კვირა (მსგეფსი); 2. მაგრამ (კავშირი)",
+    "LinkedWordId": "lexicon-332"
+  },
+  {
+    "ClipId": "auto-Megruli8-001",
+    "Language": "Megruli",
+    "Transcript": "apu",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "პაპუ",
+    "Georgian": "დიდი ბაბუა",
+    "LinkedWordId": "family-12"
+  },
+  {
+    "ClipId": "auto-Megruli8-003",
+    "Language": "Megruli",
+    "Transcript": "a mari",
+    "Confidence": 0.705,
+    "AutoAssigned": true,
+    "Megruli": "ამარი",
+    "Georgian": "აგერ",
+    "LinkedWordId": "lexicon-9"
+  },
+  {
+    "ClipId": "auto-Megruli8-004",
+    "Language": "Megruli",
+    "Transcript": "zakhali",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ზახალი",
+    "Georgian": "მძახალი",
+    "LinkedWordId": "family-25"
+  },
+  {
+    "ClipId": "auto-Megruli8-006",
+    "Language": "Megruli",
+    "Transcript": "gorua",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "გორუა",
+    "Georgian": "ძებნა, ძიება",
+    "LinkedWordId": "lexicon-112"
+  },
+  {
+    "ClipId": "auto-Megruli8-007",
+    "Language": "Megruli",
+    "Transcript": "akil kini",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "კჷნე/კინე/კინი",
+    "Georgian": "ისევ",
+    "LinkedWordId": "lexicon-310"
+  },
+  {
+    "ClipId": "auto-Megruli9-001",
+    "Language": "Megruli",
+    "Transcript": "dudi",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "დუდი",
+    "Georgian": "თავი",
+    "LinkedWordId": "lexicon-155"
+  },
+  {
+    "ClipId": "auto-Megruli9-002",
+    "Language": "Megruli",
+    "Transcript": "toli",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "თოლი",
+    "Georgian": "თვალი",
+    "LinkedWordId": "lexicon-243"
+  },
+  {
+    "ClipId": "auto-Megruli9-003",
+    "Language": "Megruli",
+    "Transcript": "kiti",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "კითი",
+    "Georgian": "თითი",
+    "LinkedWordId": "lexicon-297"
+  },
+  {
+    "ClipId": "auto-Megruli9-004",
+    "Language": "Megruli",
+    "Transcript": "tuma",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "თუმა",
+    "Georgian": "თმა",
+    "LinkedWordId": "lexicon-251"
+  },
+  {
+    "ClipId": "auto-Megruli9-007",
+    "Language": "Megruli",
+    "Transcript": "birguli",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ბირგული",
+    "Georgian": "მუხლი",
+    "LinkedWordId": "body-parts-3"
+  },
+  {
+    "ClipId": "auto-Megruli13-001",
+    "Language": "Megruli",
+    "Transcript": "kotomi",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "ქოთომი",
+    "Georgian": "ქათამი",
+    "LinkedWordId": "animals-16"
+  },
+  {
+    "ClipId": "auto-Megruli13-002",
+    "Language": "Megruli",
+    "Transcript": "mumuli",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "მუმული",
+    "Georgian": "მამალი",
+    "LinkedWordId": "lexicon-418"
+  },
+  {
+    "ClipId": "auto-Megruli29-001",
+    "Language": "Megruli",
+    "Transcript": "rekua",
+    "Confidence": 0.99,
+    "AutoAssigned": true,
+    "Megruli": "რეკუა",
+    "Georgian": "დარეკვა, რეკვა (დობრეკკჷნქ - დავრეკავ, დორეკი - დარეკე)",
+    "LinkedWordId": "lexicon-510"
   },
   {
     "ClipId": "auto-Megruli6-003",
@@ -260,16 +770,6 @@
     "LinkedWordId": "lexicon-34"
   },
   {
-    "ClipId": "auto-Megruli10-001",
-    "Language": "Megruli",
-    "Transcript": "tiri",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "თირი",
-    "Georgian": "თოვლი",
-    "LinkedWordId": "lexicon-238"
-  },
-  {
     "ClipId": "auto-Megruli18-001",
     "Language": "Megruli",
     "Transcript": "lebia",
@@ -278,76 +778,6 @@
     "Megruli": "ლებია",
     "Georgian": "ლობიო",
     "LinkedWordId": "lexicon-317"
-  },
-  {
-    "ClipId": "auto-Megruli22-002",
-    "Language": "Megruli",
-    "Transcript": "zgas",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ძგას",
-    "Georgian": "გვერდით, კიდეში",
-    "LinkedWordId": "lexicon-729"
-  },
-  {
-    "ClipId": "auto-Megruli26-001",
-    "Language": "Megruli",
-    "Transcript": "bira",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ბირა",
-    "Georgian": "(სი)მღერა",
-    "LinkedWordId": "lexicon-30"
-  },
-  {
-    "ClipId": "auto-Megruli30-001",
-    "Language": "Megruli",
-    "Transcript": "ti",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ტი",
-    "Georgian": "ტილი",
-    "LinkedWordId": "animals-extra-38"
-  },
-  {
-    "ClipId": "auto-Megruli3-004",
-    "Language": "Megruli",
-    "Transcript": "sati",
-    "Confidence": 0.913,
-    "AutoAssigned": true,
-    "Megruli": "სათი/ საათი",
-    "Georgian": "საათი",
-    "LinkedWordId": "lexicon-521"
-  },
-  {
-    "ClipId": "auto-Megruli3-005",
-    "Language": "Megruli",
-    "Transcript": "mula",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ულა",
-    "Georgian": "წასვლა",
-    "LinkedWordId": "lexicon-563"
-  },
-  {
-    "ClipId": "auto-Megruli3-006",
-    "Language": "Megruli",
-    "Transcript": "edgina",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ედგინა",
-    "Georgian": "ადგომა",
-    "LinkedWordId": "lexicon-158"
-  },
-  {
-    "ClipId": "auto-Megruli15-001",
-    "Language": "Megruli",
-    "Transcript": "koli",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "კოლი",
-    "Georgian": "კალია",
-    "LinkedWordId": "animals-extra-26"
   },
   {
     "ClipId": "auto-Megruli19-001",
@@ -370,136 +800,6 @@
     "LinkedWordId": "lexicon-311"
   },
   {
-    "ClipId": "auto-Megruli23-001",
-    "Language": "Megruli",
-    "Transcript": "do",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "დო",
-    "Georgian": "და (კავშ.)",
-    "LinkedWordId": "lexicon-140"
-  },
-  {
-    "ClipId": "auto-Megruli27-001",
-    "Language": "Megruli",
-    "Transcript": "skibu",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "სქიბუ",
-    "Georgian": "წისქვილის ქვა, დილაბი",
-    "LinkedWordId": "household-extra-13"
-  },
-  {
-    "ClipId": "auto-Megruli27-002",
-    "Language": "Megruli",
-    "Transcript": "orko",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ორქო",
-    "Georgian": "ოქრო (დღეს ოქრო იხმარება)",
-    "LinkedWordId": "lexicon-485"
-  },
-  {
-    "ClipId": "auto-Megruli4-001",
-    "Language": "Megruli",
-    "Transcript": "mara",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "მარა",
-    "Georgian": "1. კვირა (მსგეფსი); 2. მაგრამ (კავშირი)",
-    "LinkedWordId": "lexicon-332"
-  },
-  {
-    "ClipId": "auto-Megruli4-002",
-    "Language": "Megruli",
-    "Transcript": "kvela",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "კველა",
-    "Georgian": "სკამი, შდრ. სავარძელი",
-    "LinkedWordId": "household-extra-28"
-  },
-  {
-    "ClipId": "auto-Megruli4-004",
-    "Language": "Megruli",
-    "Transcript": "cchopua",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ჭოფუა",
-    "Georgian": "დაჭერა (ბჭოფუნქ - ვიჭერ, ჭოფუნქ - იჭერ, ჭოფუნს - იჭერს, ოჭოფი(თ) - დაიჭირე(თ))",
-    "LinkedWordId": "lexicon-767"
-  },
-  {
-    "ClipId": "auto-Megruli4-005",
-    "Language": "Megruli",
-    "Transcript": "minsha",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "მინშა",
-    "Georgian": "ზოგჯერ",
-    "LinkedWordId": "lexicon-377"
-  },
-  {
-    "ClipId": "auto-Megruli4-006",
-    "Language": "Megruli",
-    "Transcript": "dudish",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "დუდის (დუს, ან დუც)/ კიბირს/ქვარას მაჭუ",
-    "Georgian": "თავი/კბილი/მუცელი მტკივა",
-    "LinkedWordId": "phrase-109"
-  },
-  {
-    "ClipId": "auto-Megruli4-007",
-    "Language": "Megruli",
-    "Transcript": "oropa",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ჸოროფა",
-    "Georgian": "სიყვარული (მა მიჸორს, სი გიჸორს, თის უჸორს)",
-    "LinkedWordId": "lexicon-651"
-  },
-  {
-    "ClipId": "auto-Megruli8-001",
-    "Language": "Megruli",
-    "Transcript": "sinja",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "სინჯა",
-    "Georgian": "სიძე",
-    "LinkedWordId": "family-20"
-  },
-  {
-    "ClipId": "auto-Megruli8-002",
-    "Language": "Megruli",
-    "Transcript": "sinda",
-    "Confidence": 0.762,
-    "AutoAssigned": true,
-    "Megruli": "ცინდა",
-    "Georgian": "ცივდა",
-    "LinkedWordId": "body-parts-21"
-  },
-  {
-    "ClipId": "auto-Megruli8-004",
-    "Language": "Megruli",
-    "Transcript": "zakhali",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "ზახალი",
-    "Georgian": "მძახალი",
-    "LinkedWordId": "family-25"
-  },
-  {
-    "ClipId": "auto-Megruli8-006",
-    "Language": "Megruli",
-    "Transcript": "gorua",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "გორუა",
-    "Georgian": "ძებნა, ძიება",
-    "LinkedWordId": "lexicon-112"
-  },
-  {
     "ClipId": "auto-Megruli16-001",
     "Language": "Megruli",
     "Transcript": "katsari",
@@ -508,16 +808,6 @@
     "Megruli": "ქაცარი",
     "Georgian": "ციკანი",
     "LinkedWordId": "animals-14"
-  },
-  {
-    "ClipId": "auto-Megruli16-002",
-    "Language": "Megruli",
-    "Transcript": "tu",
-    "Confidence": 0.99,
-    "AutoAssigned": true,
-    "Megruli": "თუ",
-    "Georgian": "გოჭი",
-    "LinkedWordId": "animals-11"
   },
   {
     "ClipId": "auto-Megruli16-003",
