@@ -32,14 +32,34 @@ window.megruliOfflineAudio = (() => {
         return { downloaded, usage, quota, persisted, online: navigator.onLine };
     }
 
-    async function download(path) {
+    async function download(path, expectedBytes) {
         const cache = await openCache();
         const url = absoluteUrl(path);
         if (await cache.match(url)) return;
 
-        const response = await fetch(url, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`Download failed (${response.status}).`);
-        await cache.put(url, response.clone());
+        try {
+            const response = await fetch(url, { cache: 'no-store' });
+            if (!response.ok) throw new Error(`Download failed (${response.status}).`);
+
+            // Materialize and verify the complete MP3 before marking it downloaded.
+            // This prevents an interrupted/partial response from remaining in the cache.
+            const blob = await response.blob();
+            if (expectedBytes && blob.size !== expectedBytes) {
+                throw new Error(`Incomplete audio file (${blob.size} of ${expectedBytes} bytes).`);
+            }
+
+            await cache.put(url, new Response(blob, {
+                status: 200,
+                headers: {
+                    'Content-Type': response.headers.get('Content-Type') || 'audio/mpeg',
+                    'Content-Length': String(blob.size),
+                    'Accept-Ranges': 'bytes',
+                },
+            }));
+        } catch (error) {
+            await cache.delete(url);
+            throw error;
+        }
     }
 
     async function remove(path) {

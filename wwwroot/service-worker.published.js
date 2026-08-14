@@ -49,7 +49,7 @@ async function onActivate(event) {
 }
 
 async function onFetch(event) {
-    if (event.request.method === 'GET' && event.request.url.includes('/audio/')) {
+    if ((event.request.method === 'GET' || event.request.method === 'HEAD') && event.request.url.includes('/audio/')) {
         return handleAudioFetch(event.request);
     }
 
@@ -94,24 +94,69 @@ async function handleAudioFetch(request) {
         }
     }
 
+    if (request.method === 'HEAD') {
+        const headers = new Headers(fullResponse.headers);
+        headers.set('Accept-Ranges', 'bytes');
+        return new Response(null, { status: 200, headers });
+    }
+
     const rangeHeader = request.headers.get('range');
     if (!rangeHeader) return fullResponse;
 
-    const buffer = await fullResponse.clone().arrayBuffer();
-    const totalLength = buffer.byteLength;
-    const match = /bytes=(\d+)-(\d*)/.exec(rangeHeader);
-    const start = match ? parseInt(match[1], 10) : 0;
-    const end = match && match[2] ? Math.min(parseInt(match[2], 10), totalLength - 1) : totalLength - 1;
-    const slice = buffer.slice(start, end + 1);
+    const blob = await fullResponse.clone().blob();
+    const totalLength = blob.size;
+    const range = parseSingleByteRange(rangeHeader, totalLength);
+    if (!range) {
+        return new Response(null, {
+            status: 416,
+            statusText: 'Range Not Satisfiable',
+            headers: {
+                'Content-Range': `bytes */${totalLength}`,
+                'Accept-Ranges': 'bytes',
+            },
+        });
+    }
+
+    const contentType = fullResponse.headers.get('Content-Type') || 'audio/mpeg';
+    const slice = blob.slice(range.start, range.end + 1, contentType);
+    const headers = new Headers({
+        'Content-Type': contentType,
+        'Content-Range': `bytes ${range.start}-${range.end}/${totalLength}`,
+        'Content-Length': String(slice.size),
+        'Accept-Ranges': 'bytes',
+    });
+    const etag = fullResponse.headers.get('ETag');
+    const lastModified = fullResponse.headers.get('Last-Modified');
+    if (etag) headers.set('ETag', etag);
+    if (lastModified) headers.set('Last-Modified', lastModified);
 
     return new Response(slice, {
         status: 206,
         statusText: 'Partial Content',
-        headers: {
-            'Content-Type': fullResponse.headers.get('Content-Type') || 'audio/mpeg',
-            'Content-Range': `bytes ${start}-${end}/${totalLength}`,
-            'Content-Length': String(slice.byteLength),
-            'Accept-Ranges': 'bytes',
-        },
+        headers,
     });
+}
+
+// RFC 9110 single byte-range forms:
+//   bytes=100-199  explicit range
+//   bytes=100-     from offset to the end
+//   bytes=-65536   final N bytes (used by some mobile media players)
+function parseSingleByteRange(value, totalLength) {
+    const match = /^bytes=(\d*)-(\d*)$/i.exec(value.trim());
+    if (!match || (!match[1] && !match[2]) || totalLength <= 0) return null;
+
+    if (match[1]) {
+        const start = Number(match[1]);
+        if (!Number.isSafeInteger(start) || start >= totalLength) return null;
+        let end = match[2] ? Number(match[2]) : totalLength - 1;
+        if (!Number.isSafeInteger(end) || end < start) return null;
+        return { start, end: Math.min(end, totalLength - 1) };
+    }
+
+    const suffixLength = Number(match[2]);
+    if (!Number.isSafeInteger(suffixLength) || suffixLength <= 0) return null;
+    return {
+        start: Math.max(totalLength - suffixLength, 0),
+        end: totalLength - 1,
+    };
 }
