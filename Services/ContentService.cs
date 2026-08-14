@@ -29,6 +29,19 @@ public class ContentService
 
         _units = await _http.GetFromJsonAsync<List<CourseUnit>>("data/units.json", JsonDefaults.Options) ?? new();
         _vocabulary = await _http.GetFromJsonAsync<List<VocabWord>>("data/vocabulary.json", JsonDefaults.Options) ?? new();
+        var sourceVocabulary = new List<VocabWord>();
+        try
+        {
+            sourceVocabulary = await _http.GetFromJsonAsync<List<VocabWord>>(
+                "data/source-vocabulary.json", JsonDefaults.Options) ?? new();
+            var existingIds = _vocabulary.Select(word => word.Id).ToHashSet(StringComparer.Ordinal);
+            _vocabulary.AddRange(sourceVocabulary.Where(word => existingIds.Add(word.Id)));
+            AddSourceVocabularyUnit(_units, sourceVocabulary);
+        }
+        catch
+        {
+            // Keep an older installed PWA usable while its new source data is still caching.
+        }
         _phrases = await _http.GetFromJsonAsync<List<Phrase>>("data/phrases.json", JsonDefaults.Options) ?? new();
         _proverbs = await _http.GetFromJsonAsync<List<Phrase>>("data/proverbs.json", JsonDefaults.Options) ?? new();
         try
@@ -56,6 +69,60 @@ public class ContentService
         _vocabById = _vocabulary.ToDictionary(w => w.Id);
         _phraseById = _phrases.Concat(_proverbs).ToDictionary(p => p.Id);
         _clipById = _clips.ToDictionary(c => c.Id);
+    }
+
+    private static void AddSourceVocabularyUnit(List<CourseUnit> units, List<VocabWord> words)
+    {
+        if (words.Count == 0 || units.Any(unit => unit.Id == "source-vocabulary")) return;
+
+        const int wordsPerLesson = 18;
+        var categoryNames = new Dictionary<string, (string English, string Georgian)>
+        {
+            ["adjectives"] = ("Adjectives", "ზედსართავები"),
+            ["animals"] = ("Animals and birds", "ცხოველები და ფრინველები"),
+            ["body-parts"] = ("Body parts", "სხეულის ნაწილები"),
+            ["family"] = ("Family", "ოჯახი"),
+            ["household-extra"] = ("Household", "საოჯახო ნივთები"),
+            ["numbers-cardinal"] = ("Cardinal numbers", "რაოდენობითი რიცხვები"),
+            ["numbers-fractions"] = ("Fractions", "წილობითი რიცხვები"),
+            ["numbers-ordinal"] = ("Ordinal numbers", "რიგობითი რიცხვები"),
+            ["plants-extra"] = ("Plants and trees", "მცენარეები და ხეები"),
+            ["pronouns"] = ("Pronouns", "ნაცვალსახელები"),
+            ["time-extra"] = ("Time", "დრო"),
+            ["weather"] = ("Nature and weather", "ბუნება და ამინდი")
+        };
+
+        var lessons = new List<Lesson>();
+        foreach (var categoryGroup in words.GroupBy(word => word.Category).OrderBy(group => group.Key))
+        {
+            var names = categoryNames.TryGetValue(categoryGroup.Key, out var localizedNames)
+                ? localizedNames
+                : (English: categoryGroup.Key, Georgian: categoryGroup.Key);
+            var categoryWords = categoryGroup.ToList();
+            var lessonNumber = 0;
+            for (var offset = 0; offset < categoryWords.Count; offset += wordsPerLesson)
+            {
+                lessonNumber++;
+                var suffix = categoryWords.Count > wordsPerLesson ? $" {lessonNumber}" : "";
+                lessons.Add(new Lesson
+                {
+                    Id = $"source-{categoryGroup.Key}-{lessonNumber}",
+                    Title = $"{names.English}{suffix} / {names.Georgian}{suffix}",
+                    Kind = LessonKind.Vocabulary,
+                    WordIds = categoryWords.Skip(offset).Take(wordsPerLesson).Select(word => word.Id).ToList(),
+                    IntroduceWordsBeforeExercises = true
+                });
+            }
+        }
+
+        units.Add(new CourseUnit
+        {
+            Id = "source-vocabulary",
+            Title = "Expanded source vocabulary",
+            TitleGeorgian = "წყაროებიდან დამატებული ლექსიკა",
+            Icon = "📚",
+            Lessons = lessons
+        });
     }
 
     public async Task<List<CourseUnit>> GetUnitsAsync()

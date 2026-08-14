@@ -50,7 +50,7 @@ def variants(value: str) -> list[str]:
 
 def load_course(root: Path):
     rows = []
-    for filename in ("vocabulary.json", "phrases.json", "proverbs.json"):
+    for filename in ("vocabulary.json", "source-vocabulary.json", "phrases.json", "proverbs.json"):
         data = json.loads((root / "wwwroot" / "data" / filename).read_text(encoding="utf-8"))
         for item in data:
             for language in ("megruli", "georgian"):
