@@ -150,7 +150,7 @@
         await RunAsync(async () =>
         {
             _currentLesson = lesson.Number;
-            await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path);
+            await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path, lesson.Bytes);
             await RefreshAsync();
             _message = Loc["Offline_DownloadComplete", lesson.Number];
         });
@@ -165,7 +165,7 @@
                 _currentLesson = lesson.Number;
                 _message = Loc["Offline_Downloading", lesson.Number];
                 StateHasChanged();
-                await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path);
+                await JS.InvokeVoidAsync("megruliOfflineAudio.download", lesson.Path, lesson.Bytes);
                 await RefreshAsync();
                 StateHasChanged();
             }
