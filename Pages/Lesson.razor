@@ -4,6 +4,7 @@
 @inject ProgressService Progress
 @inject NavigationManager Nav
 @inject IStringLocalizer<SharedResource> Loc
+@inject IJSRuntime JS
 
 <div class="lesson-page">
 @if (_lesson is null)
@@ -16,7 +17,7 @@ else if (_lesson.Kind == LessonKind.Listening)
 }
 else if (_showIntro)
 {
-    <WordIntroView WordIds="_lesson.WordIds" OnDone="() => _showIntro = false" OnClose="GoHome" />
+    <WordIntroView WordIds="_lesson.WordIds" OnDone="StartPractice" OnClose="GoHome" />
 }
 else if (_outOfHearts)
 {
@@ -92,12 +93,14 @@ else
     private bool _finished;
     private bool _outOfHearts;
     private bool _showIntro;
+    private bool _scrollToTopPending;
     private int _xpAwarded;
 
     private double ProgressPercent => _exercises.Count == 0 ? 0 : (double)_index / _exercises.Count * 100;
 
     protected override async Task OnParametersSetAsync()
     {
+        _scrollToTopPending = true;
         _lesson = null;
         _finished = false;
         _outOfHearts = false;
@@ -114,6 +117,22 @@ else
                     _lesson.Kind == LessonKind.Vocabulary ||
                     _lesson.Kind == LessonKind.Phrases);
         }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (_scrollToTopPending)
+        {
+            _scrollToTopPending = false;
+            await JS.InvokeVoidAsync("window.scrollTo", 0, 0);
+        }
+    }
+
+    private Task StartPractice()
+    {
+        _showIntro = false;
+        _scrollToTopPending = true;
+        return Task.CompletedTask;
     }
 
     private async Task HandleAnswer(bool correct)

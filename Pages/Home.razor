@@ -3,6 +3,7 @@
 @inject ProgressService Progress
 @inject NavigationManager Nav
 @inject IStringLocalizer<SharedResource> Loc
+@inject LocalizationService Localization
 
 <div class="home-page">
     @if (_units is null)
@@ -13,13 +14,15 @@
     {
         @foreach (var unit in _units)
         {
+            var primaryTitle = Localization.IsGeorgian ? unit.TitleGeorgian : unit.Title;
+            var secondaryTitle = Localization.IsGeorgian ? unit.Title : unit.TitleGeorgian;
             var done = unit.Lessons.Count(l => Progress.IsLessonCompleted(l.Id));
             <section class="unit-section">
                 <div class="unit-header">
                     <span class="unit-icon">@unit.Icon</span>
                     <div>
-                        <h2>@unit.Title</h2>
-                        <span class="unit-subtitle">@unit.TitleGeorgian · @done/@unit.Lessons.Count</span>
+                        <h2>@primaryTitle</h2>
+                        <span class="unit-subtitle">@secondaryTitle · @done/@unit.Lessons.Count</span>
                     </div>
                 </div>
                 <div class="lesson-path">

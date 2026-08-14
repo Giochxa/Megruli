@@ -36,8 +36,11 @@
         }
     }
 
-    <ExerciseFooter CanCheck="!string.IsNullOrWhiteSpace(_input)" Answered="_answered" Correct="_correct"
-                    OnCheck="Check" OnContinue="Continue" />
+    @if (_answered)
+    {
+        <ExerciseFooter CanCheck="true" Answered="true" Correct="_correct"
+                        OnContinue="Continue" />
+    }
 </div>
 
 @code {
