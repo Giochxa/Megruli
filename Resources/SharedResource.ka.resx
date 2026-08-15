@@ -106,6 +106,7 @@
   <data name="ClipLabeler_Show" xml:space="preserve"><value>აჩვენეთ:</value></data>
   <data name="ClipLabeler_Unreviewed" xml:space="preserve"><value>შეუმოწმებელი კლიპები</value></data>
   <data name="ClipLabeler_MegruliOnly" xml:space="preserve"><value>მხოლოდ მეგრული</value></data>
+  <data name="ClipLabeler_GeorgianOnly" xml:space="preserve"><value>მხოლოდ ქართული</value></data>
   <data name="ClipLabeler_AllClips" xml:space="preserve"><value>ყველა კლიპი</value></data>
   <data name="ClipLabeler_SpokenLanguage" xml:space="preserve"><value>საუბრის ენა</value></data>
   <data name="ClipLabeler_MegruliVoice" xml:space="preserve"><value>მეგრული ხმა</value></data>

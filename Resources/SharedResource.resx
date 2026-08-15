@@ -106,6 +106,7 @@
   <data name="ClipLabeler_Show" xml:space="preserve"><value>Show:</value></data>
   <data name="ClipLabeler_Unreviewed" xml:space="preserve"><value>Unreviewed clips</value></data>
   <data name="ClipLabeler_MegruliOnly" xml:space="preserve"><value>Megruli only</value></data>
+  <data name="ClipLabeler_GeorgianOnly" xml:space="preserve"><value>Georgian only</value></data>
   <data name="ClipLabeler_AllClips" xml:space="preserve"><value>All clips</value></data>
   <data name="ClipLabeler_SpokenLanguage" xml:space="preserve"><value>Spoken language</value></data>
   <data name="ClipLabeler_MegruliVoice" xml:space="preserve"><value>Megruli voice</value></data>

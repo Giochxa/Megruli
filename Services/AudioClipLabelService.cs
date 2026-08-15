@@ -31,15 +31,26 @@ public class AudioClipLabelService
         if (_labels is not null) return;
         try
         {
-            List<AudioClipLabel> shipped;
+            var shipped = new List<AudioClipLabel>();
             try
             {
-                shipped = await _http.GetFromJsonAsync<List<AudioClipLabel>>(
-                    "audio/clips/auto-labels.json", JsonDefaults.Options) ?? new();
+                var languageLabels = await _http.GetFromJsonAsync<List<AudioClipLabel>>(
+                    "audio/clips/auto-language-labels.json", JsonDefaults.Options) ?? new();
+                shipped.AddRange(languageLabels);
             }
             catch
             {
-                shipped = new();
+                // Language classifications are optional while a new PWA asset is caching.
+            }
+            try
+            {
+                var pronunciationLabels = await _http.GetFromJsonAsync<List<AudioClipLabel>>(
+                    "audio/clips/auto-labels.json", JsonDefaults.Options) ?? new();
+                shipped.AddRange(pronunciationLabels);
+            }
+            catch
+            {
+                // Pronunciation links are optional during initial development.
             }
 
             var json = await _js.InvokeAsync<string?>("localStorage.getItem", StorageKey);

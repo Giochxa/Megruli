@@ -27,6 +27,7 @@
             <select @bind="_languageFilter">
                 <option value="Unknown">@Loc["ClipLabeler_Unreviewed"]</option>
                 <option value="Megruli">@Loc["ClipLabeler_MegruliOnly"]</option>
+                <option value="Georgian">@Loc["ClipLabeler_GeorgianOnly"]</option>
                 <option value="All">@Loc["ClipLabeler_AllClips"]</option>
             </select>
         </label>
@@ -108,9 +109,12 @@
         {
             "Unknown" => r.Label.Language == AudioClipLanguage.Unknown && !r.Label.Skipped,
             "Megruli" => AudioClipLabelService.IsUsableMegruli(r.Label),
+            "Georgian" => r.Label.Language == AudioClipLanguage.Georgian && !r.Label.Skipped,
             _ => true
         })
-        .Where(r => !_hideLabeled || (string.IsNullOrWhiteSpace(r.Label.Megruli) && !r.Label.Skipped))
+        .Where(r => !_hideLabeled ||
+            (r.Label.Language == AudioClipLanguage.Unknown &&
+             string.IsNullOrWhiteSpace(r.Label.Megruli) && !r.Label.Skipped))
         .ToList();
 
     protected override async Task OnInitializedAsync()
