@@ -34,7 +34,7 @@ else if (_finished)
     <div class="lesson-end">
         <div class="lesson-end-icon">🎉</div>
         <h2>@Loc["Lesson_CompleteTitle"]</h2>
-        <p class="lesson-stats">@Loc["Lesson_StatsLine", _xpAwarded, _correctCount, _exercises.Count]</p>
+        <p class="lesson-stats">@Loc["Lesson_StatsLine", _xpAwarded, _correctCount, _originalExerciseCount]</p>
         <button class="btn btn-continue" @onclick="GoHome">@Loc["Common_Continue"]</button>
     </div>
 }
@@ -66,19 +66,19 @@ else
     @switch (current)
     {
         case MultipleChoiceExercise mc:
-            <MultipleChoiceView Exercise="mc" OnComplete="HandleAnswer" @key="current.Id" />
+            <MultipleChoiceView Exercise="mc" OnComplete="HandleAnswer" @key="_index" />
             break;
         case TypeAnswerExercise ta:
-            <TypeAnswerView Exercise="ta" OnComplete="HandleAnswer" @key="current.Id" />
+            <TypeAnswerView Exercise="ta" OnComplete="HandleAnswer" @key="_index" />
             break;
         case MatchPairsExercise mp:
-            <MatchPairsView Exercise="mp" OnComplete="HandleAnswer" @key="current.Id" />
+            <MatchPairsView Exercise="mp" OnComplete="HandleAnswer" @key="_index" />
             break;
         case ListenChooseExercise lc:
-            <ListenChooseView Exercise="lc" OnComplete="HandleAnswer" @key="current.Id" />
+            <ListenChooseView Exercise="lc" OnComplete="HandleAnswer" @key="_index" />
             break;
         case FillMissingWordExercise fm:
-            <FillMissingWordView Exercise="fm" OnComplete="HandleAnswer" @key="current.Id" />
+            <FillMissingWordView Exercise="fm" OnComplete="HandleAnswer" @key="_index" />
             break;
     }
 }
@@ -89,6 +89,7 @@ else
 
     private Megruli.Shared.Lesson? _lesson;
     private List<ExerciseBase> _exercises = new();
+    private int _originalExerciseCount;
     private int _index;
     private int _correctCount;
     private bool _finished;
@@ -107,12 +108,15 @@ else
         _outOfHearts = false;
         _index = 0;
         _correctCount = 0;
+        _originalExerciseCount = 0;
+        _exercises.Clear();
 
         await Progress.EnsureLoadedAsync();
         _lesson = await Content.GetLessonAsync(LessonId);
         if (_lesson is not null && _lesson.Kind != LessonKind.Listening)
         {
             _exercises = await Generator.GenerateAsync(_lesson);
+            _originalExerciseCount = _exercises.Count;
             _showIntro = _lesson.WordIds.Count > 0
                 && (_lesson.IntroduceWordsBeforeExercises ||
                     _lesson.Kind == LessonKind.Vocabulary ||
@@ -138,9 +142,15 @@ else
 
     private async Task HandleAnswer(bool correct)
     {
-        if (correct) _correctCount++;
+        var isFirstAttempt = _index < _originalExerciseCount;
+        var currentExercise = _exercises[_index];
+        if (correct && isFirstAttempt) _correctCount++;
 
-        var wordId = _exercises[_index].WordId;
+        // Every first-pass mistake is queued once, in order, after the original lesson.
+        // Retrying it does not erase the first-pass score shown on the learning path.
+        if (!correct && isFirstAttempt) _exercises.Add(currentExercise);
+
+        var wordId = currentExercise.WordId;
         if (wordId is not null) await Progress.RecordAnswerAsync(wordId, correct);
 
         if (!correct)
@@ -158,7 +168,8 @@ else
         if (_index >= _exercises.Count)
         {
             _xpAwarded = 10 + _correctCount;
-            await Progress.CompleteLessonAsync(_lesson!.Id, _xpAwarded);
+            await Progress.CompleteLessonAsync(
+                _lesson!.Id, _xpAwarded, _correctCount, _originalExerciseCount);
             _finished = true;
         }
         StateHasChanged();

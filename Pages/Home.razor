@@ -30,12 +30,19 @@
                     @foreach (var lesson in unit.Lessons)
                     {
                         var completed = Progress.IsLessonCompleted(lesson.Id);
-                        <button class="lesson-node @(completed ? "lesson-done" : "") @LessonKindClass(lesson.Kind)"
+                        var result = Progress.GetLessonResult(lesson.Id);
+                        var perfect = completed && result?.IsPerfect == true;
+                        var hasScore = completed && result is { TotalAnswers: > 0 };
+                        <button class="lesson-node @(perfect ? "lesson-done" : hasScore ? "lesson-scored" : "") @LessonKindClass(lesson.Kind)"
                                 title="@lesson.Title" @onclick="() => OpenLesson(lesson.Id)">
                             <span class="lesson-node-icon">@LessonIcon(lesson.Kind)</span>
-                            @if (completed)
+                            @if (perfect)
                             {
                                 <span class="lesson-check">✓</span>
+                            }
+                            else if (hasScore)
+                            {
+                                <span class="lesson-score">@result!.CorrectAnswers/@result.TotalAnswers</span>
                             }
                         </button>
                     }

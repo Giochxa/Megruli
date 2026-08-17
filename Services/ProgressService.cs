@@ -33,6 +33,9 @@ public class ProgressService
             if (!string.IsNullOrWhiteSpace(json))
             {
                 _progress = JsonSerializer.Deserialize<UserProgress>(json, JsonDefaults.Options) ?? new UserProgress();
+                _progress.CompletedLessonIds ??= new();
+                _progress.LessonResults ??= new();
+                _progress.Mastery ??= new();
             }
         }
         catch
@@ -95,10 +98,17 @@ public class ProgressService
         await SaveAsync();
     }
 
-    public async Task CompleteLessonAsync(string lessonId, int xpAward)
+    public async Task CompleteLessonAsync(
+        string lessonId, int xpAward, int correctAnswers = 0, int totalAnswers = 0)
     {
         await EnsureLoadedAsync();
         _progress.CompletedLessonIds.Add(lessonId);
+        _progress.LessonResults[lessonId] = new LessonResult
+        {
+            CorrectAnswers = Math.Clamp(correctAnswers, 0, Math.Max(0, totalAnswers)),
+            TotalAnswers = Math.Max(0, totalAnswers),
+            CompletedAt = DateTime.Now
+        };
         _progress.Xp += xpAward;
         await SaveAsync();
     }
@@ -127,6 +137,9 @@ public class ProgressService
     }
 
     public bool IsLessonCompleted(string lessonId) => _progress.CompletedLessonIds.Contains(lessonId);
+
+    public LessonResult? GetLessonResult(string lessonId) =>
+        _progress.LessonResults.GetValueOrDefault(lessonId);
 
     /// <summary>Words due for review, weighted toward low-mastery/never-seen words — used by the Practice hub.</summary>
     public List<string> GetWeakWordIds(IEnumerable<string> candidateIds, int count)
