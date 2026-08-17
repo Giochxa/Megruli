@@ -36,6 +36,19 @@
   <data name="Lesson_CompleteTitle" xml:space="preserve"><value>Lesson complete!</value></data>
   <data name="Lesson_NoExercises" xml:space="preserve"><value>This lesson has no exercises yet.</value></data>
   <data name="Lesson_StatsLine" xml:space="preserve"><value>+{0} XP · {1} / {2} correct</value></data>
+  <data name="Lesson_Report" xml:space="preserve"><value>Report</value></data>
+  <data name="Lesson_ReportTitle" xml:space="preserve"><value>Report an incorrect lesson</value></data>
+  <data name="Lesson_ReportCopied" xml:space="preserve"><value>Report copied</value></data>
+  <data name="Lesson_ReportHeading" xml:space="preserve"><value>Incorrect lesson report</value></data>
+  <data name="Lesson_ReportLesson" xml:space="preserve"><value>Lesson</value></data>
+  <data name="Lesson_ReportExercise" xml:space="preserve"><value>Exercise ID</value></data>
+  <data name="Lesson_ReportPosition" xml:space="preserve"><value>Question</value></data>
+  <data name="Lesson_ReportQuestion" xml:space="preserve"><value>Prompt</value></data>
+  <data name="Lesson_ReportOptions" xml:space="preserve"><value>Options</value></data>
+  <data name="Lesson_ReportExpected" xml:space="preserve"><value>Expected answer</value></data>
+  <data name="Lesson_ReportPairs" xml:space="preserve"><value>Pairs</value></data>
+  <data name="Lesson_ReportAudio" xml:space="preserve"><value>Audio</value></data>
+  <data name="Lesson_ReportTranslation" xml:space="preserve"><value>Translation</value></data>
 
   <data name="WordIntro_Title" xml:space="preserve"><value>New Words</value></data>
   <data name="WordIntro_StartPractice" xml:space="preserve"><value>Start Practice</value></data>

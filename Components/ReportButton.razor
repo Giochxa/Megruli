@@ -1,0 +1,27 @@
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResource> Loc
+
+<div class="report-control">
+    <button type="button" class="report-btn" @onclick="ShareReport" title="@Loc["Lesson_Report"]">
+        <span aria-hidden="true">⚑</span>
+        <span>@Loc["Lesson_Report"]</span>
+    </button>
+    @if (_copied)
+    {
+        <span class="report-status" role="status">@Loc["Lesson_ReportCopied"]</span>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public string Title { get; set; } = "";
+    [Parameter, EditorRequired] public string Content { get; set; } = "";
+
+    private bool _copied;
+
+    private async Task ShareReport()
+    {
+        _copied = false;
+        var result = await JS.InvokeAsync<string>("megruliReport.share", Title, Content);
+        _copied = result == "copied";
+    }
+}

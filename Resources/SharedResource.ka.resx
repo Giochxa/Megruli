@@ -36,6 +36,19 @@
   <data name="Lesson_CompleteTitle" xml:space="preserve"><value>გაკვეთილი დასრულდა!</value></data>
   <data name="Lesson_NoExercises" xml:space="preserve"><value>ამ გაკვეთილს სავარჯიშოები ჯერ არ აქვს.</value></data>
   <data name="Lesson_StatsLine" xml:space="preserve"><value>+{0} XP · {1} / {2} სწორი</value></data>
+  <data name="Lesson_Report" xml:space="preserve"><value>შეტყობინება</value></data>
+  <data name="Lesson_ReportTitle" xml:space="preserve"><value>არასწორი გაკვეთილის შეტყობინება</value></data>
+  <data name="Lesson_ReportCopied" xml:space="preserve"><value>შეტყობინება დაკოპირდა</value></data>
+  <data name="Lesson_ReportHeading" xml:space="preserve"><value>არასწორი გაკვეთილის ანგარიში</value></data>
+  <data name="Lesson_ReportLesson" xml:space="preserve"><value>გაკვეთილი</value></data>
+  <data name="Lesson_ReportExercise" xml:space="preserve"><value>სავარჯიშოს ID</value></data>
+  <data name="Lesson_ReportPosition" xml:space="preserve"><value>შეკითხვა</value></data>
+  <data name="Lesson_ReportQuestion" xml:space="preserve"><value>დავალება</value></data>
+  <data name="Lesson_ReportOptions" xml:space="preserve"><value>ვარიანტები</value></data>
+  <data name="Lesson_ReportExpected" xml:space="preserve"><value>მოსალოდნელი პასუხი</value></data>
+  <data name="Lesson_ReportPairs" xml:space="preserve"><value>წყვილები</value></data>
+  <data name="Lesson_ReportAudio" xml:space="preserve"><value>აუდიო</value></data>
+  <data name="Lesson_ReportTranslation" xml:space="preserve"><value>თარგმანი</value></data>
 
   <data name="WordIntro_Title" xml:space="preserve"><value>ახალი სიტყვები</value></data>
   <data name="WordIntro_StartPractice" xml:space="preserve"><value>ვარჯიშის დაწყება</value></data>

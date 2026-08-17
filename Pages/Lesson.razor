@@ -63,6 +63,10 @@ else
         </div>
     </div>
 
+    <div class="lesson-report-row">
+        <ReportButton Title="@Loc["Lesson_ReportTitle"]" Content="@BuildExerciseReport(current)" />
+    </div>
+
     @switch (current)
     {
         case MultipleChoiceExercise mc:
@@ -176,4 +180,47 @@ else
     }
 
     private void GoHome() => Nav.NavigateTo("/");
+
+    private string BuildExerciseReport(ExerciseBase exercise)
+    {
+        var lines = new List<string>
+        {
+            Loc["Lesson_ReportHeading"].Value,
+            $"{Loc["Lesson_ReportLesson"]}: {_lesson!.Title} ({_lesson.Id})",
+            $"{Loc["Lesson_ReportExercise"]}: {exercise.Id}",
+            $"{Loc["Lesson_ReportPosition"]}: {_index + 1}/{_exercises.Count}"
+        };
+
+        switch (exercise)
+        {
+            case MultipleChoiceExercise choice:
+                lines.Add($"{Loc["Lesson_ReportQuestion"]}: {choice.Prompt}");
+                lines.Add($"{Loc["Lesson_ReportOptions"]}: {string.Join(" | ", choice.Options)}");
+                lines.Add($"{Loc["Lesson_ReportExpected"]}: {AnswerAt(choice.Options, choice.CorrectIndex)}");
+                break;
+            case TypeAnswerExercise typed:
+                lines.Add($"{Loc["Lesson_ReportQuestion"]}: {typed.Prompt}");
+                lines.Add($"{Loc["Lesson_ReportExpected"]}: {string.Join(" | ", typed.AcceptedAnswers)}");
+                break;
+            case MatchPairsExercise pairs:
+                lines.Add($"{Loc["Lesson_ReportPairs"]}: {string.Join(" | ", pairs.Pairs.Select(pair => $"{pair.Megruli} = {pair.Georgian}"))}");
+                break;
+            case ListenChooseExercise listening:
+                lines.Add($"{Loc["Lesson_ReportAudio"]}: {listening.AudioClipId}");
+                lines.Add($"{Loc["Lesson_ReportOptions"]}: {string.Join(" | ", listening.Options)}");
+                lines.Add($"{Loc["Lesson_ReportExpected"]}: {AnswerAt(listening.Options, listening.CorrectIndex)}");
+                break;
+            case FillMissingWordExercise missing:
+                lines.Add($"{Loc["Lesson_ReportQuestion"]}: {missing.SentenceBefore} ___ {missing.SentenceAfter}");
+                lines.Add($"{Loc["Lesson_ReportTranslation"]}: {missing.GeorgianTranslation}");
+                lines.Add($"{Loc["Lesson_ReportOptions"]}: {string.Join(" | ", missing.Options)}");
+                lines.Add($"{Loc["Lesson_ReportExpected"]}: {AnswerAt(missing.Options, missing.CorrectIndex)}");
+                break;
+        }
+
+        return string.Join(Environment.NewLine, lines);
+    }
+
+    private static string AnswerAt(IReadOnlyList<string> answers, int index) =>
+        index >= 0 && index < answers.Count ? answers[index] : "—";
 }

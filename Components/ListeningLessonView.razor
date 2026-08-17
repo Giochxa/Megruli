@@ -11,6 +11,10 @@
         <h2>@Lesson.Title</h2>
     </div>
 
+    <div class="lesson-report-row">
+        <ReportButton Title="@Loc["Lesson_ReportTitle"]" Content="@BuildReport()" />
+    </div>
+
     @if (Lesson.LessonAudioFile is not null)
     {
         <div class="listening-player">
@@ -87,4 +91,9 @@
         await Progress.CompleteLessonAsync(Lesson.Id, 5);
         await OnDone.InvokeAsync();
     }
+
+    private string BuildReport() => string.Join(Environment.NewLine,
+        Loc["Lesson_ReportHeading"].Value,
+        $"{Loc["Lesson_ReportLesson"]}: {Lesson.Title} ({Lesson.Id})",
+        $"{Loc["Lesson_ReportAudio"]}: {Lesson.LessonAudioFile ?? "—"}");
 }
