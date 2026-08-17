@@ -49,6 +49,9 @@
   <data name="Lesson_ReportPairs" xml:space="preserve"><value>წყვილები</value></data>
   <data name="Lesson_ReportAudio" xml:space="preserve"><value>აუდიო</value></data>
   <data name="Lesson_ReportTranslation" xml:space="preserve"><value>თარგმანი</value></data>
+  <data name="Lesson_ReportSnapshotTitle" xml:space="preserve"><value>შეტყობინებული გაკვეთილის შეკითხვა</value></data>
+  <data name="Lesson_ReportSnapshotHelp" xml:space="preserve"><value>ეს არის შეტყობინების მომენტში არსებული ზუსტი შეკითხვის ასლი. გაკვეთილის ხელახლა გენერირებისას ის არ შეიცვლება.</value></data>
+  <data name="Lesson_ReportMissing" xml:space="preserve"><value>შეტყობინების ბმული შეკითხვის დეტალებს არ შეიცავს.</value></data>
 
   <data name="WordIntro_Title" xml:space="preserve"><value>ახალი სიტყვები</value></data>
   <data name="WordIntro_StartPractice" xml:space="preserve"><value>ვარჯიშის დაწყება</value></data>

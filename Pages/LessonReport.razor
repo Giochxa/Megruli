@@ -1,0 +1,30 @@
+@page "/lesson-report"
+@inject IStringLocalizer<SharedResource> Loc
+@inject NavigationManager Nav
+
+<PageTitle>@Loc["Lesson_ReportTitle"]</PageTitle>
+
+<main class="report-page">
+    <h1>@Loc["Lesson_ReportSnapshotTitle"]</h1>
+    <p class="hint">@Loc["Lesson_ReportSnapshotHelp"]</p>
+
+    @if (string.IsNullOrWhiteSpace(Content))
+    {
+        <p>@Loc["Lesson_ReportMissing"]</p>
+    }
+    else
+    {
+        <pre class="report-snapshot">@Content</pre>
+    }
+
+    <button type="button" class="btn" @onclick="GoHome">
+        @Loc["Lesson_BackToPath"]
+    </button>
+</main>
+
+@code {
+    [Parameter, SupplyParameterFromQuery(Name = "content")]
+    public string? Content { get; set; }
+
+    private void GoHome() => Nav.NavigateTo("/");
+}

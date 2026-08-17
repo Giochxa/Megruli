@@ -49,6 +49,9 @@
   <data name="Lesson_ReportPairs" xml:space="preserve"><value>Pairs</value></data>
   <data name="Lesson_ReportAudio" xml:space="preserve"><value>Audio</value></data>
   <data name="Lesson_ReportTranslation" xml:space="preserve"><value>Translation</value></data>
+  <data name="Lesson_ReportSnapshotTitle" xml:space="preserve"><value>Reported lesson question</value></data>
+  <data name="Lesson_ReportSnapshotHelp" xml:space="preserve"><value>This is a snapshot of the exact question that was reported. It does not change when the lesson is regenerated.</value></data>
+  <data name="Lesson_ReportMissing" xml:space="preserve"><value>This report link does not contain question details.</value></data>
 
   <data name="WordIntro_Title" xml:space="preserve"><value>New Words</value></data>
   <data name="WordIntro_StartPractice" xml:space="preserve"><value>Start Practice</value></data>

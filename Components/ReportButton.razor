@@ -1,5 +1,6 @@
 @inject IJSRuntime JS
 @inject IStringLocalizer<SharedResource> Loc
+@inject NavigationManager Nav
 
 <div class="report-control">
     <button type="button" class="report-btn" @onclick="ShareReport" title="@Loc["Lesson_Report"]">
@@ -21,7 +22,9 @@
     private async Task ShareReport()
     {
         _copied = false;
-        var result = await JS.InvokeAsync<string>("megruliReport.share", Title, Content);
+        var reportPath = $"lesson-report?content={Uri.EscapeDataString(Content)}";
+        var reportUrl = new Uri(new Uri(Nav.BaseUri), reportPath).ToString();
+        var result = await JS.InvokeAsync<string>("megruliReport.share", Title, Content, reportUrl);
         _copied = result == "copied";
     }
 }
