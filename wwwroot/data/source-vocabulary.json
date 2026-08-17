@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "source-family-001",
+    "megruli": "ბადიდი",
+    "georgian": "ბერიკაცი",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-family-002",
+    "megruli": "მაფა",
+    "georgian": "მეფე",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-family-003",
+    "megruli": "მოჭყუდუ",
+    "georgian": "პატარძალი",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-family-004",
+    "megruli": "ნოსა",
+    "georgian": "რძალი",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-family-005",
+    "megruli": "ოსური-სქუა",
+    "georgian": "ასული",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3."
+  },
+  {
+    "id": "source-family-006",
+    "megruli": "ტყუპი,ტყუპიშცალი, ნაჟირალა/ნაჟირუა",
+    "georgian": "ტყუპი, ტყუპისცალი",
+    "category": "family",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 3. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-body-parts-001",
+    "megruli": "აფხა",
+    "georgian": "ბეჭი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-002",
+    "megruli": "ძუძუ",
+    "georgian": "ძუძუ",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-003",
+    "megruli": "კონჭი",
+    "georgian": "კოჭი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4."
+  },
+  {
+    "id": "source-body-parts-004",
+    "megruli": "ლერჭყვა",
+    "georgian": "ნერწყვი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-body-parts-005",
+    "megruli": "მჯიღი/მჯიხი",
+    "georgian": "მჯიღი, მუშტი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-body-parts-006",
+    "megruli": "ოშუმეში",
+    "georgian": "ულვაში",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-007",
+    "megruli": "ნარჩა",
+    "georgian": "ტერფი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-body-parts-008",
+    "megruli": "ტანი",
+    "georgian": "ტანი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 4. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-009",
+    "megruli": "ფრიმული",
+    "georgian": "წვერი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-010",
+    "megruli": "ფირტვი, ფიჟვი",
+    "georgian": "ფილტვი/ფირტვი, ფიჟვი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-011",
+    "megruli": "ქორა",
+    "georgian": "მუცელი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-body-parts-012",
+    "megruli": "ტვინი",
+    "georgian": "ტვინი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-013",
+    "megruli": "ჯირგილი",
+    "georgian": "ღრძილი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-014",
+    "megruli": "ღვა",
+    "georgian": "ყბა, ლოყა",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-015",
+    "megruli": "ყალი",
+    "georgian": "ყელი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-016",
+    "megruli": "ყვა",
+    "georgian": "შუბლი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-017",
+    "megruli": "ძვალი",
+    "georgian": "ძვალი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-018",
+    "megruli": "ყუჯი",
+    "georgian": "ყური",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-019",
+    "megruli": "წელი",
+    "georgian": "წელი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-020",
+    "megruli": "ჩილამური",
+    "georgian": "ცრემლი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-021",
+    "megruli": "ფინჭა",
+    "georgian": "წამწამი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-022",
+    "megruli": "კვაკვილი, ჭირპი",
+    "georgian": "წირპლი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-023",
+    "megruli": "ჭოპრი, ჭორფი",
+    "georgian": "ჭორფლი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-024",
+    "megruli": "ჭი",
+    "georgian": "წელი, ნაწლავი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-body-parts-025",
+    "megruli": "ხე-კუჩხი",
+    "georgian": "ხელ-ფეხი",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-026",
+    "megruli": "ნძალი",
+    "georgian": "ძალი, ძალა",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5."
+  },
+  {
+    "id": "source-body-parts-027",
+    "megruli": "გაგება, გინაფა",
+    "georgian": "გაგება, შეგნება, გრძნობა",
+    "category": "body-parts",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 5. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-animals-001",
+    "megruli": "ბურდღა",
+    "georgian": "ბუნდღა",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-animals-002",
+    "megruli": "გუგული",
+    "georgian": "გუგული",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-003",
+    "megruli": "ზღაბქურცამი, ზღაბიფურცამი, ზღარფურცხამი, კატუძღაბი",
+    "georgian": "ზღარბი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6."
+  },
+  {
+    "id": "source-animals-004",
+    "megruli": "ნინძგვი, ნიქითი",
+    "georgian": "ნისკარტი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6."
+  },
+  {
+    "id": "source-animals-005",
+    "megruli": "კოღონა",
+    "georgian": "კოღო",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-006",
+    "megruli": "მალაღურე",
+    "georgian": "მოლაღური",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 6."
+  },
+  {
+    "id": "source-animals-007",
+    "megruli": "კვერი გვერი",
+    "georgian": "გველი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7."
+  },
+  {
+    "id": "source-animals-008",
+    "megruli": "მუნჩქვი",
+    "georgian": "მაჩვი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-009",
+    "megruli": "ოფოფე",
+    "georgian": "ოფოფი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7."
+  },
+  {
+    "id": "source-animals-010",
+    "megruli": "ფუჯი",
+    "georgian": "ფური",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-011",
+    "megruli": "ქაჩაჩი",
+    "georgian": "ქაჩაჩი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7."
+  },
+  {
+    "id": "source-animals-012",
+    "megruli": "ღაჭო",
+    "georgian": "ღაჭო",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 7."
+  },
+  {
+    "id": "source-animals-013",
+    "megruli": "ყვარილი",
+    "georgian": "ყვერული",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-animals-014",
+    "megruli": "შხამი, ღურძულა",
+    "georgian": "შხამი, ღვარძლი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-animals-015",
+    "megruli": "ჩხვიკი/ჩიქი",
+    "georgian": "ჩხიკვი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-016",
+    "megruli": "ცილა",
+    "georgian": "ცილა",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-017",
+    "megruli": "მარწკინაია",
+    "georgian": "ციცინათელა",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-animals-018",
+    "megruli": "ჯღვალიკი",
+    "georgian": "კლანჭი, ჭანგი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-animals-019",
+    "megruli": "ჭინჭა",
+    "georgian": "ჭინჭრაქა",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-020",
+    "megruli": "წიწილი, ჭუჭული",
+    "georgian": "წიწილი, ჭუჭული",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-animals-021",
+    "megruli": "ნოხეი",
+    "georgian": "ნაჭუჭი, ხეჭუჭი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-animals-022",
+    "megruli": "ჯორი",
+    "georgian": "ჯორი",
+    "category": "animals",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-001",
+    "megruli": "ანტამა",
+    "georgian": "ატამი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-002",
+    "megruli": "ეშმაკიშ ვარდი",
+    "georgian": "ასკილი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-plants-extra-003",
+    "megruli": "ბიგა",
+    "georgian": "ჯოხი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-004",
+    "megruli": "ჯაპი, ჯამპი",
+    "georgian": "ბჟოლა",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-005",
+    "megruli": "ფურცელი",
+    "georgian": "ფოთოლი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-006",
+    "megruli": "ძიგირი, ძანძი",
+    "georgian": "ეკალი, ძეძვი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-007",
+    "megruli": "დიკა",
+    "georgian": "დიკა",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-008",
+    "megruli": "ჭუჭელე",
+    "georgian": "ჭინჭარი/ჯინჭარი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-009",
+    "megruli": "კარტოფილი",
+    "georgian": "კარტოფილი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-010",
+    "megruli": "ცხაცხუ",
+    "georgian": "ცაცხვი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8."
+  },
+  {
+    "id": "source-plants-extra-011",
+    "megruli": "წვენი",
+    "georgian": "წვენი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-012",
+    "megruli": "თასი",
+    "georgian": "თესლი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 8. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-013",
+    "megruli": "ლეკუხა",
+    "georgian": "ლუკუფხა",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 9. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-014",
+    "megruli": "ქერქი",
+    "georgian": "ქერქი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 9. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-015",
+    "megruli": "ღარა",
+    "georgian": "ნაღარი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 9. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-016",
+    "megruli": "ღერო, ღერი",
+    "georgian": "ღერო, ღერი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 9. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-017",
+    "megruli": "ღობერი",
+    "georgian": "ღობე",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 9. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-plants-extra-018",
+    "megruli": "ჯიკი",
+    "georgian": "ჯირკი",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-plants-extra-019",
+    "megruli": "ჯუმენე, ჯუმენია, ჯიჯალე",
+    "georgian": "ჯიჯილაყა",
+    "category": "plants-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-001",
+    "megruli": "არგუნი",
+    "georgian": "ნაჯახი, ცული",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-002",
+    "megruli": "ბოგა",
+    "georgian": "ბაგა",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-003",
+    "megruli": "ბაკი",
+    "georgian": "ბაკი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-004",
+    "megruli": "ბაღუ",
+    "georgian": "ბეღელი, ბეღო",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-005",
+    "megruli": "ბერგი",
+    "georgian": "თოხი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-006",
+    "megruli": "ბურღული",
+    "georgian": "ბურღული",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-007",
+    "megruli": "ბურჭული",
+    "georgian": "წალდი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-008",
+    "megruli": "ბუცხი",
+    "georgian": "ფოცხი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-009",
+    "megruli": "დაჩხირი",
+    "georgian": "ცეცხლი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-010",
+    "megruli": "ბობალი",
+    "georgian": "ბორბალი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-011",
+    "megruli": "მიკაქუნალი, მიკოქვენჯი",
+    "georgian": "ტანსაცმელი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-012",
+    "megruli": "საქმე, საქვარი",
+    "georgian": "საქმე, საქმარი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-013",
+    "megruli": "თოკი, ბაწარი",
+    "georgian": "თოკი, ბაწარი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-014",
+    "megruli": "თოხი",
+    "georgian": "თოხი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-015",
+    "megruli": "თხილამური",
+    "georgian": "თხილამური",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10."
+  },
+  {
+    "id": "source-household-extra-016",
+    "megruli": "კალათი",
+    "georgian": "კალათი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-017",
+    "megruli": "კარდალა",
+    "georgian": "კარდალა",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-018",
+    "megruli": "კერ(ი)ა",
+    "georgian": "კერ(ი)ა",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-019",
+    "megruli": "კიბე",
+    "georgian": "კიბე",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 10. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-020",
+    "megruli": "ნაკვაჩხირი",
+    "georgian": "ნაკვერცხალი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11."
+  },
+  {
+    "id": "source-household-extra-021",
+    "megruli": "ძაფი",
+    "georgian": "ძაფი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-022",
+    "megruli": "ონჩამურე",
+    "georgian": "საცეხველი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-023",
+    "megruli": "ორტყაფუ",
+    "georgian": "სარტყელი, ქამარი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-024",
+    "megruli": "ორცხონჯი",
+    "georgian": "სავარცხელი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11."
+  },
+  {
+    "id": "source-household-extra-025",
+    "megruli": "ფორჩა",
+    "georgian": "პერანგი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 11. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-026",
+    "megruli": "ქუდი",
+    "georgian": "ქუდი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-027",
+    "megruli": "ღომუ",
+    "georgian": "ღომი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12."
+  },
+  {
+    "id": "source-household-extra-028",
+    "megruli": "წოლა",
+    "georgian": "ჭვარტლი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-029",
+    "megruli": "ჭაბუ",
+    "georgian": "წებო",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-030",
+    "megruli": "ჭერი",
+    "georgian": "ჭერი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-031",
+    "megruli": "წუკალი, ჩუვანი",
+    "georgian": "ქვაბი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-household-extra-032",
+    "megruli": "ხამი",
+    "georgian": "დანა",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-household-extra-033",
+    "megruli": "ჯუმორი, ძიმარი",
+    "georgian": "ძმარი",
+    "category": "household-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-weather-001",
+    "megruli": "დიხა",
+    "georgian": "მიწა",
+    "category": "weather",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-weather-002",
+    "megruli": "ჭვათი, ჭვეთი",
+    "georgian": "წვეთი",
+    "category": "weather",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 12. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-time-extra-001",
+    "megruli": "ბჟადალუ",
+    "georgian": "დასავლეთი",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13."
+  },
+  {
+    "id": "source-time-extra-002",
+    "megruli": "ნელა",
+    "georgian": "ნელა",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-time-extra-003",
+    "megruli": "სინთე",
+    "georgian": "სინათლე",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-time-extra-004",
+    "megruli": "ჩქარა",
+    "georgian": "ჩქარა",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-time-extra-005",
+    "megruli": "უკუმელა, წკვარამი",
+    "georgian": "ბნელი, წკვარამი",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-time-extra-006",
+    "megruli": "გვიან",
+    "georgian": "გვიან",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-time-extra-007",
+    "megruli": "ორდო",
+    "georgian": "დილაადრიანი",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-time-extra-008",
+    "megruli": "გოღაწოხ",
+    "georgian": "გუშინწინ",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-time-extra-009",
+    "megruli": "წი",
+    "georgian": "წელს",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-time-extra-010",
+    "megruli": "გოწოს",
+    "georgian": "შარშან",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-time-extra-011",
+    "megruli": "გოწოხ",
+    "georgian": "შარშანწინ",
+    "category": "time-extra",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 13. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-cardinal-001",
+    "megruli": "ჟირი",
+    "georgian": "ორი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-002",
+    "megruli": "სუმი",
+    "georgian": "სამი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-003",
+    "megruli": "ოთხი",
+    "georgian": "ოთხი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-004",
+    "megruli": "ხუთი",
+    "georgian": "ხუთი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-005",
+    "megruli": "ამშვი",
+    "georgian": "ექვსი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-006",
+    "megruli": "შქვითი",
+    "georgian": "შვიდი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-cardinal-007",
+    "megruli": "რუო",
+    "georgian": "რვა",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-008",
+    "megruli": "ჩხორო",
+    "georgian": "ცხრა",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-009",
+    "megruli": "ვითი",
+    "georgian": "ათი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-010",
+    "megruli": "ვითაართი",
+    "georgian": "თერთმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-011",
+    "megruli": "ვითოჟირი",
+    "georgian": "თორმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-012",
+    "megruli": "ვითოსუმი",
+    "georgian": "ცამეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-cardinal-013",
+    "megruli": "ვითაანთხი",
+    "georgian": "თოთხმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-014",
+    "megruli": "ვითოხუთი",
+    "georgian": "თხუთმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-015",
+    "megruli": "ვითაამშვი",
+    "georgian": "თექვსმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-016",
+    "megruli": "ვითოშქვითი",
+    "georgian": "ჩვიდმეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-017",
+    "megruli": "ვოთორუო",
+    "georgian": "თვრამეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-018",
+    "megruli": "ვითოჩხორო",
+    "georgian": "ცხრამეტი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-019",
+    "megruli": "ეჩი",
+    "georgian": "ოცი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-020",
+    "megruli": "ეჩდოართი",
+    "georgian": "ოცდაერთი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-cardinal-021",
+    "megruli": "ეჩდოვითი",
+    "georgian": "ოცდაათი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-022",
+    "megruli": "ჟაარნეჩი",
+    "georgian": "ორმოცი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-023",
+    "megruli": "ჟაარნეჩდოვითი",
+    "georgian": "ორმოცდაათი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-024",
+    "megruli": "სუმონეჩი",
+    "georgian": "სამოცი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-cardinal-025",
+    "megruli": "სუმონეჩდოვითი",
+    "georgian": "სამოცდაათი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-026",
+    "megruli": "ოთხონეჩი",
+    "georgian": "ოთხმოცი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-027",
+    "megruli": "ოთხონეჩდოვითი",
+    "georgian": "ოთხმოცდაათი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-028",
+    "megruli": "ოში",
+    "georgian": "ასი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-029",
+    "megruli": "ოშართი",
+    "georgian": "ასერთი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-030",
+    "megruli": "ოშჟირი",
+    "georgian": "ასორი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-031",
+    "megruli": "ოშსუმი",
+    "georgian": "ასსამი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-032",
+    "megruli": "ოშოთხი",
+    "georgian": "ასოთხი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-033",
+    "megruli": "ოშხუთი",
+    "georgian": "ასხუთი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-034",
+    "megruli": "ოშამშვი",
+    "georgian": "ასექვსი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-035",
+    "megruli": "ოშშქვითი",
+    "georgian": "ასშვიდი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-036",
+    "megruli": "ოშრუო",
+    "georgian": "ასრვა",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 15."
+  },
+  {
+    "id": "source-numbers-cardinal-037",
+    "megruli": "ოშვითი, ჟიროში, ხუთოში",
+    "georgian": "ასათი, ორასი, ხუთასი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-038",
+    "megruli": "ანთასი",
+    "georgian": "ათასი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16. Cross-checked in: Beridze corpus."
+  },
+  {
+    "id": "source-numbers-cardinal-039",
+    "megruli": "ანთას ჩხოროშ, ოთხონეჩდოვითოჩხორო, ჟირი ანთასი",
+    "georgian": "ათას ცხრაას, ოთხმოცდაცხრამეტი, ორი ათასი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-cardinal-040",
+    "megruli": "ვითი ანთასი",
+    "georgian": "ათი ათასი",
+    "category": "numbers-cardinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-001",
+    "megruli": "მარუო",
+    "georgian": "მერვე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-ordinal-002",
+    "megruli": "მავითოსუმა",
+    "georgian": "მეცამეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-003",
+    "megruli": "მავითაანთხა",
+    "georgian": "მეთოთხმეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-004",
+    "megruli": "მავითოხუთა",
+    "georgian": "მეთხუთმეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-005",
+    "megruli": "მავითაამშვა",
+    "georgian": "მეთექვსმეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-006",
+    "megruli": "მავითოშქვითა",
+    "georgian": "მეჩვიდმეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-007",
+    "megruli": "მავოთორუო",
+    "georgian": "მეთვრამეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-008",
+    "megruli": "მავითოჩხორა",
+    "georgian": "მეცხრამეტე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-009",
+    "megruli": "მაჟაარნეჩა",
+    "georgian": "მეორმოცე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-010",
+    "megruli": "ჟაარნეჩდომავითა",
+    "georgian": "ორმოცდამეათე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-011",
+    "megruli": "მასუმონეჩა",
+    "georgian": "მესამოცე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-012",
+    "megruli": "სუმონეჩდომავითა",
+    "georgian": "სამოცდამეათე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-013",
+    "megruli": "მაოთხონეჩა",
+    "georgian": "მეოთხმოცე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-014",
+    "megruli": "ოთხონეჩდომავითა",
+    "georgian": "ოთხმოცდამეათე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 16."
+  },
+  {
+    "id": "source-numbers-ordinal-015",
+    "megruli": "ოშმასუმა",
+    "georgian": "ასმესამე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-016",
+    "megruli": "ოშმაოთხა",
+    "georgian": "ასმეოთხე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-017",
+    "megruli": "ოშმახუთა",
+    "georgian": "ასმეხუთე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-018",
+    "megruli": "ოშმაამშვა",
+    "georgian": "ასმექვსე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-019",
+    "megruli": "ოშმაშქვითა",
+    "georgian": "ასმეშვიდე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-020",
+    "megruli": "ოშმარუა",
+    "georgian": "ასმერვე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-ordinal-021",
+    "megruli": "ოშმაჩხორა",
+    "georgian": "ასმეცხრე",
+    "category": "numbers-ordinal",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-001",
+    "megruli": "ნასუმორი",
+    "georgian": "მესამედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-fractions-002",
+    "megruli": "ნაოთხალი||ნაანთხალი",
+    "georgian": "მეოთხედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-fractions-003",
+    "megruli": "ნახუთალი",
+    "georgian": "მეხუთედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-fractions-004",
+    "megruli": "ნაამშვალი",
+    "georgian": "მეექვსედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-005",
+    "megruli": "ნაშქვითალი",
+    "georgian": "მეშვიდედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-006",
+    "megruli": "ნარუალი",
+    "georgian": "მერვედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-007",
+    "megruli": "ნაჩხორალი",
+    "georgian": "მეცხრედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-008",
+    "megruli": "ნავითალი",
+    "georgian": "მეათედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-numbers-fractions-009",
+    "megruli": "ნავითაართალი",
+    "georgian": "მეთერთმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-010",
+    "megruli": "ნავითოჟირალი",
+    "georgian": "მეთორმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-011",
+    "megruli": "ნავითოსუმორი",
+    "georgian": "მეცამეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-012",
+    "megruli": "ნავითაანთხალი",
+    "georgian": "მეთოთხმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-013",
+    "megruli": "ნავითოხუთალი",
+    "georgian": "მეთხუთმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-014",
+    "megruli": "ნავითაამშვალი",
+    "georgian": "მეთექვსმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-015",
+    "megruli": "ნავითოშქვითალი",
+    "georgian": "მეჩვიდმეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-016",
+    "megruli": "ნავოთორუოლი",
+    "georgian": "მეთვრამეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-017",
+    "megruli": "ნავითოჩხორალი",
+    "georgian": "მეცხრამეტედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-018",
+    "megruli": "ნაეჩალი",
+    "georgian": "მეოცედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-019",
+    "megruli": "ნაეჩდოართალი",
+    "georgian": "ოცდამეერთედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-020",
+    "megruli": "ნაეჩდოვითალი",
+    "georgian": "ოცდამეათედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-numbers-fractions-021",
+    "megruli": "ნაჟაარნეჩალი",
+    "georgian": "მეორმოცედი",
+    "category": "numbers-fractions",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 17."
+  },
+  {
+    "id": "source-pronouns-001",
+    "megruli": "ენეფი, ინეფი",
+    "georgian": "ესენი, ისინი",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-002",
+    "megruli": "ინეფიშ",
+    "georgian": "მათი",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-003",
+    "megruli": "(თ)აქ",
+    "georgian": "აქ",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-004",
+    "megruli": "(თ)ექ",
+    "georgian": "იქ",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-005",
+    "megruli": "(თ)აში",
+    "georgian": "ასე",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-006",
+    "megruli": "(თ)ეში",
+    "georgian": "ისე",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-pronouns-007",
+    "megruli": "მუზმა? მუდა?",
+    "georgian": "მუსხიი? რამდენი?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 18."
+  },
+  {
+    "id": "source-pronouns-008",
+    "megruli": "მუჟამშახ? მუდა",
+    "georgian": "დღაშა? სანამდე? როდემდე?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-pronouns-009",
+    "megruli": "მუდოს? მუჟამს?",
+    "georgian": "როდის? რაჟამს?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-pronouns-010",
+    "megruli": "მუდოშური?",
+    "georgian": "როდინდელი?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-pronouns-011",
+    "megruli": "მუსხანი?",
+    "georgian": "რახანი?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-pronouns-012",
+    "megruli": "მუშო? მუშოთ?",
+    "georgian": "რად? რისთვის?",
+    "category": "pronouns",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-adjectives-001",
+    "megruli": "გინძე",
+    "georgian": "გრძელი",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19. Cross-checked in: comparative grammar glossary."
+  },
+  {
+    "id": "source-adjectives-002",
+    "megruli": "მჟავე, ბჟე",
+    "georgian": "მჟავე",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-adjectives-003",
+    "megruli": "წუთხე",
+    "georgian": "მწუთხე, მლაშე",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 19."
+  },
+  {
+    "id": "source-adjectives-004",
+    "megruli": "კოლო",
+    "georgian": "მწარე",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 20. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-adjectives-005",
+    "megruli": "უჩაში",
+    "georgian": "უფროსი",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 20. Cross-checked in: comparative grammar glossary, Beridze corpus."
+  },
+  {
+    "id": "source-adjectives-006",
+    "megruli": "ჩქიჩქუ",
+    "georgian": "ჩვილი",
+    "category": "adjectives",
+    "notes": "Source: Laz-Megrelian-Georgian short dictionary, page 20. Cross-checked in: comparative grammar glossary."
+  }
+]
