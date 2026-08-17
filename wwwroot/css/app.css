@@ -469,6 +469,7 @@ input, select, textarea {
 .lesson-node.kind-listening { background: #ff9600; }
 .lesson-node.kind-proverbs { background: #8b6b4a; }
 .lesson-node.lesson-done { background: var(--green); }
+.lesson-node.lesson-scored { outline: 3px solid var(--yellow); outline-offset: 2px; }
 
 .lesson-check {
     position: absolute;
@@ -554,6 +555,23 @@ input, select, textarea {
     border-radius: var(--radius);
     border: 2px solid var(--gray-300);
     margin-bottom: 0.5rem;
+}
+
+.lesson-score {
+    position: absolute;
+    bottom: -7px;
+    right: -9px;
+    min-width: 30px;
+    height: 22px;
+    padding: 0 5px;
+    border: 2px solid #d88700;
+    border-radius: 999px;
+    background: var(--surface);
+    color: #a75f00;
+    font-size: 0.68rem;
+    font-weight: 900;
+    line-height: 18px;
+    white-space: nowrap;
 }
 
 .type-answer-entry {
