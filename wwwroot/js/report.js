@@ -1,6 +1,6 @@
 window.megruliReport = {
-    share: async function (title, text) {
-        const data = { title: title, text: text, url: window.location.href };
+    share: async function (title, text, reportUrl) {
+        const data = { title: title, text: text, url: reportUrl };
 
         if (navigator.share) {
             try {
@@ -11,7 +11,7 @@ window.megruliReport = {
             }
         }
 
-        const fullText = `${text}\n${window.location.href}`;
+        const fullText = `${text}\n${reportUrl}`;
         try {
             await navigator.clipboard.writeText(fullText);
             return 'copied';
