@@ -63,12 +63,15 @@
     {
         var normalized = Normalize(_input);
         _correct = Exercise.AcceptedAnswers
+            .SelectMany(AnswerVariants.Expand)
             .SelectMany(SpecialLetterVariants.Expand)
             .Any(a => Normalize(a) == normalized);
         _answered = true;
     }
 
-    private static string Normalize(string s) => s.Trim().ToLowerInvariant();
+    private static string Normalize(string s) =>
+        System.Text.RegularExpressions.Regex.Replace(
+            s.Normalize(System.Text.NormalizationForm.FormC).Trim().ToLowerInvariant(), @"\s+", " ");
 
     private async Task Continue()
     {

@@ -91,7 +91,7 @@ public class ExerciseGenerator
                     WordId = w.Id,
                     Prompt = w.Georgian,
                     PromptIsGeorgian = true,
-                    AcceptedAnswers = w.Megruli.Split('/').Select(s => s.Trim()).ToList(),
+                    AcceptedAnswers = AnswerVariants.Expand(w.Megruli).ToList(),
                     TranslationLanguage = translationLanguage,
                 });
             }

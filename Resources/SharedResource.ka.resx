@@ -51,7 +51,7 @@
   <data name="Exercise_CorrectAnswerIs" xml:space="preserve"><value>სწორი პასუხია:</value></data>
   <data name="Exercise_MatchPairs" xml:space="preserve"><value>შეადარეთ წყვილები</value></data>
   <data name="Exercise_AllMatched" xml:space="preserve"><value>ყველა წყვილი დაემთხვა!</value></data>
-  <data name="Exercise_ListenSelect" xml:space="preserve"><value>მოუსმინეთ და აირჩიეთ რასაც გესმით</value></data>
+  <data name="Exercise_ListenSelect" xml:space="preserve"><value>მოუსმინეთ და აირჩიეთ რაც გესმით</value></data>
   <data name="Exercise_FillMissingWord" xml:space="preserve"><value>აირჩიეთ გამოტოვებული მეგრული სიტყვა</value></data>
 
   <data name="Listening_Intro" xml:space="preserve"><value>მოუსმინეთ თქვენი მეგრული კურსის ამ სრული გაკვეთილის ჩანაწერს.</value></data>
